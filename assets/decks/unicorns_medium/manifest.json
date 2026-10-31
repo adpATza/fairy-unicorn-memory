@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "unicorns_medium",
+  "title": "Moonlit unicorns",
+  "domain": "Unicorns",
+  "style": "Illustrated",
+  "complexity": "Medium",
+  "images": [
+    {
+      "pair_id": "unicorns_medium_01",
+      "path": "01.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_02",
+      "path": "02.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_03",
+      "path": "03.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_04",
+      "path": "04.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_05",
+      "path": "05.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_06",
+      "path": "06.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_07",
+      "path": "07.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_08",
+      "path": "08.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_09",
+      "path": "09.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_10",
+      "path": "10.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_11",
+      "path": "11.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_12",
+      "path": "12.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_13",
+      "path": "13.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_14",
+      "path": "14.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_15",
+      "path": "15.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_16",
+      "path": "16.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_17",
+      "path": "17.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_18",
+      "path": "18.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_19",
+      "path": "19.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_20",
+      "path": "20.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_21",
+      "path": "21.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_22",
+      "path": "22.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_23",
+      "path": "23.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_24",
+      "path": "24.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_25",
+      "path": "25.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_26",
+      "path": "26.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_27",
+      "path": "27.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_28",
+      "path": "28.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_29",
+      "path": "29.svg"
+    },
+    {
+      "pair_id": "unicorns_medium_30",
+      "path": "30.svg"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"checks": 8,
+	"engine": "4.7.2-stable (official)",
+	"exported": false,
+	"failures": [],
+	"min_scattered_card": 999.0,
+	"summaries": [
+		"Fresh-process persistence: imported images, renamed manifest and preferences loaded; confirmed custom-only deletion succeeds."
+	]
+}

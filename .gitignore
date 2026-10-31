@@ -1,0 +1,9 @@
+.godot/
+.tools/
+dist/
+verification/runtime/
+verification/*.log
+verification/manual-images_*/
+verification/**/*.import
+*.tmp
+__pycache__/

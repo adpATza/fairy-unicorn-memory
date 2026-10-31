@@ -1,0 +1,14 @@
+{
+	"checks": 2063483,
+	"engine": "4.7.2-stable (official)",
+	"exported": false,
+	"failures": [],
+	"min_scattered_card": 72.6011810302734,
+	"summaries": [
+		"Artwork: 6 decks, 180 distinct decoded illustrations; six thumbnail sheets saved.",
+		"Layout: 2900 boards (2–30 pairs, both layouts, 50 seeds each); no overlaps/clipping; fixed transforms checked.",
+		"Rules: 232 complete rounds; 1–4 players, both extra-turn rules, all pair counts, 1.5s mismatch, rapid input, pause, restart and final resolution.",
+		"Import: PNG/WebP, corrupt files, decoded duplicates, Unicode paths, aspect-preserving normalization, atomic storage, rename and missing source. Restart fixture saved.",
+		"Scene integration: setup, library, empty import, guide, 60-card board, pause concealment, match removal without movement, restart and results."
+	]
+}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b6rifjh2i4t86"
+
+[deps]
+
+files=["res://docs/artwork-plan.image.translation", "res://docs/artwork-plan.distinguishing.translation"]
+
+source_file="res://docs/artwork-plan.csv"
+dest_files=["res://docs/artwork-plan.image.translation", "res://docs/artwork-plan.distinguishing.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
