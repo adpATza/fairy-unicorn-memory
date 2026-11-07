@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitest/config';
 import { pwa } from './build/pwa.ts';
+import securityHeaders from './security-headers.json' with { type: 'json' };
 
 // Artwork, manifests and icons stay in the Godot project's assets/ folder.
 // The web edition reads them from there so both editions share one source.
@@ -14,6 +15,11 @@ export default defineConfig({
   },
   server: {
     fs: { allow: ['..'] },
+  },
+  // The browser tests run against the production security headers, so the
+  // policy deployed in deploy/Caddyfile can never silently break the game.
+  preview: {
+    headers: securityHeaders,
   },
   build: {
     target: 'es2022',
