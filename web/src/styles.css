@@ -378,14 +378,11 @@ label.extra {
   padding-top: 5px;
 }
 
-.setup-actions:not([hidden]) + .sample {
-  margin-top: 26px;
-}
 
 .sample {
   grid-area: sample;
   align-self: start;
-  margin-top: 82px;
+  margin-top: 26px;
   padding: 32px 38px 40px;
   border-radius: 38px;
   background: var(--ink);
@@ -1107,4 +1104,298 @@ dialog.pause > .primary {
 .toast-actions {
   display: flex;
   gap: 10px;
+}
+
+/* ---------- Library and import ---------- */
+
+.screen.library,
+.screen.import {
+  max-width: 1280px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: calc(26px + var(--safe-top)) calc(44px + var(--safe-right)) calc(28px + var(--safe-bottom)) calc(44px + var(--safe-left));
+}
+
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+}
+
+.page-head h1 {
+  font-size: 46px;
+  line-height: 1.15;
+}
+
+.library-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 460px);
+  align-items: start;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.deck-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.deck-row {
+  display: grid;
+  grid-template-columns: 106px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px 18px;
+  padding: 11px 16px 11px 12px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.deck-thumb {
+  width: 106px;
+  height: 106px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.deck-text {
+  min-width: 0;
+}
+
+.deck-title {
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.deck-text p {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.deck-actions,
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.library-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.library-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border-radius: 30px;
+  background: var(--panel-blue);
+}
+
+.library-panel h2 {
+  font-size: 28px;
+}
+
+.library-panel p {
+  color: var(--muted);
+}
+
+.build > button {
+  width: 100%;
+}
+
+.build.dropping {
+  outline: 4px dashed var(--accent);
+  outline-offset: 4px;
+}
+
+.drop-hint {
+  font-size: 15px;
+}
+
+.warning-text {
+  color: var(--warning) !important;
+}
+
+.storage-note {
+  font-size: 16px;
+}
+
+.library-warnings {
+  margin-top: 16px;
+}
+
+.import-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 332px;
+  align-items: start;
+  gap: 30px;
+  margin-top: 22px;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(126px, 1fr));
+  gap: 12px 10px;
+}
+
+.tile,
+.tile:hover,
+.tile:active {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 0;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.tile[aria-pressed='true'] {
+  padding: 6px;
+  border: 3px solid var(--accent);
+  background: #c6f3e8;
+}
+
+.tile img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.tile-name {
+  overflow: hidden;
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.import-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  margin-top: 18px;
+}
+
+.selected-count {
+  color: var(--accent);
+  margin-right: auto;
+}
+
+.selected-count.invalid {
+  color: var(--warning);
+}
+
+.empty-note {
+  padding: 40px 10px;
+  color: var(--muted);
+  font-size: 21px;
+}
+
+.import-form {
+  position: sticky;
+  top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px;
+  border-radius: 24px;
+  background: var(--panel-blue);
+}
+
+.import-form label {
+  margin-top: 6px;
+  font-size: 17px;
+}
+
+.import-form .small {
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.import-form button[type='submit'] {
+  margin-top: 14px;
+}
+
+dialog .field-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+}
+
+dialog input[type='text'] {
+  width: 100%;
+}
+
+dialog.progress {
+  text-align: center;
+}
+
+@media (max-width: 899px) {
+  .screen.library,
+  .screen.import {
+    padding: calc(18px + var(--safe-top)) calc(16px + var(--safe-right)) calc(20px + var(--safe-bottom)) calc(16px + var(--safe-left));
+  }
+
+  .page-head h1 {
+    font-size: 36px;
+  }
+
+  .library-body,
+  .import-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .library-side {
+    order: -1;
+  }
+
+  .library-panel {
+    padding: 22px 20px;
+    border-radius: 24px;
+  }
+
+  .import-form {
+    position: static;
+  }
+}
+
+@media (max-width: 520px) {
+  .deck-row {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .deck-thumb {
+    width: 72px;
+    height: 72px;
+  }
+
+  .deck-title {
+    font-size: 20px;
+  }
+
+  .deck-actions {
+    grid-column: 1 / -1;
+  }
+
+  .deck-actions button {
+    flex: 1 1 0;
+  }
+
+  .tiles {
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  }
 }

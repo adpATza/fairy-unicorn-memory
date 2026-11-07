@@ -1,6 +1,6 @@
 # Memory Card Game — PWA edition plan
 
-Status: Phases 1–3 complete (installable, offline-capable game with built-in decks; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
+Status: Phases 1–4 complete (installable, offline-capable game with built-in and custom decks; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
 
 ## Decisions
 
@@ -65,9 +65,9 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 
 - Import via `<input type="file" multiple accept="image/png,image/jpeg,image/webp">` (works with the iOS/Android photo pickers), drag-and-drop, and an optional folder picker where supported (`webkitdirectory`).
 - Same rules as Windows: 2–30 unique pictures, and a subset must be chosen if more are offered. Unreadable files are rejected with reasons. Exact duplicates are rejected using a SHA-256 hash of `"w,h:"` plus the decoded RGBA bytes (`createImageBitmap` → canvas → `crypto.subtle`).
-- Pictures are normalised onto a white square, scaled to 90% fit without stretching or cropping, and stored as PNG blobs. Originals are never modified. The stored edge size (1024 to match Windows, or smaller to save quota) will be decided after measuring storage use on iOS.
+- Pictures are normalised onto a white square, scaled to 90% fit without stretching or cropping, and stored as PNG blobs. Originals are never modified. *Decided in Phase 4:* 1024-pixel PNGs, matching the Windows edition so decks move between editions unchanged; Blobs (not byte arrays) so browsers keep pictures on disk instead of loading whole libraries into memory. Pictures over 16 megapixels are hashed at a fixed reduced size to stay within iOS Safari's canvas limit.
 - Rename and delete (with confirmation) apply to custom decks only.
-- **Backup / restore:** export all custom decks and preferences as one file, and restore it with "existing data wins" semantics like the v2 upgrade. This replaces "copy `%APPDATA%\Memory Card Game\`".
+- **Backup / restore:** export all custom decks and preferences as one ZIP laid out like the Windows data folder, and restore it with "existing data wins" semantics like the v2 upgrade: existing decks are kept, and backed-up settings apply only while this device's settings are still the defaults. This replaces "copy `%APPDATA%\Memory Card Game\`".
 - **Windows interoperability:** importing a Windows `custom_<24 hex>` folder (manifest plus PNGs) is accepted as-is after validation. Exported decks use the same manifest v1 layout, so they can be copied into the Windows data folder.
 
 ## PWA mechanics
@@ -98,7 +98,7 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 1. ✅ Set up `web/` (Vite + TS, Vitest, Playwright, `.gdignore`, export/package exclusions). Port `session.ts` and `layout.ts` with tests.
 2. ✅ Setup, gameplay and results screens with built-in decks; responsive layout; board fit and recommended-pairs logic; keyboard, touch, audio, pause.
 3. ✅ PWA manifest, icons, service worker, offline, update prompt; GitHub Pages workflow. The installable game is playable at this point.
-4. Deck library: import, IndexedDB storage, rename/delete, persistence request, backup/restore, Windows deck interoperability.
+4. ✅ Deck library: import, IndexedDB storage, rename/delete, persistence request, backup/restore, Windows deck interoperability.
 5. Web guide, accessibility pass, e2e suite, verification record, README and IMPLEMENTATION updates.
 
 ## Known limits

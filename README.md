@@ -23,7 +23,7 @@ Requires Windows 64-bit, a 1280 × 720 desktop, and OpenGL 3.3 graphics. The Win
 
 ## Web edition (in development)
 
-A progressive web app edition for phones, tablets, Chromebooks and desktops lives in [`web/`](web/README.md). It shares this project's artwork and rules, installs to the home screen, and plays offline after the first visit. Custom decks and the guide are still being ported; see [the plan](docs/PWA-PLAN.md).
+A progressive web app edition for phones, tablets, Chromebooks and desktops lives in [`web/`](web/README.md). It shares this project's artwork and rules, installs to the home screen, plays offline after the first visit, and has a deck library for your own pictures, with backups that the Windows edition can read. The adult guide is still being ported; see [the plan](docs/PWA-PLAN.md).
 
 ## Six bright starter decks
 

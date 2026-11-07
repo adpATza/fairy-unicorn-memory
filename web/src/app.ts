@@ -1,11 +1,14 @@
 import { Sounds } from './audio';
-import { builtinDecks } from './decks';
 import type { LayoutKind } from './layout';
 import type { Deck } from './manifest';
-import { browserStorage, defaultPreferences, loadPreferences, savePreferences, withValidDeck, type Preferences } from './preferences';
+import type { ScanResult } from './imports';
+import type { Library } from './library';
+import { browserStorage, defaultPreferences, loadPreferences, parsePreferences, savePreferences, withValidDeck, type Preferences } from './preferences';
 import { Pwa } from './pwa';
 import { randomSeed } from './rng';
 import { createGameplayScreen, type GameplayScreen } from './screens/gameplay';
+import { createImportScreen } from './screens/import';
+import { createLibraryScreen } from './screens/library';
 import { createResultsScreen, type RoundResult } from './screens/results';
 import { createSetupScreen } from './screens/setup';
 
@@ -29,12 +32,12 @@ export interface Screen {
   destroy?(): void;
 }
 
-type HistoryScreen = 'setup' | 'play';
+/** Setup is the base history entry; every other screen shares one entry above it. */
+type HistoryScreen = 'setup' | 'away';
 
 /** Navigation, preferences and shared services (main.gd in the Godot edition). */
 export class App {
-  readonly decks: Deck[];
-  readonly deckErrors: string[];
+  readonly library: Library;
   readonly sounds = new Sounds();
   /** Service worker updates wait while a round is in progress. */
   readonly pwa = new Pwa(() => this.game !== null && !this.game.finished());
@@ -48,14 +51,14 @@ export class App {
   private readonly root: HTMLElement;
   /** Most recent input: keyboard users get focus moved for them; touch users do not see stray focus rings. */
   private lastInput: 'keyboard' | 'pointer' | null = null;
+  private readonly defaults: Preferences;
 
-  constructor(root: HTMLElement) {
+  constructor(root: HTMLElement, library: Library) {
     this.root = root;
-    const catalogue = builtinDecks();
-    this.decks = catalogue.decks;
-    this.deckErrors = catalogue.errors;
+    this.library = library;
     const reduced = globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
-    this.preferences = withValidDeck(loadPreferences(this.storage, defaultPreferences(reduced)), this.decks);
+    this.defaults = defaultPreferences(reduced);
+    this.preferences = withValidDeck(loadPreferences(this.storage, this.defaults), this.decks);
     const seed = new URLSearchParams(location.search).get('seed');
     this.fixedSeed = seed !== null && /^\d+$/.test(seed) ? Number(seed) >>> 0 : null;
     addEventListener('keydown', (event) => {
@@ -64,6 +67,11 @@ export class App {
     addEventListener('pointerdown', () => (this.lastInput = 'pointer'), true);
     history.replaceState({ screen: 'setup' satisfies HistoryScreen }, '');
     addEventListener('popstate', () => this.onPopState());
+  }
+
+  /** Built-in decks followed by custom decks. */
+  get decks(): Deck[] {
+    return this.library.decks;
   }
 
   /** Whether to move focus automatically when a screen opens. */
@@ -82,7 +90,8 @@ export class App {
 
   showSetup(): void {
     this.game = null;
-    if (this.historyScreen() === 'play') {
+    this.preferences = withValidDeck(this.preferences, this.decks);
+    if (this.historyScreen() === 'away') {
       // Return to the setup entry so Back from setup leaves the app as usual.
       this.ignoreNextPop = true;
       history.back();
@@ -93,7 +102,7 @@ export class App {
   startRound(config: RoundConfig, deck: Deck): void {
     this.preferences = { ...this.preferences, ...config, names: [...config.names] };
     this.savePreferences();
-    if (this.historyScreen() !== 'play') history.pushState({ screen: 'play' satisfies HistoryScreen }, '');
+    this.leaveSetupEntry();
     const game = createGameplayScreen(this, { ...config, names: [...config.names] }, deck);
     this.game = game;
     this.mount(game);
@@ -102,6 +111,34 @@ export class App {
   showResults(result: RoundResult): void {
     this.game = null;
     this.mount(createResultsScreen(this, result));
+  }
+
+  showLibrary(): void {
+    this.game = null;
+    this.leaveSetupEntry();
+    this.mount(createLibraryScreen(this));
+  }
+
+  showImport(scan: ScanResult): void {
+    this.game = null;
+    this.leaveSetupEntry();
+    this.mount(createImportScreen(this, scan));
+  }
+
+  /**
+   * Applies backed-up settings only while this device still has the default
+   * settings, so a restore never overwrites choices made here.
+   */
+  restorePreferences(preferences: unknown): boolean {
+    const unchanged = JSON.stringify(this.preferences) === JSON.stringify(withValidDeck(this.defaults, this.decks));
+    if (preferences === undefined || !unchanged) return false;
+    this.preferences = withValidDeck(parsePreferences(preferences, this.preferences), this.decks);
+    this.savePreferences();
+    return true;
+  }
+
+  private leaveSetupEntry(): void {
+    if (this.historyScreen() !== 'away') history.pushState({ screen: 'away' satisfies HistoryScreen }, '');
   }
 
   private historyScreen(): HistoryScreen | undefined {
@@ -115,12 +152,13 @@ export class App {
       return;
     }
     if (this.game && !this.game.finished()) {
-      history.pushState({ screen: 'play' satisfies HistoryScreen }, '');
+      history.pushState({ screen: 'away' satisfies HistoryScreen }, '');
       this.game.requestLeave(() => this.showSetup());
       return;
     }
-    if (this.historyScreen() !== 'play') {
+    if (this.historyScreen() !== 'away') {
       this.game = null;
+      this.preferences = withValidDeck(this.preferences, this.decks);
       this.mount(createSetupScreen(this));
     }
   }

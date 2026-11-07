@@ -2,7 +2,17 @@
 
 The progressive web app edition of Memory Card Game. The plan, decisions and phases are in [`../docs/PWA-PLAN.md`](../docs/PWA-PLAN.md).
 
-**Status: Phase 3.** An installable progressive web app with the six built-in decks, for 1–4 players on phones, tablets and desktops, playable offline after the first visit. Custom decks (Phase 4) and the web guide (Phase 5) are still to come, so the setup screen has no Deck library or Adult guide buttons yet.
+**Status: Phase 4.** An installable progressive web app for 1–4 players on phones, tablets and desktops, playable offline after the first visit, with the six built-in decks and a deck library for your own pictures. The web edition of the adult guide (Phase 5) is still to come, so setup has no Adult guide button yet.
+
+## Deck library
+
+Setup → **Deck library** lists every deck. Custom decks can be renamed or deleted (with confirmation); included decks cannot.
+
+- **Make a deck:** *Choose pictures* (the photo picker on phones), *Choose a folder* (on devices with a mouse or trackpad), or drop pictures onto the library. PNG, JPEG and WebP are accepted. As in the Windows edition: 2–30 unique pictures; larger sets need a manual subset; unreadable files and exact duplicates (same decoded pixels, even if saved differently) are rejected with reasons; a folder's nested folders are not scanned.
+- **Saved pictures** are fitted at 90% onto a white 1024-pixel square, never stretched or cropped, and stored as PNG on the device. Originals are only read. Very large photos (over 16 megapixels) are compared for duplicates at a reduced size, within iOS Safari's canvas limit.
+- **Storage:** decks live in IndexedDB. A deck and its pictures are written in one transaction, so a save completes or leaves nothing behind. After the first save the app asks the browser to keep decks when space runs low; the library shows whether it agreed and how much space is used.
+- **Back up decks** downloads one ZIP: `Memory Card Game/backup.json`, a README, and `Memory Card Game/decks/custom_<id>/` folders in the Windows edition's format. **Restore backup** (or dropping the ZIP) adds missing decks and keeps decks already on the device. Backed-up settings are applied only while this device still has the default settings.
+- **Windows edition:** copy a backup's `decks` folder into `%APPDATA%\Memory Card Game\` to use the decks there. In the other direction, choose the Windows `decks` folder (or one `custom_…` deck folder, or a ZIP of either) in the library to add those decks here.
 
 ## Install and offline play
 
@@ -34,6 +44,11 @@ Caches and saved settings are prefixed `memory-card-game-` because GitHub Pages 
 | `src/screens/*.ts` | Setup, gameplay and results screens | `scripts/*_screen.gd`, `scripts/card.gd` |
 | `src/styles.css` | Palette, controls and responsive layouts | `scripts/ui.gd` |
 | `src/pwa.ts`, `build/` | Service worker, updates, installation | — |
+| `src/storage.ts` | Custom decks in IndexedDB (atomic save, rename, delete), persistence | `user://decks/custom_*` |
+| `src/imports.ts` | Decode, duplicate check, 1024-pixel fitting, save | `deck_library.gd::scan_folder/save_import` |
+| `src/library.ts` | Built-in plus custom decks, backup and restore | `MemoryDeckLibrary` |
+| `src/backup.ts`, `src/zip.ts` | Backup ZIPs and Windows deck folders | `storage.gd` (copy-only upgrade rules) |
+| `src/screens/library.ts`, `src/screens/import.ts` | Deck library and import review | `scripts/library_screen.gd` |
 
 ## Behaviour on the web
 
@@ -58,7 +73,7 @@ npm run check      # typecheck, unit tests, build and browser tests
 
 Individual steps: `npm run typecheck`, `npm test` (Vitest), `npm run build`, `npm run e2e` (Playwright, Chromium).
 
-The browser tests run against the production build with the service worker active. They cover offline play after the first visit (including other decks' pictures), the manifest and icons, update prompts that wait until a round ends (using a private copy of the build as a GitHub Pages-like server), every pair count tier (2, 12, 30) for 1 and 4 players in both layouts at seven screen sizes, complete solo and multiplayer rounds (played by revealing cards, with a fake clock), the 1.5-second mismatch, pause concealment, auto-pause, leave confirmations, the Back button, keyboard play, saved settings and the pair recommendation. Any console error fails a test.
+The browser tests run against the production build with the service worker active. They cover importing (duplicates, corrupt files, 31-picture subsets, JPEG/WebP, folders, drag and drop, fitting without cropping), playing a custom deck online and offline, rename/delete, backup and restore across devices, Windows deck folders, offline play after the first visit (including other decks' pictures), the manifest and icons, update prompts that wait until a round ends (using a private copy of the build as a GitHub Pages-like server), every pair count tier (2, 12, 30) for 1 and 4 players in both layouts at seven screen sizes, complete solo and multiplayer rounds (played by revealing cards, with a fake clock), the 1.5-second mismatch, pause concealment, auto-pause, leave confirmations, the Back button, keyboard play, saved settings and the pair recommendation. Any console error fails a test.
 
 Adding or upgrading packages: use npm 11 or newer (ships with Node 24). npm 10's resolver crashes on Vitest's optional peer dependencies; `npm ci` from the lockfile works on either.
 

@@ -60,11 +60,16 @@ export function createSetupScreen(app: App): Screen {
 
   const sample = h('div', { class: 'sample-body' });
 
-  // Shown only where the browser offers installation (Chromium browsers).
+  // Install is shown only where the browser offers installation (Chromium browsers).
   const install = h('button', { type: 'button', class: 'install' }, 'Install app');
-  const actions = h('nav', { class: 'setup-actions', 'aria-label': 'App' }, install);
-  const updateInstall = () => (actions.hidden = !app.pwa.canInstall());
+  const libraryButton = h('button', { type: 'button' }, 'Deck library');
+  const actions = h('nav', { class: 'setup-actions', 'aria-label': 'App' }, install, libraryButton);
+  const updateInstall = () => (install.hidden = !app.pwa.canInstall());
   install.addEventListener('click', () => void app.pwa.install());
+  libraryButton.addEventListener('click', () => {
+    remember();
+    app.showLibrary();
+  });
 
   const form = h(
     'form',
