@@ -1,6 +1,6 @@
 # Memory Card Game — PWA edition plan
 
-Status: agreed direction, not yet implemented. Branch: `claude/kind-ride-7m3mnx`.
+Status: Phase 1 complete (rules and layout ported and tested; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
 
 ## Decisions
 
@@ -49,6 +49,7 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 - **Positions never change during a round** (spatial memory is the game). On resize or rotation the whole board scales uniformly to fit its region, letterboxed inside the board area only, as in the Windows version.
 - **Recommended maximum pairs:** for the current board rectangle and chosen layout, setup computes the largest pair count whose expected card side is ≥ 56 CSS px. Setup shows "Recommended up to N pairs on this screen". Choosing more shows a gentle note ("Cards will be small — rotate or use a larger screen for bigger cards") but is allowed. Deck size still caps the count, and the range stays 2–30.
 - Other screens (setup, library, guide) may scroll on small phones. Only the gameplay board must fit.
+- Measured in Phase 1 (board area after header/footer; 56 px threshold): small phone portrait ≈ 10 scattered / 12 grid pairs; phone portrait ≈ 19 / 27; phone landscape ≈ 16 / 24; tablets and larger: 30 / 30. The default 12 pairs on a phone in portrait gives ~70–80 px scattered cards.
 
 ## Input and platform behaviour
 
@@ -94,7 +95,7 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 
 ## Phases
 
-1. Set up `web/` (Vite + TS, Vitest, Playwright, `.gdignore`, export/package exclusions). Port `session.ts` and `layout.ts` with tests.
+1. ✅ Set up `web/` (Vite + TS, Vitest, Playwright, `.gdignore`, export/package exclusions). Port `session.ts` and `layout.ts` with tests.
 2. Setup, gameplay and results screens with built-in decks; responsive layout; board fit and recommended-pairs logic; keyboard, touch, audio, pause.
 3. PWA manifest, icons, service worker, offline, update prompt; GitHub Pages workflow. The installable game is playable at this point.
 4. Deck library: import, IndexedDB storage, rename/delete, persistence request, backup/restore, Windows deck interoperability.

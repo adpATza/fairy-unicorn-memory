@@ -1,0 +1,117 @@
+/* Palette shared with the Godot edition (scripts/ui.gd). */
+:root {
+  --ink: #172c49;
+  --muted: #526880;
+  --accent: #245bff;
+  --background: #f2f7fe;
+  --line: #ccdcf1;
+  --teal: #00b89c;
+  --yellow: #ffc933;
+  --orange: #ff7637;
+  --button: #e1ecff;
+  --button-hover: #cbdfff;
+  --board-pad: 8px;
+  color-scheme: light;
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Noto Sans', Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--background);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--background);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* The board takes whatever space is left. Cards are positioned inside a stage
+   generated at the board's size, then scaled uniformly; never scrolled. */
+#board {
+  position: relative;
+  min-height: 0;
+  touch-action: manipulation;
+}
+
+.board-area {
+  position: absolute;
+  inset: var(--board-pad);
+}
+
+.stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+
+.card {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  border-radius: 12%;
+  background: transparent center / 100% 100% no-repeat;
+  box-shadow: 0 4px 0 rgb(23 44 73 / 13%);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.card:hover {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px var(--yellow);
+}
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding: 8px 16px 12px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.bar p {
+  margin: 0;
+}
+
+.bar button {
+  font: inherit;
+  color: var(--ink);
+  background: var(--button);
+  border: 0;
+  border-radius: 12px;
+  padding: 8px 16px;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.bar button:hover {
+  background: var(--button-hover);
+}
+
+.bar button:focus-visible {
+  outline: 3px solid var(--ink);
+}

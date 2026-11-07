@@ -49,7 +49,7 @@ def archives():
     with zipfile.ZipFile(DIST/'Memory-Card-Game-Windows-x64.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for file in folder.rglob('*'):
             if file.is_file():z.write(file,'Memory Card Game/'+file.relative_to(folder).as_posix())
-    excluded={'.git','.godot','.tools','dist','__pycache__','artwork'}
+    excluded={'.git','.godot','.tools','dist','__pycache__','artwork','web'}
     with zipfile.ZipFile(DIST/'Memory-Card-Game-Godot-Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for file in ROOT.rglob('*'):
             rel=file.relative_to(ROOT)
