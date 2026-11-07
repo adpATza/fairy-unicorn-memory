@@ -39,12 +39,15 @@ func update_face(show_art: bool, removed: bool, motion_reduced: bool) -> void:
 
 func _draw() -> void:
 	var rect := Rect2(Vector2.ZERO, size)
-	draw_style_box(StoryUI.box(Color(0.31, 0.20, 0.35, 0.10), 13), Rect2(rect.position + Vector2(0, 4), rect.size))
+	draw_style_box(GameUI.box(Color(0.09, 0.17, 0.29, 0.13), 13), Rect2(rect.position + Vector2(0, 4), rect.size))
 	if revealed:
-		draw_style_box(StoryUI.box(Color("fff9f0"), 12, Color("c7afd1"), 2), rect)
+		draw_style_box(GameUI.box(Color.WHITE, 12, GameUI.ACCENT, 2), rect)
 		if artwork:
 			draw_texture_rect(artwork, rect.grow(-6), false)
 	else:
 		draw_texture_rect(back, rect, false)
-	if is_hovered() or has_focus():
-		draw_style_box(StoryUI.box(Color.TRANSPARENT, 14, Color("77518b"), 3), rect.grow(3))
+	if has_focus():
+		draw_style_box(GameUI.box(Color.TRANSPARENT, 14, GameUI.INK, 5), rect.grow(4))
+		draw_style_box(GameUI.box(Color.TRANSPARENT, 14, GameUI.YELLOW, 2), rect.grow(2))
+	elif is_hovered():
+		draw_style_box(GameUI.box(Color.TRANSPARENT, 14, GameUI.INK, 3), rect.grow(3))

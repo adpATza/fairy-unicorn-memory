@@ -15,6 +15,9 @@ func check(value: bool, message: String) -> void:
 
 func run(application) -> void:
 	app = application
+	check(ProjectSettings.get_setting("application/config/name") == "Memory Card Game" and get_window().title == "Memory Card Game", "Renamed application and window title")
+	if not OS.has_feature("editor"):
+		check(OS.get_executable_path().get_file() == "Memory Card Game.exe", "Exported executable has the new name")
 	if "--persistence-check" in OS.get_cmdline_user_args():
 		_persistence()
 		_finish()
@@ -38,6 +41,7 @@ func _finish() -> void:
 
 func _test_decks() -> void:
 	lib.discover()
+	check(lib.decks[0].id == "mix_easy" and lib.decks[0].domain == "Mix & Match", "Default deck is the neutral mixed collection")
 	var builtins := 0
 	var hashes := {}
 	DirAccess.make_dir_recursive_absolute("user://qa-artwork")
@@ -45,9 +49,10 @@ func _test_decks() -> void:
 		if not deck.builtin:
 			continue
 		builtins += 1
+		check(deck.domain in ["Mix & Match", "Animals", "Vehicles", "Robots"], "Starter decks use the new neutral subjects")
 		check(deck.images.size() == 30, deck.id + " has 30 images")
 		var sheet := Image.create(600, 500, false, Image.FORMAT_RGBA8)
-		sheet.fill(Color("fff9f0"))
+		sheet.fill(Color("ffffff"))
 		for i in range(deck.images.size()):
 			var tex := lib.texture(deck.images[i].image)
 			check(tex != null and tex.get_width() == tex.get_height(), "Readable square artwork: " + deck.images[i].image)
@@ -175,12 +180,12 @@ func _test_imports() -> void:
 	var wide := Image.create(220, 80, false, Image.FORMAT_RGBA8)
 	wide.fill(Color("f9c777"))
 	wide.fill_rect(Rect2i(10, 10, 40, 60), Color("79558d"))
-	wide.save_png(source.path_join("fairy_魔法.png"))
+	wide.save_png(source.path_join("wide_魔法.png"))
 	wide.save_webp(source.path_join("same_pixels.webp"), false)
 	var tall := Image.create(80, 220, false, Image.FORMAT_RGBA8)
 	tall.fill(Color("b5d4cb"))
 	tall.fill_rect(Rect2i(10, 10, 60, 40), Color("79558d"))
-	tall.save_png(source.path_join("unicorn_é.png"))
+	tall.save_png(source.path_join("tall_é.png"))
 	var jpeg := Image.create(90, 90, false, Image.FORMAT_RGB8)
 	jpeg.fill(Color("4499bb"))
 	jpeg.save_jpg(source.path_join("jpeg.jpg"), 0.95)
@@ -193,27 +198,27 @@ func _test_imports() -> void:
 	check(scanned.accepted.size() == 3 and scanned.rejected.size() == 2, "Unicode PNG and JPEG accepted; corrupt PNG and identical decoded WebP rejected")
 	var normalized := MemoryDeckLibrary.normalize(wide)
 	check(normalized.get_size() == Vector2i(1024, 1024), "Imports normalize to 1024 square")
-	check(normalized.get_pixel(0, 0).is_equal_approx(Color("fff9f0")), "Non-square art fitted onto cream background")
+	check(normalized.get_pixel(0, 0).is_equal_approx(Color("ffffff")), "Non-square art fitted onto cream background")
 	# Orange bounds retain aspect ratio; no crop or stretch.
 	var lower := Vector2i(1024, 1024)
 	var upper := Vector2i.ZERO
 	for y in range(1024):
 		for x in range(1024):
-			if not normalized.get_pixel(x, y).is_equal_approx(Color("fff9f0")):
+			if not normalized.get_pixel(x, y).is_equal_approx(Color("ffffff")):
 				lower = lower.min(Vector2i(x, y))
 				upper = upper.max(Vector2i(x, y))
 	var bounds := upper - lower + Vector2i.ONE
 	check(absf(float(bounds.x) / bounds.y - 220.0 / 80.0) < 0.03, "Fit preserves non-square aspect ratio")
-	check(lib.save_import("", "Fairies", "Illustrated", "Easy", scanned.accepted).has("error"), "Empty import title rejected")
-	check(lib.save_import("Short", "Fairies", "Illustrated", "Easy", [scanned.accepted[0]]).has("error"), "Single-image deck rejected")
-	check(lib.save_import("Repeated", "Fairies", "Illustrated", "Easy", [scanned.accepted[0], scanned.accepted[0]]).has("error"), "Duplicates revalidated at save")
+	check(lib.save_import("", "Animals", "Illustrated", "Easy", scanned.accepted).has("error"), "Empty import title rejected")
+	check(lib.save_import("Short", "Animals", "Illustrated", "Easy", [scanned.accepted[0]]).has("error"), "Single-image deck rejected")
+	check(lib.save_import("Repeated", "Animals", "Illustrated", "Easy", [scanned.accepted[0], scanned.accepted[0]]).has("error"), "Duplicates revalidated at save")
 	var too_many: Array = []
 	for _i in range(31):
 		too_many.append(scanned.accepted[0])
-	check(lib.save_import("Too many", "Fairies", "Illustrated", "Easy", too_many).has("error"), "More than 30 selected images rejected")
-	var created := lib.save_import("QA 魔法 deck", "Fairies", "Realistic fantasy", "Medium", scanned.accepted)
+	check(lib.save_import("Too many", "Animals", "Illustrated", "Easy", too_many).has("error"), "More than 30 selected images rejected")
+	var created := lib.save_import("QA 魔法 deck", "Animals", "Realistic", "Medium", scanned.accepted)
 	check(created.has("id"), "Import saved")
-	var untouched := Image.load_from_file(source.path_join("fairy_魔法.png"))
+	var untouched := Image.load_from_file(source.path_join("wide_魔法.png"))
 	check(MemoryDeckLibrary.decoded_hash(untouched) == MemoryDeckLibrary.decoded_hash(wide), "Original source pixels remain untouched")
 	if not created.has("id"):
 		return
@@ -231,6 +236,7 @@ func _test_imports() -> void:
 			for image in d.images:
 				check(fresh.texture(image.image) != null, "Saved import survives missing source folder")
 	check(fresh.rename_deck(deck, "Renamed 魔法 collection"), "Custom deck rename saved")
+	_test_storage_migration(deck)
 	check(not fresh.delete_deck(lib.decks[0]), "Built-in deletion forbidden")
 	check(not fresh.delete_deck({"builtin": false, "id": created.id, "base": "E:/"}), "External destination deletion guard")
 	# Persist one fixture for a second fresh OS process, then remove source fixtures.
@@ -246,6 +252,51 @@ func _test_imports() -> void:
 	app.preferences.reduced_motion = true
 	app.save_preferences()
 	summaries.append("Import: PNG/WebP, corrupt files, decoded duplicates, Unicode paths, aspect-preserving normalization, atomic storage, rename and missing source. Restart fixture saved.")
+
+func _test_storage_migration(deck: Dictionary) -> void:
+	var legacy := ProjectSettings.globalize_path("user://qa-upgrade-source")
+	var target := ProjectSettings.globalize_path("user://qa-upgrade-target")
+	var original := str(deck.base)
+	var source_deck := legacy.path_join("decks").path_join(deck.id)
+	DirAccess.make_dir_recursive_absolute(source_deck)
+	for file in DirAccess.get_files_at(original):
+		DirAccess.copy_absolute(original.path_join(file), source_deck.path_join(file))
+	var old_manifest = JSON.parse_string(FileAccess.get_file_as_string(source_deck.path_join("manifest.json")))
+	old_manifest.style = "Realistic fantasy"
+	var file := FileAccess.open(source_deck.path_join("manifest.json"), FileAccess.WRITE)
+	file.store_string(JSON.stringify(old_manifest))
+	file.close()
+	var cfg := ConfigFile.new()
+	cfg.set_value("settings", "sound", false)
+	cfg.set_value("settings", "names", ["Saved name", "B", "C", "D"])
+	cfg.save(legacy.path_join("preferences.cfg"))
+	var before := FileAccess.get_sha256(source_deck.path_join("manifest.json"))
+	var result := MemoryStorage.migrate_legacy(legacy, target)
+	check(result.decks == 1 and result.preferences and result.issues.is_empty(), "Upgrade copies previous custom deck and preferences")
+	var copied := target.path_join("decks").path_join(deck.id)
+	check(FileAccess.get_sha256(copied.path_join("manifest.json")) == before, "Upgrade preserves original manifest bytes")
+	check(FileAccess.get_sha256(source_deck.path_join("manifest.json")) == before, "Upgrade never edits or removes the old deck")
+	for entry in old_manifest.images:
+		check(FileAccess.get_sha256(copied.path_join(entry.path)) == FileAccess.get_sha256(source_deck.path_join(entry.path)), "Upgrade copies image bytes without reprocessing")
+	check(MemoryDeckLibrary.new().valid_manifest(old_manifest), "Previous realistic style tag remains readable")
+	check(MemoryStorage.migrate_legacy(legacy, target).decks == 0, "Upgrade is idempotent")
+	# A newer installation wins even if the migration marker was not yet written.
+	var conflict_target := ProjectSettings.globalize_path("user://qa-upgrade-conflict")
+	var conflict_deck := conflict_target.path_join("decks").path_join(deck.id)
+	DirAccess.make_dir_recursive_absolute(conflict_deck)
+	var newer := FileAccess.open(conflict_deck.path_join("keep.txt"), FileAccess.WRITE)
+	newer.store_string("newer data")
+	newer.close()
+	var existing := ConfigFile.new()
+	existing.set_value("settings", "sound", true)
+	existing.save(conflict_target.path_join("preferences.cfg"))
+	var collision := MemoryStorage.migrate_legacy(legacy, conflict_target)
+	check(collision.decks == 0 and not collision.preferences, "Upgrade does not overwrite existing new-version data")
+	check(FileAccess.get_file_as_string(conflict_deck.path_join("keep.txt")) == "newer data", "Existing deck files survive upgrade")
+	var loaded := ConfigFile.new()
+	loaded.load(conflict_target.path_join("preferences.cfg"))
+	check(loaded.get_value("settings", "sound") == true, "Existing preferences survive upgrade")
+	summaries.append("Upgrade: legacy decks/settings copied without altering originals; previous style tags supported; repeat launch and target collisions preserve new data.")
 
 func _persistence() -> void:
 	var state = JSON.parse_string(FileAccess.get_file_as_string("user://qa-persistence.json"))
@@ -321,11 +372,12 @@ func _test_screens() -> void:
 	var original_rects: Array = []
 	for card in g.card_nodes:
 		original_rects.append(Rect2(card.position, card.size))
-		check("Face-down" in card.tooltip_text and not card.tooltip_text.contains("fairies"), "Neutral hidden-card labels")
+		check("Face-down" in card.tooltip_text and not card.tooltip_text.contains("mix_easy"), "Neutral hidden-card labels")
 	await _capture("scattered-30-pairs")
 	var p := _pair(g.session, false)
 	g.session.select(p[0])
 	g.session.select(p[1])
+	await _capture("revealed-cards")
 	g.set_paused(true)
 	check(g.session.paused and g.pause_layer.visible, "Pause overlay shown")
 	for card in g.card_nodes:
@@ -378,7 +430,7 @@ func _test_screens() -> void:
 	await get_tree().process_frame
 	check(app.screen.name == "Results", "Final-pair resolution opens result screen")
 	await _capture("results")
-	app.show_results({"names": ["Alexandria the fairy", "魔法のユニコーンと妖精の世界", "Cara", "Duke"], "scores": [2, 2, 1, 0], "winners": ["Alexandria the fairy", "魔法のユニコーンと妖精の世界"], "attempts": 8, "elapsed": 30.0, "config": config, "deck": lib.decks[0]})
+	app.show_results({"names": ["Alex the explorer", "カラフルなロボットの世界", "Cara", "Duke"], "scores": [2, 2, 1, 0], "winners": ["Alex the explorer", "カラフルなロボットの世界"], "attempts": 8, "elapsed": 30.0, "config": config, "deck": lib.decks[0]})
 	await get_tree().process_frame
 	await _capture("multiplayer-tie")
 	summaries.append("Scene integration: setup, library, empty import, guide, 60-card board, pause concealment, match removal without movement, restart and results.")

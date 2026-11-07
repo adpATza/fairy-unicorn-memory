@@ -29,7 +29,7 @@ def verify_game(command,name,visual=False):
     env=os.environ.copy();env['APPDATA']=str(data)
     flags=[] if visual else ['--headless']
     run(command+flags+['--','--self-test'],f'{name}-tests.log',env)
-    report=data/'Fairy and Unicorn Memory'/'qa-report.json'
+    report=data/'Memory Card Game'/'qa-report.json'
     result=json.loads(report.read_text(encoding='utf8'))
     if result['failures']:raise RuntimeError('Failed checks')
     shutil.copy2(report,VERIFY/f'{name}-report.json')
@@ -45,19 +45,23 @@ def verify_game(command,name,visual=False):
     return result
 
 def archives():
-    folder=DIST/'Fairy and Unicorn Memory'
-    with zipfile.ZipFile(DIST/'Fairy-Unicorn-Memory-Windows-x64.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+    folder=DIST/'Memory Card Game'
+    with zipfile.ZipFile(DIST/'Memory-Card-Game-Windows-x64.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for file in folder.rglob('*'):
-            if file.is_file():z.write(file,'Fairy and Unicorn Memory/'+file.relative_to(folder).as_posix())
-    excluded={'.git','.godot','.tools','dist','__pycache__'}
-    with zipfile.ZipFile(DIST/'Fairy-Unicorn-Memory-Godot-Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+            if file.is_file():z.write(file,'Memory Card Game/'+file.relative_to(folder).as_posix())
+    excluded={'.git','.godot','.tools','dist','__pycache__','artwork'}
+    with zipfile.ZipFile(DIST/'Memory-Card-Game-Godot-Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for file in ROOT.rglob('*'):
             rel=file.relative_to(ROOT)
             if any(p in excluded for p in rel.parts) or rel.parts[:2]==('verification','runtime'):continue
             if rel.parts[0]=='verification' and (file.suffix in {'.log','.import'} or any(p.startswith('manual-images_') for p in rel.parts)):continue
-            if file.is_file():z.write(file,'Fairy Unicorn Memory Source/'+rel.as_posix())
+            if file.is_file():z.write(file,'Memory Card Game Source/'+rel.as_posix())
+        # Optional artwork is distributed separately; keep the compact project editable.
+        for name in ['.gdignore','README.md','ARTWORK-SHA256SUMS.txt']:
+            file=ROOT/'artwork'/name
+            if file.exists():z.write(file,'Memory Card Game Source/artwork/'+name)
     hashes=[]
-    for file in DIST.glob('*.zip'):
+    for file in [DIST/'Memory-Card-Game-Windows-x64.zip',DIST/'Memory-Card-Game-Godot-Source.zip']:
         hashes.append(hashlib.sha256(file.read_bytes()).hexdigest()+'  '+file.name)
         print(file.name,file.stat().st_size,flush=True)
     (DIST/'SHA256SUMS.txt').write_text('\n'.join(hashes)+'\n',encoding='utf8')
@@ -73,13 +77,13 @@ def main():
     for script in sorted((ROOT/'scripts').glob('*.gd')):
         run([engine,'--headless','--path',ROOT,'--check-only','--script',script],f'parse-{script.stem}.log')
     verify_game([engine,'--path',str(ROOT)],'source')
-    folder=DIST/'Fairy and Unicorn Memory';folder.mkdir(exist_ok=True)
-    exe=folder/'Fairy and Unicorn Memory.exe'
+    folder=DIST/'Memory Card Game';folder.mkdir(exist_ok=True)
+    exe=folder/'Memory Card Game.exe'
     run([engine,'--headless','--path',ROOT,'--export-release','Windows Desktop',exe],'export.log')
     for file in ['Artwork and Import Guide.html','GODOT-LICENSE.txt','GODOT-THIRD-PARTY.txt']:
         shutil.copy2(ROOT/'docs'/file,folder/file)
     shutil.copy2(ROOT/'LICENSE',folder/'LICENSE.txt')
-    (folder/'START HERE.txt').write_text('FAIRY & UNICORN MEMORY\n\nLaunch Fairy and Unicorn Memory.exe. Keep its PCK beside it.\nWindows 64-bit, 1280 x 720, OpenGL 3.3. No installation or internet required.\n\nClick two cards to find a pair. Tab / arrows / Space also work. Escape pauses.\nDeck library imports your own pictures. The Adult guide explains artwork and importing.\n\nSettings and copied decks: %APPDATA%\\Fairy and Unicorn Memory\\\nBack up that folder to move collections. Original images remain untouched.\n',encoding='utf8')
+    (folder/'START HERE.txt').write_text('MEMORY CARD GAME 2.0\n\nLaunch Memory Card Game.exe. Keep its PCK beside it.\nWindows 64-bit, 1280 x 720, OpenGL 3.3. No installation or internet required.\n\nClick two cards to find a pair. Tab / arrows / Space also work. Escape pauses.\nDeck library imports your own pictures. The Adult guide explains artwork and importing.\n\nSettings and copied decks: %APPDATA%\\Memory Card Game\\\nPrevious custom decks and settings are copied automatically on first launch.\nBack up that folder to move collections. Original images remain untouched.\n',encoding='utf8')
     # Verify the EXE in a copied folder, away from the editable project resources.
     copied=VERIFY/'runtime'/f'portable-{uuid.uuid4().hex[:8]}'
     shutil.copytree(folder,copied)

@@ -1,5 +1,7 @@
 # Extra memory-card artwork
 
+Memory Card Game 2.0 ships six new bold decks from `assets/decks/`. The original 180 starter SVGs are preserved under `classic-starter-decks/` for editing and reference, with their generator in `tools/generate_classic_art.py`. They are not loaded by the game. This entire artwork folder is ignored by Godot so optional source and review files do not inflate the Windows build.
+
 Eight additional collections, comprising **203 unique card illustrations**, plus original images, generation prompts, provenance records, labelled previews, thumbnail reviews and validation records. These are optional collections for the game's folder importer.
 
 [Download the artwork ZIPs](https://github.com/adpATza/memory-card-game/releases/tag/artwork-2026-11-07)

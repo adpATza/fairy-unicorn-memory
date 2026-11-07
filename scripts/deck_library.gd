@@ -29,6 +29,8 @@ func _load_manifest(path: String, builtin: bool) -> void:
 		errors.append("Skipped invalid deck manifest: " + path)
 		return
 	data["builtin"] = builtin
+	if data.style == "Realistic fantasy":
+		data.style = "Realistic"
 	data["base"] = path.get_base_dir()
 	for entry in data.images:
 		entry["image"] = data.base.path_join(entry.path)
@@ -43,7 +45,7 @@ func valid_manifest(data) -> bool:
 	for key in ["id", "title", "domain", "style", "complexity"]:
 		if not data.get(key) is String or str(data[key]).strip_edges().is_empty():
 			return false
-	if data.style not in ["Illustrated", "Realistic fantasy", "Other"] or data.complexity not in ["Easy", "Medium", "Hard"]:
+	if data.style not in ["Illustrated", "Realistic", "Realistic fantasy", "Other"] or data.complexity not in ["Easy", "Medium", "Hard"]:
 		return false
 	if not data.get("images") is Array or data.images.size() < 2 or data.images.size() > 30:
 		return false
@@ -74,7 +76,7 @@ static func normalize(image: Image, edge: int = 1024) -> Image:
 	var factor := float(edge) * 0.9 / maxf(content.get_width(), content.get_height())
 	content.resize(maxi(1, roundi(content.get_width() * factor)), maxi(1, roundi(content.get_height() * factor)), Image.INTERPOLATE_LANCZOS)
 	var square := Image.create(edge, edge, false, Image.FORMAT_RGBA8)
-	square.fill(Color("fff9f0"))
+	square.fill(Color("ffffff"))
 	square.blend_rect(content, Rect2i(Vector2i.ZERO, content.get_size()), (Vector2i(edge, edge) - content.get_size()) / 2)
 	return square
 
@@ -108,7 +110,7 @@ func save_import(title: String, domain: String, style: String, complexity: Strin
 		return {"error": "Enter a deck name and domain."}
 	if selected.size() < 2 or selected.size() > 30:
 		return {"error": "Select between 2 and 30 unique images."}
-	if style not in ["Illustrated", "Realistic fantasy", "Other"] or complexity not in ["Easy", "Medium", "Hard"]:
+	if style not in ["Illustrated", "Realistic", "Other"] or complexity not in ["Easy", "Medium", "Hard"]:
 		return {"error": "Choose a supported style and complexity."}
 	var id := "custom_" + Crypto.new().generate_random_bytes(12).hex_encode()
 	var staging := ROOT.path_join(".staging_" + id)

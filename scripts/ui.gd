@@ -1,10 +1,13 @@
-class_name StoryUI
+class_name GameUI
 extends RefCounted
-const INK := Color("503957")
-const MUTED := Color("817184")
-const PLUM := Color("79558d")
-const CREAM := Color("f8f3e9")
-const LINE := Color("e5d9e5")
+const INK := Color("172c49")
+const MUTED := Color("526880")
+const ACCENT := Color("245bff")
+const BACKGROUND := Color("f2f7fe")
+const LINE := Color("ccdcf1")
+const TEAL := Color("00b89c")
+const YELLOW := Color("ffc933")
+const ORANGE := Color("ff7637")
 
 static func box(color: Color, radius: int = 12, border: Color = Color.TRANSPARENT, width: int = 0) -> StyleBoxFlat:
 	var b := StyleBoxFlat.new()
@@ -33,26 +36,26 @@ static func theme() -> Theme:
 	for type in ["CheckBox", "CheckButton"]:
 		for state in ["normal", "hover", "pressed", "hover_pressed", "disabled"]:
 			t.set_stylebox(state, type, StyleBoxEmpty.new())
-		t.set_stylebox("focus", type, box(Color.TRANSPARENT, 7, PLUM, 2))
-	t.set_stylebox("normal", "Button", box(Color("eee5f2"), 10))
-	t.set_stylebox("hover", "Button", box(Color("e4d6ec"), 10))
-	t.set_stylebox("pressed", "Button", box(Color("d8c6e3"), 10))
-	t.set_stylebox("focus", "Button", box(Color.TRANSPARENT, 10, Color("9b70ad"), 3))
-	t.set_stylebox("disabled", "Button", box(Color("ece8e9"), 10))
-	t.set_color("font_disabled_color", "Button", Color("9b929a"))
+		t.set_stylebox("focus", type, box(Color.TRANSPARENT, 7, ACCENT, 3))
+	t.set_stylebox("normal", "Button", box(Color("e1ecff"), 12))
+	t.set_stylebox("hover", "Button", box(Color("cbdfff"), 12))
+	t.set_stylebox("pressed", "Button", box(Color("afccff"), 12))
+	t.set_stylebox("focus", "Button", box(Color.TRANSPARENT, 12, INK, 3))
+	t.set_stylebox("disabled", "Button", box(Color("e7edf4"), 12))
+	t.set_color("font_disabled_color", "Button", Color("6d7f92"))
 	for type in ["OptionButton", "LineEdit", "SpinBox"]:
-		t.set_stylebox("normal", type, box(Color("fffaf3"), 9, LINE, 1))
-		t.set_stylebox("hover", type, box(Color("f1e9f3"), 9, LINE, 1))
-		t.set_stylebox("pressed", type, box(Color("e9ddef"), 9, LINE, 1))
-		t.set_stylebox("focus", type, box(Color.TRANSPARENT, 9, PLUM, 3))
-	t.set_stylebox("panel", "PopupMenu", box(Color("fffaf4"), 10, LINE, 1))
+		t.set_stylebox("normal", type, box(Color.WHITE, 10, LINE, 2))
+		t.set_stylebox("hover", type, box(Color("e8f2ff"), 10, ACCENT, 2))
+		t.set_stylebox("pressed", type, box(Color("dbeaff"), 10, LINE, 2))
+		t.set_stylebox("focus", type, box(Color.TRANSPARENT, 10, ACCENT, 3))
+	t.set_stylebox("panel", "PopupMenu", box(Color.WHITE, 10, LINE, 2))
 	t.set_color("font_color", "PopupMenu", INK)
 	t.set_color("font_hover_color", "PopupMenu", INK)
-	t.set_stylebox("hover", "PopupMenu", box(Color("e8dcf0"), 6))
-	t.set_stylebox("panel", "AcceptDialog", box(CREAM, 18, LINE, 2))
+	t.set_stylebox("hover", "PopupMenu", box(Color("dbeaff"), 6))
+	t.set_stylebox("panel", "AcceptDialog", box(BACKGROUND, 18, LINE, 2))
 	t.set_color("font_color", "RichTextLabel", INK)
 	t.set_color("default_color", "RichTextLabel", INK)
-	t.set_stylebox("panel", "TooltipPanel", box(Color("fffaf3"), 6, LINE, 1))
+	t.set_stylebox("panel", "TooltipPanel", box(Color.WHITE, 6, LINE, 1))
 	t.set_color("font_color", "TooltipLabel", INK)
 	t.set_font_size("font_size", "TooltipLabel", 15)
 	return t
@@ -70,7 +73,8 @@ static func label(parent: Node, text_value: String, rect: Rect2, font_size: int 
 	l.add_theme_color_override("font_color", color)
 	if serif:
 		var font := SystemFont.new()
-		font.font_names = PackedStringArray(["Georgia", "Noto Serif"])
+		font.font_names = PackedStringArray(["Segoe UI", "Trebuchet MS", "Noto Sans"])
+		font.font_weight = 800
 		l.add_theme_font_override("font", font)
 	place(l, parent, rect)
 	return l
@@ -80,11 +84,11 @@ static func button(parent: Node, text_value: String, rect: Rect2, action: Callab
 	b.text = text_value
 	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 	if primary:
-		b.add_theme_stylebox_override("normal", box(PLUM, 11))
-		b.add_theme_stylebox_override("hover", box(Color("9169a5"), 11))
-		b.add_theme_stylebox_override("pressed", box(Color("674679"), 11))
+		b.add_theme_stylebox_override("normal", box(ACCENT, 12))
+		b.add_theme_stylebox_override("hover", box(Color("3978ff"), 12))
+		b.add_theme_stylebox_override("pressed", box(Color("1442c9"), 12))
 		for color in ["font_color", "font_hover_color", "font_pressed_color", "font_focus_color"]:
-			b.add_theme_color_override(color, Color("fff9f0"))
+			b.add_theme_color_override(color, Color.WHITE)
 	b.pressed.connect(action)
 	place(b, parent, rect)
 	return b
@@ -115,7 +119,7 @@ static func texture(parent: Node, tex: Texture2D, rect: Rect2) -> TextureRect:
 	place(t, parent, rect)
 	return t
 
-static func panel(parent: Node, rect: Rect2, color: Color = Color("fffaf3"), radius: int = 18) -> Panel:
+static func panel(parent: Node, rect: Rect2, color: Color = Color.WHITE, radius: int = 18) -> Panel:
 	var p := Panel.new()
 	p.add_theme_stylebox_override("panel", box(color, radius))
 	p.mouse_filter = Control.MOUSE_FILTER_IGNORE

@@ -1,62 +1,65 @@
 # Memory Card Game
 
-An offline storybook memory card game for Windows, built with **Godot 4.7.2 / GDScript / Compatibility**.
+A colourful offline matching game for Windows, built with **Godot 4.7.2 / GDScript / Compatibility**.
 
-[Download the Windows game](https://github.com/adpATza/memory-card-game/releases/latest/download/Fairy-Unicorn-Memory-Windows-x64.zip) · [All releases and editable source](https://github.com/adpATza/memory-card-game/releases)
+[Download for Windows](https://github.com/adpATza/memory-card-game/releases/latest/download/Memory-Card-Game-Windows-x64.zip) · [Editable Godot source](https://github.com/adpATza/memory-card-game/releases/latest/download/Memory-Card-Game-Godot-Source.zip) · [Extra artwork](artwork/README.md)
 
-![The game's storybook setup screen](verification/screenshots/setup.png)
+![Memory Card Game setup screen](verification/screenshots/setup.png)
 
 ## Play
 
-The published Windows release is titled **Fairy & Unicorn Memory** and includes the fairy and unicorn starter decks. Additional subjects are available as importable artwork collections.
+Extract the Windows ZIP and open **Memory Card Game.exe**. Keep its PCK beside it. No editor, installer, Python, account or internet connection is needed to play.
 
-Download the Windows ZIP from Releases, extract it into a folder, and launch `Fairy and Unicorn Memory.exe`. Keep the EXE and PCK together. A locally built package is also available under `dist/Fairy and Unicorn Memory/`. No editor, Python, installer, administrator rights, account, or internet connection is required to play.
+Choose 1–4 players, 2–30 pairs, a deck, and scattered or grid layout. The default is one player, 12 **Mix & Match** pairs, scattered, with another turn after a match. Every hidden card has the same blue back.
 
-Minimum: Windows 64-bit, 1280 × 720 desktop, graphics supporting OpenGL 3.3. Tested on Intel UHD Graphics 630. System typefaces use Windows' Georgia and Segoe UI; no font files are redistributed.
+- Find a matching pair to earn a point and remove the two cards.
+- A mismatch stays visible for 1.5 seconds. Cards keep their positions throughout the round.
+- Use the mouse, or Tab / Shift+Tab, arrow keys, Space and Enter.
+- Escape pauses, conceals revealed pictures and stops the clock.
+- Sound and reduced motion can be changed in game. Restarting or leaving asks for confirmation.
+- Resizing scales the board uniformly and adds letterboxing.
 
-Choose 1–4 players, 2–30 pairs, fairies or unicorns, Easy / Medium / Hard, and scattered or grid layout. Defaults are one player, 12 easy fairy pairs, scattered, and another turn after a match. Every hidden card has the same back.
+Requires Windows 64-bit, a 1280 × 720 desktop, and OpenGL 3.3 graphics. The Windows release is tested on Intel UHD Graphics 630. Segoe UI and other available system sans serif fonts are used; no fonts are redistributed.
 
-- Click two cards; a match earns one point and removes the pair.
-- A mismatch stays visible for 1.5 seconds. Cards retain their exact positions.
-- Tab / Shift+Tab focuses controls; Space or Enter selects; arrow keys navigate cards.
-- Escape pauses. Pause conceals artwork and freezes both elapsed and resolution clocks.
-- Sound and reduced motion can be changed in game. Leaving or restarting asks for confirmation.
-- Resize uniformly scales and letterboxes the original board.
+## Six bright starter decks
 
-## Your own decks
+Version **2.0.0** introduces a blue, orange, yellow and teal interface, a matching-card icon, and **180 original editable SVG illustrations** on white squares.
 
-Use **Deck library → Import an image folder**. Review normalized square previews, select 2–30 unique PNG / JPEG / WebP images, enter a name and subject domain, and tag the existing style and complexity. Exact decoded duplicates and unreadable files are rejected. Larger folders require choosing a subset.
+| Deck | Subject | Difficulty | Pictures |
+| --- | --- | --- | ---: |
+| Mix & Match | Animals, vehicles, food, space and toys | Easy | 30 |
+| Wild Things | Animals | Easy | 30 |
+| On the Move | Vehicles | Easy | 30 |
+| Bots & Bolts | Colourful robots | Easy | 30 |
+| Bot Buddies | Robots with a shared cyan palette | Medium | 30 |
+| Robot Replay | The same blue robot in different poses and expressions | Hard | 30 |
 
-Pictures are fitted onto cream squares without stretching or cropping, then copied locally. Originals remain untouched. Saved decks continue to work if the source folder moves. Rename and confirmed deletion are available for custom decks.
+The old starter artwork is preserved in [the source archive folder](artwork/classic-starter-decks/). It is outside the active game. Eight optional collections with **203 additional pictures**, including aircraft, cars, flags, landmarks and cartoon animals, remain available as [separate artwork downloads](artwork/README.md).
 
-Data and preferences: `%APPDATA%\Fairy and Unicorn Memory\`. Back up this folder with the game closed. Unfinished rounds are not saved.
+## Your own decks and saved data
 
-Read **docs/Artwork and Import Guide.html**, also available from the game's Adult guide screen. It contains a reusable generation prompt, six difficulty examples, a 30-image planning checklist and import instructions.
+Open **Deck library → Import an image folder**, choose 2–30 unique PNG / JPEG / WebP pictures, review the thumbnails, and enter the deck name, subject, style and difficulty. Larger folders require selecting a subset. Unreadable files and exact decoded duplicates are rejected.
 
-Additional artwork is available in [artwork/](artwork/README.md): 203 card illustrations covering aircraft, cars, country flags, landmarks, octopuses, pandas, ships and zebras. [Download the artwork packages](https://github.com/adpATza/memory-card-game/releases/tag/artwork-2026-11-07), then import the individual card folders through the deck library.
+Pictures are fitted onto white squares with safe margins and copied locally, without stretching or cropping. Originals remain untouched; saved decks work after their source folder moves. Custom decks can be renamed or deleted after confirmation.
 
-## Edit
+Data and preferences live in `%APPDATA%\Memory Card Game\`. On first launch, version 2 copies custom decks and settings from the previous installation's data folder. Existing new data wins; the previous files remain untouched. Removed starter selections fall back to Mix & Match. Back up the data folder with the game closed. Unfinished rounds are not saved.
 
-Open `project.godot` in Godot **4.7.2 standard**. The project uses the Compatibility renderer and has no external runtime dependencies or add-ons.
+The game's **Adult guide** and [offline artwork/import guide](docs/Artwork%20and%20Import%20Guide.html) explain artwork preparation, reusable prompts, difficulty and backups.
 
-The six included collections contain **180 original editable SVG illustrations**. Regenerate them with `python tools/generate_art.py`. The individual feature plan is in `docs/artwork-plan.csv`. Rebuild the in-game and HTML guide with `python tools/build_guide.py`.
+## Edit, test and build
 
-## Test and package
+Open `project.godot` in **Godot 4.7.2 standard**. No add-ons or external runtime dependencies are required. The compact source ZIP includes all current game resources; optional artwork and historical decks are available from this repository and the artwork release.
 
-Install Godot 4.7.2 and its matching Windows export templates. Then:
+Regenerate the current SVGs with `python tools/generate_art.py`, and the guides with `python tools/build_guide.py`. The feature plan is in `docs/artwork-plan.csv`.
+
+Install the matching Godot Windows export templates, then run:
 
 ```powershell
 python tools/package.py --godot "C:\path\Godot_v4.7.2-stable_win64_console.exe"
 ```
 
-The packager imports the project, checks every GDScript, runs the source suite in an isolated user-data folder, exports Windows, runs the same suite against the exported EXE in a separate data folder, checks persistence in a fresh process, and writes Windows and editable-source ZIPs with SHA-256 hashes. Development requires Python 3; playing does not.
+The packager checks scripts, runs the source suite with isolated saved data, exports Windows, tests a copied release executable, verifies persistence in fresh processes, and writes both ZIPs and `SHA256SUMS.txt` into `dist/`. Python 3 is needed only for these development tools.
 
-Manual commands, with APPDATA redirected to a disposable test location to avoid altering your decks/settings:
+See [implementation notes](docs/IMPLEMENTATION.md) and [executed verification](verification/VERIFICATION.md). Automated uniqueness and rule checks do not establish human difficulty or compatibility with every PC.
 
-```powershell
-$env:APPDATA = "$PWD\verification\runtime\manual"
-& "C:\path\Godot_v4.7.2-stable_win64_console.exe" --headless --path . -- --self-test
-& "C:\path\Godot_v4.7.2-stable_win64_console.exe" --headless --path . -- --persistence-check
-```
-
-See `docs/IMPLEMENTATION.md` and `verification/VERIFICATION.md` for architecture and executed validation. Code and original artwork are MIT licensed. Godot and bundled third-party notices are in `docs/` and the Windows package.
+Code and original SVG artwork are MIT licensed. Godot and bundled third-party notices are included in `docs/` and the Windows package. Optional artwork retains its provenance and review records.

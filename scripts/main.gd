@@ -1,6 +1,6 @@
 extends Control
 var library := MemoryDeckLibrary.new()
-var preferences := {"players": 1, "names": ["Player 1", "Player 2", "Player 3", "Player 4"], "domain": "Fairies", "style": "Illustrated", "complexity": "Easy", "deck_id": "fairies_easy", "pairs": 12, "layout": "Scattered", "extra_turn": true, "sound": true, "reduced_motion": false}
+var preferences := {"players": 1, "names": ["Player 1", "Player 2", "Player 3", "Player 4"], "domain": "Mix & Match", "style": "Illustrated", "complexity": "Easy", "deck_id": "mix_easy", "pairs": 12, "layout": "Scattered", "extra_turn": true, "sound": true, "reduced_motion": false}
 var screen: Control
 var game: Control
 var audio: AudioStreamPlayer
@@ -9,10 +9,13 @@ var tone_match: AudioStreamWAV
 var tone_miss: AudioStreamWAV
 
 func _ready() -> void:
-	theme = StoryUI.theme()
+	theme = GameUI.theme()
+	get_window().title = "Memory Card Game"
 	get_tree().auto_accept_quit = false
+	var upgrade := MemoryStorage.migrate_legacy()
 	library.discover()
 	load_preferences()
+	_validate_deck_preference()
 	audio = AudioStreamPlayer.new()
 	add_child(audio)
 	tone_flip = _tone([440.0], 0.055, 0.09)
@@ -24,6 +27,22 @@ func _ready() -> void:
 		runner.run.call_deferred(self)
 		return
 	show_setup()
+	if not upgrade.issues.is_empty():
+		notice("Some previous saved decks could not be copied. The original files are still available.\n\n" + "\n".join(upgrade.issues))
+
+func _validate_deck_preference() -> void:
+	if library.decks.is_empty():
+		return
+	var selected: Dictionary = library.decks[0]
+	for deck in library.decks:
+		if deck.id == preferences.deck_id:
+			selected = deck
+			break
+	preferences.deck_id = selected.id
+	preferences.domain = selected.domain
+	preferences.style = selected.style
+	preferences.complexity = selected.complexity
+	preferences.pairs = mini(preferences.pairs, selected.images.size())
 
 func _tone(notes: Array, duration: float, volume: float) -> AudioStreamWAV:
 	var bytes := PackedByteArray()

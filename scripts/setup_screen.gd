@@ -15,63 +15,64 @@ var candidates: Array = []
 
 func _ready() -> void:
 	cfg = app.preferences.duplicate(true)
-	StoryUI.label(self, "Fairy & Unicorn\nMemory", Rect2(54, 35, 700, 124), 49, StoryUI.INK, true)
-	StoryUI.label(self, "A little wonder. A perfect pair.", Rect2(58, 169, 630, 30), 21, StoryUI.MUTED)
-	StoryUI.button(self, "Deck library", Rect2(903, 33, 151, 42), _library)
-	StoryUI.button(self, "Adult guide", Rect2(1070, 33, 156, 42), _guide)
-	StoryUI.label(self, "Who’s playing?", Rect2(58, 226, 600, 28), 22, StoryUI.INK, true)
-	players = StoryUI.option(self, ["Just me", "2 players", "3 players", "4 players"], ["Just me", "2 players", "3 players", "4 players"][cfg.players - 1], Rect2(58, 264, 160, 43))
+	GameUI.texture(self, load("res://assets/icon.svg"), Rect2(56, 39, 67, 67))
+	GameUI.label(self, "Memory\nCard Game", Rect2(139, 24, 555, 134), 53, GameUI.INK, true)
+	GameUI.label(self, "Big colours. Sharp eyes. Great matches.", Rect2(58, 177, 630, 30), 21, GameUI.MUTED)
+	GameUI.button(self, "Deck library", Rect2(903, 33, 151, 42), _library)
+	GameUI.button(self, "Adult guide", Rect2(1070, 33, 156, 42), _guide)
+	GameUI.label(self, "Who’s playing?", Rect2(58, 226, 600, 28), 22, GameUI.INK, true)
+	players = GameUI.option(self, ["Just me", "2 players", "3 players", "4 players"], ["Just me", "2 players", "3 players", "4 players"][cfg.players - 1], Rect2(58, 264, 160, 43))
 	players.item_selected.connect(func(_i): _names())
 	for i in range(4):
-		var f := StoryUI.line(self, str(cfg.names[i]), Rect2(234 + (i % 2) * 207, 258 + (i / 2) * 48, 195, 40), "Player %d" % (i + 1))
+		var f := GameUI.line(self, str(cfg.names[i]), Rect2(234 + (i % 2) * 207, 258 + (i / 2) * 48, 195, 40), "Player %d" % (i + 1))
 		f.max_length = 18
 		f.tooltip_text = "Name for player %d" % (i + 1)
 		name_fields.append(f)
 	_names()
-	StoryUI.label(self, "Choose your little world", Rect2(58, 357, 600, 28), 22, StoryUI.INK, true)
+	GameUI.label(self, "Choose your deck", Rect2(58, 357, 600, 28), 22, GameUI.INK, true)
 	var domains: Array = []
 	for deck in app.library.decks:
 		if deck.domain not in domains:
 			domains.append(deck.domain)
-	domain = StoryUI.option(self, domains, cfg.domain, Rect2(58, 397, 184, 43))
+	domain = GameUI.option(self, domains, cfg.domain, Rect2(58, 397, 184, 43))
 	domain.tooltip_text = "Subject domain"
-	style = StoryUI.option(self, [], "", Rect2(254, 397, 196, 43))
+	style = GameUI.option(self, [], "", Rect2(254, 397, 196, 43))
 	style.tooltip_text = "Artwork style"
-	complexity = StoryUI.option(self, [], "", Rect2(462, 397, 184, 43))
+	complexity = GameUI.option(self, [], "", Rect2(462, 397, 184, 43))
 	complexity.tooltip_text = "Visual complexity"
-	deck_choice = StoryUI.option(self, [], "", Rect2(58, 451, 588, 43))
+	deck_choice = GameUI.option(self, [], "", Rect2(58, 451, 588, 43))
 	domain.item_selected.connect(func(_i): _filter_styles())
 	style.item_selected.connect(func(_i): cfg.style = style.text; _filter_complexity())
 	complexity.item_selected.connect(func(_i): cfg.complexity = complexity.text; _filter_decks())
 	deck_choice.item_selected.connect(func(_i): _sample())
-	StoryUI.label(self, "Pairs", Rect2(58, 514, 120, 25), 17, StoryUI.MUTED)
+	GameUI.label(self, "Pairs", Rect2(58, 514, 120, 25), 17, GameUI.MUTED)
 	pair_count = SpinBox.new()
 	pair_count.min_value = 2
 	pair_count.max_value = 30
 	pair_count.step = 1
 	pair_count.value = cfg.pairs
 	pair_count.rounded = true
-	StoryUI.place(pair_count, self, Rect2(58, 544, 130, 43))
-	StoryUI.label(self, "Card layout", Rect2(208, 514, 170, 25), 17, StoryUI.MUTED)
-	layout_choice = StoryUI.option(self, ["Scattered", "Grid"], cfg.layout, Rect2(208, 544, 180, 43))
+	GameUI.place(pair_count, self, Rect2(58, 544, 130, 43))
+	GameUI.label(self, "Card layout", Rect2(208, 514, 170, 25), 17, GameUI.MUTED)
+	layout_choice = GameUI.option(self, ["Scattered", "Grid"], cfg.layout, Rect2(208, 544, 180, 43))
 	extra = CheckBox.new()
 	extra.text = "Another turn\nafter a match"
 	extra.button_pressed = cfg.extra_turn
-	StoryUI.place(extra, self, Rect2(408, 535, 260, 57))
-	StoryUI.button(self, "Let’s play", Rect2(58, 618, 235, 55), _start, true).grab_focus()
-	StoryUI.label(self, "Find the pairs. Keep the magic.", Rect2(314, 632, 350, 25), 17, StoryUI.MUTED)
-	StoryUI.panel(self, Rect2(730, 111, 496, 543), Color("efe7f1"), 88)
+	GameUI.place(extra, self, Rect2(408, 535, 260, 57))
+	GameUI.button(self, "Let’s play", Rect2(58, 618, 235, 55), _start, true).grab_focus()
+	GameUI.label(self, "Pick two. Find a match. Go again!", Rect2(314, 632, 375, 25), 17, GameUI.MUTED)
+	GameUI.panel(self, Rect2(730, 111, 496, 543), GameUI.INK, 38)
 	sample_root = Control.new()
 	add_child(sample_root)
 	var sound := CheckBox.new()
 	sound.text = "Sound"
 	sound.button_pressed = cfg.sound
-	StoryUI.place(sound, self, Rect2(759, 674, 145, 30))
+	GameUI.place(sound, self, Rect2(759, 674, 145, 30))
 	sound.toggled.connect(func(v): app.preferences.sound = v; app.save_preferences())
 	var motion := CheckBox.new()
 	motion.text = "Reduced motion"
 	motion.button_pressed = cfg.reduced_motion
-	StoryUI.place(motion, self, Rect2(962, 674, 240, 30))
+	GameUI.place(motion, self, Rect2(962, 674, 240, 30))
 	motion.toggled.connect(func(v): app.preferences.reduced_motion = v; app.save_preferences())
 	_filter_styles()
 
@@ -121,17 +122,19 @@ func _sample() -> void:
 	var deck: Dictionary = candidates[deck_choice.selected]
 	pair_count.max_value = deck.images.size()
 	pair_count.value = mini(int(pair_count.value), deck.images.size())
-	StoryUI.label(sample_root, "Meet your matching companions", Rect2(768, 143, 418, 28), 23, StoryUI.INK, true).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	var back := StoryUI.texture(sample_root, load("res://assets/card_back.svg"), Rect2(798, 245, 190, 190))
+	GameUI.label(sample_root, "Ready, set, match!", Rect2(768, 143, 418, 35), 29, Color.WHITE, true).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	GameUI.panel(sample_root, Rect2(769, 214, 70, 70), GameUI.YELLOW, 35)
+	GameUI.panel(sample_root, Rect2(1124, 389, 57, 57), GameUI.TEAL, 28)
+	var back := GameUI.texture(sample_root, load("res://assets/card_back.svg"), Rect2(798, 245, 190, 190))
 	back.pivot_offset = Vector2(95, 95)
 	back.rotation_degrees = -12
-	StoryUI.panel(sample_root, Rect2(944, 273, 193, 193), Color("ddcde4"), 18)
-	StoryUI.texture(sample_root, app.library.texture(deck.images[4 % deck.images.size()].image), Rect2(952, 281, 176, 176))
-	StoryUI.panel(sample_root, Rect2(849, 209, 200, 200), Color("fff9f0"), 18)
-	StoryUI.texture(sample_root, app.library.texture(deck.images[0].image), Rect2(857, 217, 184, 184))
-	StoryUI.label(sample_root, deck.title, Rect2(766, 498, 420, 40), 29, StoryUI.INK, true).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	StoryUI.label(sample_root, "%s artwork  /  %s" % [deck.style, deck.complexity.to_lower()], Rect2(764, 544, 424, 27), 17, StoryUI.MUTED).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	StoryUI.label(sample_root, "%d unique companions to discover" % deck.images.size(), Rect2(764, 583, 424, 26), 17, StoryUI.MUTED).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	GameUI.panel(sample_root, Rect2(944, 273, 193, 193), GameUI.ORANGE, 18)
+	GameUI.texture(sample_root, app.library.texture(deck.images[4 % deck.images.size()].image), Rect2(952, 281, 176, 176))
+	GameUI.panel(sample_root, Rect2(849, 209, 200, 200), Color.WHITE, 18)
+	GameUI.texture(sample_root, app.library.texture(deck.images[0].image), Rect2(857, 217, 184, 184))
+	GameUI.label(sample_root, deck.title, Rect2(766, 498, 420, 40), 29, Color.WHITE, true).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	GameUI.label(sample_root, "%s artwork  /  %s" % [deck.style, deck.complexity.to_lower()], Rect2(764, 544, 424, 27), 17, Color("b9cdeb")).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	GameUI.label(sample_root, "%d bold pictures to match" % deck.images.size(), Rect2(764, 583, 424, 26), 17, Color("b9cdeb")).horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 
 func _config() -> Dictionary:
 	var names: Array = []

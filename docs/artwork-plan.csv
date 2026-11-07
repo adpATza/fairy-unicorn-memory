@@ -1,181 +1,181 @@
 deck,image,distinguishing_features
-fairies_easy,1,arms pose 1; legs pose 1; expression 1; wing silhouette 1; garment 1
-fairies_easy,2,arms pose 2; legs pose 2; expression 2; wing silhouette 1; garment 1
-fairies_easy,3,arms pose 3; legs pose 3; expression 3; wing silhouette 1; garment 1
-fairies_easy,4,arms pose 4; legs pose 4; expression 1; wing silhouette 1; garment 2
-fairies_easy,5,arms pose 5; legs pose 5; expression 2; wing silhouette 1; garment 2
-fairies_easy,6,arms pose 6; legs pose 1; expression 3; wing silhouette 2; garment 2
-fairies_easy,7,arms pose 1; legs pose 2; expression 1; wing silhouette 2; garment 3
-fairies_easy,8,arms pose 2; legs pose 3; expression 2; wing silhouette 2; garment 3
-fairies_easy,9,arms pose 3; legs pose 4; expression 3; wing silhouette 2; garment 3
-fairies_easy,10,arms pose 4; legs pose 5; expression 1; wing silhouette 2; garment 1
-fairies_easy,11,arms pose 5; legs pose 1; expression 2; wing silhouette 3; garment 1
-fairies_easy,12,arms pose 6; legs pose 2; expression 3; wing silhouette 3; garment 1
-fairies_easy,13,arms pose 1; legs pose 3; expression 1; wing silhouette 3; garment 2
-fairies_easy,14,arms pose 2; legs pose 4; expression 2; wing silhouette 3; garment 2
-fairies_easy,15,arms pose 3; legs pose 5; expression 3; wing silhouette 3; garment 2
-fairies_easy,16,arms pose 4; legs pose 1; expression 1; wing silhouette 1; garment 3
-fairies_easy,17,arms pose 5; legs pose 2; expression 2; wing silhouette 1; garment 3
-fairies_easy,18,arms pose 6; legs pose 3; expression 3; wing silhouette 1; garment 3
-fairies_easy,19,arms pose 1; legs pose 4; expression 1; wing silhouette 1; garment 1
-fairies_easy,20,arms pose 2; legs pose 5; expression 2; wing silhouette 1; garment 1
-fairies_easy,21,arms pose 3; legs pose 1; expression 3; wing silhouette 2; garment 1
-fairies_easy,22,arms pose 4; legs pose 2; expression 1; wing silhouette 2; garment 2
-fairies_easy,23,arms pose 5; legs pose 3; expression 2; wing silhouette 2; garment 2
-fairies_easy,24,arms pose 6; legs pose 4; expression 3; wing silhouette 2; garment 2
-fairies_easy,25,arms pose 1; legs pose 5; expression 1; wing silhouette 2; garment 3
-fairies_easy,26,arms pose 2; legs pose 1; expression 2; wing silhouette 3; garment 3
-fairies_easy,27,arms pose 3; legs pose 2; expression 3; wing silhouette 3; garment 3
-fairies_easy,28,arms pose 4; legs pose 3; expression 1; wing silhouette 3; garment 1
-fairies_easy,29,arms pose 5; legs pose 4; expression 2; wing silhouette 3; garment 1
-fairies_easy,30,arms pose 6; legs pose 5; expression 3; wing silhouette 3; garment 1
-fairies_medium,1,arms pose 1; legs pose 1; expression 1; wing silhouette 1; garment 1
-fairies_medium,2,arms pose 2; legs pose 2; expression 2; wing silhouette 1; garment 1
-fairies_medium,3,arms pose 3; legs pose 3; expression 3; wing silhouette 1; garment 1
-fairies_medium,4,arms pose 4; legs pose 4; expression 1; wing silhouette 1; garment 2
-fairies_medium,5,arms pose 5; legs pose 5; expression 2; wing silhouette 1; garment 2
-fairies_medium,6,arms pose 6; legs pose 1; expression 3; wing silhouette 2; garment 2
-fairies_medium,7,arms pose 1; legs pose 2; expression 1; wing silhouette 2; garment 3
-fairies_medium,8,arms pose 2; legs pose 3; expression 2; wing silhouette 2; garment 3
-fairies_medium,9,arms pose 3; legs pose 4; expression 3; wing silhouette 2; garment 3
-fairies_medium,10,arms pose 4; legs pose 5; expression 1; wing silhouette 2; garment 1
-fairies_medium,11,arms pose 5; legs pose 1; expression 2; wing silhouette 3; garment 1
-fairies_medium,12,arms pose 6; legs pose 2; expression 3; wing silhouette 3; garment 1
-fairies_medium,13,arms pose 1; legs pose 3; expression 1; wing silhouette 3; garment 2
-fairies_medium,14,arms pose 2; legs pose 4; expression 2; wing silhouette 3; garment 2
-fairies_medium,15,arms pose 3; legs pose 5; expression 3; wing silhouette 3; garment 2
-fairies_medium,16,arms pose 4; legs pose 1; expression 1; wing silhouette 1; garment 3
-fairies_medium,17,arms pose 5; legs pose 2; expression 2; wing silhouette 1; garment 3
-fairies_medium,18,arms pose 6; legs pose 3; expression 3; wing silhouette 1; garment 3
-fairies_medium,19,arms pose 1; legs pose 4; expression 1; wing silhouette 1; garment 1
-fairies_medium,20,arms pose 2; legs pose 5; expression 2; wing silhouette 1; garment 1
-fairies_medium,21,arms pose 3; legs pose 1; expression 3; wing silhouette 2; garment 1
-fairies_medium,22,arms pose 4; legs pose 2; expression 1; wing silhouette 2; garment 2
-fairies_medium,23,arms pose 5; legs pose 3; expression 2; wing silhouette 2; garment 2
-fairies_medium,24,arms pose 6; legs pose 4; expression 3; wing silhouette 2; garment 2
-fairies_medium,25,arms pose 1; legs pose 5; expression 1; wing silhouette 2; garment 3
-fairies_medium,26,arms pose 2; legs pose 1; expression 2; wing silhouette 3; garment 3
-fairies_medium,27,arms pose 3; legs pose 2; expression 3; wing silhouette 3; garment 3
-fairies_medium,28,arms pose 4; legs pose 3; expression 1; wing silhouette 3; garment 1
-fairies_medium,29,arms pose 5; legs pose 4; expression 2; wing silhouette 3; garment 1
-fairies_medium,30,arms pose 6; legs pose 5; expression 3; wing silhouette 3; garment 1
-fairies_hard,1,arms pose 1; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,2,arms pose 1; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,3,arms pose 1; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,4,arms pose 1; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,5,arms pose 1; legs pose 5; expression 5; wing silhouette 2; garment 1
-fairies_hard,6,arms pose 2; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,7,arms pose 2; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,8,arms pose 2; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,9,arms pose 2; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,10,arms pose 2; legs pose 5; expression 5; wing silhouette 2; garment 1
-fairies_hard,11,arms pose 3; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,12,arms pose 3; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,13,arms pose 3; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,14,arms pose 3; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,15,arms pose 3; legs pose 5; expression 5; wing silhouette 2; garment 1
-fairies_hard,16,arms pose 4; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,17,arms pose 4; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,18,arms pose 4; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,19,arms pose 4; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,20,arms pose 4; legs pose 5; expression 5; wing silhouette 2; garment 1
-fairies_hard,21,arms pose 5; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,22,arms pose 5; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,23,arms pose 5; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,24,arms pose 5; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,25,arms pose 5; legs pose 5; expression 5; wing silhouette 2; garment 1
-fairies_hard,26,arms pose 6; legs pose 1; expression 1; wing silhouette 2; garment 1
-fairies_hard,27,arms pose 6; legs pose 2; expression 2; wing silhouette 2; garment 1
-fairies_hard,28,arms pose 6; legs pose 3; expression 3; wing silhouette 2; garment 1
-fairies_hard,29,arms pose 6; legs pose 4; expression 4; wing silhouette 2; garment 1
-fairies_hard,30,arms pose 6; legs pose 5; expression 5; wing silhouette 2; garment 1
-unicorns_easy,1,leg arrangement 1; head angle -15 degrees; expression 1; mane silhouette 1
-unicorns_easy,2,leg arrangement 2; head angle 0 degrees; expression 2; mane silhouette 1
-unicorns_easy,3,leg arrangement 3; head angle 15 degrees; expression 3; mane silhouette 1
-unicorns_easy,4,leg arrangement 4; head angle -15 degrees; expression 4; mane silhouette 1
-unicorns_easy,5,leg arrangement 5; head angle 0 degrees; expression 5; mane silhouette 1
-unicorns_easy,6,leg arrangement 6; head angle 15 degrees; expression 1; mane silhouette 2
-unicorns_easy,7,leg arrangement 1; head angle -15 degrees; expression 2; mane silhouette 2
-unicorns_easy,8,leg arrangement 2; head angle 0 degrees; expression 3; mane silhouette 2
-unicorns_easy,9,leg arrangement 3; head angle 15 degrees; expression 4; mane silhouette 2
-unicorns_easy,10,leg arrangement 4; head angle -15 degrees; expression 5; mane silhouette 2
-unicorns_easy,11,leg arrangement 5; head angle 0 degrees; expression 1; mane silhouette 3
-unicorns_easy,12,leg arrangement 6; head angle 15 degrees; expression 2; mane silhouette 3
-unicorns_easy,13,leg arrangement 1; head angle -15 degrees; expression 3; mane silhouette 3
-unicorns_easy,14,leg arrangement 2; head angle 0 degrees; expression 4; mane silhouette 3
-unicorns_easy,15,leg arrangement 3; head angle 15 degrees; expression 5; mane silhouette 3
-unicorns_easy,16,leg arrangement 4; head angle -15 degrees; expression 1; mane silhouette 1
-unicorns_easy,17,leg arrangement 5; head angle 0 degrees; expression 2; mane silhouette 1
-unicorns_easy,18,leg arrangement 6; head angle 15 degrees; expression 3; mane silhouette 1
-unicorns_easy,19,leg arrangement 1; head angle -15 degrees; expression 4; mane silhouette 1
-unicorns_easy,20,leg arrangement 2; head angle 0 degrees; expression 5; mane silhouette 1
-unicorns_easy,21,leg arrangement 3; head angle 15 degrees; expression 1; mane silhouette 2
-unicorns_easy,22,leg arrangement 4; head angle -15 degrees; expression 2; mane silhouette 2
-unicorns_easy,23,leg arrangement 5; head angle 0 degrees; expression 3; mane silhouette 2
-unicorns_easy,24,leg arrangement 6; head angle 15 degrees; expression 4; mane silhouette 2
-unicorns_easy,25,leg arrangement 1; head angle -15 degrees; expression 5; mane silhouette 2
-unicorns_easy,26,leg arrangement 2; head angle 0 degrees; expression 1; mane silhouette 3
-unicorns_easy,27,leg arrangement 3; head angle 15 degrees; expression 2; mane silhouette 3
-unicorns_easy,28,leg arrangement 4; head angle -15 degrees; expression 3; mane silhouette 3
-unicorns_easy,29,leg arrangement 5; head angle 0 degrees; expression 4; mane silhouette 3
-unicorns_easy,30,leg arrangement 6; head angle 15 degrees; expression 5; mane silhouette 3
-unicorns_medium,1,leg arrangement 1; head angle -15 degrees; expression 1; mane silhouette 1
-unicorns_medium,2,leg arrangement 2; head angle 0 degrees; expression 2; mane silhouette 1
-unicorns_medium,3,leg arrangement 3; head angle 15 degrees; expression 3; mane silhouette 1
-unicorns_medium,4,leg arrangement 4; head angle -15 degrees; expression 4; mane silhouette 1
-unicorns_medium,5,leg arrangement 5; head angle 0 degrees; expression 5; mane silhouette 1
-unicorns_medium,6,leg arrangement 6; head angle 15 degrees; expression 1; mane silhouette 2
-unicorns_medium,7,leg arrangement 1; head angle -15 degrees; expression 2; mane silhouette 2
-unicorns_medium,8,leg arrangement 2; head angle 0 degrees; expression 3; mane silhouette 2
-unicorns_medium,9,leg arrangement 3; head angle 15 degrees; expression 4; mane silhouette 2
-unicorns_medium,10,leg arrangement 4; head angle -15 degrees; expression 5; mane silhouette 2
-unicorns_medium,11,leg arrangement 5; head angle 0 degrees; expression 1; mane silhouette 3
-unicorns_medium,12,leg arrangement 6; head angle 15 degrees; expression 2; mane silhouette 3
-unicorns_medium,13,leg arrangement 1; head angle -15 degrees; expression 3; mane silhouette 3
-unicorns_medium,14,leg arrangement 2; head angle 0 degrees; expression 4; mane silhouette 3
-unicorns_medium,15,leg arrangement 3; head angle 15 degrees; expression 5; mane silhouette 3
-unicorns_medium,16,leg arrangement 4; head angle -15 degrees; expression 1; mane silhouette 1
-unicorns_medium,17,leg arrangement 5; head angle 0 degrees; expression 2; mane silhouette 1
-unicorns_medium,18,leg arrangement 6; head angle 15 degrees; expression 3; mane silhouette 1
-unicorns_medium,19,leg arrangement 1; head angle -15 degrees; expression 4; mane silhouette 1
-unicorns_medium,20,leg arrangement 2; head angle 0 degrees; expression 5; mane silhouette 1
-unicorns_medium,21,leg arrangement 3; head angle 15 degrees; expression 1; mane silhouette 2
-unicorns_medium,22,leg arrangement 4; head angle -15 degrees; expression 2; mane silhouette 2
-unicorns_medium,23,leg arrangement 5; head angle 0 degrees; expression 3; mane silhouette 2
-unicorns_medium,24,leg arrangement 6; head angle 15 degrees; expression 4; mane silhouette 2
-unicorns_medium,25,leg arrangement 1; head angle -15 degrees; expression 5; mane silhouette 2
-unicorns_medium,26,leg arrangement 2; head angle 0 degrees; expression 1; mane silhouette 3
-unicorns_medium,27,leg arrangement 3; head angle 15 degrees; expression 2; mane silhouette 3
-unicorns_medium,28,leg arrangement 4; head angle -15 degrees; expression 3; mane silhouette 3
-unicorns_medium,29,leg arrangement 5; head angle 0 degrees; expression 4; mane silhouette 3
-unicorns_medium,30,leg arrangement 6; head angle 15 degrees; expression 5; mane silhouette 3
-unicorns_hard,1,leg arrangement 1; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,2,leg arrangement 1; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,3,leg arrangement 1; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,4,leg arrangement 1; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,5,leg arrangement 1; head angle 27 degrees; expression 5; mane silhouette 1
-unicorns_hard,6,leg arrangement 2; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,7,leg arrangement 2; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,8,leg arrangement 2; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,9,leg arrangement 2; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,10,leg arrangement 2; head angle 27 degrees; expression 5; mane silhouette 1
-unicorns_hard,11,leg arrangement 3; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,12,leg arrangement 3; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,13,leg arrangement 3; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,14,leg arrangement 3; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,15,leg arrangement 3; head angle 27 degrees; expression 5; mane silhouette 1
-unicorns_hard,16,leg arrangement 4; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,17,leg arrangement 4; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,18,leg arrangement 4; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,19,leg arrangement 4; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,20,leg arrangement 4; head angle 27 degrees; expression 5; mane silhouette 1
-unicorns_hard,21,leg arrangement 5; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,22,leg arrangement 5; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,23,leg arrangement 5; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,24,leg arrangement 5; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,25,leg arrangement 5; head angle 27 degrees; expression 5; mane silhouette 1
-unicorns_hard,26,leg arrangement 6; head angle -18 degrees; expression 1; mane silhouette 1
-unicorns_hard,27,leg arrangement 6; head angle -8 degrees; expression 2; mane silhouette 1
-unicorns_hard,28,leg arrangement 6; head angle 2 degrees; expression 3; mane silhouette 1
-unicorns_hard,29,leg arrangement 6; head angle 14 degrees; expression 4; mane silhouette 1
-unicorns_hard,30,leg arrangement 6; head angle 27 degrees; expression 5; mane silhouette 1
+mix_easy,1,rocket
+mix_easy,2,robot
+mix_easy,3,tiger
+mix_easy,4,racing-car
+mix_easy,5,penguin
+mix_easy,6,pizza
+mix_easy,7,planet
+mix_easy,8,elephant
+mix_easy,9,sailboat
+mix_easy,10,football
+mix_easy,11,crab
+mix_easy,12,icecream
+mix_easy,13,helicopter
+mix_easy,14,dinosaur
+mix_easy,15,ufo
+mix_easy,16,turtle
+mix_easy,17,guitar
+mix_easy,18,submarine
+mix_easy,19,fox
+mix_easy,20,apple
+mix_easy,21,train
+mix_easy,22,octopus
+mix_easy,23,bicycle
+mix_easy,24,pineapple
+mix_easy,25,camera
+mix_easy,26,owl
+mix_easy,27,kite
+mix_easy,28,burger
+mix_easy,29,dog
+mix_easy,30,controller
+animals_easy,1,fox
+animals_easy,2,dog
+animals_easy,3,cat
+animals_easy,4,lion
+animals_easy,5,tiger
+animals_easy,6,bear
+animals_easy,7,panda
+animals_easy,8,koala
+animals_easy,9,rabbit
+animals_easy,10,mouse
+animals_easy,11,elephant
+animals_easy,12,giraffe
+animals_easy,13,zebra
+animals_easy,14,rhino
+animals_easy,15,hippo
+animals_easy,16,frog
+animals_easy,17,penguin
+animals_easy,18,owl
+animals_easy,19,parrot
+animals_easy,20,duck
+animals_easy,21,fish
+animals_easy,22,shark
+animals_easy,23,whale
+animals_easy,24,dolphin
+animals_easy,25,turtle
+animals_easy,26,crocodile
+animals_easy,27,crab
+animals_easy,28,octopus
+animals_easy,29,dinosaur
+animals_easy,30,ladybird
+vehicles_easy,1,racing-car
+vehicles_easy,2,taxi
+vehicles_easy,3,police-car
+vehicles_easy,4,pickup
+vehicles_easy,5,camper
+vehicles_easy,6,van
+vehicles_easy,7,bus
+vehicles_easy,8,school-bus
+vehicles_easy,9,fire-engine
+vehicles_easy,10,lorry
+vehicles_easy,11,dump-truck
+vehicles_easy,12,tractor
+vehicles_easy,13,excavator
+vehicles_easy,14,bulldozer
+vehicles_easy,15,plane
+vehicles_easy,16,jet
+vehicles_easy,17,biplane
+vehicles_easy,18,helicopter
+vehicles_easy,19,rocket
+vehicles_easy,20,sailboat
+vehicles_easy,21,speedboat
+vehicles_easy,22,ship
+vehicles_easy,23,submarine
+vehicles_easy,24,train
+vehicles_easy,25,tram
+vehicles_easy,26,bicycle
+vehicles_easy,27,scooter
+vehicles_easy,28,motorbike
+vehicles_easy,29,balloon
+vehicles_easy,30,spaceship
+robots_easy,1,robot; arms 1; legs/expression 1
+robots_easy,2,robot; arms 1; legs/expression 2
+robots_easy,3,robot; arms 1; legs/expression 3
+robots_easy,4,robot; arms 1; legs/expression 4
+robots_easy,5,robot; arms 1; legs/expression 5
+robots_easy,6,robot; arms 2; legs/expression 1
+robots_easy,7,robot; arms 2; legs/expression 2
+robots_easy,8,robot; arms 2; legs/expression 3
+robots_easy,9,robot; arms 2; legs/expression 4
+robots_easy,10,robot; arms 2; legs/expression 5
+robots_easy,11,robot; arms 3; legs/expression 1
+robots_easy,12,robot; arms 3; legs/expression 2
+robots_easy,13,robot; arms 3; legs/expression 3
+robots_easy,14,robot; arms 3; legs/expression 4
+robots_easy,15,robot; arms 3; legs/expression 5
+robots_easy,16,robot; arms 4; legs/expression 1
+robots_easy,17,robot; arms 4; legs/expression 2
+robots_easy,18,robot; arms 4; legs/expression 3
+robots_easy,19,robot; arms 4; legs/expression 4
+robots_easy,20,robot; arms 4; legs/expression 5
+robots_easy,21,robot; arms 5; legs/expression 1
+robots_easy,22,robot; arms 5; legs/expression 2
+robots_easy,23,robot; arms 5; legs/expression 3
+robots_easy,24,robot; arms 5; legs/expression 4
+robots_easy,25,robot; arms 5; legs/expression 5
+robots_easy,26,robot; arms 6; legs/expression 1
+robots_easy,27,robot; arms 6; legs/expression 2
+robots_easy,28,robot; arms 6; legs/expression 3
+robots_easy,29,robot; arms 6; legs/expression 4
+robots_easy,30,robot; arms 6; legs/expression 5
+robots_medium,1,robot; arms 1; legs/expression 1
+robots_medium,2,robot; arms 1; legs/expression 2
+robots_medium,3,robot; arms 1; legs/expression 3
+robots_medium,4,robot; arms 1; legs/expression 4
+robots_medium,5,robot; arms 1; legs/expression 5
+robots_medium,6,robot; arms 2; legs/expression 1
+robots_medium,7,robot; arms 2; legs/expression 2
+robots_medium,8,robot; arms 2; legs/expression 3
+robots_medium,9,robot; arms 2; legs/expression 4
+robots_medium,10,robot; arms 2; legs/expression 5
+robots_medium,11,robot; arms 3; legs/expression 1
+robots_medium,12,robot; arms 3; legs/expression 2
+robots_medium,13,robot; arms 3; legs/expression 3
+robots_medium,14,robot; arms 3; legs/expression 4
+robots_medium,15,robot; arms 3; legs/expression 5
+robots_medium,16,robot; arms 4; legs/expression 1
+robots_medium,17,robot; arms 4; legs/expression 2
+robots_medium,18,robot; arms 4; legs/expression 3
+robots_medium,19,robot; arms 4; legs/expression 4
+robots_medium,20,robot; arms 4; legs/expression 5
+robots_medium,21,robot; arms 5; legs/expression 1
+robots_medium,22,robot; arms 5; legs/expression 2
+robots_medium,23,robot; arms 5; legs/expression 3
+robots_medium,24,robot; arms 5; legs/expression 4
+robots_medium,25,robot; arms 5; legs/expression 5
+robots_medium,26,robot; arms 6; legs/expression 1
+robots_medium,27,robot; arms 6; legs/expression 2
+robots_medium,28,robot; arms 6; legs/expression 3
+robots_medium,29,robot; arms 6; legs/expression 4
+robots_medium,30,robot; arms 6; legs/expression 5
+robots_hard,1,robot; arms 1; legs/expression 1
+robots_hard,2,robot; arms 1; legs/expression 2
+robots_hard,3,robot; arms 1; legs/expression 3
+robots_hard,4,robot; arms 1; legs/expression 4
+robots_hard,5,robot; arms 1; legs/expression 5
+robots_hard,6,robot; arms 2; legs/expression 1
+robots_hard,7,robot; arms 2; legs/expression 2
+robots_hard,8,robot; arms 2; legs/expression 3
+robots_hard,9,robot; arms 2; legs/expression 4
+robots_hard,10,robot; arms 2; legs/expression 5
+robots_hard,11,robot; arms 3; legs/expression 1
+robots_hard,12,robot; arms 3; legs/expression 2
+robots_hard,13,robot; arms 3; legs/expression 3
+robots_hard,14,robot; arms 3; legs/expression 4
+robots_hard,15,robot; arms 3; legs/expression 5
+robots_hard,16,robot; arms 4; legs/expression 1
+robots_hard,17,robot; arms 4; legs/expression 2
+robots_hard,18,robot; arms 4; legs/expression 3
+robots_hard,19,robot; arms 4; legs/expression 4
+robots_hard,20,robot; arms 4; legs/expression 5
+robots_hard,21,robot; arms 5; legs/expression 1
+robots_hard,22,robot; arms 5; legs/expression 2
+robots_hard,23,robot; arms 5; legs/expression 3
+robots_hard,24,robot; arms 5; legs/expression 4
+robots_hard,25,robot; arms 5; legs/expression 5
+robots_hard,26,robot; arms 6; legs/expression 1
+robots_hard,27,robot; arms 6; legs/expression 2
+robots_hard,28,robot; arms 6; legs/expression 3
+robots_hard,29,robot; arms 6; legs/expression 4
+robots_hard,30,robot; arms 6; legs/expression 5

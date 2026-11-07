@@ -1,4 +1,6 @@
-# Fairy & Unicorn Memory — Godot game
+# Memory Card Game — Godot game
+
+> Historical product brief. Version 2.0 adopts the name Memory Card Game, a bold blue/orange/yellow/teal interface, and mixed objects, animals, vehicles and robots. The original theme requirements below describe the first release; the current game and artwork are documented in README.md and IMPLEMENTATION.md.
 
 ## 1. Product and defaults
 
