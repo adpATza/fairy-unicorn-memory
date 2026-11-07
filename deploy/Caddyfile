@@ -1,0 +1,45 @@
+# Memory Card Game web edition: Caddy site for mg.antonduplessis.com
+#
+# Installed as /etc/caddy/Caddyfile by deploy/setup-server.sh. Caddy obtains
+# and renews the HTTPS certificate by itself once the domain points at this
+# server and ports 80 and 443 are open. Releases are uploaded by
+# deploy/deploy.mjs; "current" always links to the live release.
+#
+# The security headers must match web/security-headers.json, which the
+# browser tests run under (web/test/deploy.test.ts checks they agree).
+
+mg.antonduplessis.com {
+	root * /var/www/memory-card-game/current
+	encode zstd gzip
+	file_server {
+		hide .*
+	}
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'sha256-QnPxZBbugqb9IHfc0zyb+ZMEOY8UrLONJLrkj/vo9dI='; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+		Cross-Origin-Opener-Policy "same-origin"
+		Cross-Origin-Resource-Policy "same-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+		Referrer-Policy "no-referrer"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		-Server
+	}
+
+	# File names under /assets change with every release: cache them for a year.
+	@hashed path /assets/*
+	header @hashed Cache-Control "public, max-age=31536000, immutable"
+
+	# Everything else (the page, service worker, manifest, guide, icons) is
+	# revalidated, so a new release is picked up straight away.
+	@fresh not path /assets/*
+	header @fresh Cache-Control "no-cache"
+
+	@manifest path /manifest.webmanifest
+	header @manifest Content-Type "application/manifest+json"
+
+	log {
+		output file /var/log/caddy/memory-card-game.log
+	}
+}
