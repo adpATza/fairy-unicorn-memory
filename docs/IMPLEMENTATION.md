@@ -40,3 +40,7 @@ Preferences are stored in `preferences.cfg`. Unfinished rounds are not persisted
 ## Delivery
 
 The export is `Memory Card Game.exe` with `Memory Card Game.pck`. Packaging builds and tests a copied executable away from the project, runs fresh-process persistence checks, and creates compact source and Windows ZIPs plus SHA-256 sums. Optional PNG collections and classic artwork remain in Git and their existing artwork release rather than being duplicated in the compact game source ZIP.
+
+## Web edition
+
+`web/` is a separate TypeScript implementation of the same game for browsers, installable as a progressive web app. It reads `assets/decks/`, `assets/card_back.svg` and `assets/icon.svg` directly, and `tools/build_guide.py` generates its guide from the shared text. The rules (`web/src/session.ts`) and placement (`web/src/layout.ts`) are ports of `MemorySession` and `MemoryLayout`; placement uses the board's own shape at round start so phones and tablets get a fitted board, and resizing scales without moving cards. Custom decks use manifest version 1 unchanged and are stored in IndexedDB; backups mirror this data folder's `decks/custom_*` layout, so decks move between editions. `web/.gdignore` keeps Godot from importing the folder, and the Windows export and source ZIP exclude `web/` and `verification/web/`. Details are in `web/README.md`, `docs/PWA-PLAN.md` and `verification/web/WEB-VERIFICATION.md`.
