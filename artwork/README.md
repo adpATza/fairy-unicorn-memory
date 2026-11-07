@@ -2,18 +2,18 @@
 
 Eight additional collections, comprising **203 unique card illustrations**, plus original images, generation prompts, provenance records, labelled previews, thumbnail reviews and validation records. These are optional collections for the game's folder importer.
 
-[Download the artwork ZIPs](https://github.com/adpATza/fairy-unicorn-memory/releases/tag/artwork-2026-11-07)
+[Download the artwork ZIPs](https://github.com/adpATza/memory-card-game/releases/tag/artwork-2026-11-07)
 
 | Collection | Unique cards | Import folder | Download |
 | --- | ---: | --- | --- |
-| Aircraft colour sketches | 30 | `aircraft-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/aircraft-colour-sketches-v1.zip) |
-| Cars colour sketches | 30 | `cars-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/cars-colour-sketches-v1.zip) |
-| Country flags colour sketches | 50 | `country-flags-colour-sketches-50-v1/decks/01-world-flags-a/` and `02-world-flags-b/` (25 each) | [Cards](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/country-flags-colour-sketches-50-v1-cards.zip) · [Complete package](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/country-flags-colour-sketches-50-v1-complete.zip) |
-| Illustrated landmarks | 15 | `landmarks-illustrated-15-v1/cards/` | [Cards](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/landmarks-illustrated-15-v1-cards.zip) |
-| Cartoon octopuses | 12 | `octopus-cartoon-12-v1/images/` | [Cards](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/octopus-cartoon-12-v1-cards.zip) |
-| Hard cartoon pandas | 24 | `pandas-cartoon-hard-24/cards/` | [Cards](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/pandas-cartoon-hard-24-cards.zip) |
-| Ships colour sketches | 30 | `ships-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/ships-colour-sketches-v1.zip) |
-| Hard cartoon zebras | 12 | `zebras-cartoon-hard-12-v1/cards/` | [Cards](https://github.com/adpATza/fairy-unicorn-memory/releases/download/artwork-2026-11-07/zebras-cartoon-hard-12-v1-cards.zip) |
+| Aircraft colour sketches | 30 | `aircraft-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/aircraft-colour-sketches-v1.zip) |
+| Cars colour sketches | 30 | `cars-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/cars-colour-sketches-v1.zip) |
+| Country flags colour sketches | 50 | `country-flags-colour-sketches-50-v1/decks/01-world-flags-a/` and `02-world-flags-b/` (25 each) | [Cards](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/country-flags-colour-sketches-50-v1-cards.zip) · [Complete package](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/country-flags-colour-sketches-50-v1-complete.zip) |
+| Illustrated landmarks | 15 | `landmarks-illustrated-15-v1/cards/` | [Cards](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/landmarks-illustrated-15-v1-cards.zip) |
+| Cartoon octopuses | 12 | `octopus-cartoon-12-v1/images/` | [Cards](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/octopus-cartoon-12-v1-cards.zip) |
+| Hard cartoon pandas | 24 | `pandas-cartoon-hard-24/cards/` | [Cards](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/pandas-cartoon-hard-24-cards.zip) |
+| Ships colour sketches | 30 | `ships-colour-sketches-v1/images/` | [Complete package](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/ships-colour-sketches-v1.zip) |
+| Hard cartoon zebras | 12 | `zebras-cartoon-hard-12-v1/cards/` | [Cards](https://github.com/adpATza/memory-card-game/releases/download/artwork-2026-11-07/zebras-cartoon-hard-12-v1-cards.zip) |
 
 The `aeroplanes/style-review-v1/` folder preserves the initial two-image style review. It is not an additional finished deck.
 

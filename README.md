@@ -1,12 +1,14 @@
-# Fairy & Unicorn Memory
+# Memory Card Game
 
-An offline storybook memory game for Windows, built with **Godot 4.7.2 / GDScript / Compatibility**.
+An offline storybook memory card game for Windows, built with **Godot 4.7.2 / GDScript / Compatibility**.
 
-[Download the Windows game](https://github.com/adpATza/fairy-unicorn-memory/releases/latest/download/Fairy-Unicorn-Memory-Windows-x64.zip) · [All releases and editable source](https://github.com/adpATza/fairy-unicorn-memory/releases)
+[Download the Windows game](https://github.com/adpATza/memory-card-game/releases/latest/download/Fairy-Unicorn-Memory-Windows-x64.zip) · [All releases and editable source](https://github.com/adpATza/memory-card-game/releases)
 
 ![The game's storybook setup screen](verification/screenshots/setup.png)
 
 ## Play
+
+The published Windows release is titled **Fairy & Unicorn Memory** and includes the fairy and unicorn starter decks. Additional subjects are available as importable artwork collections.
 
 Download the Windows ZIP from Releases, extract it into a folder, and launch `Fairy and Unicorn Memory.exe`. Keep the EXE and PCK together. A locally built package is also available under `dist/Fairy and Unicorn Memory/`. No editor, Python, installer, administrator rights, account, or internet connection is required to play.
 
@@ -31,7 +33,7 @@ Data and preferences: `%APPDATA%\Fairy and Unicorn Memory\`. Back up this folder
 
 Read **docs/Artwork and Import Guide.html**, also available from the game's Adult guide screen. It contains a reusable generation prompt, six difficulty examples, a 30-image planning checklist and import instructions.
 
-Additional artwork is available in [artwork/](artwork/README.md): 203 card illustrations covering aircraft, cars, country flags, landmarks, octopuses, pandas, ships and zebras. [Download the artwork packages](https://github.com/adpATza/fairy-unicorn-memory/releases/tag/artwork-2026-11-07), then import the individual card folders through the deck library.
+Additional artwork is available in [artwork/](artwork/README.md): 203 card illustrations covering aircraft, cars, country flags, landmarks, octopuses, pandas, ships and zebras. [Download the artwork packages](https://github.com/adpATza/memory-card-game/releases/tag/artwork-2026-11-07), then import the individual card folders through the deck library.
 
 ## Edit
 
