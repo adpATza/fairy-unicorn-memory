@@ -17,6 +17,25 @@ if [ "$(id -u)" -ne 0 ]; then echo "Run this with sudo." >&2; exit 1; fi
 if [ -z "$DEPLOY_USER" ] || [ "$DEPLOY_USER" = root ]; then echo "Run with sudo from the account that will deploy, or set DEPLOY_USER." >&2; exit 1; fi
 if [ ! -f "$HERE/Caddyfile" ]; then echo "Caddyfile not found beside this script." >&2; exit 1; fi
 
+echo "== Safety checks"
+# Another web server on 80/443 would conflict with Caddy: stop rather than break it.
+if command -v ss >/dev/null; then
+  others="$(ss -tlnpH '( sport = :80 or sport = :443 )' | grep -v '"caddy"' || true)"
+  if [ -n "$others" ]; then
+    echo "Ports 80/443 are already used by another program; not changing anything:" >&2
+    echo "$others" >&2
+    exit 1
+  fi
+fi
+# An existing Caddyfile with other sites must not be overwritten.
+if [ -f /etc/caddy/Caddyfile ] && ! grep -q 'Memory Card Game web edition' /etc/caddy/Caddyfile \
+  && grep -vE '^\s*(#|$)' /etc/caddy/Caddyfile | grep -qvE '^\s*(:80 \{|root \* /usr/share/caddy|file_server|\})\s*$'; then
+  echo "/etc/caddy/Caddyfile already serves other sites; add deploy/Caddyfile's site block to it by hand. Not changing anything." >&2
+  exit 1
+fi
+echo "Listening TCP ports before the firewall changes (anything other than 22, 80 and 443 will be blocked):"
+ss -tlnH 2>/dev/null | awk '{print "  " $4}' | sort -u || true
+
 echo "== Packages"
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install -y ufw curl gpg
@@ -44,6 +63,7 @@ install -d -o "$DEPLOY_USER" -g "$DEPLOY_USER" -m 755 "$SITE_DIR" "$SITE_DIR/rel
 install -d -o caddy -g caddy -m 755 /var/log/caddy
 
 echo "== Caddy configuration"
+if [ -f /etc/caddy/Caddyfile ]; then cp -a /etc/caddy/Caddyfile "/etc/caddy/Caddyfile.bak-$(date +%Y%m%d-%H%M%S)"; fi
 install -m 644 "$HERE/Caddyfile" /etc/caddy/Caddyfile
 caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
 systemctl enable caddy
