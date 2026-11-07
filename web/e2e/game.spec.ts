@@ -177,3 +177,32 @@ test('hovering a face-down card keeps its card back', async ({ page }) => {
   const background = await card(page, 2).evaluate((el) => getComputedStyle(el).backgroundImage);
   expect(background).toMatch(/^url\(/);
 });
+
+test.describe('adult guide', () => {
+  test('opens from setup and the library, and links to the printable page', async ({ page }) => {
+    await usePrefs(page);
+    await page.goto('./');
+    await page.getByRole('button', { name: 'Adult guide' }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Artwork & custom decks' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Installing, storage & backup' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Reusable generation prompt' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Open printable guide' })).toHaveAttribute('href', 'guide.html');
+    await page.getByRole('button', { name: 'Go to deck library' }).click();
+    await page.getByRole('button', { name: 'Artwork & import guide' }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Artwork & custom decks' })).toBeVisible();
+    await page.goBack();
+    await expect(page.getByRole('button', { name: 'Let’s play' })).toBeVisible();
+  });
+
+  test('the printable guide works offline and leads back to the game', async ({ page, context }) => {
+    await page.goto('./');
+    await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
+    await context.setOffline(true);
+    await page.goto('./guide.html');
+    await expect(page.getByRole('heading', { level: 1, name: 'Memory Card Game' })).toBeVisible();
+    await page.getByRole('link', { name: 'Back to the game' }).click();
+    await expect(page.getByRole('button', { name: 'Let’s play' })).toBeVisible();
+    await page.getByRole('button', { name: 'Adult guide' }).click();
+    await expect(page.getByRole('heading', { level: 2, name: 'Playing together' })).toBeVisible();
+  });
+});

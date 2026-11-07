@@ -63,12 +63,17 @@ export function createSetupScreen(app: App): Screen {
   // Install is shown only where the browser offers installation (Chromium browsers).
   const install = h('button', { type: 'button', class: 'install' }, 'Install app');
   const libraryButton = h('button', { type: 'button' }, 'Deck library');
-  const actions = h('nav', { class: 'setup-actions', 'aria-label': 'App' }, install, libraryButton);
+  const guideButton = h('button', { type: 'button' }, 'Adult guide');
+  const actions = h('nav', { class: 'setup-actions', 'aria-label': 'App' }, install, libraryButton, guideButton);
   const updateInstall = () => (install.hidden = !app.pwa.canInstall());
   install.addEventListener('click', () => void app.pwa.install());
   libraryButton.addEventListener('click', () => {
     remember();
     app.showLibrary();
+  });
+  guideButton.addEventListener('click', () => {
+    remember();
+    app.showGuide();
   });
 
   const form = h(
@@ -99,7 +104,7 @@ export function createSetupScreen(app: App): Screen {
     ),
     actions,
     h('aside', { class: 'sample', 'aria-label': 'Deck preview' }, sample),
-    h('div', { class: 'setup-prefs' }, h('label', { class: 'check' }, sound, 'Sound'), h('label', { class: 'check' }, motion, 'Reduced motion')),
+    h('section', { class: 'setup-prefs', 'aria-label': 'Sound and motion' }, h('label', { class: 'check' }, sound, 'Sound'), h('label', { class: 'check' }, motion, 'Reduced motion')),
   );
 
   function selectedDeck(): Deck | undefined {

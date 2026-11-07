@@ -51,10 +51,15 @@ export function createImportScreen(app: App, scan: ScanResult): Screen {
   const element = h(
     'div',
     { class: 'screen import', 'data-screen': 'import' },
-    h('header', { class: 'page-head' }, h('h1', {}, 'Create a deck'), h('button', { type: 'button', onclick: () => app.showLibrary() }, 'Cancel import')),
-    h('p', { class: 'tagline' }, 'Review the square previews, then select 2–30 unique pictures.'),
     h(
-      'div',
+      'header',
+      { class: 'page-head' },
+      h('h1', {}, 'Create a deck'),
+      h('button', { type: 'button', onclick: () => app.showLibrary() }, 'Cancel import'),
+      h('p', { class: 'tagline' }, 'Review the square previews, then select 2–30 unique pictures.'),
+    ),
+    h(
+      'main',
       { class: 'import-body' },
       h(
         'section',
@@ -114,6 +119,7 @@ export function createImportScreen(app: App, scan: ScanResult): Screen {
   update();
   return {
     element,
+    title: 'Create a deck',
     mounted() {
       if (app.shouldAutoFocus()) title.focus();
     },

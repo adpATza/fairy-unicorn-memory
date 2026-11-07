@@ -53,7 +53,7 @@ def archives():
     with zipfile.ZipFile(DIST/'Memory-Card-Game-Godot-Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for file in ROOT.rglob('*'):
             rel=file.relative_to(ROOT)
-            if any(p in excluded for p in rel.parts) or rel.parts[:2]==('verification','runtime'):continue
+            if any(p in excluded for p in rel.parts) or rel.parts[:2] in {('verification','runtime'),('verification','web')}:continue
             if rel.parts[0]=='verification' and (file.suffix in {'.log','.import'} or any(p.startswith('manual-images_') for p in rel.parts)):continue
             if file.is_file():z.write(file,'Memory Card Game Source/'+rel.as_posix())
         # Optional artwork is distributed separately; keep the compact project editable.

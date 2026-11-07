@@ -7,6 +7,7 @@ import { browserStorage, defaultPreferences, loadPreferences, parsePreferences, 
 import { Pwa } from './pwa';
 import { randomSeed } from './rng';
 import { createGameplayScreen, type GameplayScreen } from './screens/gameplay';
+import { createGuideScreen } from './screens/guide';
 import { createImportScreen } from './screens/import';
 import { createLibraryScreen } from './screens/library';
 import { createResultsScreen, type RoundResult } from './screens/results';
@@ -27,6 +28,8 @@ export interface RoundConfig {
 
 export interface Screen {
   element: HTMLElement;
+  /** Shown before the app name in the window title, e.g. "Deck library". */
+  title?: string;
   /** Called once the element is in the document and has a size. */
   mounted?(): void;
   destroy?(): void;
@@ -119,6 +122,12 @@ export class App {
     this.mount(createLibraryScreen(this));
   }
 
+  showGuide(): void {
+    this.game = null;
+    this.leaveSetupEntry();
+    this.mount(createGuideScreen(this));
+  }
+
   showImport(scan: ScanResult): void {
     this.game = null;
     this.leaveSetupEntry();
@@ -168,7 +177,17 @@ export class App {
     this.screen = next;
     this.root.replaceChildren(next.element);
     document.documentElement.dataset.screen = next.element.dataset.screen ?? '';
+    document.title = next.title ? `${next.title} · Memory Card Game` : 'Memory Card Game';
     next.mounted?.();
+    // Screen-reader and keyboard users land on the new screen: when nothing in
+    // it has focus yet, focus its heading (browsers draw no ring after a tap).
+    if (!next.element.contains(document.activeElement)) {
+      const heading = next.element.querySelector<HTMLElement>('h1');
+      if (heading) {
+        heading.tabIndex = -1;
+        heading.focus({ preventScroll: true });
+      }
+    }
     this.pwa.screenChanged();
   }
 }

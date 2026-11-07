@@ -171,6 +171,7 @@ export function createGameplayScreen(app: App, config: RoundConfig, deck: Deck):
 
   function render(): void {
     const turn = config.players > 1 ? `${session.names[session.activePlayer]}’s turn` : 'Take your time. Find a pair.';
+    frame.turn.classList.toggle('solo', config.players === 1);
     if (config.players > 1) frame.turn.textContent = turn;
     else if (!frame.turn.firstChild) frame.turn.append(h('span', { class: 'turn-extra' }, 'Take your time. '), 'Find a pair.');
     frame.remaining.textContent = `${pairs(session.remaining)} left`;
@@ -345,6 +346,7 @@ export function createGameplayScreen(app: App, config: RoundConfig, deck: Deck):
 
   const screen: GameplayScreen = {
     element: frame.root,
+    title: 'Playing',
     session,
     finished: () => session.state === 'finished',
     setPaused,

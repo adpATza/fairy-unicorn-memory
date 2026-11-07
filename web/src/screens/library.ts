@@ -28,15 +28,15 @@ export function createLibraryScreen(app: App): Screen {
     h('button', { type: 'button', class: 'primary large', onclick: () => pictureInput.click() }, 'Choose pictures'),
     folderSupported ? h('button', { type: 'button', onclick: () => folderInput.click() }, 'Choose a folder') : null,
     h('p', { class: 'drop-hint muted' }, 'Or drop pictures, a saved deck folder or a backup here.'),
+    h('button', { type: 'button', onclick: () => app.showGuide() }, 'Artwork & import guide'),
     library.storeError ? h('p', { class: 'warning-text' }, library.storeError) : null,
   );
   const element = h(
     'div',
     { class: 'screen library', 'data-screen': 'library' },
-    h('header', { class: 'page-head' }, h('h1', {}, 'Deck library'), h('button', { type: 'button', onclick: () => app.showSetup() }, 'Return to setup')),
-    h('p', { class: 'tagline' }),
+    h('header', { class: 'page-head' }, h('h1', {}, 'Deck library'), h('button', { type: 'button', onclick: () => app.showSetup() }, 'Return to setup'), h('p', { class: 'tagline' })),
     h(
-      'div',
+      'main',
       { class: 'library-body' },
       list,
       h(
@@ -51,8 +51,8 @@ export function createLibraryScreen(app: App): Screen {
           h('div', { class: 'button-row' }, backup, h('button', { type: 'button', onclick: () => restoreInput.click(), disabled: !library.store }, 'Restore backup')),
         ),
       ),
+      h('div', { class: 'library-warnings' }),
     ),
-    h('div', { class: 'library-warnings' }),
     pictureInput,
     folderInput,
     restoreInput,
@@ -234,7 +234,7 @@ export function createLibraryScreen(app: App): Screen {
   });
 
   render();
-  return { element };
+  return { element, title: 'Deck library' };
 }
 
 function formatBytes(bytes: number): string {

@@ -796,11 +796,20 @@ label.extra {
     padding: 4px 8px 0;
   }
 
-  .hud-title,
   .wide-only,
   .sound-button,
   .turn-extra {
     display: none;
+  }
+
+  /* The title stays available to screen readers. */
+  .hud-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
   .hud-actions button {
@@ -852,6 +861,13 @@ label.extra {
   .hint,
   .clock {
     font-size: 15px;
+  }
+}
+
+/* Very narrow phones: the solo encouragement repeats the footer hint. */
+@media (max-width: 360px) {
+  .turn.solo {
+    visibility: hidden;
   }
 }
 
@@ -1130,6 +1146,15 @@ dialog.pause > .primary {
   line-height: 1.15;
 }
 
+.page-head .tagline {
+  flex-basis: 100%;
+  margin-top: -10px;
+}
+
+.library-warnings {
+  grid-column: 1 / -1;
+}
+
 .library-body {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 460px);
@@ -1398,4 +1423,90 @@ dialog.progress {
   .tiles {
     grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
   }
+}
+
+/* ---------- Guide ---------- */
+
+.screen.guide {
+  max-width: 980px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: calc(26px + var(--safe-top)) calc(40px + var(--safe-right)) calc(28px + var(--safe-bottom)) calc(40px + var(--safe-left));
+}
+
+.guide-main {
+  margin-top: 18px;
+  padding: 10px 36px 24px;
+  border-radius: 24px;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.guide-intro {
+  margin: 18px 0 8px;
+  color: var(--muted);
+  font-size: 20px;
+}
+
+.guide-main section {
+  margin: 18px 0;
+  overflow-wrap: anywhere;
+}
+
+.guide-main h2 {
+  margin: 26px 0 8px;
+  font-size: 26px;
+  line-height: 1.25;
+}
+
+/* The guide's text format leaves a line break after each heading. */
+.guide-main h2 + br {
+  display: none;
+}
+
+.guide-main strong {
+  color: var(--accent);
+}
+
+.guide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 18px;
+  border-radius: 12px;
+  background: var(--button);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background: var(--button-hover);
+}
+
+@media (max-width: 899px) {
+  .screen.guide {
+    padding: calc(18px + var(--safe-top)) calc(16px + var(--safe-right)) calc(20px + var(--safe-bottom)) calc(16px + var(--safe-left));
+  }
+
+  .guide-main {
+    padding: 4px 18px 16px;
+  }
+
+  .guide-main h2 {
+    font-size: 22px;
+  }
+}
+
+/* Headings focused on screen changes need no ring of their own. */
+h1[tabindex='-1']:focus {
+  outline: none;
 }

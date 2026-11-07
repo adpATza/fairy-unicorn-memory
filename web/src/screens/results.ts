@@ -52,6 +52,7 @@ export function createResultsScreen(app: App, result: RoundResult): Screen {
   );
   return {
     element,
+    title: 'Results',
     mounted: () => {
       if (app.shouldAutoFocus()) playAgain.focus({ preventScroll: true });
     },

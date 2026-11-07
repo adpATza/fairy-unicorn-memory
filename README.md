@@ -21,9 +21,11 @@ Choose 1–4 players, 2–30 pairs, a deck, and scattered or grid layout. The de
 
 Requires Windows 64-bit, a 1280 × 720 desktop, and OpenGL 3.3 graphics. The Windows release is tested on Intel UHD Graphics 630. Segoe UI and other available system sans serif fonts are used; no fonts are redistributed.
 
-## Web edition (in development)
+## Web edition
 
-A progressive web app edition for phones, tablets, Chromebooks and desktops lives in [`web/`](web/README.md). It shares this project's artwork and rules, installs to the home screen, plays offline after the first visit, and has a deck library for your own pictures, with backups that the Windows edition can read. The adult guide is still being ported; see [the plan](docs/PWA-PLAN.md).
+A progressive web app edition for phones, tablets, Chromebooks and desktops lives in [`web/`](web/README.md). It shares this project's artwork, rules and guide, installs to the home screen, plays offline after the first visit, and has a deck library for your own pictures, with backups that the Windows edition can read. Every card always fits the screen, and setup recommends how many pairs suit it.
+
+Once GitHub Pages is enabled for this repository (*Settings → Pages → Source: GitHub Actions*), the workflow publishes it from `main` at `https://adpatza.github.io/memory-card-game/`. See the [plan](docs/PWA-PLAN.md) and the [web verification record](verification/web/WEB-VERIFICATION.md).
 
 ## Six bright starter decks
 
