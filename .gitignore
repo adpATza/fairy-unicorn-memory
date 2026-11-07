@@ -7,3 +7,5 @@ verification/manual-images_*/
 verification/**/*.import
 *.tmp
 __pycache__/
+# Downloadable artwork archives are published as GitHub Release assets.
+/artwork/*.zip

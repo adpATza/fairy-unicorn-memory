@@ -1,0 +1,32 @@
+{
+  "total_images": 12,
+  "unique_decoded_images": 12,
+  "dimensions": [
+    "1254x1254"
+  ],
+  "originals_preserved": true,
+  "source_copies_identical": true,
+  "zip_entries": 12,
+  "zip_flat": true,
+  "zip_bytes_verified": true,
+  "zip_sha256": "a399c99f2f0343d69ad6f6b7b7674c3c730123ed2589725e316c04c5f29a0de7",
+  "review_sheets": [
+    "contact-sheet.png",
+    "thumbnail-review.png"
+  ],
+  "visual_arm_counts": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "import_play_test": "Not performed"
+}

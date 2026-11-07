@@ -1,0 +1,11 @@
+{
+  "images": 30,
+  "unique_models": 30,
+  "dimensions": "1254 x 1254",
+  "gallery_image_references_valid": 30,
+  "source_copies_and_archive_hashes_verified": true,
+  "minimum_measured_dark_ink_margin_percent": 10.05,
+  "archive": "cars-colour-sketches-v1.zip",
+  "archive_sha256": "604f49fada800dd590ddcb40eb1f21bbbca51b67cb226b27df7195a6ba94c318",
+  "import_play_test": "Not performed"
+}

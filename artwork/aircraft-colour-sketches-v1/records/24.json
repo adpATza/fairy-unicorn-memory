@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-10f5ca08-c168-4f70-b6b2-cd0ae6b3df65.png",
+  "slot": 24,
+  "file": "24-f14-tomcat.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Grumman F-14 Tomcat, broad twin-engine naval fighter, long pointed nose, TWO-seat tandem canopy, TWO widely spaced vertical fins and broad VARIABLE-SWEEP main wings shown spread forward. Pale light-grey with restrained dark blue fin tips. Engines and rectangular side intakes coherent. No weapons or external stores.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8097cadf-83bf-4c36-8359-7a228dabac33.png",
+      "prompt": "Edit this Grumman F-14 Tomcat colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+    }
+  ]
+}

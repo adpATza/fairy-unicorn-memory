@@ -1,0 +1,275 @@
+{
+  "method": "Bounding box of luminance below 160; supporting measurement, visual review is authoritative.",
+  "entries": [
+    {
+      "slot": 1,
+      "dark_ink_margin_percent": [
+        15.15,
+        13.4,
+        29.51,
+        29.98
+      ]
+    },
+    {
+      "slot": 2,
+      "dark_ink_margin_percent": [
+        16.83,
+        14.35,
+        30.46,
+        30.06
+      ]
+    },
+    {
+      "slot": 3,
+      "dark_ink_margin_percent": [
+        12.6,
+        10.77,
+        28.39,
+        24.88
+      ]
+    },
+    {
+      "slot": 4,
+      "dark_ink_margin_percent": [
+        15.07,
+        13.96,
+        28.87,
+        30.38
+      ]
+    },
+    {
+      "slot": 5,
+      "dark_ink_margin_percent": [
+        15.23,
+        13.64,
+        27.83,
+        28.55
+      ]
+    },
+    {
+      "slot": 6,
+      "dark_ink_margin_percent": [
+        13.48,
+        12.28,
+        31.34,
+        31.82
+      ]
+    },
+    {
+      "slot": 7,
+      "dark_ink_margin_percent": [
+        11.72,
+        11.48,
+        34.29,
+        33.33
+      ]
+    },
+    {
+      "slot": 8,
+      "dark_ink_margin_percent": [
+        13.56,
+        10.37,
+        32.38,
+        32.54
+      ]
+    },
+    {
+      "slot": 9,
+      "dark_ink_margin_percent": [
+        12.68,
+        12.04,
+        33.01,
+        34.61
+      ]
+    },
+    {
+      "slot": 10,
+      "dark_ink_margin_percent": [
+        12.04,
+        10.21,
+        36.04,
+        33.49
+      ]
+    },
+    {
+      "slot": 11,
+      "dark_ink_margin_percent": [
+        13.8,
+        12.28,
+        34.13,
+        33.17
+      ]
+    },
+    {
+      "slot": 12,
+      "dark_ink_margin_percent": [
+        13.4,
+        13.24,
+        35.01,
+        35.81
+      ]
+    },
+    {
+      "slot": 13,
+      "dark_ink_margin_percent": [
+        13.72,
+        14.75,
+        28.71,
+        30.54
+      ]
+    },
+    {
+      "slot": 14,
+      "dark_ink_margin_percent": [
+        12.68,
+        11.4,
+        34.77,
+        32.85
+      ]
+    },
+    {
+      "slot": 15,
+      "dark_ink_margin_percent": [
+        12.68,
+        10.85,
+        35.57,
+        34.61
+      ]
+    },
+    {
+      "slot": 16,
+      "dark_ink_margin_percent": [
+        13.56,
+        12.52,
+        37.16,
+        35.25
+      ]
+    },
+    {
+      "slot": 17,
+      "dark_ink_margin_percent": [
+        15.07,
+        13.64,
+        36.36,
+        32.46
+      ]
+    },
+    {
+      "slot": 18,
+      "dark_ink_margin_percent": [
+        15.55,
+        15.55,
+        38.12,
+        35.33
+      ]
+    },
+    {
+      "slot": 19,
+      "dark_ink_margin_percent": [
+        11.24,
+        11.72,
+        35.01,
+        35.57
+      ]
+    },
+    {
+      "slot": 20,
+      "dark_ink_margin_percent": [
+        12.04,
+        10.93,
+        33.17,
+        33.25
+      ]
+    },
+    {
+      "slot": 21,
+      "dark_ink_margin_percent": [
+        15.87,
+        13.8,
+        35.01,
+        34.69
+      ]
+    },
+    {
+      "slot": 22,
+      "dark_ink_margin_percent": [
+        14.19,
+        13.16,
+        33.57,
+        32.85
+      ]
+    },
+    {
+      "slot": 23,
+      "dark_ink_margin_percent": [
+        12.36,
+        10.13,
+        33.41,
+        32.7
+      ]
+    },
+    {
+      "slot": 24,
+      "dark_ink_margin_percent": [
+        10.45,
+        10.05,
+        31.74,
+        31.02
+      ]
+    },
+    {
+      "slot": 25,
+      "dark_ink_margin_percent": [
+        16.19,
+        12.6,
+        29.35,
+        27.11
+      ]
+    },
+    {
+      "slot": 26,
+      "dark_ink_margin_percent": [
+        13.64,
+        15.23,
+        29.67,
+        28.95
+      ]
+    },
+    {
+      "slot": 27,
+      "dark_ink_margin_percent": [
+        17.86,
+        13.96,
+        28.39,
+        26.56
+      ]
+    },
+    {
+      "slot": 28,
+      "dark_ink_margin_percent": [
+        15.31,
+        12.68,
+        32.46,
+        31.82
+      ]
+    },
+    {
+      "slot": 29,
+      "dark_ink_margin_percent": [
+        11.08,
+        11.0,
+        32.7,
+        33.25
+      ]
+    },
+    {
+      "slot": 30,
+      "dark_ink_margin_percent": [
+        16.27,
+        12.92,
+        33.65,
+        33.01
+      ]
+    }
+  ]
+}

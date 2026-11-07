@@ -1,0 +1,42 @@
+SHIPS IN COLOUR PENCIL
+
+30 unique square PNG illustrations for 30 matching pairs.
+Sailing ships, ocean liners, naval ships, submarines, research and working vessels.
+Each picture was individually made with built-in image_gen in the aircraft set's
+coloured-pencil / graphite / watercolour style on warm ivory paper.
+Viewing directions vary; asymmetric ships were not mirrored.
+
+BROWSE
+Open preview.html. Choose Gallery, Card size (100 px) or Large details.
+Filter by group, search ship names, or hide the names to assess the artwork.
+Click an image for the original PNG. contact-sheet.png shows all 30.
+
+IMPORT
+Deck library -> Import an image folder -> choose this package's images folder.
+Select all 30. Suggested domain: Ships; style: Illustrated; complexity: Medium
+because several sailing and naval vessels have related silhouettes.
+Save the deck. One unique image makes one matching pair automatically.
+Use a smaller, visually varied selection for an easier game.
+
+CONTENTS
+images/ contains only the 30 final PNG cards.
+generation.json records subjects, exact prompts, source paths and composition edits.
+records/ contains the individual generation records.
+references.json links ship-identification and historical-context sources.
+checksums.json records both file and decoded-pixel SHA-256 hashes.
+card-size-proof.png displays the whole set at 100 pixels per image.
+build_delivery.py rebuilds the gallery/proofs and verifies the originals.
+
+ARTWORK NOTES
+Historic ships are shown intact, not sinking or damaged. These are interpretive
+illustrations, not measured technical drawings. Inscriptions and flags are
+deliberately omitted; some early vessels include reconstructed details. Ships
+are not illustrated at the same real-world scale. Museum or operator sources
+supply context, not endorsements. Context checked 1 November 2026.
+
+VALIDATION
+All 30 PNGs were decoded, dimensions checked and compared to their generated
+source files. All decoded pixel hashes are unique. Each was reviewed full size,
+and the finished set was reviewed at 100 pixels per card before packaging.
+The ZIP was integrity-tested and each archived PNG was checked against its hash.
+In-game importing and play were not tested in this task.

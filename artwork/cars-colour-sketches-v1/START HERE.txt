@@ -1,0 +1,20 @@
+CARS COLOUR SKETCHES
+
+30 unique square PNG illustrations, supporting 30 matching pairs.
+High-quality graphite, coloured-pencil and watercolour sketches on warm ivory paper,
+matching the aircraft collection. Original images are 1254 x 1254 pixels.
+
+Open preview.html to browse by name or category. Use Card size to review at 100 pixels,
+or click a picture to open the original. Toggle Names for a visual-only review.
+contact-sheet.png shows the whole collection; qa/card-size-proof.png shows small cards.
+models.csv lists every model and its example year. Names are outside the artwork.
+
+In the game: Deck library -> Import an image folder -> choose the images folder.
+Select all 30 pictures. Suggested domain: Cars; style: Illustrated; complexity: Easy.
+Save the deck. The game creates two identical cards from each unique picture.
+Select a smaller subset if desired. This delivery has not been imported or play-tested.
+
+Generated with built-in image_gen. All prompts, references and corrections are in
+generation.json and records/. checksums.json records file and decoded-pixel hashes.
+build_delivery.py copies generated PNGs without editing their pixels, checks them,
+and rebuilds the gallery and contact sheets. Original generated files stay untouched.

@@ -1,0 +1,66 @@
+{
+  "selection_seed": 20261101,
+  "purpose": "Vary the aircraft headings as requested, preserving the approved artwork and safe margins.",
+  "transforms": [
+    {
+      "slot": 4,
+      "rotation_degrees_clockwise": 17,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 5,
+      "rotation_degrees_clockwise": 19,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 6,
+      "rotation_degrees_clockwise": 13,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 8,
+      "rotation_degrees_clockwise": 9,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 10,
+      "rotation_degrees_clockwise": -11,
+      "mirror_horizontally": false
+    },
+    {
+      "slot": 11,
+      "rotation_degrees_clockwise": -9,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 15,
+      "rotation_degrees_clockwise": 15,
+      "mirror_horizontally": false
+    },
+    {
+      "slot": 21,
+      "rotation_degrees_clockwise": -22,
+      "mirror_horizontally": false
+    },
+    {
+      "slot": 22,
+      "rotation_degrees_clockwise": -15,
+      "mirror_horizontally": false
+    },
+    {
+      "slot": 25,
+      "rotation_degrees_clockwise": -18,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 27,
+      "rotation_degrees_clockwise": 21,
+      "mirror_horizontally": true
+    },
+    {
+      "slot": 29,
+      "rotation_degrees_clockwise": -13,
+      "mirror_horizontally": false
+    }
+  ]
+}

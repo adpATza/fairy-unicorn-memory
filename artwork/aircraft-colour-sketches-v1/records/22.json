@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-eaa4f290-ac9f-4bb7-90fd-2560a571d8fb.png",
+  "slot": 22,
+  "file": "22-sr71-blackbird.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed SR-71 Blackbird, very long slender matte CHARCOAL BLACK fuselage with broad sharp side chines, delta-like wing, TWO huge cylindrical engine nacelles with pointed inlet spikes outboard of the fuselage and TWO inward-canted vertical fins. Subtle blue graphite highlights retain black identity. No propellers or external payloads.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-7dbeb44c-f07d-43ac-b541-41586d544551.png",
+      "prompt": "Edit this Lockheed SR-71 Blackbird colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c4b58fd0-e469-4021-b8c7-0702324a864d.png",
+      "prompt": "Transform the supplied Lockheed SR-71 Blackbird illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 15 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+      "slot": 22,
+      "rotation_degrees_clockwise": -15,
+      "mirror_horizontally": false
+    }
+  ],
+  "orientation_requested": {
+    "slot": 22,
+    "rotation_degrees_clockwise": -15,
+    "mirror_horizontally": false
+  }
+}

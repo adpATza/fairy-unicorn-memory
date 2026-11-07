@@ -1,0 +1,11 @@
+Visual review completed 1 November 2026.
+Reviewed all twelve generated originals individually, then the final 1024 x 1024
+cards in the labelled contact sheet and at 100 x 100 pixels in thumbnail-review-100px.png.
+One zebra per image, full subject visible, consistent cartoon character and cream backdrop.
+No text or labels are embedded in the cards.
+Card 09's fifth leg was removed with image_gen and the corrected output rechecked.
+The prancing cards both raise the same foreleg; their final distinguishing features
+are the head angle and upright versus sideways ear, as recorded in the manifest.
+Six close pose comparisons remain readable at 100 pixels, particularly ears and
+head direction, resting head height, foreleg arrangement and jumping limb position.
+Intended difficulty: Hard. No player testing or running-game import was performed.

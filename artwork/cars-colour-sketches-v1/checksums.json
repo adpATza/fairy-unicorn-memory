@@ -1,0 +1,212 @@
+[
+  {
+    "file": "images/01-volkswagen-beetle.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ba3fde99a604780a17c2241b9e6975575311814380312e51ccf54f7e463c4376",
+    "decoded_pixel_sha256": "53233c3be3264cfc299c075af381e93254e4e797eab8e466e64ca1b671fd66d2"
+  },
+  {
+    "file": "images/02-mini-cooper.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e0ab68d2d5db63a7fc285ad88d020b506daf19d06a5056ba1b2d2104be2c9830",
+    "decoded_pixel_sha256": "73134c0362b191a728fc47083a653cfbce540c7e370ee8270c965e460bbe7743"
+  },
+  {
+    "file": "images/03-fiat-500.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "26373e8f5be23d724ecf88e7a591519bd28096a6d54a57f64a46b65ec9e85e93",
+    "decoded_pixel_sha256": "0cb20612e510755153cfac8a2fc17326d81249c13a923a3feb40d43e206ac62d"
+  },
+  {
+    "file": "images/04-citroen-2cv.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f4fcbb6a0325d8b7b1ba99858e4d48846cae9810350267b046491d56271d1e2c",
+    "decoded_pixel_sha256": "773c6b47b4c1d48727db1d06d40329d392fa8a46a3007e8a39d68d78657190c1"
+  },
+  {
+    "file": "images/05-volkswagen-kombi.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f69a558ab990c00cd30be43ef754560d1649b84bbddc8788743068ae96aa3570",
+    "decoded_pixel_sha256": "e7e515d69b3c6b533b77dcdfcda966bf21d8f050e8676d61087f91b2eaf2667e"
+  },
+  {
+    "file": "images/06-volkswagen-golf-gti.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4f5c5a025c04a2efccc0d63dcd3f1b4967790b32c14b449dc391f87ba2cf84fe",
+    "decoded_pixel_sha256": "b7f424467e842319f9d3b94a5ee04ae2f1215b228e27212c2f2b033445e098ab"
+  },
+  {
+    "file": "images/07-ford-mustang.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "269c3d54ba31c0077b817672eca2db5825cd9c941bf39eaff29cb9c1fd6c9dfc",
+    "decoded_pixel_sha256": "0780863339596805ad6df390e98a02a8747ad21b30ac78f46bb20afe1ad3ded1"
+  },
+  {
+    "file": "images/08-corvette-sting-ray.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7db8d5f2b21816e0a6fed59285c87671fd1dc9f1223722b026fe15ba858a1075",
+    "decoded_pixel_sha256": "a90a81f00406383449ff609248bf08263ddd2d036b60bd7ee23022346bb032ef"
+  },
+  {
+    "file": "images/09-chevrolet-bel-air.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cfd2863ee570998f725d97689b9a0000017c1ba12dec6ec1972f4b9d5d3e859d",
+    "decoded_pixel_sha256": "86262859876de1612ebe7727e7efedf7555143fbdd1cf4f3229d414facf2c9a7"
+  },
+  {
+    "file": "images/10-dodge-charger.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f5beefd7aac2877ff8644b13262b8ac53a1a52814438a277ead1479e8be2317e",
+    "decoded_pixel_sha256": "719bf99b590c3ca169b7f0ba4bb6ec67090fb461e7cbd197e09d3b6a110edd9f"
+  },
+  {
+    "file": "images/11-porsche-911.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f343e02e7ba651a346eb09ba46861e0b6d0b1d35023e4725f8c478ab8bdc2f9b",
+    "decoded_pixel_sha256": "3917b3c2bba795ce61d83824fb649d6c92c8bded5bd947205c5b4cb6804343b5"
+  },
+  {
+    "file": "images/12-jaguar-e-type.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3bfa4f68c8295cb3ca51312a44502ced862d276544d35af28b3763651905041b",
+    "decoded_pixel_sha256": "da352e7c92f79e5608a415c8fc66f92af12512298c4df86aa99e005bdfe1958d"
+  },
+  {
+    "file": "images/13-mercedes-300sl.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "57db7bdd69b57ad9a1901993b7a61f2c29c7cfc80b2593a7e403bcbfe373b63c",
+    "decoded_pixel_sha256": "d34c0046fecd92a8343f4442aa38ca1a69e186045e13160f876c5cc9c2e7048d"
+  },
+  {
+    "file": "images/14-aston-martin-db5.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a7d06b7a6322d7dc36e5bc7c2cd6b0cd6b6224555263f3eb9c3f8e46a3cdb31c",
+    "decoded_pixel_sha256": "6643bb05015b5a0ed05fa5e6ed4f21d48d0f8455baa31b424733ec2a8ac9ab71"
+  },
+  {
+    "file": "images/15-ferrari-f40.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "06b4d371e0eee24cf4c4830feaed65008a378ca9629d8ca2b121d79da03743c2",
+    "decoded_pixel_sha256": "68dbc900f58db1d234b0eb645b95f292467234d0a58e2afcc166419ac141389e"
+  },
+  {
+    "file": "images/16-lamborghini-countach.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "865ad15050f0a6b12596624f300b0b18bd8c3b38fd04b6482af022901e8fbaa7",
+    "decoded_pixel_sha256": "5a397402b8eefb119609425338f2f035a4eb54b8b063159b25222852d9a1f8be"
+  },
+  {
+    "file": "images/17-lancia-stratos.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1fe6f02690285750dd0d5e38b029caf7350973ece66b5906dd80b7775429a99a",
+    "decoded_pixel_sha256": "de73a2d521e7b302f1f9d5e18d7b85f080d1384e069264360397c595a0f78b90"
+  },
+  {
+    "file": "images/18-delorean-dmc12.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "74bd33a79720a7df64b9132f5f773b6d344e2f1c79a010a45b7824d116de54e0",
+    "decoded_pixel_sha256": "c785a3ee986b786daa5be4d8c4501a81b981a980c170cc4e51a3638cd7fa9ff3"
+  },
+  {
+    "file": "images/19-ford-gt40.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a9ed31307dbbfa9dccec4e729f306b8a3214dc1744820bdce93e3daf17b7ce68",
+    "decoded_pixel_sha256": "093a6e77d391ce8845100b77531f2d04d0bea28c17bf4f237b9b2bcf48a01e2b"
+  },
+  {
+    "file": "images/20-toyota-2000gt.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b7f7a33ac308c8c1fdc9a284984269b64bf0beca5b4a3f8fa1bb76cb65809ced",
+    "decoded_pixel_sha256": "0543b365c2be7b6819f7f7961838d0ff72a073f78792d05a4f0eedb0109694e0"
+  },
+  {
+    "file": "images/21-nissan-skyline-r34.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fd534aca15d4f6dc861d67d5b287f9584f110a988611b757d399c53bf000f932",
+    "decoded_pixel_sha256": "10a998780ca89c8661a1c1db2610e3aa781a8ed7f1b9088d1d085258bc943ab0"
+  },
+  {
+    "file": "images/22-subaru-impreza-22b.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1087c813240b224c16ba6f74beed0e628566daf9e3507a1d5a45063c9424c1e5",
+    "decoded_pixel_sha256": "78ca8e9e86800d17b17f92528a7c8094c1ae5a012ad6a3781b4fa03a0c32f56d"
+  },
+  {
+    "file": "images/23-mazda-mx5.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cdd645bb17c72dbb124979804aed830373f4bbb5591bb54209a8603e0201f8e0",
+    "decoded_pixel_sha256": "067407585acdfbf9babf49bb26a08f5c33f39f5ef76ddb4e5d97c113b6c406d1"
+  },
+  {
+    "file": "images/24-rolls-royce-silver-cloud.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4eba9194695604b3056e8b286141d97b69d9eb9e0a7cbcd27b56af10fc2c5ae5",
+    "decoded_pixel_sha256": "5affa9c0b3ce36826f13937e6630a415e48c6d169198fce23c1a766d2e64b1ed"
+  },
+  {
+    "file": "images/25-land-rover-defender.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "13f860fa15ca681473a41316af0c8135480d3aa0c82fcdd4cae7b35cdc2388d4",
+    "decoded_pixel_sha256": "8abe4d58f1e72f47c672dfd670be77a304dcdb156c37d0fff12c834f5dcc6469"
+  },
+  {
+    "file": "images/26-jeep-wrangler.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9eac0fa56721c7f877c359e45fdab6a1918ca6d7746217f9a6a9cce489424acd",
+    "decoded_pixel_sha256": "b2ef46ea0eace599e696a733c970fd3d9e36eac8901e88121feb90f0dce1887c"
+  },
+  {
+    "file": "images/27-toyota-land-cruiser-fj40.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a5664526c9c01480ff04033032367c6e71ce3b653eebd59babf19a7b3d64e53c",
+    "decoded_pixel_sha256": "fa80ad51ccdee9c5dab66761095b6d3be6ee00bd77513a2a10141bc57ba12651"
+  },
+  {
+    "file": "images/28-toyota-hilux.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4ef418cc91ec99b7cfa657e24e3090a66fc457906be6b6b53c1566ff8716a057",
+    "decoded_pixel_sha256": "ce9b57f34d269eb7853263231d3e4b769d4f311f928003073e3d08494539200f"
+  },
+  {
+    "file": "images/29-bmw-i8.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b249df67ad80e603b3ea66ddfe759802cfcd42a42646fb9080aa890f91062abd",
+    "decoded_pixel_sha256": "bf2bdd6304b68438d89960e39fd1fef45e27e059c95c043615b846cb685d7513"
+  },
+  {
+    "file": "images/30-tesla-cybertruck.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "edf2b30878dfc809351c82267087f05ebebb3cdc56bb8623020a4a46f401fb78",
+    "decoded_pixel_sha256": "9c91942c5fc75b3422e9c4fa52cdc6749aba059ef8afe24c48c84a218b13b464"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "file": "images/01-titanic.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "aac903115eef8e5827ba2d6ff7c5b6dff23fc8db049b6bc4598427f1befea6d6",
+    "decoded_pixel_sha256": "9dcbb86955ea8283a3b805a914a919b0fb054ca848af04b76b1f74017dc9f429"
+  },
+  {
+    "file": "images/02-queen-mary.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3f2623142fb52ba9aeb411af42ea1d75924d42dc1d65e583b47354f8754adf4f",
+    "decoded_pixel_sha256": "3de64a50c4159edac3e0f5ce1f2a41f4daa4fd106438105d8f95d1ec66156ca7"
+  },
+  {
+    "file": "images/03-queen-mary-2.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "992d3b485c2a494211faf62eab28c7e2a4c21e4320ebdd9d0b77be9e55dc8e7b",
+    "decoded_pixel_sha256": "8eaea669814c49a18b08c5bd4fa72204d1b1380491e0860e43821ce00ad569ca"
+  },
+  {
+    "file": "images/04-icon-of-the-seas.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "03bc27bfb4453e983802a24e425667448ef02b1217977354d589426d6989af91",
+    "decoded_pixel_sha256": "da887db31e3de61ace9a9775c22598986e99c6c1dd00d0403961e93e7dfa4f1f"
+  },
+  {
+    "file": "images/05-ss-great-britain.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f094f0f80d1717f65b637b86b474a103870daedd3a3965acb4d3de0540cc7bf1",
+    "decoded_pixel_sha256": "44611fa7ba589654305683c708e3c6e0325337d2ec750ec6a446c7763ae8e82b"
+  },
+  {
+    "file": "images/06-hms-victory.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6d54263d802365707caf74f40a61354f1740350d5d3578e64259133e43942b23",
+    "decoded_pixel_sha256": "e3d533793625c64d424855435cf73b78c23da3b9d66b565eeca6e99e7ac9bbec"
+  },
+  {
+    "file": "images/07-cutty-sark.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f95b9066c8796b143618ddfa91056e028a5195009c3b7b7f0c6a344e161eaa02",
+    "decoded_pixel_sha256": "47fd0a65264443b00e0de0f24b8e1abd5eaebd7aefa237f9486768a025651997"
+  },
+  {
+    "file": "images/08-vasa.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "185ab70935f89db0475e7b732a2c033220935926c0f8d19a0906a3894af426e5",
+    "decoded_pixel_sha256": "58a2427392c0c5270741b488bc7a0948b6c1098e377cfb0400edc9622e2ed88d"
+  },
+  {
+    "file": "images/09-uss-constitution.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a41f69127a03b66de48474aef456c783be41511058506c4ba869aa679f223391",
+    "decoded_pixel_sha256": "c34a57411e99b7da0f5c3664c6e5a609d7060c39df6484a21408f1f856629400"
+  },
+  {
+    "file": "images/10-santa-maria.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0f3a7f9a6143e663384a177844e00e4e6604d7804152d64796dbcd43bf19eb9c",
+    "decoded_pixel_sha256": "f43d3c9ece87451484ebec44bc6449916da1fa8e603a59c6e48ccce6beea78e7"
+  },
+  {
+    "file": "images/11-gokstad.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5f1bb5cbab5107addbb61788cbd5552560a7a1d5a05727546ac7fbd9fc65a035",
+    "decoded_pixel_sha256": "42b9cf0dffdc389bd1cb984d2f6bbcb7635f62f8e38da3f78318960f339a203b"
+  },
+  {
+    "file": "images/12-hmb-endeavour.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5dbecca5a999d716fdb53ee9af77f1e13ae11dc8f61aaa70514e6c48f446f985",
+    "decoded_pixel_sha256": "37bc8776f53c6393b8be721652a5c3a6dd018aed436602f916c88160fe767880"
+  },
+  {
+    "file": "images/13-bismarck.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "01b3096183e33789f663ebd36cfd44ea504b41f8a308db06ece1f60373762e30",
+    "decoded_pixel_sha256": "a85b8d0b08e7ca0b0e9b509b530081ae6a13fafe05a4cac2c1b59ae19e1336dd"
+  },
+  {
+    "file": "images/14-yamato.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ae95e6fe1f82c04a896fd69780de52fa32e56b32449df927b2dca7091162e8b6",
+    "decoded_pixel_sha256": "3e4855df6f1aced44d68f45c85806850a33ec1639f5fcac9049f7bf96cb34dce"
+  },
+  {
+    "file": "images/15-uss-missouri.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c80d7deb37cc1662a34109a49604eb33e5a74b4418245fd21939942fc2c5395d",
+    "decoded_pixel_sha256": "50ff270028f1ceacacb5e805d0461fc27495dafa104a54d0c3ced0ce9670b91e"
+  },
+  {
+    "file": "images/16-hms-belfast.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5eb50340db597d0a7699202f1c89c6cf8239154c5bc4f5f4027b04091b52d2a5",
+    "decoded_pixel_sha256": "c216ace48b66e491d0ac84b0e6785fdc9ce96e131a2a16df8e6a4cae3c93595e"
+  },
+  {
+    "file": "images/17-uss-monitor.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3e1a1f222e3da8ace24eec4d6696ff242678344ae33056c52154e951d9f881dd",
+    "decoded_pixel_sha256": "9f8305df0d61413ace5df37ed9eaad6a456729ddc90ed5594f76d73b27b6967b"
+  },
+  {
+    "file": "images/18-uss-gerald-r-ford.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c00c35394240740dfcd85bb64948bc8d5f2d7bdadf670733e096b0fa3f2eda71",
+    "decoded_pixel_sha256": "69407d8f3626149a8c06d6e675c9287dc28035e1d480b91e4458b012444f75d6"
+  },
+  {
+    "file": "images/19-uss-nautilus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e5944713ba38fda332ce95db43ae07d4db240d91d98332adfedf46f8be875044",
+    "decoded_pixel_sha256": "b48b63a6c24ec09181c9db47c18f20530bbea9a51849d68e1e824ecc80dc36ed"
+  },
+  {
+    "file": "images/20-typhoon-class.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "612a2c92beac76c4126ee0c36b7ebad0ad393b03060770ecd7957df16d19b90d",
+    "decoded_pixel_sha256": "4e798d8335e9ff0129dd7216abeebe0dca7733f1273fbcee814503e9839587fe"
+  },
+  {
+    "file": "images/21-calypso.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f90b6d277dce09c394409c961d1d4b7bc1016db3956fd22961097d0f88e7950f",
+    "decoded_pixel_sha256": "e1ebcdb11b22fca0b9a44139ff0af4469845d0c93e35a5c3f3d064810be2fdca"
+  },
+  {
+    "file": "images/22-polarstern.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "19919775df132576aed13f3620254375a04c66c4894705c8b07eaa1eb62001b7",
+    "decoded_pixel_sha256": "f231e0600686ab03aed2758729f26392de5a0a15714ba9f1b1600841269ec14e"
+  },
+  {
+    "file": "images/23-sa-agulhas-ii.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1bdd1bec7a6e4b444de832cf0cef7bb01aa4a5d98ac25eee2d5cdc2f07825788",
+    "decoded_pixel_sha256": "8f88947e84297d85c0bec7ad6468450f1766452310a65fb87978750fabf5cc99"
+  },
+  {
+    "file": "images/24-ns-savannah.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "67ae0dccea9cea4494805d0acb9c76c25f75c5e80167945993002679a7f0c79c",
+    "decoded_pixel_sha256": "f6d281ebf0b3da979f4afbe61bc9114a6ed16b96675689c4b9db06438c1c9a80"
+  },
+  {
+    "file": "images/25-emma-maersk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e6e33a9b0c5a04da894a38962263e5bc8e4e24a4b2092e8c0fb9fcc1c495885e",
+    "decoded_pixel_sha256": "e22d20cc2f7ec4efae219baa4918db6ff0a4a2279ad295aabef8a2ffc5c9ad69"
+  },
+  {
+    "file": "images/26-knock-nevis.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a0b881b7d33208336b139a7dfb8ab726f5d4afe85520ef9caedd864ba8b44af6",
+    "decoded_pixel_sha256": "bc249c3c59829ce367227240834a830518b24d84f8bd6c6eb2d5a6edf7a967ec"
+  },
+  {
+    "file": "images/27-edmund-fitzgerald.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "54ab117a194a65eb31126798ff4aab2fea4c68e0398a524752848495c1254553",
+    "decoded_pixel_sha256": "5acdd454572eb6763ca62010cc99482627da43841163bfb8b75d7c69745da92d"
+  },
+  {
+    "file": "images/28-waverley.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "96563717bc1231ac7611226d85aa4d932330c73dd7ee90bc37814771e5103f6c",
+    "decoded_pixel_sha256": "2cbd9a2d9bcc23b65913ed3e1de708cafd671373c9e7d864ec9f10c658e03572"
+  },
+  {
+    "file": "images/29-severn-class-lifeboat.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "dbfcd8e2f6ab4256bb1a5840787dbdbbab52af24769c22af5579d837dd056ae4",
+    "decoded_pixel_sha256": "a000ef08b2f5b6502e9dedd3d849a7593080bc4ffd57fdb56d1002514e6f2d5b"
+  },
+  {
+    "file": "images/30-damen-asd-2813.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cf804f6a6186ef09e1f328dcd3a15510eb7735084eb029d897b139534d7b0b3d",
+    "decoded_pixel_sha256": "2bb7e9c978eac0ecd113307aded0444650d9f23f2387405c871d79132dccf446"
+  }
+]

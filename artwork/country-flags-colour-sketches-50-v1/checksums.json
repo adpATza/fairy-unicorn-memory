@@ -1,0 +1,452 @@
+[
+  {
+    "slot": 1,
+    "country": "South Africa",
+    "file": "images/01-south-africa.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "63cbb04c8831ed333447f5e5512bbe3cca7590d557d74e05f8cefd36e9385db8",
+    "decoded_pixel_sha256": "7a04f2f763e5fc149107ef8b32f663c669b0c0f95f59ff6b0fc683f8f3c50c08"
+  },
+  {
+    "slot": 2,
+    "country": "United States",
+    "file": "images/02-united-states.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4bea062699fdf3187ee6b3b40a773c0082c6bff882cae83511aa5b690aaecf17",
+    "decoded_pixel_sha256": "7039dd6e1f2ba88afe8105cbab06c7e590173f90a8b4d97b3323308d95dafcf5"
+  },
+  {
+    "slot": 3,
+    "country": "Canada",
+    "file": "images/03-canada.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ab75fabaf651314210a376ea4401a4b5f33062814f0c3e668395c45849e6ded9",
+    "decoded_pixel_sha256": "342f487382d2a03fb67689549081ce896f619b35faa43b7dd53af68cc2139d4d"
+  },
+  {
+    "slot": 4,
+    "country": "Mexico",
+    "file": "images/04-mexico.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "aeb9d30932e26243ac09579c430f3ede04c967c7732dd906b49dd75d20cd8189",
+    "decoded_pixel_sha256": "df43453cfe3071be693540567b72d830dac6846fbf7c67244c8a253929a4bbe9"
+  },
+  {
+    "slot": 5,
+    "country": "Brazil",
+    "file": "images/05-brazil.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5b39e2d629cc7ea332fe6703f1ab30ff84cbae58b39a7798feaeb7dd1f80e4da",
+    "decoded_pixel_sha256": "836a3d75eafde5a7c0aa252886186d9d6aee63fa307a668af64be529f0079d20"
+  },
+  {
+    "slot": 6,
+    "country": "Argentina",
+    "file": "images/06-argentina.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d3489cd5947117182eff38e3793195b4b5b96eb7edc7656e4b9bcfd8122e5508",
+    "decoded_pixel_sha256": "3ee5828fc009cda4d64642a697124c759d314a70ea716f51dad23bf50a4c18b2"
+  },
+  {
+    "slot": 7,
+    "country": "Chile",
+    "file": "images/07-chile.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1ba5ca39dc37e9a788c9cf7f24adcd774746b8390e6ffd633bd38340e98578c7",
+    "decoded_pixel_sha256": "bdc7c82f71131c7c4fe1fd10d23382f3b17b0d6c6e1108df61515c1bbc5cd621"
+  },
+  {
+    "slot": 8,
+    "country": "Colombia",
+    "file": "images/08-colombia.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1f0b0618e08e119ac4d5b3f6ebfb3496accf4f37dd36edece18f01a077dec3c2",
+    "decoded_pixel_sha256": "9b612b7248c00cfd0e70d83671eb2d77fb0e75f00692e007671363792519a7ab"
+  },
+  {
+    "slot": 9,
+    "country": "Peru",
+    "file": "images/09-peru.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "253f1986a001d7db0d959b527c33414e985fd0d0ce7082e7caca86a5626d6813",
+    "decoded_pixel_sha256": "f6df9e21df0ca96e7dd1dd488d759b36d2a9898ea6fe1fdac3e544f2c01dbe0f"
+  },
+  {
+    "slot": 10,
+    "country": "Jamaica",
+    "file": "images/10-jamaica.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b284a502778161174b1ea73036dbc47f07db4725c78fefc2f4c3841b57f77421",
+    "decoded_pixel_sha256": "e618733df3f6638954cfa1f6d6c3defd978c4f57f0bd6a0dcfa7e47477bf1360"
+  },
+  {
+    "slot": 11,
+    "country": "United Kingdom",
+    "file": "images/11-united-kingdom.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "da1b9082c6281f3c5752099be367f4efdd5f4510e270df0def29156025831b0a",
+    "decoded_pixel_sha256": "2c1e0db7f55dc211a8d7ccf7e687a4236bd3bfc4b8339e3593b738eb8ad7be21"
+  },
+  {
+    "slot": 12,
+    "country": "France",
+    "file": "images/12-france.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "94247f14c33b15856c8a620198ed7f3ed5e06e739c69b86fe3a63ef2b7bfede0",
+    "decoded_pixel_sha256": "51c8be84b60b8a0527a6434d44831bdb6fbb70c5d8b0b26879288b2e2616286e"
+  },
+  {
+    "slot": 13,
+    "country": "Germany",
+    "file": "images/13-germany.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ba0838e5772db878b5ba1d41717314840f9ab05fcfa65390c3c4145a3eaaee16",
+    "decoded_pixel_sha256": "df51f2bba7c330c8341c5762f88bfa75bdf87f091edee0ddd7d85b97609d2e64"
+  },
+  {
+    "slot": 14,
+    "country": "Italy",
+    "file": "images/14-italy.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "41d1cb7db1741ea27fd04681e57989c950d96505104126d264e76126dd530b97",
+    "decoded_pixel_sha256": "1974042bda4c88a15b636f0054de77f09c9b16b8c58618f555ccc70396aad8ae"
+  },
+  {
+    "slot": 15,
+    "country": "Spain",
+    "file": "images/15-spain.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d266859e06ad7a61c2fa684eb109fab83d81122d8154f14f1469e795e8f15778",
+    "decoded_pixel_sha256": "26ff3054056fe3c5b69cbda229f9478e7107c589cb921ab428951d1926496f05"
+  },
+  {
+    "slot": 16,
+    "country": "Portugal",
+    "file": "images/16-portugal.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e05feb3622093e0fdf0fb7fa7056bb437b6b43a68e9222f9228304f3c72eb641",
+    "decoded_pixel_sha256": "668e260df5c0ed511cd427bac0d9d2a3da5793c898c84d6cbcb63ce3e1d602ba"
+  },
+  {
+    "slot": 17,
+    "country": "Netherlands",
+    "file": "images/17-netherlands.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d47ece17128af824801b328de3890552798b6dbc23576455ae71b23d8b5525e9",
+    "decoded_pixel_sha256": "8cdffe4bef9a15a5daabd2003df4ada846af49fc6d1faa1c874c3e9448618933"
+  },
+  {
+    "slot": 18,
+    "country": "Belgium",
+    "file": "images/18-belgium.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1019260cbdf035e55e0bf7d666f9a1f432ecf0a13279d54e72cb6fbb3ff62b10",
+    "decoded_pixel_sha256": "30e241b96f4b5c3bff3ee1d724cd231e32aea154dd7d96ff2df475e1fe3dd7f0"
+  },
+  {
+    "slot": 19,
+    "country": "Ireland",
+    "file": "images/19-ireland.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6e685c226950522a0b6a07872d28946222847c57804cd416beccf786386c1303",
+    "decoded_pixel_sha256": "ff75ed7c5cd5ad13b46af5936dde5b0037f5ae83554a400c0fc92c89806c45b7"
+  },
+  {
+    "slot": 20,
+    "country": "Switzerland",
+    "file": "images/20-switzerland.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d6f1eeff5f14cfd37ca24fb9b6a23c83b3c904bd0e84f8c9a1765aaf1b299182",
+    "decoded_pixel_sha256": "bafefc64bd6d8d008244a2817d64d23f83360c37ccf551abd678e12eee06b468"
+  },
+  {
+    "slot": 21,
+    "country": "Austria",
+    "file": "images/21-austria.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "63213e0c6636fa5d1c05b4e61fcb0a8b118796b1698afa3b3f2543b140e13f45",
+    "decoded_pixel_sha256": "ff226cc14702d147037db03e2e530908a1e75c8b48644c3e008248ed4a3f6fa3"
+  },
+  {
+    "slot": 22,
+    "country": "Poland",
+    "file": "images/22-poland.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ad69307dc61605f06b13c6bdffc4bc38a9187442f52c31ef7cdde1794b9bae71",
+    "decoded_pixel_sha256": "dbcb89f931ba9042b0f6adddeeb5ab811a62a99d6dd8caac8bfee688cadab123"
+  },
+  {
+    "slot": 23,
+    "country": "Sweden",
+    "file": "images/23-sweden.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "acea92f96aab72e120e98db27fc455b1dbb92f2ee39b5115a1c29a3977f1832e",
+    "decoded_pixel_sha256": "07c17d396d97f0cca7182a2ca4cdbc4ba0b2adad8688d8905991c6c011c62a15"
+  },
+  {
+    "slot": 24,
+    "country": "Norway",
+    "file": "images/24-norway.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "30d0d6e411cd80188c8c92f1ba5a122606e40283cdffdfbeebce412f3c72112f",
+    "decoded_pixel_sha256": "366f60b6383d18590451333a74c0eedf73bcafd7ff35f9591b58b38b89816bf2"
+  },
+  {
+    "slot": 25,
+    "country": "Denmark",
+    "file": "images/25-denmark.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "770fe3f6ba05b94ea81861ec64093efd98919dae7e164f3e6e0cd8174a17c146",
+    "decoded_pixel_sha256": "507efcf91f8b1be78ba82ecfafc52a989224c88ddb7e56e113dd2749d230b7d5"
+  },
+  {
+    "slot": 26,
+    "country": "Finland",
+    "file": "images/26-finland.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "18ff4711607c6c108c9e1920e4082d321769f7d32cd21aa64990d19ceec20a7e",
+    "decoded_pixel_sha256": "6a6081ffb4063f5eafbb0998ab7a26b97b79ea81926867d8cc3c77f742aeb126"
+  },
+  {
+    "slot": 27,
+    "country": "Greece",
+    "file": "images/27-greece.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "bbf1132aa2c9d09cb06b584ee97e7a082a73d148a9f7d2102af8980c441d628e",
+    "decoded_pixel_sha256": "599f5e0099af3bbc6b5bb5277010d03f09737c368bae2ef96008c5759784ac40"
+  },
+  {
+    "slot": 28,
+    "country": "Turkey",
+    "file": "images/28-turkey.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5f2f5061470d456e2231b3861fac9f73e0e1ca6ebeaf3eca258df61d7fad47ec",
+    "decoded_pixel_sha256": "0da6ffb3edcdaf98a7c97067b08428c20a327420ad975b222093bb75b5590a3e"
+  },
+  {
+    "slot": 29,
+    "country": "Ukraine",
+    "file": "images/29-ukraine.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f386da176307d5eccc56c805c229d3639066358b4331004689aba5fc37491990",
+    "decoded_pixel_sha256": "0640a7f74579507810ac6739fc77825b02736b028415675adfe84b397ea8dda1"
+  },
+  {
+    "slot": 30,
+    "country": "Russia",
+    "file": "images/30-russia.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "53325504b90a6baab93496f975923da167b0a526ad246e5f7c8e806d63d71f3c",
+    "decoded_pixel_sha256": "f10ab8ab603316512239c35bb1704c7aa0c5660eed2c06560ee2059a6277bcb4"
+  },
+  {
+    "slot": 31,
+    "country": "China",
+    "file": "images/31-china.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2d31ac2814234ffc948de6a72a508320aca98a465201b42b6cb452f5e897c1e0",
+    "decoded_pixel_sha256": "9158c389183a55f1edd7919d91f5e0f490dab55bc6d75fc8276ce7adb0ed1f10"
+  },
+  {
+    "slot": 32,
+    "country": "Japan",
+    "file": "images/32-japan.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "756c5aaebf07fa56214c8593c3228b020e42e66e7de7f7f7569b2525f314e81b",
+    "decoded_pixel_sha256": "3d0a68c6d881783d5be561cbdcf3fa5eae4be8204d91ccca1a1cc2b5bb695381"
+  },
+  {
+    "slot": 33,
+    "country": "South Korea",
+    "file": "images/33-south-korea.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "071b941750bff9f0b131372ee055878f353b553cc4c7222ecf24694a6cd54e3e",
+    "decoded_pixel_sha256": "3438b94adb7f70a377550158aad738191922e6016ce15798cc067c1651b5c136"
+  },
+  {
+    "slot": 34,
+    "country": "India",
+    "file": "images/34-india.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1f519d863d297c2a856c17143846e7e6937819c8683bdd5b6ec75073587342f5",
+    "decoded_pixel_sha256": "705c531138dfdfe9c5a902ae44129db47c2d3cf8e7b5691816a4e8acc1d6cbfb"
+  },
+  {
+    "slot": 35,
+    "country": "Pakistan",
+    "file": "images/35-pakistan.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c5f325075259d6c90511cca1850ada655ba9ef52e7caa83849194021333f8507",
+    "decoded_pixel_sha256": "46d27357bfc9cfdfb4df7209447b678d48b78d91d20321eecf4a2472e5635d24"
+  },
+  {
+    "slot": 36,
+    "country": "Bangladesh",
+    "file": "images/36-bangladesh.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4575afb47553cb10adf16257a85e8936f2e6700b4825a1ee8e78fa8b50285d4f",
+    "decoded_pixel_sha256": "20aaa8303d2e0a0ad511c0dfafd908657b96e61f4a13cdad02b39a13e5eafd89"
+  },
+  {
+    "slot": 37,
+    "country": "Indonesia",
+    "file": "images/37-indonesia.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ddcf44d7c2843016599b2d804d40fb054f089b72ae599f6e90a347e657566415",
+    "decoded_pixel_sha256": "f2fc72a4cf1a9f2cdfb40ec5d959fcdd956a70f697508f8593ed8ea97b12e308"
+  },
+  {
+    "slot": 38,
+    "country": "Thailand",
+    "file": "images/38-thailand.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4160c1fb10e695e3d513d48c787558186c7688fff53cc1e6121dc99cf770fe40",
+    "decoded_pixel_sha256": "bcb0753292ba1cfc1e1073810c2c23d3040fda627204a12f930b6e5cb80ebfeb"
+  },
+  {
+    "slot": 39,
+    "country": "Vietnam",
+    "file": "images/39-vietnam.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f89e0dc2280104c978442679a02a3872fbe684a2c6a9c3003701972b060cb957",
+    "decoded_pixel_sha256": "4350814d9993a96ca7c32fbe5802bc5e726a5e2c8a5533f2cefa7deb31b3e29a"
+  },
+  {
+    "slot": 40,
+    "country": "Malaysia",
+    "file": "images/40-malaysia.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "618005d27c066a1eb4cdb768439271ac979bea51dc4ea47abd11dd4abc238a0c",
+    "decoded_pixel_sha256": "10250f01e26f08756f9d22ce5fcc5c75ad51c26458d9d05b850e274dbc4bb252"
+  },
+  {
+    "slot": 41,
+    "country": "Singapore",
+    "file": "images/41-singapore.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6a7377dd1a3de5d4f701f5223221bc35bc1df768d25463e9a0f7c0edeaeda071",
+    "decoded_pixel_sha256": "314fdc703ba859c037eddac56e3a625aa5822ec34701fbaf29474611b386f8b1"
+  },
+  {
+    "slot": 42,
+    "country": "Israel",
+    "file": "images/42-israel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c6017521b258e801863cce23ae976d2689439efefe560b4d9bb42bf4b4e380d6",
+    "decoded_pixel_sha256": "293aef18efa538af16b55bb9834fcc3932bd49b83a3aa6add2feadaa6c31a940"
+  },
+  {
+    "slot": 43,
+    "country": "United Arab Emirates",
+    "file": "images/43-united-arab-emirates.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0de51957430d9973fde3bec4f347e91b8d4a1df7292c60ed7cab4268debbead1",
+    "decoded_pixel_sha256": "e690819e58503fdcfb0f0e05a55ac1b2077bd4ed513caeb6c81cd1c5e52b0dc7"
+  },
+  {
+    "slot": 44,
+    "country": "Kenya",
+    "file": "images/44-kenya.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "feb20e0d6220887e0fcd3ef4baecd7d199a2f4efbdd7a8bc5b3467acf731e726",
+    "decoded_pixel_sha256": "b3ec02b96cb6266f1a734c34571f2a1af0af9dc8f005c90f333fb2758bb85614"
+  },
+  {
+    "slot": 45,
+    "country": "Nigeria",
+    "file": "images/45-nigeria.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1787fc589f519a0ae6f2364f8b8cb19429d517e0d74c578531c77fab2b7bedc1",
+    "decoded_pixel_sha256": "be4debbf4c7b00b88c04749c078ead4a68263529c2e2823432d909f1d6bd7795"
+  },
+  {
+    "slot": 46,
+    "country": "Ghana",
+    "file": "images/46-ghana.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a3888617542980600de5d6641cf254e9df627756988799463783b6c67fd0b0d1",
+    "decoded_pixel_sha256": "2fd6583e840e37c9c71dc675de663178c98ac864ed1306939c627f373a64c1fb"
+  },
+  {
+    "slot": 47,
+    "country": "Morocco",
+    "file": "images/47-morocco.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fe9274ae47e8ff622a141a3b954b76bf43dd903c43257cda76df4044bf0f7e0e",
+    "decoded_pixel_sha256": "3235150122d6497db563ada625f0298b273c4dc48114566a1b5e21182f073c86"
+  },
+  {
+    "slot": 48,
+    "country": "Tanzania",
+    "file": "images/48-tanzania.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "13b628ff60ef69c2335e2b0f505fe31b83933eee83fa6a44afffd270892072be",
+    "decoded_pixel_sha256": "54fb342149ab587a881dac24dfe1b033eea61209b4eb51b49111793c3fc64a61"
+  },
+  {
+    "slot": 49,
+    "country": "Australia",
+    "file": "images/49-australia.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "557c1d50f613185cdae2ef493ba77a6b4e3a4028f6f344fd5e7af338b08814b0",
+    "decoded_pixel_sha256": "c0f731e460aad8357045f94edff13ed57e34437265c7940b3d2584785a00b977"
+  },
+  {
+    "slot": 50,
+    "country": "New Zealand",
+    "file": "images/50-new-zealand.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "57fd330d98ef6f6d740f8ce22f86128ad0cfa4b672704041f5b418996dbaa847",
+    "decoded_pixel_sha256": "4ba18cd9fc68930c21b305651ba54ed2bcfe99e40bd4fba109afd44d672f49b1"
+  }
+]

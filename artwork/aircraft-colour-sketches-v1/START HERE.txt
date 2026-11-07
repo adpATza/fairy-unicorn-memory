@@ -1,0 +1,15 @@
+AIRCRAFT COLOUR SKETCHES
+
+30 unique square PNG illustrations, supporting 30 matching pairs.
+25 aeroplanes and 5 helicopters, including the approved Mustang and Spitfire.
+
+Open preview.html to browse the collection. Use Card size to review at 100 pixels,
+or click any picture to open the original. Names are outside the artwork.
+
+In the game: Deck library -> Import an image folder -> choose the images folder.
+Select all 30 pictures. Suggested domain: Aircraft; style: Illustrated; complexity: Easy.
+Save the deck. The game creates two identical cards from each unique picture.
+
+Generated with built-in image_gen, following docs/Artwork and Import Guide.html.
+All generation prompts and composition edits are recorded in generation.json.
+Checksums are in checksums.json. Source artwork has not been modified by this script.

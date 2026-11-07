@@ -1,0 +1,9 @@
+40ef91b8590d0d2a75f9bc46b0baf2a71ed9183bea8456b0ffdff720f48fbb0b  aircraft-colour-sketches-v1.zip
+604f49fada800dd590ddcb40eb1f21bbbca51b67cb226b27df7195a6ba94c318  cars-colour-sketches-v1.zip
+df0fc9f57d8d84efae2d0ac5063946e1949a9a07b138367836b262cb10d6e8bf  country-flags-colour-sketches-50-v1-cards.zip
+8c0b2b4e6b52981778af2e6d1196b48351116a3b94278aa0a698dc6b4d200be4  country-flags-colour-sketches-50-v1-complete.zip
+dbc5501c86df57dc701135f14f484051be7bbdb7d9c6282d76e7b31f8288bdc6  landmarks-illustrated-15-v1-cards.zip
+a399c99f2f0343d69ad6f6b7b7674c3c730123ed2589725e316c04c5f29a0de7  octopus-cartoon-12-v1-cards.zip
+08a1d89c4e7fe023457ab385349a968de1aa2f59d9e16ddcdbfea734c0459f51  pandas-cartoon-hard-24-cards.zip
+9b481f85b2ce98dce7401a80ce44f75299480bf67fdb28542c28a5bc64bff2e2  ships-colour-sketches-v1.zip
+bcc56f30f40dc83bd786091a3d5e25dd0af29b0d58a3612160879dc3fabccf5d  zebras-cartoon-hard-12-v1-cards.zip

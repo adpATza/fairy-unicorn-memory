@@ -1,0 +1,151 @@
+{
+  "image_count": 12,
+  "unique_decoded_images": 12,
+  "card_size": [
+    1024,
+    1024
+  ],
+  "original_size": [
+    1254,
+    1254
+  ],
+  "zip_flat_png_count": 12,
+  "zip_entry_hashes_match": true,
+  "zip_sha256": "bcc56f30f40dc83bd786091a3d5e25dd0af29b0d58a3612160879dc3fabccf5d",
+  "imported_into_game": false,
+  "play_tested": false,
+  "files": [
+    {
+      "id": "01",
+      "file": "zebra-01-standing-head-level.png",
+      "title": "Standing · head level",
+      "observed": "Four planted hooves, head level, both ears upright, tail down.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "1671ea9235c5076629e25bd4308e5738540e79215532b847c9d4078f14291e5a",
+      "decoded_sha256": "d81c1fd39f1ef7cc7b8b61700c6586d90db5e9ee9e265c26aa0676d79324e48c",
+      "original_sha256": "0584e4c2a257c2ded7ac1f941e9e4bcfe9d662c1dae35f5b75db5d6e8f57eb72"
+    },
+    {
+      "id": "02",
+      "file": "zebra-02-standing-head-tilted.png",
+      "title": "Standing · head tilted",
+      "observed": "Four planted hooves, head tilted, one ear sideways, tail curled up.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "5e821c714f234f6af6a97d9d49e0fafe7ecd9aa9487ad6f28d4ac4ab4405ffdc",
+      "decoded_sha256": "fc7dae9e3049d98b5a306ab5aab7510de6f23856a259170acdd93e578ebc14da",
+      "original_sha256": "f8e63dcc83d7c6a7be5ecb2ad79d71a8b0f369517d5a9fc2825fa8c56b0e668d"
+    },
+    {
+      "id": "03",
+      "file": "zebra-03-prancing-ears-upright.png",
+      "title": "Prancing · ears upright",
+      "observed": "One front hoof raised, head level and both ears upright.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "4f9510cb2108799820017bc18d3bba762fd5735aeca5a406b764ed3277650407",
+      "decoded_sha256": "4af4d4b2508b06a7ca7416d1eaa1d89f6909fcd2d136c6537776a5c44ef7f653",
+      "original_sha256": "154125990d6bb7c30b2dd0013e1009939377c4a61982dba338590ae3de913f40"
+    },
+    {
+      "id": "04",
+      "file": "zebra-04-prancing-ear-sideways.png",
+      "title": "Prancing · ear sideways",
+      "observed": "One front hoof raised, head slightly lowered, one ear sideways.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "ff65ebaceb7415787d1543d0017e9f7581b57c4ac4b88c5ed24ec2e72d084ab5",
+      "decoded_sha256": "c654adb408a97bed0d8522f9aa94118dd325a1e07a449964d5fcb22e50c46ca7",
+      "original_sha256": "42556c6a985e9245343456e019432fec042ad2a7d00901758c4ec65d58c3c917"
+    },
+    {
+      "id": "05",
+      "file": "zebra-05-sitting-looking-ahead.png",
+      "title": "Sitting · looking ahead",
+      "observed": "Seated on haunches with straight front legs, head facing right.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "8b3c78821c161a8b709eaa073c83bd1c6a24c37ccabaf9dfc0fb2d0b0ac0f611",
+      "decoded_sha256": "792bc42cb09fcd87b0015f4ef397c0d580db5dff172f70a22b17190d8850ee65",
+      "original_sha256": "1bbc509a72393f90147e6dcb92393b71fc40cad9ad68864f7c93749d33e1987a"
+    },
+    {
+      "id": "06",
+      "file": "zebra-06-sitting-looking-back.png",
+      "title": "Sitting · looking back",
+      "observed": "Same seated body posture, head turned left over shoulder.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "5a1f49f6ff63995569e3cf549467777bcd1bf5adbb44b15fcd149268cee9cf56",
+      "decoded_sha256": "06ac241403c411cc1c68b3c8ec0ad8486639aab8de28f784d2c8eb3c2855c9ca",
+      "original_sha256": "ae8c3e4dd8286fd8a5e59c9c82824919c93bd964316ce1edc748cb6548f80c2f"
+    },
+    {
+      "id": "07",
+      "file": "zebra-07-resting-head-upright.png",
+      "title": "Resting · head upright",
+      "observed": "Lying with front legs forward, head held high and eyes open.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "f78423e3f546b34d8bcdba8c6baa6260e22efd8f02b6d74a6c0b160a284d082b",
+      "decoded_sha256": "e22fdac3e3ae10d2ef388b8c8fa6b28128d3142519840ba0e9405b5d5d7a57e4",
+      "original_sha256": "1238f4f37f9ebb1055a530471178a9a6d9ef74ce200593be197007e2284d27b9"
+    },
+    {
+      "id": "08",
+      "file": "zebra-08-resting-head-lowered.png",
+      "title": "Resting · head lowered",
+      "observed": "Lying with front legs forward, lowered head and sleepy eyes.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a65108c59b09d5896b32d07e55cca593289d48c6cce1a81e5c41d1747bdaaaac",
+      "decoded_sha256": "c1404e9e351ad532585052f75dd0e53afba8bec8d857307b6576d75baae9a769",
+      "original_sha256": "4fa1591cd859173ead7b4f6bc0abd8e606869da5069249dc05a0ff94d47de138"
+    },
+    {
+      "id": "09",
+      "file": "zebra-09-bow-both-legs-stretched.png",
+      "title": "Bowing · both legs stretched",
+      "observed": "Rump raised and both front legs stretched forward, ears upright.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "bdc2044b49e2263d44aac9cb7e328475be1edb91eb06742969691b4d2160e0f1",
+      "decoded_sha256": "9a4c3ea4223c7c99c791145f8788282301a9d8a02b85097c4ebeb6e712be2917",
+      "original_sha256": "04ab12224bf321e49dafaeab7c0a1bfaa6a8779fecee216522a4ebf9cdf02caf"
+    },
+    {
+      "id": "10",
+      "file": "zebra-10-bow-one-leg-bent.png",
+      "title": "Bowing · one leg bent",
+      "observed": "Rump raised, near front leg bent and far front leg stretched, one ear sideways.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "11d30fd5a085191b3cb423d7deedf9416632e9f82cc1b9d0859ff8abcd99d641",
+      "decoded_sha256": "f94579c3ba6441298ee323885ef467c3440b878a6e9f6b42b6447f2a15498a11",
+      "original_sha256": "79bea501da575e6e72dabbc583b00b952cb4fdaf8e582263a456fedc0d4d3e29"
+    },
+    {
+      "id": "11",
+      "file": "zebra-11-hop-front-legs-tucked.png",
+      "title": "Hopping · front legs tucked",
+      "observed": "Airborne with both front legs tucked, hind legs extended and ears upright.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6ef902bd7c3be9744fd844c37728634d65fe57f958aa12d9e4e803b4e08f14d8",
+      "decoded_sha256": "16ff692e445d58eca1b73cc2fc1a208226987a72d49c75654795aca3c9749725",
+      "original_sha256": "bf6127f74eb82a1de1ce5374cb2210626f015fa33f35107af503544fa47e7321"
+    },
+    {
+      "id": "12",
+      "file": "zebra-12-hop-hind-legs-tucked.png",
+      "title": "Hopping · hind legs tucked",
+      "observed": "Airborne with hind legs tucked, front legs extended and head tilted.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "9f7e4b1c83a7650977d0d2225e335e8d04c792fbc7ccb25986f58fceaee812d7",
+      "decoded_sha256": "0480eee3b331361cbf7941ed86fb71a54b9e9be0e7363b4202cc218bd6be5853",
+      "original_sha256": "d59553e8da3d3dcb34f092941444bfe14dd4acbcd04cab4dec69d23864a2023e"
+    }
+  ]
+}

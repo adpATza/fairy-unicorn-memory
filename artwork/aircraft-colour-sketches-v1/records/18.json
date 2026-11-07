@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c148d308-d4d5-4229-87e8-ee6d99b5d238.png",
+  "slot": 18,
+  "file": "18-ask21-glider.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Schleicher ASK 21 sailplane, brilliant white smooth slender fuselage with tandem bubble canopy, extremely LONG slender straight glider wings and a high T-tail, small orange safety tips on wings and fin. NO engine, NO propeller, NO jet nacelles. Slightly more top-down view so both long wings and their narrowness are fully readable.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cad79b58-2370-41f6-81ab-89b3556e7a41.png",
+      "prompt": "Edit this Schleicher ASK 21 colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+    }
+  ]
+}

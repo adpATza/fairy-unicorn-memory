@@ -1,0 +1,30 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-6e7d97b9-56b1-4795-be67-f1e224f1eb64.png",
+  "slot": 29,
+  "file": "29-s64-skycrane.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Sikorsky S-64 Skycrane / Aircrane, vividly ORANGE heavy-lift helicopter. Distinctive small forward cockpit pod, very slender high structural spine with twin engine housings above, large OPEN EMPTY SPACE under fuselage behind cockpit between widely spaced tall wheeled landing legs, long thin tail boom. ONE six-bladed main rotor and small tail rotor. NO suspended load or tank. Preserve its unmistakable skeletal crane silhouette; not a normal enclosed passenger helicopter.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-3d664adf-4bef-44dc-bd8e-9ebd1d496d7c.png",
+      "prompt": "Edit this Sikorsky S-64 Skycrane colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+    },
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-1a8f2e57-adbf-4a66-b0a4-217a367d0450.png",
+      "prompt": "Make ONLY a framing correction to this exact Skycrane illustration. Preserve this exact beautifully drawn orange helicopter, ALL SIX main rotor blades and tail rotor, geometry, colours, paper and pencil style. Reduce the complete entire helicopter uniformly to 85 percent of its CURRENT size, keeping it centrally positioned on the square page. Every rotor tip and tail extremity must stay strictly inside the CENTRAL 72 percent of the image. Leave at least 14 percent completely blank warm ivory paper on BOTH left and right and generous matching space top and bottom. Extend identical ivory paper seamlessly. Do not change anything else. No text, border or added objects."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-72856c05-4a4c-4fc0-9dec-abf9d2f19dc2.png",
+      "prompt": "Transform the supplied Sikorsky S-64 Skycrane illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 13 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+      "slot": 29,
+      "rotation_degrees_clockwise": -13,
+      "mirror_horizontally": false
+    }
+  ],
+  "orientation_requested": {
+    "slot": 29,
+    "rotation_degrees_clockwise": -13,
+    "mirror_horizontally": false
+  }
+}

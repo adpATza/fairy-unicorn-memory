@@ -1,0 +1,16 @@
+{
+  "checked": "2026-11-01",
+  "purpose": "Design reference notes; artwork is generated interpretation, not reproduced reference graphics.",
+  "sources": [
+    {"countries": ["South Africa"], "title": "Constitution of South Africa - Schedule 1: National flag", "url": "https://www.gov.za/documents/constitution/constitution-republic-south-africa-1996-schedule-1-national-flag-07-feb-1997", "checked_details": "Green Y with white edging against red and blue, gold edging against black; native 3:2 rectangle."},
+    {"countries": ["Canada"], "title": "Canadian Heritage - Description of the National Flag", "url": "https://www.canada.ca/en/canadian-heritage/services/flag-canada-description.html", "checked_details": "2:1 flag and stylized 11-point maple leaf."},
+    {"countries": ["Australia"], "title": "Prime Minister and Cabinet - The Australian National Flag", "url": "https://www.pmc.gov.au/resources/australian-symbols-booklet/national-symbols/australian-national-flag", "checked_details": "Seven-point Commonwealth star; Southern Cross with four seven-point stars and one smaller five-point star."},
+    {"countries": ["New Zealand"], "title": "Ministry for Culture and Heritage - New Zealand flag", "url": "https://www.mch.govt.nz/our-work/flags-anthems-and-emblems/new-zealand-flag", "checked_details": "Union Jack with four five-point red stars outlined white; no Commonwealth star."},
+    {"countries": ["India"], "title": "National Portal of India - Indian Tricolor", "url": "https://knowindia.india.gov.in/my-india-my-pride/indian-tricolor.php", "checked_details": "Saffron-white-green bands; navy Ashoka Chakra with 24 spokes."},
+    {"countries": ["South Korea"], "title": "Ministry of the Interior and Safety - Taegeukgi", "url": "https://www.mois.go.kr/eng/sub/a03/nationalSymbol/screen.do", "checked_details": "White field, red-blue taegeuk and four black trigrams."},
+    {"countries": ["China"], "title": "Supreme People's Court - National Flag law and construction directions", "url": "https://english.court.gov.cn/2016-04/14/c_1170197.htm", "checked_details": "One large and four smaller gold stars in upper hoist, smaller stars pointing toward large star."},
+    {"countries": ["Malaysia"], "title": "Malaysian Government - Flag of Malaysia", "url": "https://www.malaysia.gov.my/my/government/kenali-malaysia/flag-of-malaysia", "checked_details": "Fourteen red-white stripes."},
+    {"countries": ["Malaysia"], "title": "Malaysian Department of Information - Negaraku Sehati Sejiwa", "url": "https://dbook.penerangan.gov.my/dbook/dmdocuments/negaraku_sehati_sejiwa_2017_en/files/basic-html/page28.html", "checked_details": "Fourteen stripes and fourteen-pointed star."},
+    {"countries": ["All"], "title": "Flagpedia - Country flags index", "url": "https://flagpedia.net/index", "checked_details": "General visual index; per-country design specifications are recorded in generation.json."}
+  ]
+}

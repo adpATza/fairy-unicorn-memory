@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "reference_thread": "01a19588-4a1d-7e53-bc17-38f38d1514a8",
+  "tool_mode": "built-in image_gen",
+  "guide": "docs/Artwork and Import Guide.html",
+  "unique_images": 30,
+  "pairs": 30,
+  "status": "complete",
+  "base_prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the supplied Titanic sketch is ONLY the approved drawing STYLE and warm ivory PAPER reference. Draw ONLY the new vessel requested below, do not copy Titanic's hull or funnels. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 68% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: ",
+  "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+  "entries": [
+    {
+      "slot": 1,
+      "slug": "titanic",
+      "subject": "RMS Titanic",
+      "category": "ocean liner",
+      "historical_context": "Sunk, 1912",
+      "features": "Black hull, four buff-and-black funnels, two masts.",
+      "view": "port bow; bow lower left",
+      "file": "images/01-titanic.png",
+      "status": "complete",
+      "prompt_subject": "RMS Titanic, in 1912. Iconic long black ocean-liner hull with a thin ochre/gold sheer line and a narrow red antifouling strip at waterline, white tiered superstructure, EXACTLY FOUR evenly spaced buff-yellow funnels with black caps, two slender masts, fine tan deck details and white lifeboats. The fourth funnel still present. No lettering. Slightly elevated port-bow three-quarter view, bow toward lower LEFT, long stern toward upper right, modest perspective, broadside still clearly legible. Entire long liner occupies at most 72% of the square width.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "aac903115eef8e5827ba2d6ff7c5b6dff23fc8db049b6bc4598427f1befea6d6",
+      "decoded_pixel_sha256": "9dcbb86955ea8283a3b805a914a919b0fb054ca848af04b76b1f74017dc9f429",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the aircraft image is ONLY the approved drawing STYLE and warm ivory PAPER reference. Do NOT draw an aircraft. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 72% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: RMS Titanic, in 1912. Iconic long black ocean-liner hull with a thin ochre/gold sheer line and a narrow red antifouling strip at waterline, white tiered superstructure, EXACTLY FOUR evenly spaced buff-yellow funnels with black caps, two slender masts, fine tan deck details and white lifeboats. The fourth funnel still present. No lettering. Slightly elevated port-bow three-quarter view, bow toward lower LEFT, long stern toward upper right, modest perspective, broadside still clearly legible. Entire long liner occupies at most 72% of the square width.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-bb42466e-9420-4585-a8c6-8cdf55c48a6e.png",
+          "prompt": "Edit this Titanic illustration only to correct its size on the paper. Preserve the exact four-funnel ship, colours, all geometry, details, viewpoint and beautiful fine coloured-pencil/graphite texture. UNIFORMLY SHRINK the ENTIRE ship including BOTH masts and rigging to 78% of its current size, centred in the same square ivory page. The WHOLE silhouette must occupy no more than 68% of the image width AND height, surrounded by at least 16% completely blank ivory paper on ALL FOUR sides. Fill newly exposed paper seamlessly with exactly the existing paper texture. Do not add text, border, water, shadow, scenery or anything else. This is a scale-and-position correction only."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "style_reference": "E:/githubportable/game-memory/artwork/aircraft-colour-sketches-v1/images/01-p51d-mustang.png",
+      "visual_review": "Four funnels, whole intact ship, ivory pencil style and generous safe margin visually reviewed.",
+      "reference": {
+        "slot": 1,
+        "title": "Titanic Belfast — Titanic fact file",
+        "url": "https://www.titanicbelfast.com/history-of-titanic/ship-fact-files/titanic-fact-file/"
+      },
+      "group": "Passengers and early steam"
+    },
+    {
+      "slot": 2,
+      "slug": "queen-mary",
+      "subject": "RMS Queen Mary",
+      "category": "ocean liner",
+      "historical_context": "Retired; preserved",
+      "features": "Black hull and EXACTLY THREE broad red funnels with black caps; white classic 1930s decks; two slender masts, rounded cruiser stern.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/02-queen-mary.png",
+      "status": "complete",
+      "prompt_subject": "RMS Queen Mary. Black hull and EXACTLY THREE broad red funnels with black caps; white classic 1930s decks; two slender masts, rounded cruiser stern. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3f2623142fb52ba9aeb411af42ea1d75924d42dc1d65e583b47354f8754adf4f",
+      "decoded_pixel_sha256": "3de64a50c4159edac3e0f5ce1f2a41f4daa4fd106438105d8f95d1ec66156ca7",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the supplied Titanic sketch is ONLY the approved drawing STYLE and warm ivory PAPER reference. Draw ONLY the new vessel requested below, do not copy Titanic's hull or funnels. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 68% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: RMS Queen Mary. Black hull and EXACTLY THREE broad red funnels with black caps; white classic 1930s decks; two slender masts, rounded cruiser stern. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-fb701e2d-8ea0-4cae-8dc6-9bf1fe972d02.png",
+          "prompt": "Edit this ship drawing ONLY to correct its scale on the page. Preserve the exact entire ship, all details, colours, direction, geometry and fine coloured-pencil style. SHRINK the entire ship UNIFORMLY to 76% of its present size, centred on the SAME square ivory page. The whole silhouette, including mast tops and bow, must occupy no more than 70% of both width and height, at least 15% completely BLANK ivory paper on ALL FOUR sides. Seamlessly extend the identical paper. No new objects, text, border, shadow, water or scenery. This is a scale-and-position correction only."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-df168df7-e35f-48e0-bbe1-a3d36633d242.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed, whole ship and safe margins.",
+      "reference": {
+        "slot": 2,
+        "title": "The Queen Mary — Ship history",
+        "url": "https://www.queenmary.com/ship-history.htm"
+      },
+      "group": "Passengers and early steam"
+    },
+    {
+      "slot": 3,
+      "slug": "queen-mary-2",
+      "subject": "Queen Mary 2",
+      "category": "ocean liner",
+      "historical_context": "In service",
+      "features": "Long black hull with fine red waterline strip, soaring white superstructure, single broad red-and-black funnel behind midships, long pointed ocean-liner bow, orange lifeboats.",
+      "view": "port bow; bow left, nearly broadside",
+      "file": "images/03-queen-mary-2.png",
+      "status": "complete",
+      "prompt_subject": "Queen Mary 2. Long black hull with fine red waterline strip, soaring white superstructure, single broad red-and-black funnel behind midships, long pointed ocean-liner bow, orange lifeboats. View: port bow; bow left, nearly broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "992d3b485c2a494211faf62eab28c7e2a4c21e4320ebdd9d0b77be9e55dc8e7b",
+      "decoded_pixel_sha256": "8eaea669814c49a18b08c5bd4fa72204d1b1380491e0860e43821ce00ad569ca",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the supplied Titanic sketch is ONLY the approved drawing STYLE and warm ivory PAPER reference. Draw ONLY the new vessel requested below, do not copy Titanic's hull or funnels. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 68% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: Queen Mary 2. Long black hull with fine red waterline strip, soaring white superstructure, single broad red-and-black funnel behind midships, long pointed ocean-liner bow, orange lifeboats. View: port bow; bow left, nearly broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-3be96080-dcad-40b1-b5ec-afb66a3d384d.png",
+          "prompt": "Edit this ship drawing ONLY to correct its scale on the page. Preserve the exact entire ship, all details, colours, direction, geometry and fine coloured-pencil style. SHRINK the entire ship UNIFORMLY to 76% of its present size, centred on the SAME square ivory page. The whole silhouette, including mast tops and bow, must occupy no more than 70% of both width and height, at least 15% completely BLANK ivory paper on ALL FOUR sides. Seamlessly extend the identical paper. No new objects, text, border, shadow, water or scenery. This is a scale-and-position correction only."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-276cc649-aaa7-4ee1-8563-37b6367e9671.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed, whole ship and safe margins.",
+      "reference": {
+        "slot": 3,
+        "title": "Cunard — Queen Mary 2",
+        "url": "https://www.cunard.com/en-gb/cruise-ships/queen-mary-2"
+      },
+      "group": "Passengers and early steam"
+    },
+    {
+      "slot": 4,
+      "slug": "icon-of-the-seas",
+      "subject": "Icon of the Seas",
+      "category": "cruise ship",
+      "historical_context": "In service",
+      "features": "Very large contemporary cruise ship; pale blue hull, tall tiered white decks with balcony grids, huge blue-glass rounded AquaDome above the bow and a cluster of colourful twisting waterslides aft. Orange lifeboats. No crown logo or lettering.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/04-icon-of-the-seas.png",
+      "status": "complete",
+      "prompt_subject": "Icon of the Seas. Very large contemporary cruise ship; pale blue hull, tall tiered white decks with balcony grids, huge blue-glass rounded AquaDome above the bow and a cluster of colourful twisting waterslides aft. Orange lifeboats. No crown logo or lettering. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "03bc27bfb4453e983802a24e425667448ef02b1217977354d589426d6989af91",
+      "decoded_pixel_sha256": "da887db31e3de61ace9a9775c22598986e99c6c1dd00d0403961e93e7dfa4f1f",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the supplied Titanic sketch is ONLY the approved drawing STYLE and warm ivory PAPER reference. Draw ONLY the new vessel requested below, do not copy Titanic's hull or funnels. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: Draw a modest-sized ship with VERY GENEROUS blank paper around it, like a small museum specimen in the middle of a large square page. The complete silhouette should span about 60% of canvas width or height, not more. SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 64% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: Icon of the Seas. Very large contemporary cruise ship; pale blue hull, tall tiered white decks with balcony grids, huge blue-glass rounded AquaDome above the bow and a cluster of colourful twisting waterslides aft. Orange lifeboats. No crown logo or lettering. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-5006733a-5819-454c-8619-80d4299eccf7.png",
+          "prompt": "Edit this ship drawing ONLY to correct its scale on the page. Preserve the exact entire ship, details, colours, direction, geometry and fine coloured-pencil style. SHRINK the entire ship UNIFORMLY to 78% of its present size, centred on the SAME square ivory page. The whole silhouette including ALL masts and bowsprit must occupy no more than 70% of both width and height, at least 15% completely BLANK ivory paper on ALL FOUR sides. Seamlessly extend identical paper. No new objects, text, border, shadow, water or scenery. Remove any tiny logo-like blue plaque on the forward hull so it is plain pale blue with no logo."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-d976e417-a470-4e03-a297-c1f844fa8e75.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Whole vessel, ivory pencil style, pale-blue hull and colour slide cluster visually reviewed.",
+      "reference": {
+        "slot": 4,
+        "title": "Royal Caribbean — Icon of the Seas",
+        "url": "https://www.royalcaribbean.com/cruise-ships/icon-of-the-seas"
+      },
+      "group": "Passengers and early steam"
+    },
+    {
+      "slot": 5,
+      "slug": "ss-great-britain",
+      "subject": "SS Great Britain",
+      "category": "early steamship",
+      "historical_context": "Retired; preserved",
+      "features": "1845 original six-masted iron screw passenger steamship. Low long black hull, white bulwarks, EXACTLY SIX slim wooden masts with spars and rigging, sails mostly furled so six masts remain distinct, one short buff funnel between the forward masts. No paddlewheels.",
+      "view": "port bow; bow lower left",
+      "file": "images/05-ss-great-britain.png",
+      "status": "complete",
+      "prompt_subject": "SS Great Britain. 1845 original six-masted iron screw passenger steamship. Low long black hull, white bulwarks, EXACTLY SIX slim wooden masts with spars and rigging, sails mostly furled so six masts remain distinct, one short buff funnel between the forward masts. No paddlewheels. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f094f0f80d1717f65b637b86b474a103870daedd3a3965acb4d3de0540cc7bf1",
+      "decoded_pixel_sha256": "44611fa7ba589654305683c708e3c6e0325337d2ec750ec6a446c7763ae8e82b",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square PNG for a 30-pair ships memory game.\nPrimary request: a beautiful, accurate, finished COLOUR SKETCH of the single real named vessel below.\nInput image: the supplied Titanic sketch is ONLY the approved drawing STYLE and warm ivory PAPER reference. Draw ONLY the new vessel requested below, do not copy Titanic's hull or funnels. Match its fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained transparent watercolour modelling, softly lit from upper left. Expert maritime illustrator, richly finished yet visibly hand drawn, natural colours, paper highlights. No photographic, CGI, toy, cartoon or vector look.\nBackdrop: uniform warm ivory drawing paper, subtle fine grain, otherwise BLANK edge to edge. No scenery, sky, ocean, horizon, waves, wake, ground, cast shadow or decorative wash. Show the vessel as a clean waterline portrait: only its above-water hull, with a neat lower waterline edge on blank paper.\nComposition: Draw a modest-sized ship with VERY GENEROUS blank paper around it, like a small museum specimen in the middle of a large square page. The complete silhouette should span about 60% of canvas width or height, not more. SQUARE 1:1, at least 1024px. Exactly ONE complete ship, centred, with moderate three-quarter foreshortening so the long side and distinctive silhouette are readable. All extremities including bowsprit, mast tops, sails, cranes, stern and lifeboats must fit in the central 64% of BOTH dimensions. At least 14% completely blank paper on EVERY side. Do not enlarge it to fill the page. Keep the vessel upright with vertical masts; varied compass headings and viewing sides across this collection, NEVER a rolled or tipped ship.\nText: none. No names, letters, numbers, hull identifiers, logos, flags bearing symbols, labels, caption, signature, watermark or card border. Identification through major shape and colours. No crew, passengers, other vessels or objects.\nHistorical treatment: portray the vessel intact in its working heyday even if it was later sunk or retired. No damage, sinking, combat, smoke or explosions.\nSpecific vessel, identifying details and requested view: SS Great Britain. 1845 original six-masted iron screw passenger steamship. Low long black hull, white bulwarks, EXACTLY SIX slim wooden masts with spars and rigging, sails mostly furled so six masts remain distinct, one short buff funnel between the forward masts. No paddlewheels. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-84e6d27e-a40d-4755-9732-fd78fa44a6d5.png",
+          "prompt": "Edit this ship drawing ONLY to correct its scale on the page. Preserve the exact entire ship, details, colours, direction, geometry and fine coloured-pencil style. SHRINK the entire ship UNIFORMLY to 78% of its present size, centred on the SAME square ivory page. The whole silhouette including ALL masts and bowsprit must occupy no more than 70% of both width and height, at least 15% completely BLANK ivory paper on ALL FOUR sides. Seamlessly extend identical paper. No new objects, text, border, shadow, water or scenery. Also correct this specific historical detail while preserving the SIX mast count: SS Great Britain in 1845 was a SIX-MASTED SCHOONER, and only the SECOND mast from the BOW (the mainmast) carried square-sail horizontal yards. Remove the horizontal square-sail yards and their furled square sails from the OTHER FIVE masts. Keep those five as slim fore-and-aft schooner masts with fine rigging and small fore-aft booms, no full sails. Keep six masts total, single buff funnel, hull unchanged."
+        },
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-8fd733c6-d7a5-4189-8af9-42cc57d51d61.png",
+          "prompt": "Correct this SS Great Britain sketch with exactly two changes. 1. There are currently SEVEN masts: REMOVE the very LAST (furthest RIGHT, shortest) mast entirely, including only its associated rigging, leaving exactly SIX masts. Keep all remaining masts where they are: the second from left has square yards, the other five have none. 2. Uniformly reduce the whole ship and all its six remaining masts to 86% of the present size, centred, with at least 14% blank ivory paper on left and right. Preserve the exact existing hull, single funnel, colours and pencil texture. No text, water, border or new details."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-d24cbc5e-277f-48dc-9066-9d103cd239e1.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; whole silhouette, mast count, generous safe margins and hand-drawn style.",
+      "reference": {
+        "slot": 5,
+        "title": "SS Great Britain Trust — Conservation plan, volume 2",
+        "url": "https://www.ssgreatbritain.org/wp-content/uploads/2021/05/ssGBConservationPlanVol2.pdf"
+      },
+      "group": "Passengers and early steam"
+    },
+    {
+      "slot": 6,
+      "slug": "hms-victory",
+      "subject": "HMS Victory",
+      "category": "ship of the line",
+      "historical_context": "Preserved flagship",
+      "features": "1805 British first-rate wooden warship: three tall masts, square-rigged with cream sails partly set, elaborate rigging, black hull with THREE broad ochre-yellow gun-deck bands and rows of dark gunports, high ornamented stern, long bowsprit.",
+      "view": "starboard bow; bow right",
+      "file": "images/06-hms-victory.png",
+      "status": "complete",
+      "prompt_subject": "HMS Victory. 1805 British first-rate wooden warship: three tall masts, square-rigged with cream sails partly set, elaborate rigging, black hull with THREE broad ochre-yellow gun-deck bands and rows of dark gunports, high ornamented stern, long bowsprit. View: starboard bow; bow right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6d54263d802365707caf74f40a61354f1740350d5d3578e64259133e43942b23",
+      "decoded_pixel_sha256": "e3d533793625c64d424855435cf73b78c23da3b9d66b565eeca6e99e7ac9bbec",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: HMS Victory. 1805 British first-rate wooden warship: three tall masts, square-rigged with cream sails partly set, elaborate rigging, black hull with THREE broad ochre-yellow gun-deck bands and rows of dark gunports, high ornamented stern, long bowsprit. View: starboard bow; bow right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-314c3bf7-66f8-484f-89ca-b11d1f32d5aa.png",
+          "prompt": "Edit this sailing-ship sketch with ONE change: uniformly SHRINK the ENTIRE ship, including every sail, mast, rigging line and bowsprit, to 82% of its CURRENT size, centred on the SAME square ivory page. Preserve ALL shapes, colours, details, viewing direction and beautiful pencil texture exactly. Extend the identical blank paper seamlessly. Aim for at least 15% entirely blank paper on EVERY side of the complete silhouette. No text, water, border or anything added."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-ab16f855-2c63-4e80-804d-467dadda2409.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; whole silhouette, mast count, generous safe margins and hand-drawn style.",
+      "reference": {
+        "slot": 6,
+        "title": "Royal Navy Museums — HMS Victory",
+        "url": "https://www.royalnavymuseums.org.uk/visit-us/portsmouth-historic-dockyard/hms-victory"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 7,
+      "slug": "cutty-sark",
+      "subject": "Cutty Sark",
+      "category": "tea clipper",
+      "historical_context": "Retired; preserved",
+      "features": "Sleek 1869 three-masted full-rigged tea clipper under cream square sails, very long pointed bowsprit, fine sharp black hull with narrow white sheer accent and copper waterline strip, low elegant deck, no guns or funnel. Light open rigging.",
+      "view": "port bow; bow lower left",
+      "file": "images/07-cutty-sark.png",
+      "status": "complete",
+      "prompt_subject": "Cutty Sark. Sleek 1869 three-masted full-rigged tea clipper under cream square sails, very long pointed bowsprit, fine sharp black hull with narrow white sheer accent and copper waterline strip, low elegant deck, no guns or funnel. Light open rigging. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f95b9066c8796b143618ddfa91056e028a5195009c3b7b7f0c6a344e161eaa02",
+      "decoded_pixel_sha256": "47fd0a65264443b00e0de0f24b8e1abd5eaebd7aefa237f9486768a025651997",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Cutty Sark. Sleek 1869 three-masted full-rigged tea clipper under cream square sails, very long pointed bowsprit, fine sharp black hull with narrow white sheer accent and copper waterline strip, low elegant deck, no guns or funnel. Light open rigging. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-153714fd-438c-47e5-807f-478971360275.png",
+          "prompt": "Edit this sailing-ship sketch with ONE change: uniformly SHRINK the ENTIRE ship, including every sail, mast, rigging line and bowsprit, to 82% of its CURRENT size, centred on the SAME square ivory page. Preserve ALL shapes, colours, details, viewing direction and beautiful pencil texture exactly. Extend the identical blank paper seamlessly. Aim for at least 15% entirely blank paper on EVERY side of the complete silhouette. No text, water, border or anything added."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-3fe4ebe9-5651-42ec-a3ec-ca4a61d56d06.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; whole silhouette, mast count, generous safe margins and hand-drawn style.",
+      "reference": {
+        "slot": 7,
+        "title": "National Historic Ships — Cutty Sark",
+        "url": "https://www.nationalhistoricships.org.uk/register/438/cutty-sark"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 8,
+      "slug": "vasa",
+      "subject": "Vasa",
+      "category": "seventeenth-century warship",
+      "historical_context": "Sunk, 1628; raised and preserved",
+      "features": "1628 Swedish wooden warship as intact afloat, THREE masts, ivory square sails lightly set, extremely tall elaborate red stern covered in restrained gilded carved figures, two tiers of gunports, warm oak hull with red and gold ornament, long beakhead and bowsprit. Historically inspired reconstruction rather than dark museum wreck.",
+      "view": "starboard quarter; stern lower left, bow upper right",
+      "file": "images/08-vasa.png",
+      "status": "complete",
+      "prompt_subject": "Vasa. 1628 Swedish wooden warship as intact afloat, THREE masts, ivory square sails lightly set, extremely tall elaborate red stern covered in restrained gilded carved figures, two tiers of gunports, warm oak hull with red and gold ornament, long beakhead and bowsprit. Historically inspired reconstruction rather than dark museum wreck. View: starboard quarter; stern lower left, bow upper right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "185ab70935f89db0475e7b732a2c033220935926c0f8d19a0906a3894af426e5",
+      "decoded_pixel_sha256": "58a2427392c0c5270741b488bc7a0948b6c1098e377cfb0400edc9622e2ed88d",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Vasa. 1628 Swedish wooden warship as intact afloat, THREE masts, ivory square sails lightly set, extremely tall elaborate red stern covered in restrained gilded carved figures, two tiers of gunports, warm oak hull with red and gold ornament, long beakhead and bowsprit. Historically inspired reconstruction rather than dark museum wreck. View: starboard quarter; stern lower left, bow upper right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-2ba64e26-6327-4238-8b9c-7a3387c29d83.png",
+          "prompt": "Edit this sailing-ship sketch with ONE change: uniformly SHRINK the ENTIRE ship, including every sail, mast, rigging line and bowsprit, to 80% of its CURRENT size, centred on the SAME square ivory page. Preserve ALL shapes, colours, details, viewing direction and fine coloured-pencil texture exactly. Extend the identical blank paper seamlessly. Leave at least 15% entirely blank paper on EVERY side of the complete silhouette. No text, water, border or anything added."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-6ee97752-f510-4448-a511-a604e37e73cc.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete masts and sails, distinctive hull colours, clear safe margins.",
+      "reference": {
+        "slot": 8,
+        "title": "Vasa Museum — The disaster",
+        "url": "https://www.vasamuseet.se/en/explore/vasa-history/disaster"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 9,
+      "slug": "uss-constitution",
+      "subject": "USS Constitution",
+      "category": "sailing frigate",
+      "historical_context": "Preserved commissioned ship",
+      "features": "Three-masted American heavy frigate in early nineteenth-century sailing appearance; long sleek black wooden hull with ONE bold white gun-deck stripe and dark square gunports, cream square sails, dark spars, long bowsprit, modest stern. No multiple yellow gun-deck bands.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/09-uss-constitution.png",
+      "status": "complete",
+      "prompt_subject": "USS Constitution. Three-masted American heavy frigate in early nineteenth-century sailing appearance; long sleek black wooden hull with ONE bold white gun-deck stripe and dark square gunports, cream square sails, dark spars, long bowsprit, modest stern. No multiple yellow gun-deck bands. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a41f69127a03b66de48474aef456c783be41511058506c4ba869aa679f223391",
+      "decoded_pixel_sha256": "c34a57411e99b7da0f5c3664c6e5a609d7060c39df6484a21408f1f856629400",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: USS Constitution. Three-masted American heavy frigate in early nineteenth-century sailing appearance; long sleek black wooden hull with ONE bold white gun-deck stripe and dark square gunports, cream square sails, dark spars, long bowsprit, modest stern. No multiple yellow gun-deck bands. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-a622811e-ccda-4ccd-b8e6-f92f0829a2d4.png",
+          "prompt": "Edit this sailing-ship sketch with ONE change: uniformly SHRINK the ENTIRE ship, including every sail, mast, rigging line and bowsprit, to 80% of its CURRENT size, centred on the SAME square ivory page. Preserve ALL shapes, colours, details, viewing direction and fine coloured-pencil texture exactly. Extend the identical blank paper seamlessly. Leave at least 15% entirely blank paper on EVERY side of the complete silhouette. No text, water, border or anything added."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-91e20e75-a5f5-41e1-aa84-2f5e14907ab0.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete masts and sails, distinctive hull colours, clear safe margins.",
+      "reference": {
+        "slot": 9,
+        "title": "Naval History and Heritage Command — Constitution",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/c/constitution.html"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 10,
+      "slug": "santa-maria",
+      "subject": "Santa Maria",
+      "category": "exploration nao",
+      "historical_context": "Lost, 1492",
+      "features": "Interpretive reconstruction of Columbus's 1492 Santa Maria: compact high-sided wooden nao with raised forecastle and tall square sterncastle, THREE masts, mainmast carrying one broad cream square sail, smaller square fore sail, triangular lateen mizzen aft, long bowsprit. NO red crosses or flags. Honey-brown planking, simple dark bands.",
+      "view": "port bow; bow lower left",
+      "file": "images/10-santa-maria.png",
+      "status": "complete",
+      "prompt_subject": "Santa Maria. Interpretive reconstruction of Columbus's 1492 Santa Maria: compact high-sided wooden nao with raised forecastle and tall square sterncastle, THREE masts, mainmast carrying one broad cream square sail, smaller square fore sail, triangular lateen mizzen aft, long bowsprit. NO red crosses or flags. Honey-brown planking, simple dark bands. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0f3a7f9a6143e663384a177844e00e4e6604d7804152d64796dbcd43bf19eb9c",
+      "decoded_pixel_sha256": "f43d3c9ece87451484ebec44bc6449916da1fa8e603a59c6e48ccce6beea78e7",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Santa Maria. Interpretive reconstruction of Columbus's 1492 Santa Maria: compact high-sided wooden nao with raised forecastle and tall square sterncastle, THREE masts, mainmast carrying one broad cream square sail, smaller square fore sail, triangular lateen mizzen aft, long bowsprit. NO red crosses or flags. Honey-brown planking, simple dark bands. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-5f84bf46-369c-41ac-b832-7fa76546268c.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; distinctive rig and hull, complete silhouette and safe margins.",
+      "reference": {
+        "slot": 10,
+        "title": "Smithsonian — Santa Maria model",
+        "url": "https://www.americanhistory.si.edu/collections/object/nmah_844077"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 11,
+      "slug": "gokstad",
+      "subject": "Gokstad ship",
+      "category": "Viking ship",
+      "historical_context": "Preserved archaeological ship",
+      "features": "Ninth-century Gokstad Viking longship reconstructed afloat: long narrow clinker-built honey-brown wooden open hull, elegant curved stem and stern, ONE central mast with a large rectangular red-and-cream vertically striped square sail, alternating warm-toned round shields along gunwale, a few oars visible. No dragon head, no roof or deckhouse.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/11-gokstad.png",
+      "status": "complete",
+      "prompt_subject": "Gokstad ship. Ninth-century Gokstad Viking longship reconstructed afloat: long narrow clinker-built honey-brown wooden open hull, elegant curved stem and stern, ONE central mast with a large rectangular red-and-cream vertically striped square sail, alternating warm-toned round shields along gunwale, a few oars visible. No dragon head, no roof or deckhouse. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5f1bb5cbab5107addbb61788cbd5552560a7a1d5a05727546ac7fbd9fc65a035",
+      "decoded_pixel_sha256": "42b9cf0dffdc389bd1cb984d2f6bbcb7635f62f8e38da3f78318960f339a203b",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Gokstad ship. Ninth-century Gokstad Viking longship reconstructed afloat: long narrow clinker-built honey-brown wooden open hull, elegant curved stem and stern, ONE central mast with a large rectangular red-and-cream vertically striped square sail, alternating warm-toned round shields along gunwale, a few oars visible. No dragon head, no roof or deckhouse. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-e070a911-d614-4242-addb-93a649ada03b.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; distinctive rig and hull, complete silhouette and safe margins.",
+      "reference": {
+        "slot": 11,
+        "title": "Museum of the Viking Age — Gokstad ship",
+        "url": "https://www.vikingtidsmuseet.no/english/viking-age/viking-ships/the-gokstad-ship.html"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 12,
+      "slug": "hmb-endeavour",
+      "subject": "HMB Endeavour",
+      "category": "exploration bark",
+      "historical_context": "Historic exploration ship",
+      "features": "Cook's eighteenth-century collier-built exploration bark, broad rounded bluff bow, THREE wooden masts, cream square sails with rigging, warm brown stocky hull, deep blue topside panel and ochre trim, small raised quarterdeck. Clearly broad-bodied and practical rather than sleek clipper.",
+      "view": "port quarter; stern lower right, bow upper left",
+      "file": "images/12-hmb-endeavour.png",
+      "status": "complete",
+      "prompt_subject": "HMB Endeavour. Cook's eighteenth-century collier-built exploration bark, broad rounded bluff bow, THREE wooden masts, cream square sails with rigging, warm brown stocky hull, deep blue topside panel and ochre trim, small raised quarterdeck. Clearly broad-bodied and practical rather than sleek clipper. View: port quarter; stern lower right, bow upper left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5dbecca5a999d716fdb53ee9af77f1e13ae11dc8f61aaa70514e6c48f446f985",
+      "decoded_pixel_sha256": "37bc8776f53c6393b8be721652a5c3a6dd018aed436602f916c88160fe767880",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: HMB Endeavour. Cook's eighteenth-century collier-built exploration bark, broad rounded bluff bow, THREE wooden masts, cream square sails with rigging, warm brown stocky hull, deep blue topside panel and ochre trim, small raised quarterdeck. Clearly broad-bodied and practical rather than sleek clipper. View: port quarter; stern lower right, bow upper left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-34264572-6b10-4c02-a230-7fe973ca0cb4.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette, recognisable major rig/turrets and safe margins.",
+      "reference": {
+        "slot": 12,
+        "title": "Australian National Maritime Museum — Endeavour",
+        "url": "https://www.sea.museum/en/whats-on/our-fleet/endeavour"
+      },
+      "group": "Sail and exploration"
+    },
+    {
+      "slot": 13,
+      "slug": "bismarck",
+      "subject": "Bismarck",
+      "category": "battleship",
+      "historical_context": "Sunk, 1941",
+      "features": "German battleship in restrained 1941 plain grey appearance without flags or political symbols: long Atlantic bow, FOUR twin main-gun turrets with two barrels each, two turrets forward and two aft, ONE thick funnel, massive central bridge superstructure, tan wooden deck, grey hull. Guns quiet, no firing.",
+      "view": "port bow; bow lower left",
+      "file": "images/13-bismarck.png",
+      "status": "complete",
+      "prompt_subject": "Bismarck. German battleship in restrained 1941 plain grey appearance without flags or political symbols: long Atlantic bow, FOUR twin main-gun turrets with two barrels each, two turrets forward and two aft, ONE thick funnel, massive central bridge superstructure, tan wooden deck, grey hull. Guns quiet, no firing. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "01b3096183e33789f663ebd36cfd44ea504b41f8a308db06ece1f60373762e30",
+      "decoded_pixel_sha256": "a85b8d0b08e7ca0b0e9b509b530081ae6a13fafe05a4cac2c1b59ae19e1336dd",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Bismarck. German battleship in restrained 1941 plain grey appearance without flags or political symbols: long Atlantic bow, FOUR twin main-gun turrets with two barrels each, two turrets forward and two aft, ONE thick funnel, massive central bridge superstructure, tan wooden deck, grey hull. Guns quiet, no firing. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-b234e7db-4b3b-4521-b03c-4bc7bf1f73d2.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette, recognisable major rig/turrets and safe margins.",
+      "reference": {
+        "slot": 13,
+        "title": "Wikipedia — German battleship Bismarck",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Bismarck"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 14,
+      "slug": "yamato",
+      "subject": "Yamato",
+      "category": "battleship",
+      "historical_context": "Sunk, 1945",
+      "features": "Japanese battleship in plain grey late-war appearance, THREE massive triple main-gun turrets with three barrels each, two turrets forward and one aft; distinctive tall tiered pagoda-like bridge, large angled single funnel, very broad hull and tan deck. No flag, no insignia, guns at rest.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/14-yamato.png",
+      "status": "complete",
+      "prompt_subject": "Yamato. Japanese battleship in plain grey late-war appearance, THREE massive triple main-gun turrets with three barrels each, two turrets forward and one aft; distinctive tall tiered pagoda-like bridge, large angled single funnel, very broad hull and tan deck. No flag, no insignia, guns at rest. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ae95e6fe1f82c04a896fd69780de52fa32e56b32449df927b2dca7091162e8b6",
+      "decoded_pixel_sha256": "3e4855df6f1aced44d68f45c85806850a33ec1639f5fcac9049f7bf96cb34dce",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Yamato. Japanese battleship in plain grey late-war appearance, THREE massive triple main-gun turrets with three barrels each, two turrets forward and one aft; distinctive tall tiered pagoda-like bridge, large angled single funnel, very broad hull and tan deck. No flag, no insignia, guns at rest. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-2238438f-f9d3-4799-8347-2af455fea7b5.png",
+          "prompt": "Edit this battleship sketch with ONE change: uniformly SHRINK the ENTIRE vessel including all masts and gun barrels to 84% of its CURRENT size, centred on the SAME square ivory page. Preserve all ship geometry, turrets, colours, viewpoint and fine pencil drawing exactly. Seamlessly extend the matching ivory paper. At least 14% blank paper on ALL FOUR sides. No added water, text, borders, flags, smoke or shadows."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-4ef381b2-5cc1-4355-8b28-36aea733cdd1.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette, grey steel/tan deck, safe margins.",
+      "reference": {
+        "slot": 14,
+        "title": "Naval History and Heritage Command — Death of Yamato",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 15,
+      "slug": "uss-missouri",
+      "subject": "USS Missouri (BB-63)",
+      "category": "battleship",
+      "historical_context": "Retired; museum ship",
+      "features": "Iowa-class battleship in classic 1945 configuration: exceptionally long slender grey hull and sharp bow, THREE triple main-gun turrets, two forward one aft, THREE barrels per turret, TWO slender funnels separated along centreline, tall compact tower bridge, tan wood deck. No hull numbers, no flag, guns quiet.",
+      "view": "port bow; bow left, near broadside",
+      "file": "images/15-uss-missouri.png",
+      "status": "complete",
+      "prompt_subject": "USS Missouri (BB-63). Iowa-class battleship in classic 1945 configuration: exceptionally long slender grey hull and sharp bow, THREE triple main-gun turrets, two forward one aft, THREE barrels per turret, TWO slender funnels separated along centreline, tall compact tower bridge, tan wood deck. No hull numbers, no flag, guns quiet. View: port bow; bow left, near broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c80d7deb37cc1662a34109a49604eb33e5a74b4418245fd21939942fc2c5395d",
+      "decoded_pixel_sha256": "50ff270028f1ceacacb5e805d0461fc27495dafa104a54d0c3ced0ce9670b91e",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: USS Missouri (BB-63). Iowa-class battleship in classic 1945 configuration: exceptionally long slender grey hull and sharp bow, THREE triple main-gun turrets, two forward one aft, THREE barrels per turret, TWO slender funnels separated along centreline, tall compact tower bridge, tan wood deck. No hull numbers, no flag, guns quiet. View: port bow; bow left, near broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-e0d4046b-6207-47d2-82fa-bc4018042fc5.png",
+          "prompt": "Edit this battleship sketch with ONE change: uniformly SHRINK the ENTIRE vessel including all masts and gun barrels to 84% of its CURRENT size, centred on the SAME square ivory page. Preserve all ship geometry, turrets, colours, viewpoint and fine pencil drawing exactly. Seamlessly extend the matching ivory paper. At least 14% blank paper on ALL FOUR sides. No added water, text, borders, flags, smoke or shadows."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9f678919-dc84-470e-97bd-435b1ed30fb5.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette, grey steel/tan deck, safe margins.",
+      "reference": {
+        "slot": 15,
+        "title": "Battleship Missouri Memorial — Ship characteristics",
+        "url": "https://ussmissouri.org/kr/history/the-ship/ship-characteristics"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 16,
+      "slug": "hms-belfast",
+      "subject": "HMS Belfast",
+      "category": "light cruiser",
+      "historical_context": "Retired; museum ship",
+      "features": "British Town-class cruiser with four triple main-gun turrets, two forward and two aft, TWO upright funnels, lattice masts, long lean hull; recognisable angular blue-grey and pale grey disruptive hull camouflage inspired by preserved Belfast, tan deck. No letters or pennants.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/16-hms-belfast.png",
+      "status": "complete",
+      "prompt_subject": "HMS Belfast. British Town-class cruiser with four triple main-gun turrets, two forward and two aft, TWO upright funnels, lattice masts, long lean hull; recognisable angular blue-grey and pale grey disruptive hull camouflage inspired by preserved Belfast, tan deck. No letters or pennants. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5eb50340db597d0a7699202f1c89c6cf8239154c5bc4f5f4027b04091b52d2a5",
+      "decoded_pixel_sha256": "c216ace48b66e491d0ac84b0e6785fdc9ce96e131a2a16df8e6a4cae3c93595e",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: HMS Belfast. British Town-class cruiser with four triple main-gun turrets, two forward and two aft, TWO upright funnels, lattice masts, long lean hull; recognisable angular blue-grey and pale grey disruptive hull camouflage inspired by preserved Belfast, tan deck. No letters or pennants. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-ef15e460-4457-4fba-af63-7ada5d324937.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and clear safe margins; distinctive camouflage or cylindrical ironclad turret.",
+      "reference": {
+        "slot": 16,
+        "title": "Imperial War Museums — HMS Belfast and the Korean War",
+        "url": "https://tnaqa.mirrorweb.com/ukgwa/20260803073319mp_/https%3A/www.iwm.org.uk/history/iwm/hms-belfast/korea"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 17,
+      "slug": "uss-monitor",
+      "subject": "USS Monitor",
+      "category": "ironclad",
+      "historical_context": "Sunk, 1862",
+      "features": "American Civil War ironclad: extremely low flat grey-black raftlike deck, almost no freeboard, ONE squat cylindrical revolving turret amidships with two short barrels, tiny square pilot house forward, small fittings, no sailing masts or large superstructure. Whole low long waterline silhouette visible.",
+      "view": "port bow; bow lower left, elevated view",
+      "file": "images/17-uss-monitor.png",
+      "status": "complete",
+      "prompt_subject": "USS Monitor. American Civil War ironclad: extremely low flat grey-black raftlike deck, almost no freeboard, ONE squat cylindrical revolving turret amidships with two short barrels, tiny square pilot house forward, small fittings, no sailing masts or large superstructure. Whole low long waterline silhouette visible. View: port bow; bow lower left, elevated view. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3e1a1f222e3da8ace24eec4d6696ff242678344ae33056c52154e951d9f881dd",
+      "decoded_pixel_sha256": "9f8305df0d61413ace5df37ed9eaad6a456729ddc90ed5594f76d73b27b6967b",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: USS Monitor. American Civil War ironclad: extremely low flat grey-black raftlike deck, almost no freeboard, ONE squat cylindrical revolving turret amidships with two short barrels, tiny square pilot house forward, small fittings, no sailing masts or large superstructure. Whole low long waterline silhouette visible. View: port bow; bow lower left, elevated view. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-2d3adfa5-168c-4c51-8735-9bbf6aac0680.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and clear safe margins; distinctive camouflage or cylindrical ironclad turret.",
+      "reference": {
+        "slot": 17,
+        "title": "NOAA — History of USS Monitor",
+        "url": "https://monitor.noaa.gov/about/history.html"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 18,
+      "slug": "uss-gerald-r-ford",
+      "subject": "USS Gerald R. Ford (CVN-78)",
+      "category": "aircraft carrier",
+      "historical_context": "In service",
+      "features": "Modern Ford-class supercarrier: huge wide GREY flat flight deck, angled landing area, broad pointed bow and overhanging deck, compact tall island far AFT on the STARBOARD side with integrated planar radar panels, no ski jump. Deck EMPTY with no separate aircraft; fine non-text white deck-line geometry only, NO digits. Show true starboard side, island visible at far right aft without mirroring.",
+      "view": "starboard bow; bow lower right, elevated view",
+      "file": "images/18-uss-gerald-r-ford.png",
+      "status": "complete",
+      "prompt_subject": "USS Gerald R. Ford (CVN-78). Modern Ford-class supercarrier: huge wide GREY flat flight deck, angled landing area, broad pointed bow and overhanging deck, compact tall island far AFT on the STARBOARD side with integrated planar radar panels, no ski jump. Deck EMPTY with no separate aircraft; fine non-text white deck-line geometry only, NO digits. Show true starboard side, island visible at far right aft without mirroring. View: starboard bow; bow lower right, elevated view. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c00c35394240740dfcd85bb64948bc8d5f2d7bdadf670733e096b0fa3f2eda71",
+      "decoded_pixel_sha256": "69407d8f3626149a8c06d6e675c9287dc28035e1d480b91e4458b012444f75d6",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: USS Gerald R. Ford (CVN-78). Modern Ford-class supercarrier: huge wide GREY flat flight deck, angled landing area, broad pointed bow and overhanging deck, compact tall island far AFT on the STARBOARD side with integrated planar radar panels, no ski jump. Deck EMPTY with no separate aircraft; fine non-text white deck-line geometry only, NO digits. Show true starboard side, island visible at far right aft without mirroring. View: starboard bow; bow lower right, elevated view. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-116360de-df68-46b2-ad9e-c5773e546949.png",
+          "prompt": "Edit this carrier sketch ONLY by shrinking the complete carrier and island uniformly to 84% of their current size, centred on the SAME square ivory page. Keep the exact vessel geometry, empty flight deck, starboard aft island, colours, pencil texture, lighting and direction unchanged. Extend the identical paper seamlessly. At least 14% completely blank ivory paper around every extreme point on all four sides. No text, numbers, planes, sea, shadow or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-6c540b41-8684-40a9-9d0b-063d72a5a4c8.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; empty deck, starboard aft island, complete silhouette and safe margins.",
+      "reference": {
+        "slot": 18,
+        "title": "US Navy — USS Gerald R. Ford",
+        "url": "https://www.airlant.usff.navy.mil/cvn78/lang/en/"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 19,
+      "slug": "uss-nautilus",
+      "subject": "USS Nautilus (SSN-571)",
+      "category": "submarine",
+      "historical_context": "Retired; museum ship",
+      "features": "Early nuclear submarine Nautilus in surfaced 1950s appearance: long slim rounded black/dark charcoal upper hull, tall narrow slab-sided sail forward of centre, slim periscopes, distinct pointed boatlike bow with traditional raised foredeck, no modern teardrop bow or sail diving planes. Waterline portrait, no undersea scenery.",
+      "view": "port bow; bow lower left",
+      "file": "images/19-uss-nautilus.png",
+      "status": "complete",
+      "prompt_subject": "USS Nautilus (SSN-571). Early nuclear submarine Nautilus in surfaced 1950s appearance: long slim rounded black/dark charcoal upper hull, tall narrow slab-sided sail forward of centre, slim periscopes, distinct pointed boatlike bow with traditional raised foredeck, no modern teardrop bow or sail diving planes. Waterline portrait, no undersea scenery. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e5944713ba38fda332ce95db43ae07d4db240d91d98332adfedf46f8be875044",
+      "decoded_pixel_sha256": "b48b63a6c24ec09181c9db47c18f20530bbea9a51849d68e1e824ecc80dc36ed",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: USS Nautilus (SSN-571). Early nuclear submarine Nautilus in surfaced 1950s appearance: long slim rounded black/dark charcoal upper hull, tall narrow slab-sided sail forward of centre, slim periscopes, distinct pointed boatlike bow with traditional raised foredeck, no modern teardrop bow or sail diving planes. Waterline portrait, no undersea scenery. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-3a8ce7de-634d-4533-9dda-6493f9fb1e1c.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; contrasting slim/broad submarine hulls, complete silhouette and safe margins. Submarines use a fuller hull portrait rather than a strict surface waterline.",
+      "reference": {
+        "slot": 19,
+        "title": "Submarine Force Museum — USS Nautilus",
+        "url": "https://ussnautilus.org/common-questions-about-uss-nautilus-ssn-571/"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 20,
+      "slug": "typhoon-class",
+      "subject": "Typhoon-class submarine",
+      "category": "submarine",
+      "historical_context": "Retired class",
+      "features": "Project 941 Typhoon-class nuclear submarine surfaced: immense very BROAD black rounded hull with long flat missile-deck section ahead of tall blocky sail toward the rear-middle, rounded bulbous bow, small red-brown waterline strip, paired horizontal forward diving planes, enormous scale and broad shoulders. No open missiles, no insignia or numbers.",
+      "view": "starboard bow; bow lower right, elevated to show breadth",
+      "file": "images/20-typhoon-class.png",
+      "status": "complete",
+      "prompt_subject": "Typhoon-class submarine. Project 941 Typhoon-class nuclear submarine surfaced: immense very BROAD black rounded hull with long flat missile-deck section ahead of tall blocky sail toward the rear-middle, rounded bulbous bow, small red-brown waterline strip, paired horizontal forward diving planes, enormous scale and broad shoulders. No open missiles, no insignia or numbers. View: starboard bow; bow lower right, elevated to show breadth. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "612a2c92beac76c4126ee0c36b7ebad0ad393b03060770ecd7957df16d19b90d",
+      "decoded_pixel_sha256": "4e798d8335e9ff0129dd7216abeebe0dca7733f1273fbcee814503e9839587fe",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Typhoon-class submarine. Project 941 Typhoon-class nuclear submarine surfaced: immense very BROAD black rounded hull with long flat missile-deck section ahead of tall blocky sail toward the rear-middle, rounded bulbous bow, small red-brown waterline strip, paired horizontal forward diving planes, enormous scale and broad shoulders. No open missiles, no insignia or numbers. View: starboard bow; bow lower right, elevated to show breadth. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-23a129b7-35ce-4d5c-b1e0-da5e23d48880.png",
+          "prompt": "Edit this Typhoon submarine drawing ONLY by uniformly shrinking the entire vessel including diving planes, stern and periscopes to 84% of the CURRENT size, centred on the SAME square ivory page. Preserve the exact complete geometry, colours, detail, pencil style, lighting and direction. Seamlessly extend identical paper. Leave at least 14% completely blank paper on all four sides. No text, numbers, water, shadows or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-ea4ffbb6-d86e-4825-8a79-a68039c3ef7d.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; contrasting slim/broad submarine hulls, complete silhouette and safe margins. Submarines use a fuller hull portrait rather than a strict surface waterline.",
+      "reference": {
+        "slot": 20,
+        "title": "Wikipedia — Typhoon-class submarine",
+        "url": "https://en.wikipedia.org/wiki/Typhoon-class_submarine"
+      },
+      "group": "Naval ships and submarines"
+    },
+    {
+      "slot": 21,
+      "slug": "calypso",
+      "subject": "RV Calypso",
+      "category": "research vessel",
+      "historical_context": "Retired research vessel",
+      "features": "Jacques Cousteau's classic converted wooden minesweeper research ship, compact white hull and superstructure, single narrow black funnel with yellow band, tall yellow forward A-frame mast/derrick, aft open working deck with small yellow crane, low rounded bow; fine red lower waterline line. No helicopter, no text, no people.",
+      "view": "port bow; bow lower left",
+      "file": "images/21-calypso.png",
+      "status": "complete",
+      "prompt_subject": "RV Calypso. Jacques Cousteau's classic converted wooden minesweeper research ship, compact white hull and superstructure, single narrow black funnel with yellow band, tall yellow forward A-frame mast/derrick, aft open working deck with small yellow crane, low rounded bow; fine red lower waterline line. No helicopter, no text, no people. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f90b6d277dce09c394409c961d1d4b7bc1016db3956fd22961097d0f88e7950f",
+      "decoded_pixel_sha256": "e1ebcdb11b22fca0b9a44139ff0af4469845d0c93e35a5c3f3d064810be2fdca",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: RV Calypso. Jacques Cousteau's classic converted wooden minesweeper research ship, compact white hull and superstructure, single narrow black funnel with yellow band, tall yellow forward A-frame mast/derrick, aft open working deck with small yellow crane, low rounded bow; fine red lower waterline line. No helicopter, no text, no people. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-5b0be213-ac04-4566-bde1-ae825c941f4a.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete research vessel silhouette, distinctive mast/crane arrangements and clear paper margins.",
+      "reference": {
+        "slot": 21,
+        "title": "Cousteau Society — Calypso",
+        "url": "https://www.cousteau.org/know/vessels/calypso/"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 22,
+      "slug": "polarstern",
+      "subject": "RV Polarstern",
+      "category": "polar research icebreaker",
+      "historical_context": "In service",
+      "features": "German polar research icebreaker Polarstern: heavy dark BLUE angular hull, broad icebreaking bow, white blocky forward/midship superstructure and bridge with orange-red upper mast, pale cream/yellow deck cranes above aft work deck, red funnel, orange lifeboat. Distinctive workship, no ice or scenery.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/22-polarstern.png",
+      "status": "complete",
+      "prompt_subject": "RV Polarstern. German polar research icebreaker Polarstern: heavy dark BLUE angular hull, broad icebreaking bow, white blocky forward/midship superstructure and bridge with orange-red upper mast, pale cream/yellow deck cranes above aft work deck, red funnel, orange lifeboat. Distinctive workship, no ice or scenery. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "19919775df132576aed13f3620254375a04c66c4894705c8b07eaa1eb62001b7",
+      "decoded_pixel_sha256": "f231e0600686ab03aed2758729f26392de5a0a15714ba9f1b1600841269ec14e",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: RV Polarstern. German polar research icebreaker Polarstern: heavy dark BLUE angular hull, broad icebreaking bow, white blocky forward/midship superstructure and bridge with orange-red upper mast, pale cream/yellow deck cranes above aft work deck, red funnel, orange lifeboat. Distinctive workship, no ice or scenery. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-cc402e2f-d0de-4d16-a899-9f46d75e0eca.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete research vessel silhouette, distinctive mast/crane arrangements and clear paper margins.",
+      "reference": {
+        "slot": 22,
+        "title": "Alfred Wegener Institute — Polarstern",
+        "url": "https://www.awi.de/en/fleet-stations/research-vessel-and-cutter/research-vessel-and-icebreaker-polarstern.html"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 23,
+      "slug": "sa-agulhas-ii",
+      "subject": "S. A. Agulhas II",
+      "category": "polar supply and research ship",
+      "historical_context": "In service",
+      "features": "South African polar research and supply icebreaker, bright RED tall hull, white high forward superstructure with wide dark bridge glazing, single red funnel, yellow deck cargo cranes behind bridge and an open grey stern helicopter deck with NO helicopter, grey/black bow top. No inscriptions or flags.",
+      "view": "port bow; bow lower left, side clearly visible",
+      "file": "images/23-sa-agulhas-ii.png",
+      "status": "complete",
+      "prompt_subject": "S. A. Agulhas II. South African polar research and supply icebreaker, bright RED tall hull, white high forward superstructure with wide dark bridge glazing, single red funnel, yellow deck cargo cranes behind bridge and an open grey stern helicopter deck with NO helicopter, grey/black bow top. No inscriptions or flags. View: port bow; bow lower left, side clearly visible. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1bdd1bec7a6e4b444de832cf0cef7bb01aa4a5d98ac25eee2d5cdc2f07825788",
+      "decoded_pixel_sha256": "8f88947e84297d85c0bec7ad6468450f1766452310a65fb87978750fabf5cc99",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: S. A. Agulhas II. South African polar research and supply icebreaker, bright RED tall hull, white high forward superstructure with wide dark bridge glazing, single red funnel, yellow deck cargo cranes behind bridge and an open grey stern helicopter deck with NO helicopter, grey/black bow top. No inscriptions or flags. View: port bow; bow lower left, side clearly visible. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-d78d8c79-fd57-46eb-bfb6-d47d118b6f3d.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; distinctive hull and superstructure, complete silhouette and generous paper margins.",
+      "reference": {
+        "slot": 23,
+        "title": "South African DFFE — S. A. Agulhas II",
+        "url": "https://www.dffe.gov.za/sa-agulhas-ii"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 24,
+      "slug": "ns-savannah",
+      "subject": "NS Savannah",
+      "category": "nuclear merchant ship",
+      "historical_context": "Retired; preserved",
+      "features": "1960s nuclear merchant cargo-passenger ship: streamlined long WHITE hull with sweeping curved cruiser bow and dark narrow accent, elegant low white aft-middle superstructure, single curved low white funnel with dark cap, THREE pairs of white cargo masts/booms spaced along forward cargo decks, sleek yachtlike atomic-age styling. No nuclear logo or text.",
+      "view": "starboard bow; bow right, almost broadside",
+      "file": "images/24-ns-savannah.png",
+      "status": "complete",
+      "prompt_subject": "NS Savannah. 1960s nuclear merchant cargo-passenger ship: streamlined long WHITE hull with sweeping curved cruiser bow and dark narrow accent, elegant low white aft-middle superstructure, single curved low white funnel with dark cap, THREE pairs of white cargo masts/booms spaced along forward cargo decks, sleek yachtlike atomic-age styling. No nuclear logo or text. View: starboard bow; bow right, almost broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "67ae0dccea9cea4494805d0acb9c76c25f75c5e80167945993002679a7f0c79c",
+      "decoded_pixel_sha256": "f6d281ebf0b3da979f4afbe61bc9114a6ed16b96675689c4b9db06438c1c9a80",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: NS Savannah. 1960s nuclear merchant cargo-passenger ship: streamlined long WHITE hull with sweeping curved cruiser bow and dark narrow accent, elegant low white aft-middle superstructure, single curved low white funnel with dark cap, THREE pairs of white cargo masts/booms spaced along forward cargo decks, sleek yachtlike atomic-age styling. No nuclear logo or text. View: starboard bow; bow right, almost broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-c38aaf2b-5edb-439b-a345-96d56eeae0e2.png",
+          "prompt": "Edit this NS Savannah sketch ONLY by uniformly shrinking the entire ship, masts, booms and rigging to 84% of their CURRENT size, centred on the SAME square ivory page. Preserve the exact geometry, details, white hull, colours, viewing direction and fine pencil texture. Seamlessly extend identical blank ivory paper. Leave at least 14% blank paper on ALL FOUR sides. No text, water, shadows or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-53d72190-38d3-481d-95ec-3121a361c511.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; distinctive hull and superstructure, complete silhouette and generous paper margins.",
+      "reference": {
+        "slot": 24,
+        "title": "US Maritime Administration — Nuclear Ship Savannah",
+        "url": "https://www.maritime.dot.gov/nssavannah"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 25,
+      "slug": "emma-maersk",
+      "subject": "Emma Maersk",
+      "category": "container ship",
+      "historical_context": "Modern merchant ship",
+      "features": "E-class container ship Emma Maersk with exceptionally long light MAERSK-BLUE hull, rows of neatly stacked multicoloured rectangular containers at different heights, tall WHITE bridge superstructure toward aft, large blue funnel with NO star or text, pointed bulbous bow. Geometric containers only, no company logos or letters.",
+      "view": "port bow; bow lower left",
+      "file": "images/25-emma-maersk.png",
+      "status": "complete",
+      "prompt_subject": "Emma Maersk. E-class container ship Emma Maersk with exceptionally long light MAERSK-BLUE hull, rows of neatly stacked multicoloured rectangular containers at different heights, tall WHITE bridge superstructure toward aft, large blue funnel with NO star or text, pointed bulbous bow. Geometric containers only, no company logos or letters. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e6e33a9b0c5a04da894a38962263e5bc8e4e24a4b2092e8c0fb9fcc1c495885e",
+      "decoded_pixel_sha256": "e22d20cc2f7ec4efae219baa4918db6ff0a4a2279ad295aabef8a2ffc5c9ad69",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Emma Maersk. E-class container ship Emma Maersk with exceptionally long light MAERSK-BLUE hull, rows of neatly stacked multicoloured rectangular containers at different heights, tall WHITE bridge superstructure toward aft, large blue funnel with NO star or text, pointed bulbous bow. Geometric containers only, no company logos or letters. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-689eeafc-2c06-4029-aabd-2ff09da011ff.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and paper margins, clear container-stack or tanker pipe-deck distinction.",
+      "reference": {
+        "slot": 25,
+        "title": "Deltamarin — Emma Maersk",
+        "url": "https://deltamarin.com/app/uploads/pregenerate_pdf/emma-maersk.pdf"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 26,
+      "slug": "knock-nevis",
+      "subject": "Knock Nevis",
+      "category": "supertanker",
+      "historical_context": "Retired; scrapped",
+      "features": "Former giant supertanker Knock Nevis in tanker appearance, immense long broad rust-RED hull with black upper sheer, low open reddish cargo deck filled with fine orderly silver/ochre pipe runs, white boxy bridge and orange-red funnel clustered right at stern. NO containers, NO deck cranes, no lettering. Modest foreshortening showing vast broad deck.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/26-knock-nevis.png",
+      "status": "complete",
+      "prompt_subject": "Knock Nevis. Former giant supertanker Knock Nevis in tanker appearance, immense long broad rust-RED hull with black upper sheer, low open reddish cargo deck filled with fine orderly silver/ochre pipe runs, white boxy bridge and orange-red funnel clustered right at stern. NO containers, NO deck cranes, no lettering. Modest foreshortening showing vast broad deck. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a0b881b7d33208336b139a7dfb8ab726f5d4afe85520ef9caedd864ba8b44af6",
+      "decoded_pixel_sha256": "bc249c3c59829ce367227240834a830518b24d84f8bd6c6eb2d5a6edf7a967ec",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Knock Nevis. Former giant supertanker Knock Nevis in tanker appearance, immense long broad rust-RED hull with black upper sheer, low open reddish cargo deck filled with fine orderly silver/ochre pipe runs, white boxy bridge and orange-red funnel clustered right at stern. NO containers, NO deck cranes, no lettering. Modest foreshortening showing vast broad deck. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-4e319841-5b15-4d9f-a1de-9a49a3026405.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and paper margins, clear container-stack or tanker pipe-deck distinction.",
+      "reference": {
+        "slot": 26,
+        "title": "Auke Visser tanker archive — Knock Nevis",
+        "url": "https://www.aukevisser.nl/supertankers/FPSO-FSO/id674.htm"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 27,
+      "slug": "edmund-fitzgerald",
+      "subject": "SS Edmund Fitzgerald",
+      "category": "Great Lakes bulk freighter",
+      "historical_context": "Sunk, 1975",
+      "features": "Classic Great Lakes ore carrier, extremely LONG low rust-red/brown hull and flat line of repeated rectangular cargo hatches, small separate cream forward pilothouse right at the bow with rounded bridge glazing, white aft deckhouse with one black-topped red funnel at stern. Two widely separated end deckhouses and huge open hatch deck are essential. No ocean-liner decks or cranes.",
+      "view": "port bow; bow left, near broadside",
+      "file": "images/27-edmund-fitzgerald.png",
+      "status": "complete",
+      "prompt_subject": "SS Edmund Fitzgerald. Classic Great Lakes ore carrier, extremely LONG low rust-red/brown hull and flat line of repeated rectangular cargo hatches, small separate cream forward pilothouse right at the bow with rounded bridge glazing, white aft deckhouse with one black-topped red funnel at stern. Two widely separated end deckhouses and huge open hatch deck are essential. No ocean-liner decks or cranes. View: port bow; bow left, near broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "54ab117a194a65eb31126798ff4aab2fea4c68e0398a524752848495c1254553",
+      "decoded_pixel_sha256": "5acdd454572eb6763ca62010cc99482627da43841163bfb8b75d7c69745da92d",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: SS Edmund Fitzgerald. Classic Great Lakes ore carrier, extremely LONG low rust-red/brown hull and flat line of repeated rectangular cargo hatches, small separate cream forward pilothouse right at the bow with rounded bridge glazing, white aft deckhouse with one black-topped red funnel at stern. Two widely separated end deckhouses and huge open hatch deck are essential. No ocean-liner decks or cranes. View: port bow; bow left, near broadside. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-5fc37488-19ce-4d9e-b97d-f3831339022c.png",
+          "prompt": "Edit this Edmund Fitzgerald sketch ONLY by uniformly shrinking the entire ship including both deckhouses, masts and rigging to 85% of the CURRENT size, centred on the SAME square ivory page. Preserve the exact geometry, details, colours, viewing direction and fine coloured-pencil style. Seamlessly extend identical blank paper. At least 14% blank paper on ALL FOUR sides. No text, water, shadows or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-5af93487-2e80-4e3b-b075-d026b742a0bc.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and paper margins, distinctive deckhouse arrangement, paddle housing or rescue colours.",
+      "reference": {
+        "slot": 27,
+        "title": "US National Transportation Safety Board — Edmund Fitzgerald",
+        "url": "https://www.ntsb.gov/investigations/Pages/DCA76AM001.aspx"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 28,
+      "slug": "waverley",
+      "subject": "PS Waverley",
+      "category": "paddle steamer",
+      "historical_context": "In service",
+      "features": "Historic Clyde excursion paddle steamer Waverley: slim black hull with red waterline stripe and white low passenger decks, TWO narrow RED funnels with black caps, broad semicircular white side paddle-box housings at MIDSHIPS, wood promenade, simple white railings, one forward mast. No stern paddle; no lettering.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/28-waverley.png",
+      "status": "complete",
+      "prompt_subject": "PS Waverley. Historic Clyde excursion paddle steamer Waverley: slim black hull with red waterline stripe and white low passenger decks, TWO narrow RED funnels with black caps, broad semicircular white side paddle-box housings at MIDSHIPS, wood promenade, simple white railings, one forward mast. No stern paddle; no lettering. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "96563717bc1231ac7611226d85aa4d932330c73dd7ee90bc37814771e5103f6c",
+      "decoded_pixel_sha256": "2cbd9a2d9bcc23b65913ed3e1de708cafd671373c9e7d864ec9f10c658e03572",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: PS Waverley. Historic Clyde excursion paddle steamer Waverley: slim black hull with red waterline stripe and white low passenger decks, TWO narrow RED funnels with black caps, broad semicircular white side paddle-box housings at MIDSHIPS, wood promenade, simple white railings, one forward mast. No stern paddle; no lettering. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-6579cec7-0f6c-4ad0-8937-d64c31af360f.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and paper margins, distinctive deckhouse arrangement, paddle housing or rescue colours.",
+      "reference": {
+        "slot": 28,
+        "title": "National Historic Ships — Waverley",
+        "url": "https://www.nationalhistoricships.org.uk/register/90/waverley"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 29,
+      "slug": "severn-class-lifeboat",
+      "subject": "Severn-class lifeboat",
+      "category": "rescue vessel",
+      "historical_context": "Working vessel class",
+      "features": "RNLI Severn-class all-weather lifeboat, robust compact dark NAVY BLUE hard-chine hull, bright ORANGE angular enclosed wheelhouse with black windows, small grey radar mast and guardrails, low foredeck and open working aft deck. No RNLI lettering, numbers, flags, people or other craft. Recognisable modern rescue motorboat.",
+      "view": "port bow; bow lower left",
+      "file": "images/29-severn-class-lifeboat.png",
+      "status": "complete",
+      "prompt_subject": "Severn-class lifeboat. RNLI Severn-class all-weather lifeboat, robust compact dark NAVY BLUE hard-chine hull, bright ORANGE angular enclosed wheelhouse with black windows, small grey radar mast and guardrails, low foredeck and open working aft deck. No RNLI lettering, numbers, flags, people or other craft. Recognisable modern rescue motorboat. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dbfcd8e2f6ab4256bb1a5840787dbdbbab52af24769c22af5579d837dd056ae4",
+      "decoded_pixel_sha256": "a000ef08b2f5b6502e9dedd3d849a7593080bc4ffd57fdb56d1002514e6f2d5b",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Severn-class lifeboat. RNLI Severn-class all-weather lifeboat, robust compact dark NAVY BLUE hard-chine hull, bright ORANGE angular enclosed wheelhouse with black windows, small grey radar mast and guardrails, low foredeck and open working aft deck. No RNLI lettering, numbers, flags, people or other craft. Recognisable modern rescue motorboat. View: port bow; bow lower left. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-7b487cce-3e32-4c40-bcec-345633263c43.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; complete silhouette and paper margins, distinctive deckhouse arrangement, paddle housing or rescue colours.",
+      "reference": {
+        "slot": 29,
+        "title": "RNLI — Severn-class lifeboat",
+        "url": "https://rnli.org/what-we-do/lifeboats-and-stations/our-lifeboat-fleet/severn-class-lifeboat"
+      },
+      "group": "Research and working vessels"
+    },
+    {
+      "slot": 30,
+      "slug": "damen-asd-2813",
+      "subject": "Damen ASD Tug 2813",
+      "category": "harbour tug",
+      "historical_context": "Working vessel model",
+      "features": "Modern Damen ASD Tug 2813 harbour tug, very compact broad powerful rounded black hull, massive black rubber bow fender and tyres, red lower hull and red main deck bulwarks, high cream/white forward wheelhouse with wraparound dark windows, stout dark exhaust stacks aft and towing winch on open rear workdeck. No names, company logos or numbers.",
+      "view": "starboard bow; bow lower right",
+      "file": "images/30-damen-asd-2813.png",
+      "status": "complete",
+      "prompt_subject": "Damen ASD Tug 2813. Modern Damen ASD Tug 2813 harbour tug, very compact broad powerful rounded black hull, massive black rubber bow fender and tyres, red lower hull and red main deck bulwarks, high cream/white forward wheelhouse with wraparound dark windows, stout dark exhaust stacks aft and towing winch on open rear workdeck. No names, company logos or numbers. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cf804f6a6186ef09e1f328dcd3a15510eb7735084eb029d897b139534d7b0b3d",
+      "decoded_pixel_sha256": "2bb7e9c978eac0ecd113307aded0444650d9f23f2387405c871d79132dccf446",
+      "prompt": "Use case: stylized-concept. ONE SQUARE memory-card PNG, an expert maritime illustrator's finished coloured-pencil, graphite and restrained watercolour sketch.\nReference is STYLE AND FRAMING ONLY: match the Titanic image's fine pencil strokes, hatching, paper highlights, soft upper-left light and ivory paper. Draw the NEW ship below.\nCRITICAL LAYOUT: SMALL CENTRED subject on a big blank square page. Whole vessel fits in the CENTRAL 60% of width AND height. Leave broad empty ivory paper: about ONE FIFTH of the page on each of the four sides. Include every mast, bowsprit, sail and stern. Do not fill the page. No border.\nOne complete upright vessel as an above-water waterline portrait, intact in working heyday. Neat waterline edge, no visible underwater keel. Entire background is the same subtle warm ivory drawing paper edge to edge. NO text, letters, numbers, logos, captions, flags, signature or watermark; NO water, ocean, sky, horizon, scenery, wake, smoke, shadows, people or other vessels. Detailed natural colours and recognisable geometry, visibly hand drawn, not photo, CGI, toy, cartoon or vector.\nSubject and view: Damen ASD Tug 2813. Modern Damen ASD Tug 2813 harbour tug, very compact broad powerful rounded black hull, massive black rubber bow fender and tyres, red lower hull and red main deck bulwarks, high cream/white forward wheelhouse with wraparound dark windows, stout dark exhaust stacks aft and towing winch on open rear workdeck. No names, company logos or numbers. View: starboard bow; bow lower right. Keep the whole vessel upright, centred and within the central 68% of BOTH dimensions, generous blank paper on every side.\nMATCH THE REFERENCE'S MODEST OBJECT SIZE. The new vessel is a small sketch surrounded by abundant unmarked ivory paper, its longest dimension is only about half of the square. Treat the reference's blank margins as locked.",
+      "composition_edits": [],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-b62ae147-04a5-420e-a808-a9ecfccd2393.png",
+      "style_reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d1-abad-7ee1-b9bf-336cf5f6f164\\exec-9afaa7c1-3107-4ecc-b049-2a63b8d3e49c.png",
+      "visual_review": "Full-size visually reviewed; compact fendered tug, complete mast and hull, generous safe margins.",
+      "reference": {
+        "slot": 30,
+        "title": "Damen — ASD Tug 2813",
+        "url": "https://www.damen.com/vessels/tugs/asd-tugs/asd-tug-2813"
+      },
+      "group": "Research and working vessels"
+    }
+  ],
+  "total_images": 30,
+  "full_size_visual_review": "complete: each image inspected after generation and edits",
+  "thumbnail_review": "complete: all 30 reviewed at 100 pixels per card",
+  "orientation_method": "Individually generated left/right bow, broadside and quarter views; no bitmap mirroring of asymmetric ships.",
+  "validation_scope": "PNG decoding, dimensions, source-copy equality, unique decoded pixels, gallery links and ZIP contents. No in-game import/play test.",
+  "illustration_note": "Interpretive colour sketches, with inscriptions and flags omitted. Historic vessels depicted intact. Early sailing vessels include reconstructed details; ships are not at a shared physical scale.",
+  "delivery": "30 unique PNGs: each makes one matching pair; the game makes the two identical cards."
+}

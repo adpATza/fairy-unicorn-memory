@@ -1,0 +1,17 @@
+Visual review - 1 November 2026
+
+Reviewed each generated image, then the normalized contact sheet and the
+100-pixel thumbnail review sheet.
+
+All 15 requested landmarks are present and visually distinct. Fine warm outlines,
+painted/pencil surface texture, cream backgrounds and soft daylight remain
+consistent. Full tower spires, statue hands, temple roofs and mountain silhouettes
+are visible. Normalized cards have comfortable margins without subject cropping.
+
+At 100 pixels, tower silhouettes, green Statue of Liberty, amphitheatre arches,
+white onion dome, winding wall, triangular pyramids, white sail roofs, outstretched
+statue arms, Inca terraces and peak, rose sandstone facade, temple towers,
+silver-blue needle, flat-topped mountain and vermilion bridge remain distinguishable.
+
+These are simplified painted interpretations, not architectural records.
+Package review passed; game import and actual play difficulty were not tested.

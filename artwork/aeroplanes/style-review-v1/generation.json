@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "status": "style_approved",
+  "tool_mode": "built-in image_gen",
+  "artwork_guide": "docs/Artwork and Import Guide.html",
+  "style": "Finished coloured-pencil and graphite aviation sketches with restrained watercolour washes on warm ivory paper.",
+  "layout": "One complete aircraft per square PNG, isolated with a 10 percent minimum safe margin. No text, numbers or borders.",
+  "scope": "Approved style samples retained unchanged. Complete 30-pair collection: artwork/aircraft-colour-sketches-v1.",
+  "samples": [
+    {
+      "file": "01-p51d-mustang.png",
+      "subject": "North American P-51D Mustang",
+      "prompts": [
+        {
+          "operation": "generate",
+          "prompt": "Use case: stylized-concept.\nAsset type: one square memory-card illustration, first style-approval sample for an aeroplane collection.\nPrimary request: A high-quality colour sketch of a single aeroplane, with accurate recognisable aircraft proportions and beautiful hand-drawn craftsmanship.\nScene/backdrop: uniform warm ivory drawing paper, extremely subtle fine paper grain, otherwise blank, consistent edge-to-edge. The aeroplane is isolated without scenery.\nStyle/medium: expert aviation illustrator's finished coloured-pencil and graphite sketch, built with fine confident graphite contours, visible coloured-pencil strokes and delicate cross-hatching, restrained transparent watercolour washes, crisp selective details, luminous but natural colour. Richly finished yet visibly drawn by hand. Not a photograph, CGI, a toy, a cartoon or a flat vector icon.\nComposition/framing: square 1:1 image, preferably 1024 x 1024 or larger. Show the complete single aeroplane airborne with landing gear fully retracted, from a slightly elevated front three-quarter view, nose toward the lower left and tail toward upper right, broad wings clearly visible, modest foreshortening to preserve the wing silhouette. Centre the whole silhouette in the canvas. Fit every wingtip, the entire tail and propeller within the central 80% of the square, leaving AT LEAST a 10% clear safe margin on all four sides. Large, readable subject, comparable scale to the other image in the collection.\nLighting/mood: soft upper-left daylight, coherent gentle self-shading, appealing and dignified.\nConstraints: exactly ONE aircraft, no people, no text, no lettering, no numbers or serials even on the aircraft, no signature, watermark, card border, panel, caption, labels, sky, clouds, landscape, decorative splashes, ground shadow, separate diagram or unrelated objects. No bombs or external tanks. Aircraft identification must rely on silhouette and major visible features rather than small inscriptions. Show a coherent single airframe, one pair of main wings, one tail, correct propeller and cockpit structure. Non-text national geometric insignia may appear, with no alphanumeric markings.\nSubject: North American P-51D Mustang. Long graceful piston-engine nose, distinct ventral radiator scoop under the rear fuselage, bubble canopy, tapered laminar-flow wings with recognisable squared-off tips, conventional tail. Four-bladed propeller with clean separately legible blades, without a full opaque propeller disc. Natural aluminium skin rendered in cool silver-blue pencil tones with a restrained olive anti-glare panel along the upper nose, red spinner and red tail fin, small simple US star-and-bar insignia. Make the metal feel convincing through pencil shading and paper highlights, not mirror-like CGI. Clearly preserve the Mustang's distinctive silhouette."
+        },
+        {
+          "operation": "composition_edit",
+          "prompt": "Edit the supplied Mustang illustration. Preserve the exact aircraft, all its geometry, colours, markings, pencil texture, lighting and warm ivory paper style. Change only its SCALE AND PLACEMENT on the square page: reduce the whole aeroplane uniformly to about 76% of its current size, keeping it centrally composed. The COMPLETE silhouette from extreme left propeller/wingtip to extreme right tail/wingtip must occupy no more than 74% of the whole image width. Leave at least 12% completely blank ivory paper on BOTH left and right, and at least 10% on top and bottom. All wingtips, tail and propeller remain visible. Extend the same warm ivory paper seamlessly over the newly exposed blank area. Do not add text, labels, borders or anything else. This is a memory-card composition correction for the required safe margin; maintain the beautiful original finished coloured-pencil sketch unchanged. Square output."
+        }
+      ],
+      "source": "C:/Users/adplocal/.codex/generated_images/01a19588-4a1d-7e53-bc17-38f38d1514a8/exec-a7168262-2eb5-420e-94c0-81995cfd6177.png"
+    },
+    {
+      "file": "02-spitfire.png",
+      "subject": "Supermarine Spitfire",
+      "prompts": [
+        {
+          "operation": "generate_with_style_reference",
+          "reference": "01-p51d-mustang.png",
+          "prompt": "Use case: stylized-concept.\nAsset type: one square memory-card illustration, first style-approval sample for an aeroplane collection.\nPrimary request: A high-quality colour sketch of a single aeroplane, with accurate recognisable aircraft proportions and beautiful hand-drawn craftsmanship.\nScene/backdrop: uniform warm ivory drawing paper, extremely subtle fine paper grain, otherwise blank, consistent edge-to-edge. The aeroplane is isolated without scenery.\nStyle/medium: expert aviation illustrator's finished coloured-pencil and graphite sketch, built with fine confident graphite contours, visible coloured-pencil strokes and delicate cross-hatching, restrained transparent watercolour washes, crisp selective details, luminous but natural colour. Richly finished yet visibly drawn by hand. Not a photograph, CGI, a toy, a cartoon or a flat vector icon.\nComposition/framing: square 1:1 image, preferably 1024 x 1024 or larger. Show the complete single aeroplane airborne with landing gear fully retracted, from a slightly elevated front three-quarter view, nose toward the lower left and tail toward upper right, broad wings clearly visible, modest foreshortening to preserve the wing silhouette. Centre the whole silhouette in the canvas. Fit every wingtip, the entire tail and propeller within the central 80% of the square, leaving AT LEAST a 10% clear safe margin on all four sides. Large, readable subject, comparable scale to the other image in the collection.\nLighting/mood: soft upper-left daylight, coherent gentle self-shading, appealing and dignified.\nConstraints: exactly ONE aircraft, no people, no text, no lettering, no numbers or serials even on the aircraft, no signature, watermark, card border, panel, caption, labels, sky, clouds, landscape, decorative splashes, ground shadow, separate diagram or unrelated objects. No bombs or external tanks. Aircraft identification must rely on silhouette and major visible features rather than small inscriptions. Show a coherent single airframe, one pair of main wings, one tail, correct propeller and cockpit structure. Non-text national geometric insignia may appear, with no alphanumeric markings.\nSubject: Supermarine Spitfire Mk IX. Graceful slim Merlin-engine nose, framed cockpit canopy, unmistakeable smoothly elliptical main wings with curved tips, conventional compact tail, four-bladed propeller with clean separately legible blades without a full opaque propeller disc. Dark green and ocean-grey camouflage with pale blue-grey lower surfaces, restrained muted blue-green spinner, simple RAF roundels as geometric colour markings only. Small underwing radiator fairings appropriate to the aircraft. Beautiful coloured-pencil treatment of the camouflage, crisp wing silhouette and delicate panel-line suggestions. Clearly preserve the Spitfire's distinctive elliptical wings rather than substituting Mustang-like angular wings.\nInput image role: the supplied Mustang is a STYLE AND FRAMING REFERENCE ONLY. Create a new illustration of the Spitfire, matching the fine coloured-pencil workmanship, paper texture, daylight, viewpoint and size on the page of the reference. Do NOT copy the Mustang's aircraft shape, canopy, tapered wings, insignia or red tail. The new Spitfire must have its own elliptical wings, green-grey camouflage and RAF roundels. VERY IMPORTANT: just like the reference, the complete aircraft silhouette must occupy only about 73% of the image WIDTH, with 12-15% blank paper at left and right and ample blank paper above and below; do not enlarge to fill the page. Exactly one complete Spitfire, square image."
+        },
+        {
+          "operation": "composition_edit",
+          "prompt": "Edit this Spitfire illustration ONLY to give it a little more blank paper around its silhouette. Reduce the entire aircraft uniformly to 90% of its current scale and centre it on the same square ivory page. Preserve the aircraft's shape, every wing, tail and propeller, colours, camouflage, insignia, viewpoint and exquisite coloured-pencil/graphite texture exactly. The entire aircraft silhouette must be contained within the central 76% of the page width, leaving at least 12% blank paper on each side, and at least 10% blank paper above and below. Extend the identical warm ivory paper seamlessly. No cropping, no added text, no border, no change of illustration style."
+        }
+      ],
+      "source": "C:/Users/adplocal/.codex/generated_images/01a19588-4a1d-7e53-bc17-38f38d1514a8/exec-961c19b5-271e-4cae-b84b-965a59297e26.png"
+    }
+  ],
+  "provisional_30_image_plan": [
+    {
+      "slot": 1,
+      "subject": "P-51D Mustang",
+      "distinguishing_features": "tapered wings; bubble canopy; silver body and red tail",
+      "status": "approved_existing",
+      "file": "01-p51d-mustang.png",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 2,
+      "subject": "Supermarine Spitfire",
+      "distinguishing_features": "elliptical wings; slim nose; green-grey camouflage",
+      "status": "approved_existing",
+      "file": "02-spitfire.png",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 3,
+      "subject": "Sopwith Camel",
+      "distinguishing_features": "two wings; short nose; open cockpit",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 4,
+      "subject": "Fokker Dr.I",
+      "distinguishing_features": "three stacked wings; short fuselage; red finish",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 5,
+      "subject": "de Havilland Tiger Moth",
+      "distinguishing_features": "swept biplane wings; tandem open cockpits; yellow finish",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 6,
+      "subject": "Lockheed Vega",
+      "distinguishing_features": "rounded high wing; enclosed cabin; red finish",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 7,
+      "subject": "Piper J-3 Cub",
+      "distinguishing_features": "slender high wing; fixed tailwheel gear; yellow and black",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 8,
+      "subject": "Cessna 172",
+      "distinguishing_features": "strut-braced high wing; tricycle gear; white and blue",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 9,
+      "subject": "Extra 300",
+      "distinguishing_features": "compact aerobatic low wing; bubble canopy; bold red-white scheme",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 10,
+      "subject": "Douglas DC-3",
+      "distinguishing_features": "twin propellers; low tapered wings; silver taildragger",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 11,
+      "subject": "Junkers Ju 52",
+      "distinguishing_features": "three engines; corrugated skin; boxy high-wing cabin",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 12,
+      "subject": "de Havilland Beaver on floats",
+      "distinguishing_features": "large twin floats; radial nose; high-wing bush plane",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 13,
+      "subject": "Consolidated PBY Catalina",
+      "distinguishing_features": "parasol wing; boat hull; twin piston engines",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 14,
+      "subject": "Canadair CL-415",
+      "distinguishing_features": "boat hull; high wing; yellow twin turboprop",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 15,
+      "subject": "Lockheed P-38 Lightning",
+      "distinguishing_features": "twin booms; central cockpit pod; twin propellers",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 16,
+      "subject": "de Havilland Mosquito",
+      "distinguishing_features": "slim twin-engine shape; rounded nose; camouflage",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 17,
+      "subject": "Boeing B-17",
+      "distinguishing_features": "four piston engines; tall rounded single fin; glazed nose",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 18,
+      "subject": "Avro Lancaster",
+      "distinguishing_features": "four piston engines; twin fins; long dark fuselage",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 19,
+      "subject": "Messerschmitt Me 262",
+      "distinguishing_features": "two underslung jet nacelles; swept wing; compact fuselage",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 20,
+      "subject": "North American F-86 Sabre",
+      "distinguishing_features": "swept wings; round nose intake; silver fuselage",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 21,
+      "subject": "Hawker Hunter",
+      "distinguishing_features": "sleek swept wings; side intakes; long single-engine body",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 22,
+      "subject": "Dassault Mirage III",
+      "distinguishing_features": "large triangular delta wing; pointed nose; single fin",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 23,
+      "subject": "Grumman F-14 Tomcat",
+      "distinguishing_features": "twin fins; broad variable-sweep wings; twin engines",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 24,
+      "subject": "Lockheed SR-71",
+      "distinguishing_features": "black fuselage; sharp chines; two large engine nacelles",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 25,
+      "subject": "Concorde",
+      "distinguishing_features": "slender white fuselage; ogival delta wing; long pointed nose",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 26,
+      "subject": "Boeing 747",
+      "distinguishing_features": "upper-deck hump; four underwing engines; swept low wing",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 27,
+      "subject": "Airbus A380",
+      "distinguishing_features": "full-length double-deck fuselage; four engines; broad wings",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 28,
+      "subject": "ATR 72",
+      "distinguishing_features": "high wing; twin turboprops; long narrow cabin",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 29,
+      "subject": "Antonov An-225",
+      "distinguishing_features": "six jet engines; high wing; twin vertical fins",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    },
+    {
+      "slot": 30,
+      "subject": "Schleicher ASK 21 glider",
+      "distinguishing_features": "very long slender wings; tandem canopy; no engine",
+      "status": "planned_only",
+      "thumbnail_review": "pending"
+    }
+  ],
+  "provisional_plan_status": "superseded_by_complete_collection"
+}

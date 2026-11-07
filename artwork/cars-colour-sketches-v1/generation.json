@@ -1,0 +1,722 @@
+{
+  "collection": "Cars colour sketches",
+  "version": 1,
+  "status": "artwork_complete",
+  "total_images": 30,
+  "reference_thread": "01a19588-4a1d-7e53-bc17-38f38d1514a8",
+  "style_reference": "../aircraft-colour-sketches-v1/images/01-p51d-mustang.png",
+  "generation_tool": "built-in image_gen",
+  "common_prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: ",
+  "source_links": [
+    {
+      "title": "Porsche Classic: 911 Carrera 3.2",
+      "url": "https://www.porsche.com/usa/accessoriesandservice/classic/models/911-g/911-carrera/"
+    },
+    {
+      "title": "Nissan Heritage: Skyline GT-R R34",
+      "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/280_skyline_gt-r_v-spec_ii.html"
+    },
+    {
+      "title": "Mercedes-Benz: SL history",
+      "url": "https://g-class.mercedes-benz.com/en/mercedes-amg-history-of-sl"
+    },
+    {
+      "title": "Toyota: vehicle lineage",
+      "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/pdf/vehiclelineage.pdf"
+    }
+  ],
+  "entries": [
+    {
+      "slot": 1,
+      "slug": "volkswagen-beetle",
+      "subject": "Volkswagen Beetle",
+      "year": "1967",
+      "category": "Classic small cars",
+      "features": "Turquoise classic 1967 Volkswagen Beetle sedan, rounded domed roof, bulbous separate fenders, upright round headlights, split curved front bonnet, slim chrome bumpers and chrome hubcaps. Original compact air-cooled silhouette, not a modern New Beetle. Slightly elevated FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/01-volkswagen-beetle.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ba3fde99a604780a17c2241b9e6975575311814380312e51ccf54f7e463c4376",
+      "decoded_pixel_sha256": "53233c3be3264cfc299c075af381e93254e4e797eab8e466e64ca1b671fd66d2",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Turquoise classic 1967 Volkswagen Beetle sedan, rounded domed roof, bulbous separate fenders, upright round headlights, split curved front bonnet, slim chrome bumpers and chrome hubcaps. Original compact air-cooled silhouette, not a modern New Beetle. Slightly elevated FRONT three-quarter view, nose points LEFT.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "reference": "E:/githubportable/game-memory/artwork/aircraft-colour-sketches-v1/images/01-p51d-mustang.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-1490f3ba-4763-49ec-90d7-bc4b6fbb4385.png",
+          "prompt": "Edit the supplied Volkswagen Beetle colour sketch ONLY to correct its size on the page. Preserve its exact geometry, turquoise colour, pencil texture, warm ivory paper, wheel alignment and lighting. UNIFORMLY SHRINK the ENTIRE car to 75% of its current size, and centre it on the same square page. The complete car including both bumpers, every tyre and mirror MUST occupy no more than 72% of the image width, leaving AT LEAST 14% blank paper on BOTH sides, with generous matching paper above and below. Extend identical warm ivory paper seamlessly. Do not redraw a larger car. No added text, caption, border, ground line or objects. This is a precise memory-card safe-margin correction. Square output."
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "slug": "mini-cooper",
+      "subject": "Mini Cooper",
+      "year": "1965",
+      "category": "Classic small cars",
+      "features": "Classic original 1965 Mini Cooper in cherry red with white roof, tiny boxy two-door body, upright round headlights, small chrome slatted grille, little wheels pushed to four corners, chrome bumpers. Not a modern BMW Mini. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/02-mini-cooper.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e0ab68d2d5db63a7fc285ad88d020b506daf19d06a5056ba1b2d2104be2c9830",
+      "decoded_pixel_sha256": "73134c0362b191a728fc47083a653cfbce540c7e370ee8270c965e460bbe7743",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Classic original 1965 Mini Cooper in cherry red with white roof, tiny boxy two-door body, upright round headlights, small chrome slatted grille, little wheels pushed to four corners, chrome bumpers. Not a modern BMW Mini. FRONT three-quarter view, nose points RIGHT.\nFRAMING LOCK: match the supplied Beetle's SMALL SIZE ON THE PAGE exactly: vehicle bounding width about 70-73% of canvas, centred, with generous ivory paper on all sides. This is a new different car, not a redesign of the Beetle.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-220f7b73-f596-4e81-a73f-d0f5e18fdb3a.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-ca98d21b-c786-4d8f-bb60-729a9f5c3735.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 90% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "slug": "fiat-500",
+      "subject": "Fiat 500 F",
+      "year": "1968",
+      "category": "Classic small cars",
+      "features": "Original 1968 Fiat 500 F in pale mint green with small folded-back black fabric sunroof, tiny rounded two-door rear-engine body, upright round headlights, minimal chrome bumpers, small steel wheels and chrome hubcaps. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/03-fiat-500.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "26373e8f5be23d724ecf88e7a591519bd28096a6d54a57f64a46b65ec9e85e93",
+      "decoded_pixel_sha256": "0cb20612e510755153cfac8a2fc17326d81249c13a923a3feb40d43e206ac62d",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Original 1968 Fiat 500 F in pale mint green with small folded-back black fabric sunroof, tiny rounded two-door rear-engine body, upright round headlights, minimal chrome bumpers, small steel wheels and chrome hubcaps. FRONT three-quarter view, nose points LEFT.\nFRAMING LOCK: match the supplied Beetle's SMALL SIZE ON THE PAGE exactly: vehicle bounding width about 70-73% of canvas, centred, with generous ivory paper on all sides. This is a new different car, not a redesign of the Beetle.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-567ca2bb-3c15-4ae8-97ce-33125da8ef7a.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 4,
+      "slug": "citroen-2cv",
+      "subject": "Citroën 2CV",
+      "year": "1965",
+      "category": "Classic small cars",
+      "features": "Citroen 2CV in buttercup yellow with charcoal fabric roof, tall curved roof and narrow body, separate front fenders with round stand-alone headlights, long sweeping rear fenders, narrow tyres, ribbed bonnet and simple grille. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/04-citroen-2cv.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f4fcbb6a0325d8b7b1ba99858e4d48846cae9810350267b046491d56271d1e2c",
+      "decoded_pixel_sha256": "773c6b47b4c1d48727db1d06d40329d392fa8a46a3007e8a39d68d78657190c1",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Citroen 2CV in buttercup yellow with charcoal fabric roof, tall curved roof and narrow body, separate front fenders with round stand-alone headlights, long sweeping rear fenders, narrow tyres, ribbed bonnet and simple grille. FRONT three-quarter view, nose points RIGHT.\nFRAMING LOCK: match the supplied Beetle's SMALL SIZE ON THE PAGE exactly: vehicle bounding width about 70-73% of canvas, centred, with generous ivory paper on all sides. This is a new different car, not a redesign of the Beetle.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-8a7d9663-cacf-4798-8c30-c9a22dc00c56.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-87f4f38b-4a94-4eea-8c03-0fe101cfda6e.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 90% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "slug": "volkswagen-kombi",
+      "subject": "Volkswagen Type 2 Kombi",
+      "year": "1963",
+      "category": "Everyday icons",
+      "features": "Classic split-windscreen Volkswagen Type 2 T1 Kombi microbus, coral-orange lower body and ivory upper body, distinctive V-shaped front colour split, two-piece upright windscreen, round headlights, small wheels and rectangular passenger windows. Standard roof, no camper roof or surfboard. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/05-volkswagen-kombi.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f69a558ab990c00cd30be43ef754560d1649b84bbddc8788743068ae96aa3570",
+      "decoded_pixel_sha256": "e7e515d69b3c6b533b77dcdfcda966bf21d8f050e8676d61087f91b2eaf2667e",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Classic split-windscreen Volkswagen Type 2 T1 Kombi microbus, coral-orange lower body and ivory upper body, distinctive V-shaped front colour split, two-piece upright windscreen, round headlights, small wheels and rectangular passenger windows. Standard roof, no camper roof or surfboard. FRONT three-quarter view, nose points LEFT.\nFRAMING LOCK: match the supplied Beetle's SMALL SIZE ON THE PAGE exactly: vehicle bounding width about 70-73% of canvas, centred, with generous ivory paper on all sides. This is a new different car, not a redesign of the Beetle.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-16494fda-e1c5-414c-9d1a-c1e022e18ce0.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-b437e76f-5a32-435e-b787-6c68ef2a2e29.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 90% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "slug": "volkswagen-golf-gti",
+      "subject": "Volkswagen Golf GTI Mk1",
+      "year": "1983",
+      "category": "Everyday icons",
+      "features": "1983 Volkswagen Golf GTI Mk1 three-door hatchback in alpine white, very angular Giorgetto Giugiaro body, black bumpers and wheel-arch extensions, thin red grille outline, round headlights and small period alloy wheels. No GTI letters. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/06-volkswagen-golf-gti.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4f5c5a025c04a2efccc0d63dcd3f1b4967790b32c14b449dc391f87ba2cf84fe",
+      "decoded_pixel_sha256": "b7f424467e842319f9d3b94a5ee04ae2f1215b228e27212c2f2b033445e098ab",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1983 Volkswagen Golf GTI Mk1 three-door hatchback in alpine white, very angular Giorgetto Giugiaro body, black bumpers and wheel-arch extensions, thin red grille outline, round headlights and small period alloy wheels. No GTI letters. FRONT three-quarter view, nose points RIGHT.\nFRAMING LOCK: match the supplied Beetle's SMALL SIZE ON THE PAGE exactly: vehicle bounding width about 70-73% of canvas, centred, with generous ivory paper on all sides. This is a new different car, not a redesign of the Beetle.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-884581d2-0142-4b20-a8d5-b7ba0a3909d0.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-bc5683e3-0c36-4f41-9545-f716398f53b8.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 85% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 7,
+      "slug": "ford-mustang",
+      "subject": "Ford Mustang Fastback",
+      "year": "1967",
+      "category": "American classics",
+      "features": "1967 Ford Mustang Fastback in deep metallic blue with two broad white longitudinal racing stripes, long sculpted hood, fastback roof flowing into short rear deck, recessed grille, round headlights, pronounced rear haunches and period five-spoke wheels. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/07-ford-mustang.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "269c3d54ba31c0077b817672eca2db5825cd9c941bf39eaff29cb9c1fd6c9dfc",
+      "decoded_pixel_sha256": "0780863339596805ad6df390e98a02a8747ad21b30ac78f46bb20afe1ad3ded1",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1967 Ford Mustang Fastback in deep metallic blue with two broad white longitudinal racing stripes, long sculpted hood, fastback roof flowing into short rear deck, recessed grille, round headlights, pronounced rear haunches and period five-spoke wheels. FRONT three-quarter view, nose points LEFT.\nFRAMING PRIORITY: show the CAR SMALL on the square paper. Its COMPLETE WIDTH is about 68% of canvas, leaving 16% BLANK paper at left AND right. Match or slightly reduce the supplied Beetle's size on page. A lot of empty ivory paper surrounds the car. Do not zoom in. Reference is style only.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-06ed25d4-cbab-4ca8-97d5-fb73046c1819.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-9f071cbc-b280-4ffb-962a-acea9efdfb2c.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 84% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 8,
+      "slug": "corvette-sting-ray",
+      "subject": "Chevrolet Corvette Sting Ray C2",
+      "year": "1963",
+      "category": "American classics",
+      "features": "1963 Chevrolet Corvette Sting Ray C2 coupe in rich candy red, unmistakable split rear window with central spine, sharply creased boat-tail rear deck, two round red taillights on each side, low coupe, muscular fenders and period alloy wheels. REAR three-quarter view, rear nearest viewer at LOWER RIGHT, long nose receding LEFT. Make split rear window clearly visible.",
+      "orientation": "rear-right",
+      "file": "images/08-corvette-sting-ray.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7db8d5f2b21816e0a6fed59285c87671fd1dc9f1223722b026fe15ba858a1075",
+      "decoded_pixel_sha256": "a90a81f00406383449ff609248bf08263ddd2d036b60bd7ee23022346bb032ef",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1963 Chevrolet Corvette Sting Ray C2 coupe in rich candy red, unmistakable split rear window with central spine, sharply creased boat-tail rear deck, two round red taillights on each side, low coupe, muscular fenders and period alloy wheels. REAR three-quarter view, rear nearest viewer at LOWER RIGHT, long nose receding LEFT. Make split rear window clearly visible.\nFRAMING PRIORITY: show the CAR SMALL on the square paper. Its COMPLETE WIDTH is about 68% of canvas, leaving 16% BLANK paper at left AND right. Match or slightly reduce the supplied Beetle's size on page. A lot of empty ivory paper surrounds the car. Do not zoom in. Reference is style only.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-68908b22-c15c-45a6-8f3f-98439a40ef98.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-e56550a4-7f72-4a3c-80c8-1fc3c6a88891.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Change ONLY the scale and centring on the page: shrink the ENTIRE car UNIFORMLY to 87% of its CURRENT size and CENTRE the complete silhouette. The complete bounding width must occupy about 72-74% of the square, leaving at least 13% blank ivory paper on both left and right. Preserve all bumpers, mirrors and tyres inside the margins. Extend the same subtle ivory paper seamlessly. No rotation, cropping, added text, labels, border or objects. This is a precise safe-margin correction.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "slug": "chevrolet-bel-air",
+      "subject": "Chevrolet Bel Air",
+      "year": "1957",
+      "category": "American classics",
+      "features": "1957 Chevrolet Bel Air two-door hardtop in salmon pink and ivory two-tone, long chrome side spear, dramatic modest tailfins, whitewall tyres, chrome bumpers and large 1950s body. REAR three-quarter view with rear nearest viewer at LOWER LEFT, nose receding RIGHT, show the defining rear fins and chrome side trim.",
+      "orientation": "rear-left",
+      "file": "images/09-chevrolet-bel-air.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cfd2863ee570998f725d97689b9a0000017c1ba12dec6ec1972f4b9d5d3e859d",
+      "decoded_pixel_sha256": "86262859876de1612ebe7727e7efedf7555143fbdd1cf4f3229d414facf2c9a7",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1957 Chevrolet Bel Air two-door hardtop in salmon pink and ivory two-tone, long chrome side spear, dramatic modest tailfins, whitewall tyres, chrome bumpers and large 1950s body. REAR three-quarter view with rear nearest viewer at LOWER LEFT, nose receding RIGHT, show the defining rear fins and chrome side trim.\nFRAMING PRIORITY: show the CAR SMALL on the square paper. Its COMPLETE WIDTH is about 68% of canvas, leaving 16% BLANK paper at left AND right. Match or slightly reduce the supplied Beetle's size on page. A lot of empty ivory paper surrounds the car. Do not zoom in. Reference is style only.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-284dd06d-31ae-4abc-9e2b-7a4b6a50e1bd.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-51c0dd98-32c0-4e8d-86b6-0c0af4eb424b.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 82% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly. Remove the small gold cursive lettering on the side trim completely; leave the smooth pale trim panel blank. Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "slug": "dodge-charger",
+      "subject": "Dodge Charger",
+      "year": "1969",
+      "category": "American classics",
+      "features": "1969 Dodge Charger muscle-car coupe in burnt orange with black vinyl roof, broad squared-off black full-width recessed front grille with headlights concealed, long hood and classic coke-bottle flanks, low fastback-like roof, muscular rear haunches and period five-spoke wheels. No racing number, roof emblem or text. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/10-dodge-charger.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f5beefd7aac2877ff8644b13262b8ac53a1a52814438a277ead1479e8be2317e",
+      "decoded_pixel_sha256": "719bf99b590c3ca169b7f0ba4bb6ec67090fb461e7cbd197e09d3b6a110edd9f",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1969 Dodge Charger muscle-car coupe in burnt orange with black vinyl roof, broad squared-off black full-width recessed front grille with headlights concealed, long hood and classic coke-bottle flanks, low fastback-like roof, muscular rear haunches and period five-spoke wheels. No racing number, roof emblem or text. FRONT three-quarter view, nose points RIGHT.\nFRAMING PRIORITY: show the CAR SMALL on the square paper. Its COMPLETE WIDTH is about 68% of canvas, leaving 16% BLANK paper at left AND right. Match or slightly reduce the supplied Beetle's size on page. A lot of empty ivory paper surrounds the car. Do not zoom in. Reference is style only.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-05e296a7-9164-45b4-a616-d793e92a913b.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-77ca8e8d-97bf-4131-9758-cc7742d4ffaf.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 81% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 11,
+      "slug": "porsche-911",
+      "subject": "Porsche 911 Carrera 3.2",
+      "year": "1984",
+      "category": "European sports cars",
+      "features": "1984 Porsche 911 Carrera 3.2 coupe in warm silver, iconic rear-engine rounded fastback profile, upright round headlights on high front fenders, impact bumpers with black bellows, Fuchs five-petal black-centre wheels, standard smooth rear engine lid without a large spoiler. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/11-porsche-911.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f343e02e7ba651a346eb09ba46861e0b6d0b1d35023e4725f8c478ab8bdc2f9b",
+      "decoded_pixel_sha256": "3917b3c2bba795ce61d83824fb649d6c92c8bded5bd947205c5b4cb6804343b5",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1984 Porsche 911 Carrera 3.2 coupe in warm silver, iconic rear-engine rounded fastback profile, upright round headlights on high front fenders, impact bumpers with black bellows, Fuchs five-petal black-centre wheels, standard smooth rear engine lid without a large spoiler. FRONT three-quarter view, nose points LEFT.\nFRAMING PRIORITY: show the CAR SMALL on the square paper. Its COMPLETE WIDTH is about 68% of canvas, leaving 16% BLANK paper at left AND right. Match or slightly reduce the supplied Beetle's size on page. A lot of empty ivory paper surrounds the car. Do not zoom in. Reference is style only.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-ede35f8f-04f2-4ad1-809f-8291490a89c3.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-5ea13f2c-0857-43a7-b4f1-307d233c6cea.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 87% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "slug": "jaguar-e-type",
+      "subject": "Jaguar E-Type Series 1",
+      "year": "1961",
+      "category": "European sports cars",
+      "features": "1961 Jaguar E-Type Series 1 open two-seat roadster in British racing green, very long low bonnet, small oval grille, glass-covered oval headlights, wire-spoke wheels, tiny windscreen, tan cockpit and rounded tapering tail. Roof completely down, no driver. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/12-jaguar-e-type.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3bfa4f68c8295cb3ca51312a44502ced862d276544d35af28b3763651905041b",
+      "decoded_pixel_sha256": "da352e7c92f79e5608a415c8fc66f92af12512298c4df86aa99e005bdfe1958d",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1961 Jaguar E-Type Series 1 open two-seat roadster in British racing green, very long low bonnet, small oval grille, glass-covered oval headlights, wire-spoke wheels, tiny windscreen, tan cockpit and rounded tapering tail. Roof completely down, no driver. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-c5a3c9ec-d8ef-417b-9a27-8a96aa39fec7.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 13,
+      "slug": "mercedes-300sl",
+      "subject": "Mercedes-Benz 300 SL Gullwing",
+      "year": "1955",
+      "category": "European sports cars",
+      "features": "1955 Mercedes-Benz 300 SL Gullwing coupe in luminous silver, BOTH roof-hinged gullwing doors elegantly raised, long bonnet, round headlights, broad oval grille with a subtle nonletter three-pointed-star form, side vents behind front wheels, red interior and period steel wheels with chrome hubcaps. FRONT three-quarter view, nose points LEFT. Entire raised doors inside margins, correct doors attached to roof.",
+      "orientation": "front-left",
+      "file": "images/13-mercedes-300sl.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "57db7bdd69b57ad9a1901993b7a61f2c29c7cfc80b2593a7e403bcbfe373b63c",
+      "decoded_pixel_sha256": "d34c0046fecd92a8343f4442aa38ca1a69e186045e13160f876c5cc9c2e7048d",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1955 Mercedes-Benz 300 SL Gullwing coupe in luminous silver, BOTH roof-hinged gullwing doors elegantly raised, long bonnet, round headlights, broad oval grille with a subtle nonletter three-pointed-star form, side vents behind front wheels, red interior and period steel wheels with chrome hubcaps. FRONT three-quarter view, nose points LEFT. Entire raised doors inside margins, correct doors attached to roof.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-b8b8d219-d334-4b63-bcd1-a3c4af1bb466.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-5511c0b0-276a-4661-8d13-900a34c57d90.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Keep the exact present scale, centring and generous blank margins. Remove the tiny embossed or lettered model designation on the visible side sill behind the front fender vent. Replace it with continuous plain silver bodywork. Retain the nonletter three-pointed star in the grille. Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "remove_model_lettering"
+        }
+      ]
+    },
+    {
+      "slot": 14,
+      "slug": "aston-martin-db5",
+      "subject": "Aston Martin DB5",
+      "year": "1964",
+      "category": "European sports cars",
+      "features": "1964 Aston Martin DB5 coupe in pale silver birch grey, graceful long bonnet, distinctive low rounded trapezoid grille, covered round headlights, side vent behind front wheel, gently curved fastback cabin and chrome wire wheels. No spy gadgets or extra accessories. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/14-aston-martin-db5.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a7d06b7a6322d7dc36e5bc7c2cd6b0cd6b6224555263f3eb9c3f8e46a3cdb31c",
+      "decoded_pixel_sha256": "6643bb05015b5a0ed05fa5e6ed4f21d48d0f8455baa31b424733ec2a8ac9ab71",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1964 Aston Martin DB5 coupe in pale silver birch grey, graceful long bonnet, distinctive low rounded trapezoid grille, covered round headlights, side vent behind front wheel, gently curved fastback cabin and chrome wire wheels. No spy gadgets or extra accessories. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-82133ef3-72ae-46d3-91cb-a1715afb1e56.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 15,
+      "slug": "ferrari-f40",
+      "subject": "Ferrari F40",
+      "year": "1987",
+      "category": "Supercars and exotics",
+      "features": "1987 Ferrari F40 in classic scarlet red, low wedge-shaped mid-engine supercar, very large fixed rectangular rear wing integrated into tall rear pillars, black mesh rear grille with two round taillights per side, broad rear haunches, five-spoke silver wheels, black lower body trim. REAR three-quarter view with rear nearest viewer at LOWER LEFT and nose receding RIGHT, show whole wing.",
+      "orientation": "rear-left",
+      "file": "images/15-ferrari-f40.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "06b4d371e0eee24cf4c4830feaed65008a378ca9629d8ca2b121d79da03743c2",
+      "decoded_pixel_sha256": "68dbc900f58db1d234b0eb645b95f292467234d0a58e2afcc166419ac141389e",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1987 Ferrari F40 in classic scarlet red, low wedge-shaped mid-engine supercar, very large fixed rectangular rear wing integrated into tall rear pillars, black mesh rear grille with two round taillights per side, broad rear haunches, five-spoke silver wheels, black lower body trim. REAR three-quarter view with rear nearest viewer at LOWER LEFT and nose receding RIGHT, show whole wing.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-0db3bbc7-69c9-4bae-8630-a45d3d3d66fc.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-ffba4c80-215a-4a81-8b98-e718595eb18f.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Keep the exact present scale, centring and generous blank margins. Remove the F40 embossed letter-and-number designation on the visible rear-wing upright, and remove any tiny lettering on bodywork. Blend the area into uninterrupted red painted metal. Retain the exact shape of the wing and its support. Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "remove_model_lettering"
+        },
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-6c1133b0-0add-43b4-9cb3-9d6aaf153124.png",
+          "prompt": "Edit this Ferrari F40 colour sketch. Make ONE very small precise cleanup: the RED REAR-WING UPRIGHT nearest the viewer has a faint indented outlined badge/panel in its centre, just ABOVE the row of four vertical black cooling slits. COMPLETELY ERASE that outlined indentation, all its rectangular edges and every interior symbol. The ENTIRE wide red upright should be a smooth uninterrupted red-painted surface, with only natural coloured-pencil shading and paper texture. NO rectangle, no badge outline, no logo, no embossing or characters remain on that red wing support. Keep the four black cooling slits BELOW that region intact. Preserve the exact rest of the car, viewpoint, colours, all wheels, wing geometry, red paint, ivory paper, size and margins. Change nothing else.",
+          "operation": "remove_remaining_badge_outline"
+        }
+      ]
+    },
+    {
+      "slot": 16,
+      "slug": "lamborghini-countach",
+      "subject": "Lamborghini Countach LP400",
+      "year": "1974",
+      "category": "Supercars and exotics",
+      "features": "Original 1974 Lamborghini Countach LP400 in bright canary yellow, clean narrow-body early design WITHOUT rear wing or bolt-on wheel arch extensions, extremely low sharp wedge nose, trapezoid windscreen, black side intakes, scissor doors CLOSED, pop-up headlights CLOSED, small period wheels. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/16-lamborghini-countach.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "865ad15050f0a6b12596624f300b0b18bd8c3b38fd04b6482af022901e8fbaa7",
+      "decoded_pixel_sha256": "5a397402b8eefb119609425338f2f035a4eb54b8b063159b25222852d9a1f8be",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Original 1974 Lamborghini Countach LP400 in bright canary yellow, clean narrow-body early design WITHOUT rear wing or bolt-on wheel arch extensions, extremely low sharp wedge nose, trapezoid windscreen, black side intakes, scissor doors CLOSED, pop-up headlights CLOSED, small period wheels. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-e05dca14-fb70-4141-b402-022f0b2584bb.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 17,
+      "slug": "lancia-stratos",
+      "subject": "Lancia Stratos HF",
+      "year": "1974",
+      "category": "Supercars and exotics",
+      "features": "1974 Lancia Stratos HF road car in vivid lime green, very short wedge-shaped mid-engine body, unique wraparound curved visor windscreen, steeply chopped tail, flared arches and gold alloy wheels. Black rear louvres, compact black front bumper, pop-up headlights CLOSED. No rally lamps or sponsors. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/17-lancia-stratos.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1fe6f02690285750dd0d5e38b029caf7350973ece66b5906dd80b7775429a99a",
+      "decoded_pixel_sha256": "de73a2d521e7b302f1f9d5e18d7b85f080d1384e069264360397c595a0f78b90",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1974 Lancia Stratos HF road car in vivid lime green, very short wedge-shaped mid-engine body, unique wraparound curved visor windscreen, steeply chopped tail, flared arches and gold alloy wheels. Black rear louvres, compact black front bumper, pop-up headlights CLOSED. No rally lamps or sponsors. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-7acd3da4-75f5-4d91-aec4-34bd5985743f.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-ae2d6920-c720-459d-87e3-d7cc453cb0f0.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 91% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 18,
+      "slug": "delorean-dmc12",
+      "subject": "DeLorean DMC-12",
+      "year": "1981",
+      "category": "Supercars and exotics",
+      "features": "1981 DeLorean DMC-12 in brushed stainless-steel grey, angular folded-metal coupe, black bumpers, rectangular quad headlights, dark rear louvres and turbine-style alloy wheels. Both gullwing doors CLOSED to preserve its sleek low wedge silhouette. Standard road car, no film props or time-machine additions. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/18-delorean-dmc12.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "74bd33a79720a7df64b9132f5f773b6d344e2f1c79a010a45b7824d116de54e0",
+      "decoded_pixel_sha256": "c785a3ee986b786daa5be4d8c4501a81b981a980c170cc4e51a3638cd7fa9ff3",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1981 DeLorean DMC-12 in brushed stainless-steel grey, angular folded-metal coupe, black bumpers, rectangular quad headlights, dark rear louvres and turbine-style alloy wheels. Both gullwing doors CLOSED to preserve its sleek low wedge silhouette. Standard road car, no film props or time-machine additions. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-6ae9d1ee-5429-40ac-be01-c0b86c681e39.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-b40f0de5-06f6-4257-b724-00fe4376b81c.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 90% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 19,
+      "slug": "ford-gt40",
+      "subject": "Ford GT40",
+      "year": "1966",
+      "category": "Supercars and exotics",
+      "features": "1966 Ford GT40 in pale powder blue with one wide orange longitudinal centre stripe and orange lower nose, very low broad endurance-racing coupe, rounded covered headlights, muscular front fenders, low cabin, broad side intakes and dark deep-dish wheels. NO racing numbers, roundels, sponsors or text. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/19-ford-gt40.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a9ed31307dbbfa9dccec4e729f306b8a3214dc1744820bdce93e3daf17b7ce68",
+      "decoded_pixel_sha256": "093a6e77d391ce8845100b77531f2d04d0bea28c17bf4f237b9b2bcf48a01e2b",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1966 Ford GT40 in pale powder blue with one wide orange longitudinal centre stripe and orange lower nose, very low broad endurance-racing coupe, rounded covered headlights, muscular front fenders, low cabin, broad side intakes and dark deep-dish wheels. NO racing numbers, roundels, sponsors or text. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-77cf1dfd-486a-487f-b179-56cd01606ace.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 20,
+      "slug": "toyota-2000gt",
+      "subject": "Toyota 2000GT",
+      "year": "1967",
+      "category": "Japanese performance cars",
+      "features": "1967 Toyota 2000GT in warm ivory white, very long elegant low bonnet, tiny fastback coupe cabin, rounded front with two prominent lower glass-covered fixed driving lights, pop-up main headlights CLOSED, flowing rear haunches, fine chrome trim and period alloy wheels. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/20-toyota-2000gt.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b7f7a33ac308c8c1fdc9a284984269b64bf0beca5b4a3f8fa1bb76cb65809ced",
+      "decoded_pixel_sha256": "0543b365c2be7b6819f7f7961838d0ff72a073f78792d05a4f0eedb0109694e0",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1967 Toyota 2000GT in warm ivory white, very long elegant low bonnet, tiny fastback coupe cabin, rounded front with two prominent lower glass-covered fixed driving lights, pop-up main headlights CLOSED, flowing rear haunches, fine chrome trim and period alloy wheels. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-182bfc78-1cc8-46c0-8cf5-80c7a873f3aa.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 21,
+      "slug": "nissan-skyline-r34",
+      "subject": "Nissan Skyline GT-R R34",
+      "year": "1999",
+      "category": "Japanese performance cars",
+      "features": "1999 Nissan Skyline GT-R R34 in rich Bayside blue, angular two-door coupe, boxy flared rear haunches, tall rectangular rear wing on two uprights, signature FOUR round red rear taillights with larger outer and smaller inner pair, period six-spoke wheels. REAR three-quarter view with rear nearest at LOWER RIGHT, nose receding LEFT. No model lettering.",
+      "orientation": "rear-right",
+      "file": "images/21-nissan-skyline-r34.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fd534aca15d4f6dc861d67d5b287f9584f110a988611b757d399c53bf000f932",
+      "decoded_pixel_sha256": "10a998780ca89c8661a1c1db2610e3aa781a8ed7f1b9088d1d085258bc943ab0",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1999 Nissan Skyline GT-R R34 in rich Bayside blue, angular two-door coupe, boxy flared rear haunches, tall rectangular rear wing on two uprights, signature FOUR round red rear taillights with larger outer and smaller inner pair, period six-spoke wheels. REAR three-quarter view with rear nearest at LOWER RIGHT, nose receding LEFT. No model lettering.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-ac4c6fd0-5ad2-4428-905c-a9a1582432ef.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-81848ff8-6aac-4bbe-af27-251b4a66af0b.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 93% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 22,
+      "slug": "subaru-impreza-22b",
+      "subject": "Subaru Impreza 22B STI",
+      "year": "1998",
+      "category": "Japanese performance cars",
+      "features": "1998 Subaru Impreza 22B STI in deep rally blue, compact wide-bodied TWO-DOOR coupe, large bonnet air scoop, rectangular headlights, broad rally wheel arches, tall rear wing, gold multi-spoke wheels. Road car with no sponsors, racing numbers or lettered badges. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/22-subaru-impreza-22b.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1087c813240b224c16ba6f74beed0e628566daf9e3507a1d5a45063c9424c1e5",
+      "decoded_pixel_sha256": "78ca8e9e86800d17b17f92528a7c8094c1ae5a012ad6a3781b4fa03a0c32f56d",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1998 Subaru Impreza 22B STI in deep rally blue, compact wide-bodied TWO-DOOR coupe, large bonnet air scoop, rectangular headlights, broad rally wheel arches, tall rear wing, gold multi-spoke wheels. Road car with no sponsors, racing numbers or lettered badges. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-4c10d5cd-f673-4d8c-a9ae-c6ca5c6b588e.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 23,
+      "slug": "mazda-mx5",
+      "subject": "Mazda MX-5 NA",
+      "year": "1990",
+      "category": "Japanese performance cars",
+      "features": "1990 Mazda MX-5 Miata NA in bright red, tiny rounded two-seat open roadster with black roof DOWN, BOTH pop-up headlights RAISED, smiling oval lower grille, simple five-spoke wheels, black cockpit and compact original 1990 proportions. No driver. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/23-mazda-mx5.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cdd645bb17c72dbb124979804aed830373f4bbb5591bb54209a8603e0201f8e0",
+      "decoded_pixel_sha256": "067407585acdfbf9babf49bb26a08f5c33f39f5ef76ddb4e5d97c113b6c406d1",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1990 Mazda MX-5 Miata NA in bright red, tiny rounded two-seat open roadster with black roof DOWN, BOTH pop-up headlights RAISED, smiling oval lower grille, simple five-spoke wheels, black cockpit and compact original 1990 proportions. No driver. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-14eb4048-7d62-421a-9cfa-dec210ab761f.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 24,
+      "slug": "rolls-royce-silver-cloud",
+      "subject": "Rolls-Royce Silver Cloud II",
+      "year": "1960",
+      "category": "Grand touring and luxury",
+      "features": "1960 Rolls-Royce Silver Cloud II elegant formal saloon, rich deep burgundy body with champagne cream roof and upper cabin, tall upright chrome radiator grille, round headlights in sweeping front fenders, long stately bonnet, rounded formal roof, chrome hubcaps and restrained whitewall tyres. Small sculptural hood ornament, no lettering. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/24-rolls-royce-silver-cloud.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4eba9194695604b3056e8b286141d97b69d9eb9e0a7cbcd27b56af10fc2c5ae5",
+      "decoded_pixel_sha256": "5affa9c0b3ce36826f13937e6630a415e48c6d169198fce23c1a766d2e64b1ed",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1960 Rolls-Royce Silver Cloud II elegant formal saloon, rich deep burgundy body with champagne cream roof and upper cabin, tall upright chrome radiator grille, round headlights in sweeping front fenders, long stately bonnet, rounded formal roof, chrome hubcaps and restrained whitewall tyres. Small sculptural hood ornament, no lettering. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-5cf187cd-7097-4202-bb39-66cdb5bd3e10.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 25,
+      "slug": "land-rover-defender",
+      "subject": "Land Rover Defender 90",
+      "year": "1990",
+      "category": "Off-roaders and pickups",
+      "features": "1990 Land Rover Defender 90 short-wheelbase three-door hardtop, sage green body and ivory roof, very upright boxy body, flat bonnet, round headlights in square front wings, simple black bumper, chunky tyres and cream steel wheels. No roof rack, tools or accessories. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/25-land-rover-defender.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "13f860fa15ca681473a41316af0c8135480d3aa0c82fcdd4cae7b35cdc2388d4",
+      "decoded_pixel_sha256": "8abe4d58f1e72f47c672dfd670be77a304dcdb156c37d0fff12c834f5dcc6469",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1990 Land Rover Defender 90 short-wheelbase three-door hardtop, sage green body and ivory roof, very upright boxy body, flat bonnet, round headlights in square front wings, simple black bumper, chunky tyres and cream steel wheels. No roof rack, tools or accessories. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-d2604cf6-4f7f-4dc6-aa00-426e59315d8b.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 26,
+      "slug": "jeep-wrangler",
+      "subject": "Jeep Wrangler TJ",
+      "year": "1997",
+      "category": "Off-roaders and pickups",
+      "features": "1997 Jeep Wrangler TJ in sunshine yellow with black hardtop, short-wheelbase two-door rugged body, seven-slot upright front grille, ROUND headlights, separate black front fenders, black bumpers and chunky tyres. Standard road vehicle, no lift kit or extra gear. FRONT three-quarter view, nose points LEFT.",
+      "orientation": "front-left",
+      "file": "images/26-jeep-wrangler.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9eac0fa56721c7f877c359e45fdab6a1918ca6d7746217f9a6a9cce489424acd",
+      "decoded_pixel_sha256": "b2ef46ea0eace599e696a733c970fd3d9e36eac8901e88121feb90f0dce1887c",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1997 Jeep Wrangler TJ in sunshine yellow with black hardtop, short-wheelbase two-door rugged body, seven-slot upright front grille, ROUND headlights, separate black front fenders, black bumpers and chunky tyres. Standard road vehicle, no lift kit or extra gear. FRONT three-quarter view, nose points LEFT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-e031a1e0-46a4-4bc1-befc-312bacda7699.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 27,
+      "slug": "toyota-land-cruiser-fj40",
+      "subject": "Toyota Land Cruiser FJ40",
+      "year": "1978",
+      "category": "Off-roaders and pickups",
+      "features": "1978 Toyota Land Cruiser FJ40 short-wheelbase hardtop in sandy beige with white roof, white rounded-rectangular grille surround containing two round headlights, upright flat split front fenders, boxy cabin, chunky black tyres and plain steel wheels. Simple black bumper, no accessories or text. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/27-toyota-land-cruiser-fj40.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a5664526c9c01480ff04033032367c6e71ce3b653eebd59babf19a7b3d64e53c",
+      "decoded_pixel_sha256": "fa80ad51ccdee9c5dab66761095b6d3be6ee00bd77513a2a10141bc57ba12651",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1978 Toyota Land Cruiser FJ40 short-wheelbase hardtop in sandy beige with white roof, white rounded-rectangular grille surround containing two round headlights, upright flat split front fenders, boxy cabin, chunky black tyres and plain steel wheels. Simple black bumper, no accessories or text. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-7977baa9-447d-4291-bc35-e7160b416e0a.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-9054e69b-4dae-4354-a8c5-29fe7b2a60fd.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Keep the exact present scale, centring and generous blank margins. Remove the small metallic cursive model script on the side of the bonnet behind the headlight, leaving plain beige painted metal there. Remove any remaining pseudo-lettering or alphanumeric model badges on the body panels. Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "remove_model_lettering"
+        }
+      ]
+    },
+    {
+      "slot": 28,
+      "slug": "toyota-hilux",
+      "subject": "Toyota Hilux",
+      "year": "1985",
+      "category": "Off-roaders and pickups",
+      "features": "1985 Toyota Hilux fourth-generation N50 classic SINGLE-CAB 4x4 pickup in warm brick red, simple angular cab, rectangular headlights and horizontal black grille, separate open empty cargo bed, black chunky tyres, silver steel wheels, standard ride height. No camper, canopy, bull bar or accessories. FRONT three-quarter view, nose points LEFT, clearly show whole pickup bed.",
+      "orientation": "front-left",
+      "file": "images/28-toyota-hilux.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4ef418cc91ec99b7cfa657e24e3090a66fc457906be6b6b53c1566ff8716a057",
+      "decoded_pixel_sha256": "ce9b57f34d269eb7853263231d3e4b769d4f311f928003073e3d08494539200f",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 1985 Toyota Hilux fourth-generation N50 classic SINGLE-CAB 4x4 pickup in warm brick red, simple angular cab, rectangular headlights and horizontal black grille, separate open empty cargo bed, black chunky tyres, silver steel wheels, standard ride height. No camper, canopy, bull bar or accessories. FRONT three-quarter view, nose points LEFT, clearly show whole pickup bed.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-cdf8627c-a280-4f82-a32b-277f8398cec3.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-d7db1810-b6fe-495b-b65e-c8bd77035947.png",
+          "prompt": "Edit the supplied car illustration. Preserve its exact car model, body geometry, perspective, colours, wheels, fine pencil workmanship, lighting and warm ivory paper. Shrink the ENTIRE car UNIFORMLY to 93% of its CURRENT size and centre the complete silhouette on the square page. Its total width should be about 72-74% of the image, with at least 13% completely blank ivory paper on BOTH sides. Extend the same subtle paper seamlessly.  Change nothing else. No cropping, rotation, added letters, text, captions, border or objects. Retain all fine hand-drawn detail.",
+          "operation": "composition_correction"
+        }
+      ]
+    },
+    {
+      "slot": 29,
+      "slug": "bmw-i8",
+      "subject": "BMW i8",
+      "year": "2014",
+      "category": "Modern designs",
+      "features": "2014 BMW i8 plug-in hybrid coupe in pearl white with black bonnet and black roof, electric blue trim accents, low futuristic sculpted body, recognizable twin kidney grille without lettering, slim headlights, dramatic floating rear buttresses and large two-tone wheels. Doors CLOSED. FRONT three-quarter view, nose points RIGHT.",
+      "orientation": "front-right",
+      "file": "images/29-bmw-i8.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b249df67ad80e603b3ea66ddfe759802cfcd42a42646fb9080aa890f91062abd",
+      "decoded_pixel_sha256": "bf2bdd6304b68438d89960e39fd1fef45e27e059c95c043615b846cb685d7513",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: 2014 BMW i8 plug-in hybrid coupe in pearl white with black bonnet and black roof, electric blue trim accents, low futuristic sculpted body, recognizable twin kidney grille without lettering, slim headlights, dramatic floating rear buttresses and large two-tone wheels. Doors CLOSED. FRONT three-quarter view, nose points RIGHT.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-9d15e187-13f6-40b1-ad07-6ad292f379a0.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    },
+    {
+      "slot": 30,
+      "slug": "tesla-cybertruck",
+      "subject": "Tesla Cybertruck",
+      "year": "2024",
+      "category": "Modern designs",
+      "features": "Tesla Cybertruck in brushed stainless-steel silver-grey, unmistakable geometric triangular wedge pickup, continuous single apex roofline, flat polygonal panels, very thin horizontal white front light bar, black angular wheel arches, dark polygonal wheels and black glass. No lettering or emblems. FRONT three-quarter view, nose points LEFT, entire pickup bed and wheels visible.",
+      "orientation": "front-left",
+      "file": "images/30-tesla-cybertruck.png",
+      "status": "complete",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "edf2b30878dfc809351c82267087f05ebebb3cdc56bb8623020a4a46f401fb78",
+      "decoded_pixel_sha256": "9c91942c5fc75b3422e9c4fa52cdc6749aba059ef8afe24c48c84a218b13b464",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card illustration in a coordinated set of 30 recognizable cars.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the single specified real car, with model-specific recognizable proportions.\nReference image role: STYLE, workmanship, ivory paper, natural colour and generous blank framing ONLY. Do not copy the reference subject or add an aircraft.\nStyle/medium: expert automotive illustrator's graphite and coloured-pencil drawing, fine confident graphite contours, visible layered pencil strokes, selective delicate cross-hatching, restrained transparent watercolour modelling, luminous paper highlights. Richly finished yet visibly drawn by hand, matching the reference. Neither photo nor CGI, cartoon, vector art or toy.\nComposition: square 1:1 PNG at least 1024x1024. Exactly ONE complete car, ALL wheels, bumpers, mirrors and open doors if specified fully in frame. Keep the entire silhouette contained within the CENTRAL 74% of the square, at least 13% completely blank ivory paper on EVERY side. Centre the entire vehicle, including any raised doors. Car is upright on a level invisible surface, modestly elevated three-quarter viewpoint, no extreme perspective or page rotation. Large and clear at 100px thumbnail size. Correct wheelbase, coherent body and natural wheel alignment.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge. No scenery, floor line or vignette. Gentle soft upper-left daylight and coherent self-shading; only tiny contact shading at tyres, no large cast shadow.\nConstraints: one car only; no people, driver, road, buildings, sky, smoke, speed lines, decorative splashes or other objects. NO text, letters, numbers, captions, signatures, watermark, border, brand lettering or model script ANYWHERE, including badges, tyres, license plates and racing numbers. Omit license plates or render them blank. Small NONLETTER geometric emblems may be subtly suggested. Identification relies on the car's shape and defining features.\nSpecific subject, appearance and viewpoint: Tesla Cybertruck in brushed stainless-steel silver-grey, unmistakable geometric triangular wedge pickup, continuous single apex roofline, flat polygonal panels, very thin horizontal white front light bar, black angular wheel arches, dark polygonal wheels and black glass. No lettering or emblems. FRONT three-quarter view, nose points LEFT, entire pickup bed and wheels visible.\nCRITICAL LAYOUT: This is a SMALL DRAWING on a LARGE EMPTY SQUARE sheet. Show the whole car only 60% as wide as the page, with 20% blank paper at the left AND 20% at the right. EMPTY IVORY PAPER dominates the composition. The vehicle appears as a modest central illustration, not a full-frame hero car. No zooming in. Match the drawing style of the reference but make the vehicle EVEN SMALLER on the page.\nRemove even tiny embossed model designations and decorative pseudo-lettering from body panels; leave badges without letters.",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11dc7fd4-9d29-4740-808b-02f8af25d795.png",
+      "reference": "C:\\Users\\adplocal\\.codex\\generated_images\\01a195d3-8f4d-7c00-81de-2884df64fb4b\\exec-11d8d3a7-f1bb-4e9d-b047-a1ec94c92bf3.png",
+      "edits": []
+    }
+  ],
+  "unique_decoded_images": 30,
+  "dimensions": [
+    [
+      1254,
+      1254
+    ]
+  ],
+  "matching_pairs": 30,
+  "names_in_artwork": false,
+  "delivery": "One unique image per matching pair; the game creates both identical cards.",
+  "import_play_test": "Not performed; this is a standalone artwork collection.",
+  "visual_review": "complete",
+  "full_size_review": "All 30 reviewed as generated; composition and text corrections reviewed individually.",
+  "thumbnail_review": "All 30 final models reviewed together at 100 pixels; varied silhouettes and palettes.",
+  "orientation_review": "Front and rear three-quarter views; left and right headings; all cars upright on level implied ground.",
+  "gallery_validation": "Static HTML structure and local image references checked; browser interaction not tested."
+}

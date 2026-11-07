@@ -1,0 +1,22 @@
+{
+  "images": 50,
+  "unique_countries": 50,
+  "unique_decoded_images": 50,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "source_copies_verified": true,
+  "import_folder_counts": [
+    25,
+    25
+  ],
+  "import_folders_disjoint": true,
+  "gallery_local_resources_verified": true,
+  "in_game_tested": false,
+  "cards_zip": "country-flags-colour-sketches-50-v1-cards.zip",
+  "cards_zip_entries": 50,
+  "cards_zip_integrity": true,
+  "cards_zip_hashes_verified": true,
+  "cards_zip_sha256": "df0fc9f57d8d84efae2d0ac5063946e1949a9a07b138367836b262cb10d6e8bf"
+}

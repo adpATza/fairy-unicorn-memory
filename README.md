@@ -31,6 +31,8 @@ Data and preferences: `%APPDATA%\Fairy and Unicorn Memory\`. Back up this folder
 
 Read **docs/Artwork and Import Guide.html**, also available from the game's Adult guide screen. It contains a reusable generation prompt, six difficulty examples, a 30-image planning checklist and import instructions.
 
+Additional artwork is available in [artwork/](artwork/README.md): 203 card illustrations covering aircraft, cars, country flags, landmarks, octopuses, pandas, ships and zebras. [Download the artwork packages](https://github.com/adpATza/fairy-unicorn-memory/releases/tag/artwork-2026-11-07), then import the individual card folders through the deck library.
+
 ## Edit
 
 Open `project.godot` in Godot **4.7.2 standard**. The project uses the Compatibility renderer and has no external runtime dependencies or add-ons.

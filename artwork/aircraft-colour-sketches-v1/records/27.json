@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-be9552af-ab26-4a47-a4da-6294cc0e7527.png",
+  "slot": 27,
+  "file": "27-uh1-huey.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Bell UH-1D Huey, classic utility helicopter with boxy olive-green cabin, large side door glazing and flat angular cockpit windscreens, slender raised tail boom, skid landing gear, ONE TWO-BLADED main rotor and a small tail rotor. Muted olive body with a broad cream side stripe. No people, weaponry or lettering. The large two-blade rotor must remain completely inside the safe area.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-9b858271-c9dd-44ef-bb42-db9dbef89bf8.png",
+      "prompt": "Edit this Bell UH-1 Huey colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ae5a9b69-1837-4af1-8544-658a1336d5fb.png",
+      "prompt": "Transform the supplied Bell UH-1 Huey illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose/cockpit clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 21 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+      "slot": 27,
+      "rotation_degrees_clockwise": 21,
+      "mirror_horizontally": true
+    }
+  ],
+  "orientation_requested": {
+    "slot": 27,
+    "rotation_degrees_clockwise": 21,
+    "mirror_horizontally": true
+  }
+}

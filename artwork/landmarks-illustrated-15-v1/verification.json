@@ -1,0 +1,186 @@
+{
+  "image_count": 15,
+  "unique_decoded_images": 15,
+  "card_size": [
+    1024,
+    1024
+  ],
+  "original_size": [
+    1254,
+    1254
+  ],
+  "zip_flat_png_count": 15,
+  "zip_entry_hashes_match": true,
+  "zip_sha256": "dbc5501c86df57dc701135f14f484051be7bbdb7d9c6282d76e7b31f8288bdc6",
+  "originals_verified": true,
+  "minimum_added_margin_pixels": 102,
+  "imported_into_game": false,
+  "play_tested": false,
+  "files": [
+    {
+      "id": "01",
+      "file": "01-eiffel-tower.png",
+      "title": "Eiffel Tower",
+      "location": "Paris, France",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "99787905664cd26390e7bad766becad65622d7385d181a16798f0ff111561ce1",
+      "decoded_sha256": "4fb8cc41197e4aff9260977f7588a5487729f479e7e1f0d4f24cbd917b7d4cf3",
+      "original_sha256": "0b641a27dcff66b6095117381fcdb4b6ac4c0eb2c6be111126bf6946c537f627"
+    },
+    {
+      "id": "02",
+      "file": "02-statue-of-liberty.png",
+      "title": "Statue of Liberty",
+      "location": "New York, United States",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "f192394bae1306bbf2a897a2edea7ae2a4b0d712b51dd2ce8abf06f02fbd786b",
+      "decoded_sha256": "00bbbfaeb67dfe11ad14e51cd67f424c712c538ab3a32dddbac1eb2421a269df",
+      "original_sha256": "b5172c7c8631ba31419b4d565b97dc661dd298ff04922afa346475953e1f9642"
+    },
+    {
+      "id": "03",
+      "file": "03-big-ben.png",
+      "title": "Big Ben (Elizabeth Tower)",
+      "location": "London, United Kingdom",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "2e0533fde6817933eeee7115e6259227136dc9660174997487225fd55f4ba344",
+      "decoded_sha256": "c5f4ac92789563843a7ae1744ed1f3b24b07f9c71a8d2b2c90e516eeb3c98b8f",
+      "original_sha256": "ca41181a0ce2aabf40a0d90e4ba61c98a04fa1e9929cb2203ad1e6f2fbaae9db"
+    },
+    {
+      "id": "04",
+      "file": "04-colosseum.png",
+      "title": "Colosseum",
+      "location": "Rome, Italy",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c8646adbb86a13a9a01325f5ea2823aaea6b4c6640c8a8da2f714c8c27b5d4ae",
+      "decoded_sha256": "8a4736dd6fe02421bb82f7db137f03ebd61175d534c8e92c79f88e66b616d63c",
+      "original_sha256": "80dbacc06a293e14a2bb22d7db47f6f955c28646ce7693a2f3a3e4e6af2d1f2b"
+    },
+    {
+      "id": "05",
+      "file": "05-taj-mahal.png",
+      "title": "Taj Mahal",
+      "location": "Agra, India",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "293bde996e32d97b050a20adde15b7ca421d94ab410542279c9389cc113e1566",
+      "decoded_sha256": "f7cab027d2ead39dfdbe0e44606645d23767da6c0bf0d074301ef39c3809ae09",
+      "original_sha256": "4f240923cfcba6bb99905616e16ecbca4bf70384d6864c9aff2ab87a9fbf20f7"
+    },
+    {
+      "id": "06",
+      "file": "06-great-wall.png",
+      "title": "Great Wall of China",
+      "location": "China",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "87a5f91f4c790c8f1d6d7b6345be5004f86b3c38952e4d015b67048e301b9cbe",
+      "decoded_sha256": "33120c0735f7232a9cd57602a4cfdbee30465066cef84c47e6db61dcd637a8d1",
+      "original_sha256": "b8ee7b0bce4f307ec71ea1ceb3298a80bcb1a5b2451a34dad4874fa418b2c9d7"
+    },
+    {
+      "id": "07",
+      "file": "07-pyramids-of-giza.png",
+      "title": "Pyramids of Giza",
+      "location": "Giza, Egypt",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "66e8abd4ed9bd7a0268ce22f1b57f5f70c94b172d78d94d55e6944f52c8aaf5e",
+      "decoded_sha256": "298c295a00523d6e3b3904e4e0723d23e359c1019006331e14d59cf68470dbb8",
+      "original_sha256": "2b6c75d1dad9108fffbaf7f7e96fe728c1e66207ca7b5ee922bc7752802ae35e"
+    },
+    {
+      "id": "08",
+      "file": "08-sydney-opera-house.png",
+      "title": "Sydney Opera House",
+      "location": "Sydney, Australia",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "94f3894a1ab445caf7524654628dfd43a45a4e5c02a38aff74bca5f84440b838",
+      "decoded_sha256": "cacfad8fe0ed7435bd6b1a69c6415474657ab9aff57727becea0898b3baa90f6",
+      "original_sha256": "50bb5fe88fd6bceca46a6012a3f6b4aa6361950b9894ac254ab4e36e2cc8c6c9"
+    },
+    {
+      "id": "09",
+      "file": "09-christ-the-redeemer.png",
+      "title": "Christ the Redeemer",
+      "location": "Rio de Janeiro, Brazil",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "437972f8ffcce2b1b2e8de5cde973c7880d2ce9aab4696b4a32c72f493269dd6",
+      "decoded_sha256": "debaada77d6fba0f1b1582b685efc3fa7e77a4753d1b9742953b6f3ed4e97b42",
+      "original_sha256": "4edb35d7e93c935defee379d786874e9136c5df6948f3037e7db6b11ea629d0f"
+    },
+    {
+      "id": "10",
+      "file": "10-machu-picchu.png",
+      "title": "Machu Picchu",
+      "location": "Peru",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "05e1639a7a9edcc54a4cbaa1e36f9d5068f65b6b23e3c7963737e077d2601c1f",
+      "decoded_sha256": "a8609610c0f1cf61192972628cf4af587d56a863be16a2891bfd6d7e4130c223",
+      "original_sha256": "8108648b71451534b56c193a57fa44eff6e2797b2d40ba20801ddcbad4fe63e2"
+    },
+    {
+      "id": "11",
+      "file": "11-petra-treasury.png",
+      "title": "Petra Treasury",
+      "location": "Petra, Jordan",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "2a54f8c3bfd365eb393f160763d383d48513d824432be542d35039581747574f",
+      "decoded_sha256": "ecc0d604c9d4177b77935d3ff1b47e0cfdfab88c479bf1dd0e8bf1983a24f32c",
+      "original_sha256": "5630c5ddf5ee240a48be4298cd7cf95d6c16351efd06cad415e0896dcf6c5368"
+    },
+    {
+      "id": "12",
+      "file": "12-angkor-wat.png",
+      "title": "Angkor Wat",
+      "location": "Siem Reap, Cambodia",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "7749bdb2538ddd694e9327b3910a6b6fa7da467050a12dbeed79dc8a619af123",
+      "decoded_sha256": "7f0a6d04b0dfeaa228f0cee30a65d975c024df0d6ccddc3112cdac1a56228385",
+      "original_sha256": "071787e190ec0948d28c8caba915ace3c1e7e9469c89d778e0190ae2b3390caf"
+    },
+    {
+      "id": "13",
+      "file": "13-burj-khalifa.png",
+      "title": "Burj Khalifa",
+      "location": "Dubai, United Arab Emirates",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "1ae47aa27ba88e4cce7f06ef658a190daf5d7498c80c8e8049b635eed1c126c4",
+      "decoded_sha256": "84943bd12c9189e8f7659906044bbdf19edc9912f79afc096f605c766a9ef067",
+      "original_sha256": "b72c42b1eb5ea0e7b445698493b999ec3fc7c6c50cdb4523d60ce4212dca84ed"
+    },
+    {
+      "id": "14",
+      "file": "14-table-mountain.png",
+      "title": "Table Mountain",
+      "location": "Cape Town, South Africa",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "bf3bc243ae0d55ffba51bc49f0f99aeb01b9b7679acabe97889d2041c8dc306f",
+      "decoded_sha256": "1c2092a10698d74f062bf5a2566a4a08e2b194e21d9c1c2db219d5dd45684539",
+      "original_sha256": "313747cff705f85273f07542526043decdf6b6ffc38d4ec0ba65220728a42bcf"
+    },
+    {
+      "id": "15",
+      "file": "15-golden-gate-bridge.png",
+      "title": "Golden Gate Bridge",
+      "location": "San Francisco, United States",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "e77d0760da7e46a3fc5f26f424fe18316081b598a2d2a3e21fb62070255aebfd",
+      "decoded_sha256": "d8f1262d7b1f704039de3c1e5aa8b5d6fbafbbc94131ff5ca7845954807e8a02",
+      "original_sha256": "422747dc03dc67d06087c014e768ac05cf41c53925ab50c32ee3c5df49beb20b"
+    }
+  ]
+}

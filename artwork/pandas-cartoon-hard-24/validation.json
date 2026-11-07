@@ -1,0 +1,17 @@
+{
+  "unique_cards": 24,
+  "width": 1024,
+  "height": 1024,
+  "unique_decoded_images": 24,
+  "originals_verified": true,
+  "zip_entries": 24,
+  "zip_flat": true,
+  "zip_png_only": true,
+  "zip_hashes_match": true,
+  "archive": "pandas-cartoon-hard-24-cards.zip",
+  "archive_bytes": 21193698,
+  "archive_sha256": "08a1d89c4e7fe023457ab385349a968de1aa2f59d9e16ddcdbfea734c0459f51",
+  "visual_review": "Passed: all 24 images reviewed together at 96 pixels and on the large contact sheet; pose and expression differences remain visible; no cropped limbs or accidental duplicate compositions observed.",
+  "game_import_tested": false,
+  "difficulty_play_tested": false
+}

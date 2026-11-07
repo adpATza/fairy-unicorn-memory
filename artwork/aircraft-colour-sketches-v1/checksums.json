@@ -1,0 +1,212 @@
+[
+  {
+    "file": "images/01-p51d-mustang.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f8194a72227ac577702951f18ebd81871760fb7ad01855f60fd561582718b989",
+    "decoded_pixel_sha256": "02edcb69303b44de12508be84e2dec750dfdbf29929d463661477cd951a1cb5a"
+  },
+  {
+    "file": "images/02-spitfire.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f70c1535579836008c301df39a276843f2f72c22daa108418e1445c338678dc3",
+    "decoded_pixel_sha256": "4aee8db05bd9a4fa38cfb002d4f618405007cf6a138189ab23364d5ce3c6a8af"
+  },
+  {
+    "file": "images/03-boeing-747.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7cbb02973f970ecc9a45f08dec2dce79f949c04db80c8f6d1fe0b1bf353e9e60",
+    "decoded_pixel_sha256": "76d9fd5d936d9de639d982b995ca4c840d222bf6cf9145274483d811aaafe727"
+  },
+  {
+    "file": "images/04-airbus-a380.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "22d8fd705d1f18e42c9805a5064e801088e9033b73aeb2c1d97e7656d215d0fd",
+    "decoded_pixel_sha256": "fdbe5d99e3d74933ca9e573842a8ad082c17a8bb9806bcff64e0e50a58d711a6"
+  },
+  {
+    "file": "images/05-boeing-787.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9835a5cd2dc0c922c0928339ed236381a48437cb644e408a770124cc07c6ef89",
+    "decoded_pixel_sha256": "56db435bfe50836ada7b3871fb17709770041d44b702107d6e2f40421e0d5cb9"
+  },
+  {
+    "file": "images/06-concorde.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "22e8197ace8fc36265fdd659c4b7c45e3149c34775cf96584ad8e0da10a014c3",
+    "decoded_pixel_sha256": "1c8e99bc038b059b25c2e6ce32350a77ed49296e13a2f3063a2d532bba1dafa4"
+  },
+  {
+    "file": "images/07-atr-72.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "929958e45ac768c95aec015742aca14259793f504c44e28b3f041ceebadc8005",
+    "decoded_pixel_sha256": "b041f51181b7b4d88ecc6865f04b529060a0e7de067ac3e76be1ea886fcb55b5"
+  },
+  {
+    "file": "images/08-douglas-dc3.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9c2dc504751d23d2a4fccf00b34fb5bf86274759591a4528ec9cb4ee4600b902",
+    "decoded_pixel_sha256": "ee340b9504647085bc0aa0b47d691427e63ac2b19bebafff9364e89ff1356e13"
+  },
+  {
+    "file": "images/09-cessna-172.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "70552a9b1c4de1996800dccf52bd158af2bb68e88000865b68b2fda9b5e50f58",
+    "decoded_pixel_sha256": "053dc98c9c8189c8dcc8be441c0df18dc760441e396e9c19f87a06e02139b99f"
+  },
+  {
+    "file": "images/10-piper-cub.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c0ce28d326355a7fc682e391a99a6d37fcd12db6f357e9dc5e121dd589d940e9",
+    "decoded_pixel_sha256": "b89454167eb594b40568b5bf7592179efd953eaadadf9bfcc72acc791e29062b"
+  },
+  {
+    "file": "images/11-tiger-moth.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a740c0d0e11fca6a2e21d1a632e3f40613e1044b64bdbdbffbb64cc5912dbd69",
+    "decoded_pixel_sha256": "a076348d8d046f5ec3fa782ff8c9029552d9cf581f0d5dba619afa8b028a3edf"
+  },
+  {
+    "file": "images/12-fokker-dr1.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ad088472902484a8821ad8fbf1154a95da2b3f4c54824c59b7f4aab134c2b032",
+    "decoded_pixel_sha256": "4f5c5e7c4401c89519766532bd61ad4fca0c49ae717b81ac028a0e7102f86d20"
+  },
+  {
+    "file": "images/13-beaver-floatplane.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8aab122c637d9db912678ba4b7e43132a360882b398732a2980fb35753f55190",
+    "decoded_pixel_sha256": "aa7512194374b619c57f17c0a6b033f032aca0a3fe9af44c7be41ee9fe5b7de1"
+  },
+  {
+    "file": "images/14-canadair-cl415.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fc1dbaa955d4ab23666c8112b75a61e8d4045fa67f83913421bf730700bcda77",
+    "decoded_pixel_sha256": "6cd18675044b61caee13d02366030c088ceb8b064f2226ea366430819b8d95ae"
+  },
+  {
+    "file": "images/15-pby-catalina.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b19867e649b08f0d224c863fc2af25868e4ddb4293900dfd67a118e25bb7c3fa",
+    "decoded_pixel_sha256": "12a57c96271ad88ac666c96bc3203753ba5c65322034b249f4d083869a63cead"
+  },
+  {
+    "file": "images/16-pilatus-pc12.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "923500085418ce47d1afcd3060fa8ca3ef33cc04cfea14814e2481356715ba6c",
+    "decoded_pixel_sha256": "55a104231caf26832cb99257bcf8a32cb5f822d67c368bb7f00f33b68c14173c"
+  },
+  {
+    "file": "images/17-gulfstream-g650.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2929a9184928e2b2dd595814035dab7fa42432e97aa28d53e09a4791878270e1",
+    "decoded_pixel_sha256": "542c19d1df22e99da97132a1ad46888715a95c02e56759c10f5cd5931a018cfb"
+  },
+  {
+    "file": "images/18-ask21-glider.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fc9097367ec71f2a385477f1cc07f4a820b15a770d41c9d57e53b7ebb5d5b912",
+    "decoded_pixel_sha256": "2b5146b772da1cda2b072d310631b60857f67b71ffa3defaad68a551e68bba44"
+  },
+  {
+    "file": "images/19-c130-hercules.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0034372b8b0c3a1f20e10351fcf26b24297b31486fc9e55634a3d233c1e1132d",
+    "decoded_pixel_sha256": "d4a206045f940f22d9bf6dc939916efa2d140ed6f5be5a1905d4dbbb4fa6640f"
+  },
+  {
+    "file": "images/20-b17-flying-fortress.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ab968b8a9a2c06da2eb7c2e97a618156a4d8f2aae4e618078989c62cc3d71506",
+    "decoded_pixel_sha256": "c87d1311bd497b8f205f1b2ca6a15421e4a3aba3e130618e645c862f75165e23"
+  },
+  {
+    "file": "images/21-p38-lightning.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ab6d74094d6a88a755d79f2e2d0fad6178a13209d5343934f61128a63d601781",
+    "decoded_pixel_sha256": "9a69fb252bfdee89f7d4315ea88624a95ce31e9370346b7fb36e31c9e3f1e285"
+  },
+  {
+    "file": "images/22-sr71-blackbird.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e31f204c920f4b0136bb0eb90e952c17b295bcefd924fc9bbb72eab67feae08a",
+    "decoded_pixel_sha256": "d9aaffdd9dccedc9a9884e45cc875167e202ab7f9e819957c5643a7474357cb7"
+  },
+  {
+    "file": "images/23-mirage-iii.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "342ce0c23ff9c77224ce51728359246f10218d6c77e853e34e02bee857c47f35",
+    "decoded_pixel_sha256": "90df193e2d78100c42d82a012064e6d3d100ad0164f49df62d967955668ae1a4"
+  },
+  {
+    "file": "images/24-f14-tomcat.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a94143660505e89ab3daae60a57a7ebc1dfd6adcc8e86eaefbeda850a8087745",
+    "decoded_pixel_sha256": "0710b5f10daee3ba657d4ffbe1e9ddfb975a4826d62971a38c6bc2d227c09891"
+  },
+  {
+    "file": "images/25-f22-raptor.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f8337c63aebfd7672a6bb4e19b14cbfa907c80bb1652cb61c797270b29830e7f",
+    "decoded_pixel_sha256": "05ed99a0caa9a01b62258e019d33733a617e84675a1149bcee0c20b2666c6a92"
+  },
+  {
+    "file": "images/26-bell-47.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "270068a07e0ad7ae54ce3cbf92a93571eb497815a5990ee5758562b816f32e89",
+    "decoded_pixel_sha256": "23999c7c4f8bf3748d2d46aaf0188049799ddba262afd03de5a92b91840aec10"
+  },
+  {
+    "file": "images/27-uh1-huey.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9b26f7e2dc85d37d37a9a6d8abda925afcbdb184a22777e8bf2418c0111d96d3",
+    "decoded_pixel_sha256": "d9ceb3c158ee17fb1cb93b7214dcc29bc20b0a5f7d21c5a9f06bd431c24eaae6"
+  },
+  {
+    "file": "images/28-ch47-chinook.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0f9ee5547ab215c96829a4fdf32f6018b84628684bd5a8f22c14bb1e2273b1e8",
+    "decoded_pixel_sha256": "a51b78115ce2c3e098f156f50ceccd419d98aee88e28932ed8daed503f89943e"
+  },
+  {
+    "file": "images/29-s64-skycrane.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cde6f74a2c9ca43f25d842d49a7bca4a8d00fb8909d9ffdaac633e4c8f68de4a",
+    "decoded_pixel_sha256": "ccc208c5e7483d9f5a1550b1fa05f1012fb563f8cba791b068f6ee91ecf01504"
+  },
+  {
+    "file": "images/30-airbus-h145.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "44bbea6911e908dbe67d411a80a9ca0a71b6f2be3dcd1185adc417eb5e252031",
+    "decoded_pixel_sha256": "5d49335834ff4192d5d2d74d748fe9330477f2c2bdd1d155d42150d50cd29353"
+  }
+]

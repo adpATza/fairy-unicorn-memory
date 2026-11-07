@@ -1,0 +1,49 @@
+COUNTRY FLAGS IN COLOUR PENCIL
+
+50 different well-known countries, one separate square PNG per country.
+Each picture was individually generated with built-in image_gen, using the
+butterfly thread 01a191d5-eb59-7430-9dcc-c615495770ff as the drawing-style reference.
+The finished flag cards share coloured-pencil texture and warm cream paper.
+Final PNGs retain their native generated 1254 x 1254 size without resampling.
+
+BROWSE
+Open preview.html to search countries, filter by region/deck, hide the names,
+or compare Gallery, Card size (100 px) and Large details views.
+Click any picture to open the full PNG. contact-sheet.png shows all 50.
+
+IMPORT
+The current game accepts 2-30 unique images per deck.
+decks/01-world-flags-a and decks/02-world-flags-b each contain 25 different flags.
+Both are mixed world selections; together they cover all 50 without overlap.
+Alternatively choose any 2-30 pictures from images/ in the import screen.
+One image makes one matching pair automatically. Never import preview sheets.
+Suggested domain: Country flags; style: Illustrated. Choose complexity to suit
+your subset: similar tricolours and Australia/New Zealand are more challenging.
+
+CONTENTS
+images/                 all 50 final PNGs, only card files
+decks/                  two ready-to-import folders, 25 PNGs in each
+preview.html            offline labelled gallery
+contact-sheet.png       labelled collection overview at 180 px per card
+card-size-proof.png     labelled overview at 100 px per card
+countries.csv           country names, regions, deck selections and filenames
+generation.json         all exact prompts, selected sources and revision records
+records/                individual generation records
+references.json         flag reference notes and official design sources
+checksums.json          file and decoded-pixel SHA-256 hashes
+verification.json       packaging validation and its boundaries
+build_delivery.py       rebuild reviews and verify copies (requires Pillow)
+
+ARTWORK NOTES
+Flags are flat and front-facing so their key colours and symbols remain clear.
+No country-name labels appear on cards. Genuine intrinsic national emblems and
+mottos remain part of the flag. Austria and Peru use their plain civil flags.
+These are artistic recognition cards, not measured manufacturing diagrams;
+small heraldic details and proportions retain hand-drawn interpretation.
+
+VALIDATION
+All 50 PNGs decode successfully, are 1254 x 1254, have unique decoded pixels,
+and are byte-identical to their selected generated source files. Import folders
+are disjoint and contain 25 files each. Gallery image links were checked.
+The artwork was visually reviewed individually and at thumbnail size.
+In-game importing and play were not tested in this task.

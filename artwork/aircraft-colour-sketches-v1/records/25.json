@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ede65024-b51a-4fac-9392-7faf85b9f0da.png",
+  "slot": 25,
+  "file": "25-f22-raptor.png",
+  "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed Martin F-22 Raptor, recognisable angular stealth fighter with broad clipped diamond/trapezoid wings, smoothly blended faceted fuselage, sharply angled side air intakes, gold-tinted SINGLE-seat canopy, TWO outward-canted trapezoid vertical fins and TWO angular exhaust nozzles at the rear. Cool medium-grey camouflage with slightly lighter edge panels. All weapon bays closed; no missiles or external stores. A technically convincing F-22 silhouette, not an F-35 or generic fighter.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-5fd86dd5-484c-4891-8669-dd729fbe307e.png",
+      "prompt": "Edit this Lockheed Martin F-22 Raptor colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-5da8c366-670c-410d-b8c7-945807d3a66e.png",
+      "prompt": "Transform the supplied Lockheed Martin F-22 Raptor illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose/cockpit clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 18 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+      "slot": 25,
+      "rotation_degrees_clockwise": -18,
+      "mirror_horizontally": true
+    }
+  ],
+  "orientation_requested": {
+    "slot": 25,
+    "rotation_degrees_clockwise": -18,
+    "mirror_horizontally": true
+  }
+}

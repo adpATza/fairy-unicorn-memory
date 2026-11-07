@@ -1,0 +1,153 @@
+{
+  "created": "2026-11-01",
+  "reference_thread": "01a191d5-eb59-7430-9dcc-c615495770ff",
+  "tool": "built-in image_gen",
+  "anchor": "originals/panda-01-seated-paws-on-knees.png",
+  "cards": [
+    {
+      "n": 1,
+      "name": "seated-paws-on-knees",
+      "family": "Seated",
+      "pose": "Seated upright facing viewer, feet apart in front, BOTH forepaws low resting on knees, head upright, both eyes open, tiny closed-mouth smile."
+    },
+    {
+      "n": 2,
+      "name": "seated-one-paw-wave",
+      "family": "Seated",
+      "pose": "Seated upright facing viewer, feet apart in front. Raise the paw on the VIEWER'S LEFT beside the ear in an unmistakable friendly wave, with its pads facing viewer; opposite forepaw rests low on knee. Head upright, both eyes open, tiny cheerful smile."
+    },
+    {
+      "n": 3,
+      "name": "seated-paws-on-cheeks",
+      "family": "Seated",
+      "pose": "Seated upright facing viewer, feet apart in front. BOTH forepaws raised and pressed gently against the panda's cheeks, elbows pointing out, an unmistakable bashful hands-on-cheeks pose. Head upright, eyes open, tiny round surprised mouth."
+    },
+    {
+      "n": 4,
+      "name": "seated-open-arms",
+      "family": "Seated",
+      "pose": "Seated upright facing viewer, feet apart in front. BOTH forepaws extended WIDE horizontally to either side below shoulder height in a welcoming hug, clearly away from the belly and face. Head tilts a little toward viewer's right, eyes open, tiny cheerful smile."
+    },
+    {
+      "n": 5,
+      "name": "standing-paws-down",
+      "family": "Standing",
+      "pose": "STANDING upright on two short hind feet, full body facing viewer, belly elongated slightly compared with seated pose. Both forepaws hang DOWN loosely beside the hips. Head upright, both eyes open, tiny closed-mouth smile. Clearly show the standing legs and grounded small hind feet."
+    },
+    {
+      "n": 6,
+      "name": "standing-arms-up",
+      "family": "Standing",
+      "pose": "STANDING upright facing viewer on two hind feet, BOTH forepaws raised HIGH above the head in a happy V shape. Whole ears and raised paws inside safe margin. Eyes happy curved closed crescents, small open smiling mouth. Four limbs only."
+    },
+    {
+      "n": 7,
+      "name": "standing-paws-together",
+      "family": "Standing",
+      "pose": "STANDING upright facing viewer on two hind feet. BOTH forepaws clasped TOGETHER centrally over the chest, elbows bent outward; paws do not touch the face. Head tilted slightly toward viewer's left, both eyes open, gentle smile. Clearly standing with short grounded legs."
+    },
+    {
+      "n": 8,
+      "name": "standing-one-foot-up",
+      "family": "Standing",
+      "pose": "STANDING and balancing on the hind foot on viewer's left, lifting the other knee and hind foot clearly off the ground toward viewer's right. BOTH forepaws stretched OUT sideways at shoulder height for balance. Head upright, both eyes open, tiny cheerful smile. Exactly two forepaws and two hind feet."
+    },
+    {
+      "n": 9,
+      "name": "belly-chin-on-paws",
+      "family": "On belly",
+      "pose": "Lying FLAT ON ITS BELLY, body extending horizontally behind the large head toward viewer's right, front three-quarter view. Chin rests on TWO stacked black forepaws directly beneath it; both short hind legs lie relaxed and LOW behind body. Both eyes open, calm tiny smile. Entire horizontal silhouette visible."
+    },
+    {
+      "n": 10,
+      "name": "belly-feet-up",
+      "family": "On belly",
+      "pose": "Lying ON ITS BELLY with body extending behind head toward viewer's right, front three-quarter view. Face propped in BOTH forepaws, elbows on ground, and BOTH hind feet bent UP behind the rump, visible high in air. Both eyes open, sweet smile. Clearly show two forepaws near cheeks and two raised hind feet, four limbs only."
+    },
+    {
+      "n": 11,
+      "name": "belly-long-stretch",
+      "family": "On belly",
+      "pose": "Lying ON ITS BELLY in a long forward stretch, body horizontal toward viewer's right. BOTH forepaws reaching straight FORWARD on the ground toward viewer's left, clearly extended out from head. Head LIFTED above arms looking toward viewer, hind legs relaxed low behind body. Eyes open, tiny smile."
+    },
+    {
+      "n": 12,
+      "name": "belly-one-paw-wave",
+      "family": "On belly",
+      "pose": "Lying ON ITS BELLY, body horizontal behind head toward viewer's right. One forepaw supports head and chest on ground, the other forepaw (viewer-left side of face) raised beside face in a WAVE, pads visible. Both hind legs lie low behind rump. Head raised, both eyes open, tiny cheerful smile. Exactly four limbs."
+    },
+    {
+      "n": 13,
+      "name": "back-paws-on-belly",
+      "family": "On back",
+      "pose": "Reclining ON ITS BACK, head at upper left and rump at lower right, round white belly facing viewer. BOTH forepaws resting centrally ON THE BELLY; BOTH hind feet lifted slightly with knees bent and pads facing viewer. Eyes open, tiny closed-mouth smile. Fully visible body, four limbs only."
+    },
+    {
+      "n": 14,
+      "name": "back-paws-on-cheeks",
+      "family": "On back",
+      "pose": "Reclining ON ITS BACK, head at upper left and rump at lower right, round white belly facing viewer. BOTH forepaws pressed to CHEEKS, elbows out; both hind feet bent up toward lower right with pads facing viewer. Eyes wide open and a tiny round surprised mouth. Four limbs only, all paws readable."
+    },
+    {
+      "n": 15,
+      "name": "back-wide-stretch",
+      "family": "On back",
+      "pose": "Reclining ON ITS BACK with head at upper left and rump at lower right, white belly facing viewer. BOTH forepaws spread WIDE out from the body, BOTH hind legs also spread apart in a relaxed four-limb star stretch. Eyes happy closed crescents, tiny smile. Exactly four limbs, no duplicate paws."
+    },
+    {
+      "n": 16,
+      "name": "back-hugging-feet",
+      "family": "On back",
+      "pose": "Reclining ON ITS BACK, head at upper left, round belly facing viewer, rump at lower right. BOTH hind knees curled UP close to belly, and BOTH forepaws gently HOLDING the two hind feet in a playful rounded curl. Eyes open looking at viewer, tiny smile. Exactly four limbs; clearly show the two forepaws grasping two hind feet."
+    },
+    {
+      "n": 17,
+      "name": "side-curl-asleep",
+      "family": "Side lying",
+      "pose": "Lying ON ITS SIDE in a compact sleepy CURLED position, head at viewer's left and tucked close to knees, rump at right. Both forepaws tucked beneath cheek as a pillow, hind feet curled closely together near belly. Both eyes CLOSED gentle arcs, peaceful tiny smile. White side belly visible, fully visible curled silhouette."
+    },
+    {
+      "n": 18,
+      "name": "side-head-propped",
+      "family": "Side lying",
+      "pose": "Lying ON ITS SIDE, head at viewer's left and rump at right. Upper forepaw bent with elbow on ground, supporting the side of its HEAD; other forepaw resting on round belly. Hind legs stretched loosely together toward right. Both eyes OPEN looking at viewer, tiny relaxed smile. Fully visible elongated side silhouette, exactly four limbs."
+    },
+    {
+      "n": 19,
+      "name": "side-hugging-knees",
+      "family": "Side lying",
+      "pose": "Lying ON ITS SIDE, head at viewer's left, rump at right. BOTH forepaws visibly HUGGING both bent hind knees close against the round belly. Head lifted a little, eyes OPEN, tiny smile, compact C-shaped curled body. Clearly distinguish from sleeping by eyes open and both forepaws on the knees, not under head. Exactly four limbs."
+    },
+    {
+      "n": 20,
+      "name": "side-upper-paw-up",
+      "family": "Side lying",
+      "pose": "Lying ON ITS SIDE with head at viewer's left and rump at right. Lower forepaw extended on ground beneath head, upper forepaw raised HIGH above the round belly in a friendly wave, black pads visible. Both hind legs stretched together to right. Eyes open looking at viewer, tiny cheerful smile. Entire side silhouette visible."
+    },
+    {
+      "n": 21,
+      "name": "four-paws-head-forward",
+      "family": "On four paws",
+      "pose": "Standing ON ALL FOUR PAWS, body horizontal with head toward viewer's left and rump right, seen in clear front three-quarter view. All four short legs are supporting body on ground. Head turned toward viewer, eyes open, tiny smile. Belly lifted above ground and back horizontal. Clearly four paws grounded, no extra limbs."
+    },
+    {
+      "n": 22,
+      "name": "four-paws-looking-back",
+      "family": "On four paws",
+      "pose": "Standing ON ALL FOUR PAWS, body horizontal with rump toward viewer's left and shoulders right, rear three-quarter view. Head turns BACK over near shoulder toward viewer so both cute eyes and eye patches are visible. Four short black legs grounded, small black round tail matching the other panda cards at rump, back horizontal. Eyes open, tiny smile. Entire panda visible."
+    },
+    {
+      "n": 23,
+      "name": "play-bow-rump-up",
+      "family": "On four paws",
+      "pose": "A playful BOW on all fours, side three-quarter view with head at viewer's left and rump right. BOTH forepaws stretched FAR FORWARD on ground, chin near them, chest LOW to ground. Both hind legs straight, rump HIGH, creating a clear sloping back. Head turns slightly toward viewer, eyes open, happy tiny smile. Four limbs only."
+    },
+    {
+      "n": 24,
+      "name": "crouching-paw-lifted",
+      "family": "On four paws",
+      "pose": "CROUCHING low on all fours, body horizontal with head at viewer's left and rump right, front three-quarter view. One FRONT paw lifted toward the mouth as if shyly touching the chin, the other front paw and both hind paws grounded. Head raised looking at viewer, both eyes open, tiny bashful smile. Belly near ground, exactly four limbs."
+    }
+  ],
+  "shared_prompt": "Use case: illustration-story. Asset type: ONE standalone square image for a hard cartoon panda memory deck.\nInput image: the supplied seated panda is a CHARACTER AND STYLE REFERENCE only. Make a new single card of that SAME baby panda in the new pose below.\nPrimary request: {POSE}\nKeep the reference character's big round head, small round black ears, creamy white face and belly, classic black oval eye patches, tiny black nose, round black limbs, soft pink cheek blush, black/brown paw pads, chubby proportions, cute clean 2D cartoon outlines and very soft painterly shading. Preserve the plain warm ivory cream background and tiny soft grounding shadow. No realistic fur or 3D.\nComposition: square 1:1 full-body illustration, ideally 1024x1024 PNG. One centered panda only; keep the ENTIRE pose including ears and paws within a 10-12 percent safe margin. Size subject consistently with the reference, scaling down only to fit extended paws.\nAll cards deliberately share character, palette and background. Make the requested silhouette/limb arrangement unambiguous at 96px, with accurately connected limbs.\nNo props, bamboo, accessories, clothing, scenery, hearts, stars, sleep letters, text, numbers, borders, watermarks, collage, inset or second panda. Exactly two forelimbs and two hind limbs."
+}

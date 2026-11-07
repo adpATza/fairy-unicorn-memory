@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-d25e9ee1-1824-4a37-a54d-fe4465675fa0.png",
+  "slot": 5,
+  "file": "05-boeing-787.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: A Boeing 787 Dreamliner, sleek slim wide-body airliner, exactly TWO large underwing engines with visibly scalloped chevron nacelle rear edges, graceful flexed swept wings with long swept raked tips. White fuselage with a turquoise-blue belly and turquoise tail. Clean window row, no airline lettering.",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cb3594ad-f37a-40d3-8044-da0b53128c55.png",
+      "prompt": "Edit this Boeing 787 Dreamliner drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 76% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 74% of the square. Leave at least 13% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, engines and tail visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a precise memory-card safe-margin correction."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8eda3115-b26e-40fd-ac59-36e854ba36fd.png",
+      "prompt": "Transform the supplied Boeing 787 Dreamliner illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 19 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a different diagonal direction.",
+      "slot": 5,
+      "rotation_degrees_clockwise": 19,
+      "mirror_horizontally": true
+    }
+  ],
+  "status": "final",
+  "orientation_requested": {
+    "slot": 5,
+    "rotation_degrees_clockwise": 19,
+    "mirror_horizontally": true
+  }
+}

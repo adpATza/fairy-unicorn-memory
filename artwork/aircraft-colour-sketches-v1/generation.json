@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "status": "complete",
+  "style_approved": true,
+  "tool_mode": "built-in image_gen",
+  "guide": "docs/Artwork and Import Guide.html",
+  "unique_images": 30,
+  "pairs": 30,
+  "new_images_requested": 28,
+  "helicopter_images": 5,
+  "base_prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: ",
+  "entries": [
+    {
+      "slot": 1,
+      "slug": "p51d-mustang",
+      "subject": "North American P-51D Mustang",
+      "category": "historic fighter",
+      "features": "Tapered wings; bubble canopy; silver body and red tail.",
+      "file": "images/01-p51d-mustang.png",
+      "status": "complete",
+      "prompt": null,
+      "prompts": [
+        {
+          "operation": "generate",
+          "prompt": "Use case: stylized-concept.\nAsset type: one square memory-card illustration, first style-approval sample for an aeroplane collection.\nPrimary request: A high-quality colour sketch of a single aeroplane, with accurate recognisable aircraft proportions and beautiful hand-drawn craftsmanship.\nScene/backdrop: uniform warm ivory drawing paper, extremely subtle fine paper grain, otherwise blank, consistent edge-to-edge. The aeroplane is isolated without scenery.\nStyle/medium: expert aviation illustrator's finished coloured-pencil and graphite sketch, built with fine confident graphite contours, visible coloured-pencil strokes and delicate cross-hatching, restrained transparent watercolour washes, crisp selective details, luminous but natural colour. Richly finished yet visibly drawn by hand. Not a photograph, CGI, a toy, a cartoon or a flat vector icon.\nComposition/framing: square 1:1 image, preferably 1024 x 1024 or larger. Show the complete single aeroplane airborne with landing gear fully retracted, from a slightly elevated front three-quarter view, nose toward the lower left and tail toward upper right, broad wings clearly visible, modest foreshortening to preserve the wing silhouette. Centre the whole silhouette in the canvas. Fit every wingtip, the entire tail and propeller within the central 80% of the square, leaving AT LEAST a 10% clear safe margin on all four sides. Large, readable subject, comparable scale to the other image in the collection.\nLighting/mood: soft upper-left daylight, coherent gentle self-shading, appealing and dignified.\nConstraints: exactly ONE aircraft, no people, no text, no lettering, no numbers or serials even on the aircraft, no signature, watermark, card border, panel, caption, labels, sky, clouds, landscape, decorative splashes, ground shadow, separate diagram or unrelated objects. No bombs or external tanks. Aircraft identification must rely on silhouette and major visible features rather than small inscriptions. Show a coherent single airframe, one pair of main wings, one tail, correct propeller and cockpit structure. Non-text national geometric insignia may appear, with no alphanumeric markings.\nSubject: North American P-51D Mustang. Long graceful piston-engine nose, distinct ventral radiator scoop under the rear fuselage, bubble canopy, tapered laminar-flow wings with recognisable squared-off tips, conventional tail. Four-bladed propeller with clean separately legible blades, without a full opaque propeller disc. Natural aluminium skin rendered in cool silver-blue pencil tones with a restrained olive anti-glare panel along the upper nose, red spinner and red tail fin, small simple US star-and-bar insignia. Make the metal feel convincing through pencil shading and paper highlights, not mirror-like CGI. Clearly preserve the Mustang's distinctive silhouette."
+        },
+        {
+          "operation": "composition_edit",
+          "prompt": "Edit the supplied Mustang illustration. Preserve the exact aircraft, all its geometry, colours, markings, pencil texture, lighting and warm ivory paper style. Change only its SCALE AND PLACEMENT on the square page: reduce the whole aeroplane uniformly to about 76% of its current size, keeping it centrally composed. The COMPLETE silhouette from extreme left propeller/wingtip to extreme right tail/wingtip must occupy no more than 74% of the whole image width. Leave at least 12% completely blank ivory paper on BOTH left and right, and at least 10% on top and bottom. All wingtips, tail and propeller remain visible. Extend the same warm ivory paper seamlessly over the newly exposed blank area. Do not add text, labels, borders or anything else. This is a memory-card composition correction for the required safe margin; maintain the beautiful original finished coloured-pencil sketch unchanged. Square output."
+        }
+      ],
+      "source": "C:/Users/adplocal/.codex/generated_images/01a19588-4a1d-7e53-bc17-38f38d1514a8/exec-a7168262-2eb5-420e-94c0-81995cfd6177.png",
+      "provenance": "Approved style sample, copied without changes",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f8194a72227ac577702951f18ebd81871760fb7ad01855f60fd561582718b989",
+      "decoded_pixel_sha256": "02edcb69303b44de12508be84e2dec750dfdbf29929d463661477cd951a1cb5a"
+    },
+    {
+      "slot": 2,
+      "slug": "spitfire",
+      "subject": "Supermarine Spitfire",
+      "category": "historic fighter",
+      "features": "Elliptical wings; slim nose; green-grey camouflage.",
+      "file": "images/02-spitfire.png",
+      "status": "complete",
+      "prompt": null,
+      "prompts": [
+        {
+          "operation": "generate_with_style_reference",
+          "reference": "01-p51d-mustang.png",
+          "prompt": "Use case: stylized-concept.\nAsset type: one square memory-card illustration, first style-approval sample for an aeroplane collection.\nPrimary request: A high-quality colour sketch of a single aeroplane, with accurate recognisable aircraft proportions and beautiful hand-drawn craftsmanship.\nScene/backdrop: uniform warm ivory drawing paper, extremely subtle fine paper grain, otherwise blank, consistent edge-to-edge. The aeroplane is isolated without scenery.\nStyle/medium: expert aviation illustrator's finished coloured-pencil and graphite sketch, built with fine confident graphite contours, visible coloured-pencil strokes and delicate cross-hatching, restrained transparent watercolour washes, crisp selective details, luminous but natural colour. Richly finished yet visibly drawn by hand. Not a photograph, CGI, a toy, a cartoon or a flat vector icon.\nComposition/framing: square 1:1 image, preferably 1024 x 1024 or larger. Show the complete single aeroplane airborne with landing gear fully retracted, from a slightly elevated front three-quarter view, nose toward the lower left and tail toward upper right, broad wings clearly visible, modest foreshortening to preserve the wing silhouette. Centre the whole silhouette in the canvas. Fit every wingtip, the entire tail and propeller within the central 80% of the square, leaving AT LEAST a 10% clear safe margin on all four sides. Large, readable subject, comparable scale to the other image in the collection.\nLighting/mood: soft upper-left daylight, coherent gentle self-shading, appealing and dignified.\nConstraints: exactly ONE aircraft, no people, no text, no lettering, no numbers or serials even on the aircraft, no signature, watermark, card border, panel, caption, labels, sky, clouds, landscape, decorative splashes, ground shadow, separate diagram or unrelated objects. No bombs or external tanks. Aircraft identification must rely on silhouette and major visible features rather than small inscriptions. Show a coherent single airframe, one pair of main wings, one tail, correct propeller and cockpit structure. Non-text national geometric insignia may appear, with no alphanumeric markings.\nSubject: Supermarine Spitfire Mk IX. Graceful slim Merlin-engine nose, framed cockpit canopy, unmistakeable smoothly elliptical main wings with curved tips, conventional compact tail, four-bladed propeller with clean separately legible blades without a full opaque propeller disc. Dark green and ocean-grey camouflage with pale blue-grey lower surfaces, restrained muted blue-green spinner, simple RAF roundels as geometric colour markings only. Small underwing radiator fairings appropriate to the aircraft. Beautiful coloured-pencil treatment of the camouflage, crisp wing silhouette and delicate panel-line suggestions. Clearly preserve the Spitfire's distinctive elliptical wings rather than substituting Mustang-like angular wings.\nInput image role: the supplied Mustang is a STYLE AND FRAMING REFERENCE ONLY. Create a new illustration of the Spitfire, matching the fine coloured-pencil workmanship, paper texture, daylight, viewpoint and size on the page of the reference. Do NOT copy the Mustang's aircraft shape, canopy, tapered wings, insignia or red tail. The new Spitfire must have its own elliptical wings, green-grey camouflage and RAF roundels. VERY IMPORTANT: just like the reference, the complete aircraft silhouette must occupy only about 73% of the image WIDTH, with 12-15% blank paper at left and right and ample blank paper above and below; do not enlarge to fill the page. Exactly one complete Spitfire, square image."
+        },
+        {
+          "operation": "composition_edit",
+          "prompt": "Edit this Spitfire illustration ONLY to give it a little more blank paper around its silhouette. Reduce the entire aircraft uniformly to 90% of its current scale and centre it on the same square ivory page. Preserve the aircraft's shape, every wing, tail and propeller, colours, camouflage, insignia, viewpoint and exquisite coloured-pencil/graphite texture exactly. The entire aircraft silhouette must be contained within the central 76% of the page width, leaving at least 12% blank paper on each side, and at least 10% blank paper above and below. Extend the identical warm ivory paper seamlessly. No cropping, no added text, no border, no change of illustration style."
+        }
+      ],
+      "source": "C:/Users/adplocal/.codex/generated_images/01a19588-4a1d-7e53-bc17-38f38d1514a8/exec-961c19b5-271e-4cae-b84b-965a59297e26.png",
+      "provenance": "Approved style sample, copied without changes",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f70c1535579836008c301df39a276843f2f72c22daa108418e1445c338678dc3",
+      "decoded_pixel_sha256": "4aee8db05bd9a4fa38cfb002d4f618405007cf6a138189ab23364d5ce3c6a8af"
+    },
+    {
+      "slot": 3,
+      "slug": "boeing-747",
+      "subject": "Boeing 747",
+      "category": "commercial airliner",
+      "features": "A classic Boeing 747-400 jumbo jet, clearly recognisable short upper-deck hump, FOUR underwing jet engines and swept wings with small upturned winglets. White fuselage with deep navy blue lower belly and tail, narrow gold accent, cabin windows but NO airline name or lettering.",
+      "file": "images/03-boeing-747.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: A classic Boeing 747-400 jumbo jet, clearly recognisable short upper-deck hump, FOUR underwing jet engines and swept wings with small upturned winglets. White fuselage with deep navy blue lower belly and tail, narrow gold accent, cabin windows but NO airline name or lettering.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-f7e4a17e-612b-463b-b08d-223c4eeee6d1.png",
+          "prompt": "Edit this Boeing 747 drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 76% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 74% of the square. Leave at least 13% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, engines and tail visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a precise memory-card safe-margin correction."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-f5f8581a-d339-4f0b-913b-d6e034dd6bf3.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7cbb02973f970ecc9a45f08dec2dce79f949c04db80c8f6d1fe0b1bf353e9e60",
+      "decoded_pixel_sha256": "76d9fd5d936d9de639d982b995ca4c840d222bf6cf9145274483d811aaafe727"
+    },
+    {
+      "slot": 4,
+      "slug": "airbus-a380",
+      "subject": "Airbus A380",
+      "category": "commercial airliner",
+      "features": "An Airbus A380 double-deck airliner, very large deep rounded fuselage with TWO rows of windows for almost the full cabin length, FOUR underwing engines, huge broad swept wings. Pearl white body with rich violet tail and violet belly accents. Clearly distinct from the Boeing 747's short hump. No airline lettering.",
+      "file": "images/04-airbus-a380.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: An Airbus A380 double-deck airliner, very large deep rounded fuselage with TWO rows of windows for almost the full cabin length, FOUR underwing engines, huge broad swept wings. Pearl white body with rich violet tail and violet belly accents. Clearly distinct from the Boeing 747's short hump. No airline lettering.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-e118cba6-1cff-421f-9638-9dd8cf63f920.png",
+          "prompt": "Edit this Airbus A380 drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 76% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 74% of the square. Leave at least 13% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, engines and tail visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a precise memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8e059738-4a5e-41f2-98b0-04e807d05f79.png",
+          "prompt": "Transform the supplied Airbus A380 illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 17 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a different diagonal direction.",
+          "slot": 4,
+          "rotation_degrees_clockwise": 17,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-1313785b-efa5-455f-91f9-bfe56ae39340.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "22d8fd705d1f18e42c9805a5064e801088e9033b73aeb2c1d97e7656d215d0fd",
+      "decoded_pixel_sha256": "fdbe5d99e3d74933ca9e573842a8ad082c17a8bb9806bcff64e0e50a58d711a6",
+      "orientation_requested": {
+        "slot": 4,
+        "rotation_degrees_clockwise": 17,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 5,
+      "slug": "boeing-787",
+      "subject": "Boeing 787 Dreamliner",
+      "category": "commercial airliner",
+      "features": "A Boeing 787 Dreamliner, sleek slim wide-body airliner, exactly TWO large underwing engines with visibly scalloped chevron nacelle rear edges, graceful flexed swept wings with long swept raked tips. White fuselage with a turquoise-blue belly and turquoise tail. Clean window row, no airline lettering.",
+      "file": "images/05-boeing-787.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: A Boeing 787 Dreamliner, sleek slim wide-body airliner, exactly TWO large underwing engines with visibly scalloped chevron nacelle rear edges, graceful flexed swept wings with long swept raked tips. White fuselage with a turquoise-blue belly and turquoise tail. Clean window row, no airline lettering.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cb3594ad-f37a-40d3-8044-da0b53128c55.png",
+          "prompt": "Edit this Boeing 787 Dreamliner drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 76% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 74% of the square. Leave at least 13% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, engines and tail visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a precise memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8eda3115-b26e-40fd-ac59-36e854ba36fd.png",
+          "prompt": "Transform the supplied Boeing 787 Dreamliner illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 19 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a different diagonal direction.",
+          "slot": 5,
+          "rotation_degrees_clockwise": 19,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-d25e9ee1-1824-4a37-a54d-fe4465675fa0.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9835a5cd2dc0c922c0928339ed236381a48437cb644e408a770124cc07c6ef89",
+      "decoded_pixel_sha256": "56db435bfe50836ada7b3871fb17709770041d44b702107d6e2f40421e0d5cb9",
+      "orientation_requested": {
+        "slot": 5,
+        "rotation_degrees_clockwise": 19,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 6,
+      "slug": "concorde",
+      "subject": "Concorde",
+      "category": "supersonic airliner",
+      "features": "Concorde supersonic airliner, very long pencil-slim white fuselage, characteristic long needle nose in raised flight position, elegant curved ogival DELTA WING, FOUR engines paired beneath the wing near the fuselage and a single swept tail fin. Restrained navy and red geometric tail accents, no words.",
+      "file": "images/06-concorde.png",
+      "status": "complete",
+      "prompt": "Create a SQUARE sheet of blank ivory drawing paper with a SMALL-TO-MEDIUM finished colour-pencil aircraft illustration in the very centre. WIDE EMPTY PAPER MARGINS are essential: the aircraft including ALL wings/rotors/tail must occupy ONLY 60% of the page width and no more than 65% of its height. Leave about ONE FIFTH of the page empty on each side. Think of a small museum sketch neatly centred on a much larger blank paper sheet. Do not fill the page or zoom in.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Concorde supersonic airliner, very long pencil-slim white fuselage, characteristic long needle nose in raised flight position, elegant curved ogival DELTA WING, FOUR engines paired beneath the wing near the fuselage and a single swept tail fin. Restrained navy and red geometric tail accents, no words.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-b97b434d-3efe-4058-994a-6d265d0e31e6.png",
+          "prompt": "Edit this Concorde drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-54a9f69d-5288-444d-afb6-68688bbef319.png",
+          "prompt": "Transform the supplied Concorde illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 13 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a different diagonal direction.",
+          "slot": 6,
+          "rotation_degrees_clockwise": 13,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-5821980d-068a-420f-b798-e709f3cc526f.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "22e8197ace8fc36265fdd659c4b7c45e3149c34775cf96584ad8e0da10a014c3",
+      "decoded_pixel_sha256": "1c8e99bc038b059b25c2e6ce32350a77ed49296e13a2f3063a2d532bba1dafa4",
+      "orientation_requested": {
+        "slot": 6,
+        "rotation_degrees_clockwise": 13,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 7,
+      "slug": "atr-72",
+      "subject": "ATR 72",
+      "category": "regional airliner",
+      "features": "ATR 72 regional turboprop airliner. Long slim cabin, HIGH straight wings, TWO turboprop nacelles with six-bladed black propellers, HIGH T-TAIL. White body with warm orange tail and orange lower stripe. Clear contrast from low-wing jet airliners.",
+      "file": "images/07-atr-72.png",
+      "status": "complete",
+      "prompt": "Create a SQUARE sheet of blank ivory drawing paper with a SMALL-TO-MEDIUM finished colour-pencil aircraft illustration in the very centre. WIDE EMPTY PAPER MARGINS are essential: the aircraft including ALL wings/rotors/tail must occupy ONLY 60% of the page width and no more than 65% of its height. Leave about ONE FIFTH of the page empty on each side. Think of a small museum sketch neatly centred on a much larger blank paper sheet. Do not fill the page or zoom in.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: ATR 72 regional turboprop airliner. Long slim cabin, HIGH straight wings, TWO turboprop nacelles with six-bladed black propellers, HIGH T-TAIL. White body with warm orange tail and orange lower stripe. Clear contrast from low-wing jet airliners.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-6643486d-ea49-49e7-a1c4-4192c458a4f0.png",
+          "prompt": "Edit this ATR 72 drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-a101c3dd-5497-4bd1-8e0e-d0d058aff50e.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "929958e45ac768c95aec015742aca14259793f504c44e28b3f041ceebadc8005",
+      "decoded_pixel_sha256": "b041f51181b7b4d88ecc6865f04b529060a0e7de067ac3e76be1ea886fcb55b5"
+    },
+    {
+      "slot": 8,
+      "slug": "douglas-dc3",
+      "subject": "Douglas DC-3",
+      "category": "classic passenger aircraft",
+      "features": "Douglas DC-3 classic transport, rounded silver fuselage with a row of small rectangular cabin windows, LOW broad tapered wings, TWO radial piston-engine nacelles and three-bladed propellers, rounded single vertical fin. Polished silver and burgundy accent stripe, gear retracted.",
+      "file": "images/08-douglas-dc3.png",
+      "status": "complete",
+      "prompt": "Create a SQUARE sheet of blank ivory drawing paper with a SMALL-TO-MEDIUM finished colour-pencil aircraft illustration in the very centre. WIDE EMPTY PAPER MARGINS are essential: the aircraft including ALL wings/rotors/tail must occupy ONLY 60% of the page width and no more than 65% of its height. Leave about ONE FIFTH of the page empty on each side. Think of a small museum sketch neatly centred on a much larger blank paper sheet. Do not fill the page or zoom in.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Douglas DC-3 classic transport, rounded silver fuselage with a row of small rectangular cabin windows, LOW broad tapered wings, TWO radial piston-engine nacelles and three-bladed propellers, rounded single vertical fin. Polished silver and burgundy accent stripe, gear retracted.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-275c3618-6ffb-422b-b730-bf592d0822b9.png",
+          "prompt": "Edit this Douglas DC-3 drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-2465ab77-6ddc-4fec-ac2a-d6f0186707fc.png",
+          "prompt": "Transform the supplied Douglas DC-3 illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 9 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a different diagonal direction.",
+          "slot": 8,
+          "rotation_degrees_clockwise": 9,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-21f7046c-29e4-43d8-8b30-23ee103de2fa.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9c2dc504751d23d2a4fccf00b34fb5bf86274759591a4528ec9cb4ee4600b902",
+      "decoded_pixel_sha256": "ee340b9504647085bc0aa0b47d691427e63ac2b19bebafff9364e89ff1356e13",
+      "orientation_requested": {
+        "slot": 8,
+        "rotation_degrees_clockwise": 9,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 9,
+      "slug": "cessna-172",
+      "subject": "Cessna 172",
+      "category": "light aircraft",
+      "features": "Cessna 172 light four-seat aircraft, single propeller at the nose, HIGH straight wings braced by diagonal struts, compact glazed cabin, conventional single tail and visible fixed TRICYCLE landing gear. White with cobalt-blue trim. This aircraft has fixed wheels, do not retract them.",
+      "file": "images/09-cessna-172.png",
+      "status": "complete",
+      "prompt": "SQUARE PAPER COMPOSITION: draw the complete aircraft SMALL in the CENTRE of a much larger blank ivory sheet, with approximately 25% blank paper at BOTH LEFT AND RIGHT. Aircraft bounding box occupies ONLY HALF THE PAGE WIDTH. This is a small aviation sketch on a wide sheet of blank paper, not a close-up.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 60% of the square: at least 20% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Cessna 172 light four-seat aircraft, single propeller at the nose, HIGH straight wings braced by diagonal struts, compact glazed cabin, conventional single tail and visible fixed TRICYCLE landing gear. White with cobalt-blue trim. This aircraft has fixed wheels, do not retract them.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-968ccf1c-b4d4-49cc-8ab5-9676cd50e1df.png",
+          "prompt": "Edit this Cessna 172 drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        },
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c4fd7721-017c-4c23-b418-8279596d6f9c.png",
+          "prompt": "Correct ONLY the framing of this exact Cessna drawing on the square paper. Keep the aeroplane's exact geometry, wheels, propeller, blue-white colours, pencil strokes and all details unchanged. Shrink the ENTIRE aircraft uniformly to 90 percent of its current size and centre it on the same ivory square. Leave at least 14 percent completely blank ivory paper on BOTH left and right, and at least 10 percent on top and bottom. All wing and tail tips remain visible. Extend the identical paper seamlessly. No text, border or anything new."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8df38f66-3378-48bd-a06c-5340ee796cf5.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "70552a9b1c4de1996800dccf52bd158af2bb68e88000865b68b2fda9b5e50f58",
+      "decoded_pixel_sha256": "053dc98c9c8189c8dcc8be441c0df18dc760441e396e9c19f87a06e02139b99f"
+    },
+    {
+      "slot": 10,
+      "slug": "piper-cub",
+      "subject": "Piper J-3 Cub",
+      "category": "light aircraft",
+      "features": "Piper J-3 Cub, petite classic yellow fabric-covered aeroplane, HIGH rectangular wings and thin supporting struts, narrow tandem cabin, small exposed piston-engine cylinder shapes by the nose, two-bladed propeller, FIXED main wheels and small tailwheel. Sunshine yellow with a clean black lightning stripe, no letters.",
+      "file": "images/10-piper-cub.png",
+      "status": "complete",
+      "prompt": "SQUARE PAPER COMPOSITION: draw the complete aircraft SMALL in the CENTRE of a much larger blank ivory sheet, with approximately 25% blank paper at BOTH LEFT AND RIGHT. Aircraft bounding box occupies ONLY HALF THE PAGE WIDTH. This is a small aviation sketch on a wide sheet of blank paper, not a close-up.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 60% of the square: at least 20% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Piper J-3 Cub, petite classic yellow fabric-covered aeroplane, HIGH rectangular wings and thin supporting struts, narrow tandem cabin, small exposed piston-engine cylinder shapes by the nose, two-bladed propeller, FIXED main wheels and small tailwheel. Sunshine yellow with a clean black lightning stripe, no letters.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-462f5dbf-de25-427d-a386-6b96f3ed712f.png",
+          "prompt": "Edit this Piper J-3 Cub drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-9d82caf9-67f6-41d2-b878-155c14fbd5b4.png",
+          "prompt": "Transform the supplied Piper J-3 Cub illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 11 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 10,
+          "rotation_degrees_clockwise": -11,
+          "mirror_horizontally": false
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-803b5910-8018-44b1-b7a5-e43a475379ce.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c0ce28d326355a7fc682e391a99a6d37fcd12db6f357e9dc5e121dd589d940e9",
+      "decoded_pixel_sha256": "b89454167eb594b40568b5bf7592179efd953eaadadf9bfcc72acc791e29062b",
+      "orientation_requested": {
+        "slot": 10,
+        "rotation_degrees_clockwise": -11,
+        "mirror_horizontally": false
+      }
+    },
+    {
+      "slot": 11,
+      "slug": "tiger-moth",
+      "subject": "de Havilland Tiger Moth",
+      "category": "biplane",
+      "features": "de Havilland DH.82 Tiger Moth, slim yellow BIPLANE with TWO stacked pairs of wings, delicate interplane struts and bracing wires, tandem OPEN cockpits with small windscreens, slim inline-engine nose with two-bladed propeller, fixed tailwheel undercarriage. Golden yellow with restrained olive metal panels.",
+      "file": "images/11-tiger-moth.png",
+      "status": "complete",
+      "prompt": "SQUARE PAPER COMPOSITION: draw the complete aircraft SMALL in the CENTRE of a much larger blank ivory sheet, with approximately 25% blank paper at BOTH LEFT AND RIGHT. Aircraft bounding box occupies ONLY HALF THE PAGE WIDTH. This is a small aviation sketch on a wide sheet of blank paper, not a close-up.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 60% of the square: at least 20% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: de Havilland DH.82 Tiger Moth, slim yellow BIPLANE with TWO stacked pairs of wings, delicate interplane struts and bracing wires, tandem OPEN cockpits with small windscreens, slim inline-engine nose with two-bladed propeller, fixed tailwheel undercarriage. Golden yellow with restrained olive metal panels.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-06c2c4af-557c-4c45-8d05-605a7280cddb.png",
+          "prompt": "Edit this de Havilland Tiger Moth drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ae15b186-2bf3-4ad9-8395-b14ffc6fa681.png",
+          "prompt": "Transform the supplied de Havilland Tiger Moth illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 9 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 11,
+          "rotation_degrees_clockwise": -9,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-a65b3770-6572-4604-9bd1-16e4f5b9010b.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a740c0d0e11fca6a2e21d1a632e3f40613e1044b64bdbdbffbb64cc5912dbd69",
+      "decoded_pixel_sha256": "a076348d8d046f5ec3fa782ff8c9029552d9cf581f0d5dba619afa8b028a3edf",
+      "orientation_requested": {
+        "slot": 11,
+        "rotation_degrees_clockwise": -9,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 12,
+      "slug": "fokker-dr1",
+      "subject": "Fokker Dr.I",
+      "category": "triplane",
+      "features": "Fokker Dr.I bright red TRIPLANE, exactly THREE clearly separated stacked wings connected by interplane struts, short compact fuselage, round radial engine cowling and single two-bladed wooden propeller, open cockpit, fixed two-wheel axle with small airfoil fairing and tailskid. Red fabric with cream and black simple geometric round accents, no crosses or text.",
+      "file": "images/12-fokker-dr1.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Fokker Dr.I bright red TRIPLANE, exactly THREE clearly separated stacked wings connected by interplane struts, short compact fuselage, round radial engine cowling and single two-bladed wooden propeller, open cockpit, fixed two-wheel axle with small airfoil fairing and tailskid. Red fabric with cream and black simple geometric round accents, no crosses or text.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-12f8e89a-9657-4a14-ad68-a20f5e70614a.png",
+          "prompt": "Edit this Fokker Dr.I colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-e463bebd-c5f6-41f8-8338-c40593dbf9c3.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ad088472902484a8821ad8fbf1154a95da2b3f4c54824c59b7f4aab134c2b032",
+      "decoded_pixel_sha256": "4f5c5e7c4401c89519766532bd61ad4fca0c49ae717b81ac028a0e7102f86d20"
+    },
+    {
+      "slot": 13,
+      "slug": "beaver-floatplane",
+      "subject": "de Havilland Beaver",
+      "category": "floatplane",
+      "features": "de Havilland DHC-2 Beaver bush floatplane. Stocky HIGH-wing cabin with supporting struts, broad round radial-engine nose and three-bladed propeller, TWO long silver FLOATS supported by neat struts instead of wheels. Red upper body and red wing tips over ivory cabin panels. Floats must be completely visible.",
+      "file": "images/13-beaver-floatplane.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: de Havilland DHC-2 Beaver bush floatplane. Stocky HIGH-wing cabin with supporting struts, broad round radial-engine nose and three-bladed propeller, TWO long silver FLOATS supported by neat struts instead of wheels. Red upper body and red wing tips over ivory cabin panels. Floats must be completely visible.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-7763d9be-4ab5-4925-b766-86a17b3842ab.png",
+          "prompt": "Edit this de Havilland Beaver colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ab1c277e-ff3f-4e5e-8ac2-0167c563eb44.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8aab122c637d9db912678ba4b7e43132a360882b398732a2980fb35753f55190",
+      "decoded_pixel_sha256": "aa7512194374b619c57f17c0a6b033f032aca0a3fe9af44c7be41ee9fe5b7de1"
+    },
+    {
+      "slot": 14,
+      "slug": "canadair-cl415",
+      "subject": "Canadair CL-415",
+      "category": "firefighting amphibian",
+      "features": "Canadair CL-415 firefighting amphibian, bright YELLOW boat-hull fuselage with stepped lower hull, HIGH broad wing with TWO turboprop engines, small stabilising floats toward each wingtip, conventional tail. Bold RED nose and fin accents. No water drop, spray, scenery, or fire; the aircraft alone.",
+      "file": "images/14-canadair-cl415.png",
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nReference image: the supplied Mustang is ONLY the approved STYLE, paper, framing and quality reference. Copy its subtle ivory paper, fine visible coloured-pencil strokes, delicate graphite contours, selective cross-hatching and restrained watercolour modelling. Do not copy its aircraft shape or markings.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 74% of the square: at least 13% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Canadair CL-415 firefighting amphibian, bright YELLOW boat-hull fuselage with stepped lower hull, HIGH broad wing with TWO turboprop engines, small stabilising floats toward each wingtip, conventional tail. Bold RED nose and fin accents. No water drop, spray, scenery, or fire; the aircraft alone.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-bb8f0fb0-c918-4d12-b1aa-644d8be09725.png",
+          "prompt": "Edit this Canadair CL-415 colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-15643307-a99a-419d-bf6d-37d2af078656.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fc1dbaa955d4ab23666c8112b75a61e8d4045fa67f83913421bf730700bcda77",
+      "decoded_pixel_sha256": "6cd18675044b61caee13d02366030c088ceb8b064f2226ea366430819b8d95ae"
+    },
+    {
+      "slot": 15,
+      "slug": "pby-catalina",
+      "subject": "Consolidated PBY Catalina",
+      "category": "flying boat",
+      "features": "Consolidated PBY Catalina classic flying boat, unusually broad HIGH PARASOL wing above the fuselage on a central pylon and bracing, TWO radial engines on the wing with three-bladed propellers, long boat hull and two rear waist blister windows, wingtip stabiliser floats lowered. Muted navy blue upper surfaces, pale blue-grey and ivory lower hull. Show the high wing and boat hull clearly.",
+      "file": "images/15-pby-catalina.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Consolidated PBY Catalina classic flying boat, unusually broad HIGH PARASOL wing above the fuselage on a central pylon and bracing, TWO radial engines on the wing with three-bladed propellers, long boat hull and two rear waist blister windows, wingtip stabiliser floats lowered. Muted navy blue upper surfaces, pale blue-grey and ivory lower hull. Show the high wing and boat hull clearly.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-65edf455-f1c5-4d42-a320-b4edc97d3470.png",
+          "prompt": "Edit this Consolidated PBY Catalina colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-f056acda-4ae8-4bbf-b00f-4d90d352d6da.png",
+          "prompt": "Transform the supplied Consolidated PBY Catalina illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 15 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 15,
+          "rotation_degrees_clockwise": 15,
+          "mirror_horizontally": false
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c19a4156-1519-4d3a-a068-a9a057218235.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b19867e649b08f0d224c863fc2af25868e4ddb4293900dfd67a118e25bb7c3fa",
+      "decoded_pixel_sha256": "12a57c96271ad88ac666c96bc3203753ba5c65322034b249f4d083869a63cead",
+      "orientation_requested": {
+        "slot": 15,
+        "rotation_degrees_clockwise": 15,
+        "mirror_horizontally": false
+      }
+    },
+    {
+      "slot": 16,
+      "slug": "pilatus-pc12",
+      "subject": "Pilatus PC-12",
+      "category": "business turboprop",
+      "features": "Pilatus PC-12 single-engine business turboprop, sleek long cabin, LOW wings, one long nose with a five-bladed propeller, HIGH T-TAIL, dark oval cabin windows. White with emerald-green tail, belly and slim accent bands. Gear retracted; one engine and one propeller only.",
+      "file": "images/16-pilatus-pc12.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Pilatus PC-12 single-engine business turboprop, sleek long cabin, LOW wings, one long nose with a five-bladed propeller, HIGH T-TAIL, dark oval cabin windows. White with emerald-green tail, belly and slim accent bands. Gear retracted; one engine and one propeller only.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-f266dad7-4f53-4fb7-86a7-895d9d89ca7b.png",
+          "prompt": "Edit this Pilatus PC-12 colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-da218afa-e812-4d3e-821f-64d09a36259c.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "923500085418ce47d1afcd3060fa8ca3ef33cc04cfea14814e2481356715ba6c",
+      "decoded_pixel_sha256": "55a104231caf26832cb99257bcf8a32cb5f822d67c368bb7f00f33b68c14173c"
+    },
+    {
+      "slot": 17,
+      "slug": "gulfstream-g650",
+      "subject": "Gulfstream G650",
+      "category": "business jet",
+      "features": "Gulfstream G650 elegant long-range business jet, slim white cabin with large oval windows, TWO rear fuselage-mounted jet engines, tall T-TAIL, swept low wings with obvious upturned winglets. White with a burgundy and gold cheatline and burgundy fin. NO engines under wings.",
+      "file": "images/17-gulfstream-g650.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Gulfstream G650 elegant long-range business jet, slim white cabin with large oval windows, TWO rear fuselage-mounted jet engines, tall T-TAIL, swept low wings with obvious upturned winglets. White with a burgundy and gold cheatline and burgundy fin. NO engines under wings.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8bcb6720-41ef-4588-8000-c7e4401482ea.png",
+          "prompt": "Edit this Gulfstream G650 colour-pencil drawing to correct its scale on the page. Preserve the complete aircraft's exact geometry, all wings, engines, floats, wheels and tail, its colours, lighting and fine pencil texture. Shrink the ENTIRE aircraft UNIFORMLY to 80% of its current size, centred on the same SQUARE page. The COMPLETE silhouette must occupy no more than 74% of the page width. Leave at least 13% entirely blank warm ivory paper on BOTH left and right, and at least 10% above and below. Extend the same paper seamlessly. Remove any faint alphanumeric characters, numbers, serials or writing on the aircraft by blending them into the underlying painted surface. Keep geometric colour markings. No text, caption, border or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-da941a42-737d-49a4-be82-58aaf8df6f96.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2929a9184928e2b2dd595814035dab7fa42432e97aa28d53e09a4791878270e1",
+      "decoded_pixel_sha256": "542c19d1df22e99da97132a1ad46888715a95c02e56759c10f5cd5931a018cfb"
+    },
+    {
+      "slot": 18,
+      "slug": "ask21-glider",
+      "subject": "Schleicher ASK 21",
+      "category": "glider",
+      "features": "Schleicher ASK 21 sailplane, brilliant white smooth slender fuselage with tandem bubble canopy, extremely LONG slender straight glider wings and a high T-tail, small orange safety tips on wings and fin. NO engine, NO propeller, NO jet nacelles. Slightly more top-down view so both long wings and their narrowness are fully readable.",
+      "file": "images/18-ask21-glider.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Schleicher ASK 21 sailplane, brilliant white smooth slender fuselage with tandem bubble canopy, extremely LONG slender straight glider wings and a high T-tail, small orange safety tips on wings and fin. NO engine, NO propeller, NO jet nacelles. Slightly more top-down view so both long wings and their narrowness are fully readable.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cad79b58-2370-41f6-81ab-89b3556e7a41.png",
+          "prompt": "Edit this Schleicher ASK 21 colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c148d308-d4d5-4229-87e8-ee6d99b5d238.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fc9097367ec71f2a385477f1cc07f4a820b15a770d41c9d57e53b7ebb5d5b912",
+      "decoded_pixel_sha256": "2b5146b772da1cda2b072d310631b60857f67b71ffa3defaad68a551e68bba44"
+    },
+    {
+      "slot": 19,
+      "slug": "c130-hercules",
+      "subject": "Lockheed C-130 Hercules",
+      "category": "military transport",
+      "features": "Lockheed C-130 Hercules, rugged HIGH-wing cargo aircraft with chunky long fuselage, blunt cockpit nose and rear upswept cargo-ramp body, exactly FOUR turboprop engines in nacelles along the high wings, tall conventional single fin. Olive-green and sand camouflage, no lettering. Gear retracted.",
+      "file": "images/19-c130-hercules.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed C-130 Hercules, rugged HIGH-wing cargo aircraft with chunky long fuselage, blunt cockpit nose and rear upswept cargo-ramp body, exactly FOUR turboprop engines in nacelles along the high wings, tall conventional single fin. Olive-green and sand camouflage, no lettering. Gear retracted.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-9af9f78e-c9ca-4d30-acb7-7c1422eacfaf.png",
+          "prompt": "Edit this Lockheed C-130 Hercules colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-4ef23896-8ba7-4b64-ac43-faa9132bb03b.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0034372b8b0c3a1f20e10351fcf26b24297b31486fc9e55634a3d233c1e1132d",
+      "decoded_pixel_sha256": "d4a206045f940f22d9bf6dc939916efa2d140ed6f5be5a1905d4dbbb4fa6640f"
+    },
+    {
+      "slot": 20,
+      "slug": "b17-flying-fortress",
+      "subject": "Boeing B-17 Flying Fortress",
+      "category": "historic bomber",
+      "features": "Boeing B-17 Flying Fortress, classic low-wing four-engine piston bomber. Exactly FOUR radial engines with three-bladed propellers, long silver fuselage, tall rounded single vertical fin, distinctive transparent glazed nose and cockpit, small dorsal glazing. Silver aluminium with dark olive nose top and yellow fin accent. No bombs, smoke, warfare or external stores.",
+      "file": "images/20-b17-flying-fortress.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Boeing B-17 Flying Fortress, classic low-wing four-engine piston bomber. Exactly FOUR radial engines with three-bladed propellers, long silver fuselage, tall rounded single vertical fin, distinctive transparent glazed nose and cockpit, small dorsal glazing. Silver aluminium with dark olive nose top and yellow fin accent. No bombs, smoke, warfare or external stores.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-d68f11c2-7564-4a45-8f53-89108720eb72.png",
+          "prompt": "Edit this Boeing B-17 Flying Fortress colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-a5777386-8f3f-427d-bfe2-22a5385cffc4.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab968b8a9a2c06da2eb7c2e97a618156a4d8f2aae4e618078989c62cc3d71506",
+      "decoded_pixel_sha256": "c87d1311bd497b8f205f1b2ca6a15421e4a3aba3e130618e645c862f75165e23"
+    },
+    {
+      "slot": 21,
+      "slug": "p38-lightning",
+      "subject": "Lockheed P-38 Lightning",
+      "category": "historic fighter",
+      "features": "Lockheed P-38 Lightning, unmistakable TWIN-BOOM layout: TWO piston engines and propellers in two long parallel booms ending in TWO vertical tails joined by ONE horizontal tailplane, small central cockpit pod between booms. One main wing linking the three sections. Silver with cobalt-blue spinners and blue tail tips. Gear retracted. Carefully draw coherent twin-boom geometry.",
+      "file": "images/21-p38-lightning.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed P-38 Lightning, unmistakable TWIN-BOOM layout: TWO piston engines and propellers in two long parallel booms ending in TWO vertical tails joined by ONE horizontal tailplane, small central cockpit pod between booms. One main wing linking the three sections. Silver with cobalt-blue spinners and blue tail tips. Gear retracted. Carefully draw coherent twin-boom geometry.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cad70c1e-c346-441d-8d40-18d41cad5f1b.png",
+          "prompt": "Edit this Lockheed P-38 Lightning colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-a913e3f6-f960-4cde-a89b-36c4c6124cd6.png",
+          "prompt": "Transform the supplied Lockheed P-38 Lightning illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 22 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 21,
+          "rotation_degrees_clockwise": -22,
+          "mirror_horizontally": false
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-97df210d-db26-4eca-9412-d65a9b256a20.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab6d74094d6a88a755d79f2e2d0fad6178a13209d5343934f61128a63d601781",
+      "decoded_pixel_sha256": "9a69fb252bfdee89f7d4315ea88624a95ce31e9370346b7fb36e31c9e3f1e285",
+      "orientation_requested": {
+        "slot": 21,
+        "rotation_degrees_clockwise": -22,
+        "mirror_horizontally": false
+      }
+    },
+    {
+      "slot": 22,
+      "slug": "sr71-blackbird",
+      "subject": "Lockheed SR-71 Blackbird",
+      "category": "reconnaissance aircraft",
+      "features": "Lockheed SR-71 Blackbird, very long slender matte CHARCOAL BLACK fuselage with broad sharp side chines, delta-like wing, TWO huge cylindrical engine nacelles with pointed inlet spikes outboard of the fuselage and TWO inward-canted vertical fins. Subtle blue graphite highlights retain black identity. No propellers or external payloads.",
+      "file": "images/22-sr71-blackbird.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed SR-71 Blackbird, very long slender matte CHARCOAL BLACK fuselage with broad sharp side chines, delta-like wing, TWO huge cylindrical engine nacelles with pointed inlet spikes outboard of the fuselage and TWO inward-canted vertical fins. Subtle blue graphite highlights retain black identity. No propellers or external payloads.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-7dbeb44c-f07d-43ac-b541-41586d544551.png",
+          "prompt": "Edit this Lockheed SR-71 Blackbird colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-c4b58fd0-e469-4021-b8c7-0702324a864d.png",
+          "prompt": "Transform the supplied Lockheed SR-71 Blackbird illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 15 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 22,
+          "rotation_degrees_clockwise": -15,
+          "mirror_horizontally": false
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-eaa4f290-ac9f-4bb7-90fd-2560a571d8fb.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e31f204c920f4b0136bb0eb90e952c17b295bcefd924fc9bbb72eab67feae08a",
+      "decoded_pixel_sha256": "d9aaffdd9dccedc9a9884e45cc875167e202ab7f9e819957c5643a7474357cb7",
+      "orientation_requested": {
+        "slot": 22,
+        "rotation_degrees_clockwise": -15,
+        "mirror_horizontally": false
+      }
+    },
+    {
+      "slot": 23,
+      "slug": "mirage-iii",
+      "subject": "Dassault Mirage III",
+      "category": "jet fighter",
+      "features": "Dassault Mirage III, sleek single-engine jet, long pointed nose, single tall swept vertical tail, large clean TRIANGULAR DELTA wing, simple semicircular side intakes next to cockpit. Silver-grey with restrained sandy ochre and dark green upper camouflage. No canards, no horizontal rear tailplanes, no external stores.",
+      "file": "images/23-mirage-iii.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Dassault Mirage III, sleek single-engine jet, long pointed nose, single tall swept vertical tail, large clean TRIANGULAR DELTA wing, simple semicircular side intakes next to cockpit. Silver-grey with restrained sandy ochre and dark green upper camouflage. No canards, no horizontal rear tailplanes, no external stores.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-266e41fb-fe23-41af-b776-e5a0ba6438fb.png",
+          "prompt": "Edit this Dassault Mirage III colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-db85db64-1fee-4afd-b26e-c25e791cd6f9.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "342ce0c23ff9c77224ce51728359246f10218d6c77e853e34e02bee857c47f35",
+      "decoded_pixel_sha256": "90df193e2d78100c42d82a012064e6d3d100ad0164f49df62d967955668ae1a4"
+    },
+    {
+      "slot": 24,
+      "slug": "f14-tomcat",
+      "subject": "Grumman F-14 Tomcat",
+      "category": "jet fighter",
+      "features": "Grumman F-14 Tomcat, broad twin-engine naval fighter, long pointed nose, TWO-seat tandem canopy, TWO widely spaced vertical fins and broad VARIABLE-SWEEP main wings shown spread forward. Pale light-grey with restrained dark blue fin tips. Engines and rectangular side intakes coherent. No weapons or external stores.",
+      "file": "images/24-f14-tomcat.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Grumman F-14 Tomcat, broad twin-engine naval fighter, long pointed nose, TWO-seat tandem canopy, TWO widely spaced vertical fins and broad VARIABLE-SWEEP main wings shown spread forward. Pale light-grey with restrained dark blue fin tips. Engines and rectangular side intakes coherent. No weapons or external stores.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-8097cadf-83bf-4c36-8359-7a228dabac33.png",
+          "prompt": "Edit this Grumman F-14 Tomcat colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-10f5ca08-c168-4f70-b6b2-cd0ae6b3df65.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a94143660505e89ab3daae60a57a7ebc1dfd6adcc8e86eaefbeda850a8087745",
+      "decoded_pixel_sha256": "0710b5f10daee3ba657d4ffbe1e9ddfb975a4826d62971a38c6bc2d227c09891"
+    },
+    {
+      "slot": 25,
+      "slug": "f22-raptor",
+      "subject": "Lockheed Martin F-22 Raptor",
+      "category": "stealth fighter",
+      "features": "Lockheed Martin F-22 Raptor, recognisable angular stealth fighter with broad clipped diamond/trapezoid wings, smoothly blended faceted fuselage, sharply angled side air intakes, gold-tinted SINGLE-seat canopy, TWO outward-canted trapezoid vertical fins and TWO angular exhaust nozzles at the rear. Cool medium-grey camouflage with slightly lighter edge panels. All weapon bays closed; no missiles or external stores. A technically convincing F-22 silhouette, not an F-35 or generic fighter.",
+      "file": "images/25-f22-raptor.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Lockheed Martin F-22 Raptor, recognisable angular stealth fighter with broad clipped diamond/trapezoid wings, smoothly blended faceted fuselage, sharply angled side air intakes, gold-tinted SINGLE-seat canopy, TWO outward-canted trapezoid vertical fins and TWO angular exhaust nozzles at the rear. Cool medium-grey camouflage with slightly lighter edge panels. All weapon bays closed; no missiles or external stores. A technically convincing F-22 silhouette, not an F-35 or generic fighter.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-5fd86dd5-484c-4891-8669-dd729fbe307e.png",
+          "prompt": "Edit this Lockheed Martin F-22 Raptor colour-pencil drawing ONLY to reduce the aircraft's size on the square page. Preserve the complete airframe's exact geometry, colours, details, lighting and fine pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 82% of its current size and centre it. Its COMPLETE silhouette including every wingtip, propeller and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank warm ivory paper on all four sides. Extend the identical ivory paper seamlessly over the newly exposed area. Do not crop or add anything. No text, letters, numbers, labels, signature or border."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-5da8c366-670c-410d-b8c7-945807d3a66e.png",
+          "prompt": "Transform the supplied Lockheed Martin F-22 Raptor illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose/cockpit clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 18 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 25,
+          "rotation_degrees_clockwise": -18,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ede65024-b51a-4fac-9392-7faf85b9f0da.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f8337c63aebfd7672a6bb4e19b14cbfa907c80bb1652cb61c797270b29830e7f",
+      "decoded_pixel_sha256": "05ed99a0caa9a01b62258e019d33733a617e84675a1149bcee0c20b2666c6a92",
+      "orientation_requested": {
+        "slot": 25,
+        "rotation_degrees_clockwise": -18,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 26,
+      "slug": "bell-47",
+      "subject": "Bell 47",
+      "category": "helicopter",
+      "features": "Bell 47 light helicopter, unmistakable large transparent SPHERICAL BUBBLE cockpit, small seats visible but NO occupants, exposed engine behind cabin and long delicate OPEN LATTICE tail boom, skid landing gear, ONE TWO-BLADED main rotor and a small tail rotor. Orange cabin lower frame and engine panel, silver lattice and black rotor blades. Entire rotor sweep and lattice tail visible.",
+      "file": "images/26-bell-47.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Bell 47 light helicopter, unmistakable large transparent SPHERICAL BUBBLE cockpit, small seats visible but NO occupants, exposed engine behind cabin and long delicate OPEN LATTICE tail boom, skid landing gear, ONE TWO-BLADED main rotor and a small tail rotor. Orange cabin lower frame and engine panel, silver lattice and black rotor blades. Entire rotor sweep and lattice tail visible.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-2b913756-0ae3-4363-a195-e300ad9506a3.png",
+          "prompt": "Edit this Bell 47 colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-92096646-1278-4531-ad8a-10b4c01dd24a.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "270068a07e0ad7ae54ce3cbf92a93571eb497815a5990ee5758562b816f32e89",
+      "decoded_pixel_sha256": "23999c7c4f8bf3748d2d46aaf0188049799ddba262afd03de5a92b91840aec10"
+    },
+    {
+      "slot": 27,
+      "slug": "uh1-huey",
+      "subject": "Bell UH-1 Huey",
+      "category": "helicopter",
+      "features": "Bell UH-1D Huey, classic utility helicopter with boxy olive-green cabin, large side door glazing and flat angular cockpit windscreens, slender raised tail boom, skid landing gear, ONE TWO-BLADED main rotor and a small tail rotor. Muted olive body with a broad cream side stripe. No people, weaponry or lettering. The large two-blade rotor must remain completely inside the safe area.",
+      "file": "images/27-uh1-huey.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Bell UH-1D Huey, classic utility helicopter with boxy olive-green cabin, large side door glazing and flat angular cockpit windscreens, slender raised tail boom, skid landing gear, ONE TWO-BLADED main rotor and a small tail rotor. Muted olive body with a broad cream side stripe. No people, weaponry or lettering. The large two-blade rotor must remain completely inside the safe area.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-9b858271-c9dd-44ef-bb42-db9dbef89bf8.png",
+          "prompt": "Edit this Bell UH-1 Huey colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-ae5a9b69-1837-4af1-8544-658a1336d5fb.png",
+          "prompt": "Transform the supplied Bell UH-1 Huey illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. First MIRROR THE ENTIRE AIRCRAFT HORIZONTALLY, so its nose/cockpit clearly points to the RIGHT and its tail to the LEFT; this opposite-facing direction is essential. Then rotate that complete aircraft 21 degrees CLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 27,
+          "rotation_degrees_clockwise": 21,
+          "mirror_horizontally": true
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-be9552af-ab26-4a47-a4da-6294cc0e7527.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b26f7e2dc85d37d37a9a6d8abda925afcbdb184a22777e8bf2418c0111d96d3",
+      "decoded_pixel_sha256": "d9ceb3c158ee17fb1cb93b7214dcc29bc20b0a5f7d21c5a9f06bd431c24eaae6",
+      "orientation_requested": {
+        "slot": 27,
+        "rotation_degrees_clockwise": 21,
+        "mirror_horizontally": true
+      }
+    },
+    {
+      "slot": 28,
+      "slug": "ch47-chinook",
+      "subject": "Boeing CH-47 Chinook",
+      "category": "helicopter",
+      "features": "Boeing CH-47 Chinook, unmistakable large TANDEM-ROTOR transport helicopter, long rounded rectangular sand-tan fuselage, front cockpit windows, small round cabin portholes, raised rear rotor pylon, TWO separate three-bladed main rotor assemblies, one at front and one at rear. Small wheeled landing gear visible; NO tail rotor. Draw coherent, neatly separated front and rear rotor hubs and readable six rotor blades; all rotor extremities inside the safe area.",
+      "file": "images/28-ch47-chinook.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Boeing CH-47 Chinook, unmistakable large TANDEM-ROTOR transport helicopter, long rounded rectangular sand-tan fuselage, front cockpit windows, small round cabin portholes, raised rear rotor pylon, TWO separate three-bladed main rotor assemblies, one at front and one at rear. Small wheeled landing gear visible; NO tail rotor. Draw coherent, neatly separated front and rear rotor hubs and readable six rotor blades; all rotor extremities inside the safe area.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-b22773e4-36b4-4172-9e32-25d12fc2d5d5.png",
+          "prompt": "Edit this Boeing CH-47 Chinook colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-38b3b2d7-d2f2-4576-97b3-f920eb877bb2.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0f9ee5547ab215c96829a4fdf32f6018b84628684bd5a8f22c14bb1e2273b1e8",
+      "decoded_pixel_sha256": "a51b78115ce2c3e098f156f50ceccd419d98aee88e28932ed8daed503f89943e"
+    },
+    {
+      "slot": 29,
+      "slug": "s64-skycrane",
+      "subject": "Sikorsky S-64 Skycrane",
+      "category": "helicopter",
+      "features": "Sikorsky S-64 Skycrane / Aircrane, vividly ORANGE heavy-lift helicopter. Distinctive small forward cockpit pod, very slender high structural spine with twin engine housings above, large OPEN EMPTY SPACE under fuselage behind cockpit between widely spaced tall wheeled landing legs, long thin tail boom. ONE six-bladed main rotor and small tail rotor. NO suspended load or tank. Preserve its unmistakable skeletal crane silhouette; not a normal enclosed passenger helicopter.",
+      "file": "images/29-s64-skycrane.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Sikorsky S-64 Skycrane / Aircrane, vividly ORANGE heavy-lift helicopter. Distinctive small forward cockpit pod, very slender high structural spine with twin engine housings above, large OPEN EMPTY SPACE under fuselage behind cockpit between widely spaced tall wheeled landing legs, long thin tail boom. ONE six-bladed main rotor and small tail rotor. NO suspended load or tank. Preserve its unmistakable skeletal crane silhouette; not a normal enclosed passenger helicopter.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-3d664adf-4bef-44dc-bd8e-9ebd1d496d7c.png",
+          "prompt": "Edit this Sikorsky S-64 Skycrane colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+        },
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-1a8f2e57-adbf-4a66-b0a4-217a367d0450.png",
+          "prompt": "Make ONLY a framing correction to this exact Skycrane illustration. Preserve this exact beautifully drawn orange helicopter, ALL SIX main rotor blades and tail rotor, geometry, colours, paper and pencil style. Reduce the complete entire helicopter uniformly to 85 percent of its CURRENT size, keeping it centrally positioned on the square page. Every rotor tip and tail extremity must stay strictly inside the CENTRAL 72 percent of the image. Leave at least 14 percent completely blank warm ivory paper on BOTH left and right and generous matching space top and bottom. Extend identical ivory paper seamlessly. Do not change anything else. No text, border or added objects."
+        },
+        {
+          "operation": "heading_variation",
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-72856c05-4a4c-4fc0-9dec-abf9d2f19dc2.png",
+          "prompt": "Transform the supplied Sikorsky S-64 Skycrane illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 13 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, rotor blade, undercarriage and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+          "slot": 29,
+          "rotation_degrees_clockwise": -13,
+          "mirror_horizontally": false
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-6e7d97b9-56b1-4795-be67-f1e224f1eb64.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cde6f74a2c9ca43f25d842d49a7bca4a8d00fb8909d9ffdaac633e4c8f68de4a",
+      "decoded_pixel_sha256": "ccc208c5e7483d9f5a1550b1fa05f1012fb563f8cba791b068f6ee91ecf01504",
+      "orientation_requested": {
+        "slot": 29,
+        "rotation_degrees_clockwise": -13,
+        "mirror_horizontally": false
+      }
+    },
+    {
+      "slot": 30,
+      "slug": "airbus-h145",
+      "subject": "Airbus H145",
+      "category": "helicopter",
+      "features": "Airbus H145 modern rescue helicopter, compact sleek cabin, large dark curved wraparound cockpit glazing, WHITE body with broad scarlet RED and yellow rescue colour blocks, slender tail boom with enclosed circular FENESTRON tail rotor clearly visible, skids and ONE five-bladed main rotor. No medical symbols containing lettering, no words or registration. Clear contrast with the exposed-tail Bell 47 and tandem Chinook.",
+      "file": "images/30-airbus-h145.png",
+      "status": "complete",
+      "prompt": "Create ONE square memory-card aircraft COLOUR SKETCH. The supplied image is ONLY the approved STYLE AND EXACT SIZE-ON-PAGE reference. Match its finished fine coloured-pencil/graphite strokes, gentle watercolour shading, natural colours, soft upper-left light and warm ivory paper. Create the new subject below, not a Mustang.\nLAYOUT: the COMPLETE new aircraft must fit inside an imaginary CENTRED square measuring ONLY 65% of the page width and height. Vast blank ivory paper around it, minimum 17.5% empty margin on ALL four sides, including beyond every rotor blade and wingtip. Keep it SMALL-TO-MEDIUM like the reference, never zoom in. Slightly elevated front three-quarter view, nose lower left, entire aircraft visible. Square 1:1 PNG at least 1024x1024.\nExactly one aircraft, isolated on completely blank ivory paper. NO text, letters, registrations, numbers, airline names, watermark, signature, labels, borders, clouds, ground, landscape, people or unrelated items. No external weapons or tanks. No cast shadow. Accurate coherent airframe, engine count, wings and rotor structure. Retractable gear up; fixed wheels/floats/skids visible. Distinct propeller and rotor blades with no opaque blur discs.\nSUBJECT: Airbus H145 modern rescue helicopter, compact sleek cabin, large dark curved wraparound cockpit glazing, WHITE body with broad scarlet RED and yellow rescue colour blocks, slender tail boom with enclosed circular FENESTRON tail rotor clearly visible, skids and ONE five-bladed main rotor. No medical symbols containing lettering, no words or registration. Clear contrast with the exposed-tail Bell 47 and tandem Chinook.",
+      "composition_edits": [
+        {
+          "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-cda068fd-b407-4eb2-933f-26b7ca0a1f52.png",
+          "prompt": "Edit this Airbus H145 colour-pencil illustration to correct its scale and remove any writing. Preserve the complete helicopter's exact geometry, rotor blade counts, rotor hubs, cabin, tail, undercarriage, colours, lighting and fine pencil texture. Shrink the ENTIRE helicopter UNIFORMLY to 82% of its current size and centre it on the same square warm ivory sheet. The COMPLETE silhouette INCLUDING every rotor blade and tail extremity must occupy no more than 75% of the page width and height. Leave at least 12.5% entirely blank paper on ALL four sides. Extend the identical ivory paper seamlessly. Remove ALL text, logos, brand names, registration numbers, serials and lettering on the helicopter; replace them with the underlying paint colour. In particular the Bell 47's orange fuel tank must have completely plain orange paint without any black writing. No captions, border, signature, scenery or added objects."
+        }
+      ],
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-0654c21f-830b-4adb-ab63-8770209390de.png",
+      "provenance": "Built-in image_gen, individually generated and reviewed",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "44bbea6911e908dbe67d411a80a9ca0a71b6f2be3dcd1185adc417eb5e252031",
+      "decoded_pixel_sha256": "5d49335834ff4192d5d2d74d748fe9330477f2c2bdd1d155d42150d50cd29353"
+    }
+  ],
+  "total_images": 30,
+  "aeroplane_images": 25,
+  "new_images_created": 28,
+  "full_size_visual_review": "complete",
+  "thumbnail_review": "complete: all 30 reviewed together at 100 pixels per card",
+  "delivery": "30 unique PNGs, one image per matching pair; game creates both cards",
+  "orientation_variations": {
+    "selection_seed": 20261101,
+    "purpose": "Vary the aircraft headings as requested, preserving the approved artwork and safe margins.",
+    "transforms": [
+      {
+        "slot": 4,
+        "rotation_degrees_clockwise": 17,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 5,
+        "rotation_degrees_clockwise": 19,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 6,
+        "rotation_degrees_clockwise": 13,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 8,
+        "rotation_degrees_clockwise": 9,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 10,
+        "rotation_degrees_clockwise": -11,
+        "mirror_horizontally": false
+      },
+      {
+        "slot": 11,
+        "rotation_degrees_clockwise": -9,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 15,
+        "rotation_degrees_clockwise": 15,
+        "mirror_horizontally": false
+      },
+      {
+        "slot": 21,
+        "rotation_degrees_clockwise": -22,
+        "mirror_horizontally": false
+      },
+      {
+        "slot": 22,
+        "rotation_degrees_clockwise": -15,
+        "mirror_horizontally": false
+      },
+      {
+        "slot": 25,
+        "rotation_degrees_clockwise": -18,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 27,
+        "rotation_degrees_clockwise": 21,
+        "mirror_horizontally": true
+      },
+      {
+        "slot": 29,
+        "rotation_degrees_clockwise": -13,
+        "mirror_horizontally": false
+      }
+    ]
+  },
+  "gallery_browser_review": "Unavailable: local browser use disabled in Work settings",
+  "orientation_visual_review": "complete: varied headings with seven opposite-facing aircraft"
+}

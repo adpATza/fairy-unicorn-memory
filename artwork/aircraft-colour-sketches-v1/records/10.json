@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-803b5910-8018-44b1-b7a5-e43a475379ce.png",
+  "slot": 10,
+  "file": "10-piper-cub.png",
+  "prompt": "SQUARE PAPER COMPOSITION: draw the complete aircraft SMALL in the CENTRE of a much larger blank ivory sheet, with approximately 25% blank paper at BOTH LEFT AND RIGHT. Aircraft bounding box occupies ONLY HALF THE PAGE WIDTH. This is a small aviation sketch on a wide sheet of blank paper, not a close-up.\nUse case: stylized-concept.\nAsset type: ONE individual square memory-card image in an approved 30-aircraft collection.\nPrimary request: a beautiful high-quality finished COLOUR SKETCH of the specific single aircraft below.\nStyle: expert aviation illustrator, richly finished yet visibly drawn by hand; detailed and accurate with natural colour, paper highlights and lightly sketched panel lines. No photography, CGI, plastic, cartoon or vector look.\nComposition: SQUARE 1:1 PNG, at least 1024x1024. One complete isolated aircraft airborne, slightly elevated front three-quarter view, nose to lower left and tail to upper right, modest foreshortening so the defining wings or rotors are readable. Soft upper-left daylight. Centre the COMPLETE silhouette, INCLUDING all rotor blades, wingtips, tail, wheels or floats. Its extreme bounding width AND height MUST be no more than 60% of the square: at least 20% entirely blank paper on EVERY side. Match the reference's generous blank margins. DO NOT enlarge the aircraft to fill the page. It should be a large clear central subject with recognisable features at thumbnail size.\nBackdrop: uniform warm ivory drawing paper with very subtle fine paper grain, otherwise completely blank to every edge, no vignette.\nConstraints: exactly ONE complete aircraft; no text, letters, registration, serial numbers, airline names, labels, signature, watermark, card border or captions anywhere. Non-text geometric colour markings only. No people, clouds, sky, scenery, ground, cast ground shadow, decorative splashes or unrelated objects. No weapons, bombs, external tanks, smoke or combat scene. Keep natural correct anatomy and engine/rotor counts. Fixed landing gear stays visible; retractable gear is fully retracted. Propellers and rotors have separate lightly sketched visible blades, without opaque motion discs.\nSpecific subject and distinguishing features: Piper J-3 Cub, petite classic yellow fabric-covered aeroplane, HIGH rectangular wings and thin supporting struts, narrow tandem cabin, small exposed piston-engine cylinder shapes by the nose, two-bladed propeller, FIXED main wheels and small tailwheel. Sunshine yellow with a clean black lightning stripe, no letters.",
+  "status": "final",
+  "edits": [
+    {
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-462f5dbf-de25-427d-a386-6b96f3ed712f.png",
+      "prompt": "Edit this Piper J-3 Cub drawing ONLY to correct its scale on the page. Preserve the aircraft's complete exact shape, details, colours, markings, lighting and fine coloured-pencil style. Shrink the ENTIRE aircraft UNIFORMLY to 85% of its present size, centred on the same square ivory paper. Its complete extreme left-to-right silhouette must occupy no more than 76% of the square. Leave at least 12% BLANK IVORY PAPER at left and right, and at least 10% above and below. Keep all wings, propellers, floats, wheels, engines and tail fully visible. Fill the exposed area with identical warm ivory paper. Do not add anything. No caption, text or border. This is a memory-card safe-margin correction."
+    },
+    {
+      "operation": "heading_variation",
+      "source": "C:\\Users\\adplocal\\.codex\\generated_images\\01a19588-4a1d-7e53-bc17-38f38d1514a8\\exec-9d82caf9-67f6-41d2-b878-155c14fbd5b4.png",
+      "prompt": "Transform the supplied Piper J-3 Cub illustration, preserving its exact approved aircraft, pencil strokes, proportions, details, colours, markings and paper style. Change ONLY the aircraft's heading on the square sheet. Keep the aircraft facing LEFT. Then rotate that complete aircraft 11 degrees COUNTERCLOCKWISE in the plane of the page around its centre. This is a simple 2D whole-aircraft transformation, NOT a new 3D viewpoint, redesign or repainting. Keep the aircraft upright rather than upside down. Keep the SQUARE CANVAS AND PAPER BACKGROUND FIXED. Centre the transformed aircraft, with at least 12% completely blank ivory paper outside EVERY wing, propeller, engine and tail extremity. Only if required, shrink the whole aircraft uniformly a little to preserve these margins. No cropping, no new text, symbols, borders, shadows or objects. The result should be the SAME finished sketch flying in a visibly different diagonal direction.",
+      "slot": 10,
+      "rotation_degrees_clockwise": -11,
+      "mirror_horizontally": false
+    }
+  ],
+  "orientation_requested": {
+    "slot": 10,
+    "rotation_degrees_clockwise": -11,
+    "mirror_horizontally": false
+  }
+}

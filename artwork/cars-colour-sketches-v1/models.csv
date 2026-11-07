@@ -1,0 +1,31 @@
+﻿slot,subject,year,category,orientation,file
+1,Volkswagen Beetle,1967,Classic small cars,front-left,images/01-volkswagen-beetle.png
+2,Mini Cooper,1965,Classic small cars,front-right,images/02-mini-cooper.png
+3,Fiat 500 F,1968,Classic small cars,front-left,images/03-fiat-500.png
+4,Citroën 2CV,1965,Classic small cars,front-right,images/04-citroen-2cv.png
+5,Volkswagen Type 2 Kombi,1963,Everyday icons,front-left,images/05-volkswagen-kombi.png
+6,Volkswagen Golf GTI Mk1,1983,Everyday icons,front-right,images/06-volkswagen-golf-gti.png
+7,Ford Mustang Fastback,1967,American classics,front-left,images/07-ford-mustang.png
+8,Chevrolet Corvette Sting Ray C2,1963,American classics,rear-right,images/08-corvette-sting-ray.png
+9,Chevrolet Bel Air,1957,American classics,rear-left,images/09-chevrolet-bel-air.png
+10,Dodge Charger,1969,American classics,front-right,images/10-dodge-charger.png
+11,Porsche 911 Carrera 3.2,1984,European sports cars,front-left,images/11-porsche-911.png
+12,Jaguar E-Type Series 1,1961,European sports cars,front-right,images/12-jaguar-e-type.png
+13,Mercedes-Benz 300 SL Gullwing,1955,European sports cars,front-left,images/13-mercedes-300sl.png
+14,Aston Martin DB5,1964,European sports cars,front-right,images/14-aston-martin-db5.png
+15,Ferrari F40,1987,Supercars and exotics,rear-left,images/15-ferrari-f40.png
+16,Lamborghini Countach LP400,1974,Supercars and exotics,front-left,images/16-lamborghini-countach.png
+17,Lancia Stratos HF,1974,Supercars and exotics,front-right,images/17-lancia-stratos.png
+18,DeLorean DMC-12,1981,Supercars and exotics,front-left,images/18-delorean-dmc12.png
+19,Ford GT40,1966,Supercars and exotics,front-right,images/19-ford-gt40.png
+20,Toyota 2000GT,1967,Japanese performance cars,front-left,images/20-toyota-2000gt.png
+21,Nissan Skyline GT-R R34,1999,Japanese performance cars,rear-right,images/21-nissan-skyline-r34.png
+22,Subaru Impreza 22B STI,1998,Japanese performance cars,front-left,images/22-subaru-impreza-22b.png
+23,Mazda MX-5 NA,1990,Japanese performance cars,front-right,images/23-mazda-mx5.png
+24,Rolls-Royce Silver Cloud II,1960,Grand touring and luxury,front-left,images/24-rolls-royce-silver-cloud.png
+25,Land Rover Defender 90,1990,Off-roaders and pickups,front-right,images/25-land-rover-defender.png
+26,Jeep Wrangler TJ,1997,Off-roaders and pickups,front-left,images/26-jeep-wrangler.png
+27,Toyota Land Cruiser FJ40,1978,Off-roaders and pickups,front-right,images/27-toyota-land-cruiser-fj40.png
+28,Toyota Hilux,1985,Off-roaders and pickups,front-left,images/28-toyota-hilux.png
+29,BMW i8,2014,Modern designs,front-right,images/29-bmw-i8.png
+30,Tesla Cybertruck,2024,Modern designs,front-left,images/30-tesla-cybertruck.png

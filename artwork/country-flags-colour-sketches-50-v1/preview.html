@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Country flags in colour pencil</title><style>
+:root{color-scheme:light;--paper:#f4f0e7;--ink:#203f35;--muted:#657268;--line:#c9cfc2}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Segoe UI",sans-serif}
+main{max-width:1600px;margin:auto;padding:44px 36px 64px}.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+header{display:flex;gap:32px;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:24px}
+h1{font:normal clamp(32px,4vw,56px)/1.1 Georgia,serif;margin:12px 0}header p{max-width:600px;margin:14px 0 0;color:var(--muted)}
+a{color:inherit;text-underline-offset:4px}nav{display:flex;gap:18px;white-space:nowrap;font-size:14px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding:24px 0}input,select,button{font:inherit;color:var(--ink);background:#fffdf7;border:1px solid var(--line);border-radius:3px;padding:8px 12px}
+input[type=search]{min-width:240px}label{display:flex;gap:8px;align-items:center}.count{color:var(--muted);font-size:14px;margin:0 0 12px}
+#gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:24px 20px}figure{margin:0;min-width:0}figure a{display:block}img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+figcaption{padding-top:8px}figcaption span{display:block;color:var(--muted);font-size:11px;letter-spacing:.04em;text-transform:uppercase}figcaption strong{font-weight:500;font-size:16px}
+body.small #gallery{grid-template-columns:repeat(auto-fill,100px);gap:22px 30px}body.small figcaption strong{font-size:12px}body.small figcaption span{display:none}
+body.large #gallery{grid-template-columns:repeat(auto-fill,minmax(400px,1fr))}body.hidden-names figcaption{visibility:hidden}figure[hidden]{display:none}
+details{border-top:1px solid var(--line);margin-top:40px;padding-top:22px}summary{cursor:pointer;font-family:Georgia,serif;font-size:23px}.notes{max-width:840px;color:var(--muted)}footer{margin-top:32px;color:var(--muted);font-size:12px}
+@media(max-width:650px){main{padding:28px 18px}header{display:block}nav{margin-top:20px;flex-wrap:wrap}#gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}body.large #gallery{grid-template-columns:1fr}}
+</style></head><body><main><header><div><div class="eyebrow">The memory collection / 50 countries</div>
+<h1>Flags in colour pencil.</h1><p>Rich pencil colour, fine drawn edges and warm ivory paper. Fifty individual flag illustrations, ready to make fifty matching pairs across your collections.</p></div>
+<nav><a href="contact-sheet.png">Contact sheet</a><a href="card-size-proof.png">Card-size proof</a><a href="countries.csv">Country list</a></nav></header>
+<div class="tools"><input type="search" id="search" aria-label="Find a country" placeholder="Find a country...">
+<select id="region" aria-label="Filter region"><option value="">All regions</option><option>Africa</option><option>Americas</option><option>Asia</option><option>Europe</option><option>Oceania</option></select>
+<select id="deck" aria-label="Filter deck"><option value="">Both decks</option><option value="A">Deck A - 25 flags</option><option value="B">Deck B - 25 flags</option></select>
+<select id="size" aria-label="Picture size"><option value="">Gallery</option><option value="small">Card size - 100 px</option><option value="large">Large details</option></select>
+<label><input type="checkbox" id="names" checked>Show names</label></div>
+<p class="count" id="count">50 countries</p><section id="gallery" aria-label="Flag collection"><figure data-name="south africa" data-region="Africa" data-deck="A">
+<a href="images/01-south-africa.png" target="_blank"><img src="images/01-south-africa.png" alt="Coloured-pencil flag of South Africa" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>01 / Africa / Deck A</span><strong>South Africa</strong></figcaption></figure>
+<figure data-name="united states" data-region="Americas" data-deck="B">
+<a href="images/02-united-states.png" target="_blank"><img src="images/02-united-states.png" alt="Coloured-pencil flag of United States" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>02 / Americas / Deck B</span><strong>United States</strong></figcaption></figure>
+<figure data-name="canada" data-region="Americas" data-deck="A">
+<a href="images/03-canada.png" target="_blank"><img src="images/03-canada.png" alt="Coloured-pencil flag of Canada" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>03 / Americas / Deck A</span><strong>Canada</strong></figcaption></figure>
+<figure data-name="mexico" data-region="Americas" data-deck="B">
+<a href="images/04-mexico.png" target="_blank"><img src="images/04-mexico.png" alt="Coloured-pencil flag of Mexico" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>04 / Americas / Deck B</span><strong>Mexico</strong></figcaption></figure>
+<figure data-name="brazil" data-region="Americas" data-deck="A">
+<a href="images/05-brazil.png" target="_blank"><img src="images/05-brazil.png" alt="Coloured-pencil flag of Brazil" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>05 / Americas / Deck A</span><strong>Brazil</strong></figcaption></figure>
+<figure data-name="argentina" data-region="Americas" data-deck="B">
+<a href="images/06-argentina.png" target="_blank"><img src="images/06-argentina.png" alt="Coloured-pencil flag of Argentina" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>06 / Americas / Deck B</span><strong>Argentina</strong></figcaption></figure>
+<figure data-name="chile" data-region="Americas" data-deck="A">
+<a href="images/07-chile.png" target="_blank"><img src="images/07-chile.png" alt="Coloured-pencil flag of Chile" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>07 / Americas / Deck A</span><strong>Chile</strong></figcaption></figure>
+<figure data-name="colombia" data-region="Americas" data-deck="B">
+<a href="images/08-colombia.png" target="_blank"><img src="images/08-colombia.png" alt="Coloured-pencil flag of Colombia" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>08 / Americas / Deck B</span><strong>Colombia</strong></figcaption></figure>
+<figure data-name="peru" data-region="Americas" data-deck="A">
+<a href="images/09-peru.png" target="_blank"><img src="images/09-peru.png" alt="Coloured-pencil flag of Peru" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>09 / Americas / Deck A</span><strong>Peru</strong></figcaption></figure>
+<figure data-name="jamaica" data-region="Americas" data-deck="B">
+<a href="images/10-jamaica.png" target="_blank"><img src="images/10-jamaica.png" alt="Coloured-pencil flag of Jamaica" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>10 / Americas / Deck B</span><strong>Jamaica</strong></figcaption></figure>
+<figure data-name="united kingdom" data-region="Europe" data-deck="A">
+<a href="images/11-united-kingdom.png" target="_blank"><img src="images/11-united-kingdom.png" alt="Coloured-pencil flag of United Kingdom" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>11 / Europe / Deck A</span><strong>United Kingdom</strong></figcaption></figure>
+<figure data-name="france" data-region="Europe" data-deck="B">
+<a href="images/12-france.png" target="_blank"><img src="images/12-france.png" alt="Coloured-pencil flag of France" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>12 / Europe / Deck B</span><strong>France</strong></figcaption></figure>
+<figure data-name="germany" data-region="Europe" data-deck="A">
+<a href="images/13-germany.png" target="_blank"><img src="images/13-germany.png" alt="Coloured-pencil flag of Germany" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>13 / Europe / Deck A</span><strong>Germany</strong></figcaption></figure>
+<figure data-name="italy" data-region="Europe" data-deck="B">
+<a href="images/14-italy.png" target="_blank"><img src="images/14-italy.png" alt="Coloured-pencil flag of Italy" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>14 / Europe / Deck B</span><strong>Italy</strong></figcaption></figure>
+<figure data-name="spain" data-region="Europe" data-deck="A">
+<a href="images/15-spain.png" target="_blank"><img src="images/15-spain.png" alt="Coloured-pencil flag of Spain" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>15 / Europe / Deck A</span><strong>Spain</strong></figcaption></figure>
+<figure data-name="portugal" data-region="Europe" data-deck="B">
+<a href="images/16-portugal.png" target="_blank"><img src="images/16-portugal.png" alt="Coloured-pencil flag of Portugal" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>16 / Europe / Deck B</span><strong>Portugal</strong></figcaption></figure>
+<figure data-name="netherlands" data-region="Europe" data-deck="A">
+<a href="images/17-netherlands.png" target="_blank"><img src="images/17-netherlands.png" alt="Coloured-pencil flag of Netherlands" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>17 / Europe / Deck A</span><strong>Netherlands</strong></figcaption></figure>
+<figure data-name="belgium" data-region="Europe" data-deck="B">
+<a href="images/18-belgium.png" target="_blank"><img src="images/18-belgium.png" alt="Coloured-pencil flag of Belgium" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>18 / Europe / Deck B</span><strong>Belgium</strong></figcaption></figure>
+<figure data-name="ireland" data-region="Europe" data-deck="A">
+<a href="images/19-ireland.png" target="_blank"><img src="images/19-ireland.png" alt="Coloured-pencil flag of Ireland" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>19 / Europe / Deck A</span><strong>Ireland</strong></figcaption></figure>
+<figure data-name="switzerland" data-region="Europe" data-deck="B">
+<a href="images/20-switzerland.png" target="_blank"><img src="images/20-switzerland.png" alt="Coloured-pencil flag of Switzerland" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>20 / Europe / Deck B</span><strong>Switzerland</strong></figcaption></figure>
+<figure data-name="austria" data-region="Europe" data-deck="A">
+<a href="images/21-austria.png" target="_blank"><img src="images/21-austria.png" alt="Coloured-pencil flag of Austria" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>21 / Europe / Deck A</span><strong>Austria</strong></figcaption></figure>
+<figure data-name="poland" data-region="Europe" data-deck="B">
+<a href="images/22-poland.png" target="_blank"><img src="images/22-poland.png" alt="Coloured-pencil flag of Poland" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>22 / Europe / Deck B</span><strong>Poland</strong></figcaption></figure>
+<figure data-name="sweden" data-region="Europe" data-deck="A">
+<a href="images/23-sweden.png" target="_blank"><img src="images/23-sweden.png" alt="Coloured-pencil flag of Sweden" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>23 / Europe / Deck A</span><strong>Sweden</strong></figcaption></figure>
+<figure data-name="norway" data-region="Europe" data-deck="B">
+<a href="images/24-norway.png" target="_blank"><img src="images/24-norway.png" alt="Coloured-pencil flag of Norway" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>24 / Europe / Deck B</span><strong>Norway</strong></figcaption></figure>
+<figure data-name="denmark" data-region="Europe" data-deck="A">
+<a href="images/25-denmark.png" target="_blank"><img src="images/25-denmark.png" alt="Coloured-pencil flag of Denmark" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>25 / Europe / Deck A</span><strong>Denmark</strong></figcaption></figure>
+<figure data-name="finland" data-region="Europe" data-deck="B">
+<a href="images/26-finland.png" target="_blank"><img src="images/26-finland.png" alt="Coloured-pencil flag of Finland" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>26 / Europe / Deck B</span><strong>Finland</strong></figcaption></figure>
+<figure data-name="greece" data-region="Europe" data-deck="A">
+<a href="images/27-greece.png" target="_blank"><img src="images/27-greece.png" alt="Coloured-pencil flag of Greece" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>27 / Europe / Deck A</span><strong>Greece</strong></figcaption></figure>
+<figure data-name="turkey" data-region="Europe" data-deck="B">
+<a href="images/28-turkey.png" target="_blank"><img src="images/28-turkey.png" alt="Coloured-pencil flag of Turkey" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>28 / Europe / Deck B</span><strong>Turkey</strong></figcaption></figure>
+<figure data-name="ukraine" data-region="Europe" data-deck="A">
+<a href="images/29-ukraine.png" target="_blank"><img src="images/29-ukraine.png" alt="Coloured-pencil flag of Ukraine" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>29 / Europe / Deck A</span><strong>Ukraine</strong></figcaption></figure>
+<figure data-name="russia" data-region="Europe" data-deck="B">
+<a href="images/30-russia.png" target="_blank"><img src="images/30-russia.png" alt="Coloured-pencil flag of Russia" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>30 / Europe / Deck B</span><strong>Russia</strong></figcaption></figure>
+<figure data-name="china" data-region="Asia" data-deck="A">
+<a href="images/31-china.png" target="_blank"><img src="images/31-china.png" alt="Coloured-pencil flag of China" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>31 / Asia / Deck A</span><strong>China</strong></figcaption></figure>
+<figure data-name="japan" data-region="Asia" data-deck="B">
+<a href="images/32-japan.png" target="_blank"><img src="images/32-japan.png" alt="Coloured-pencil flag of Japan" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>32 / Asia / Deck B</span><strong>Japan</strong></figcaption></figure>
+<figure data-name="south korea" data-region="Asia" data-deck="A">
+<a href="images/33-south-korea.png" target="_blank"><img src="images/33-south-korea.png" alt="Coloured-pencil flag of South Korea" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>33 / Asia / Deck A</span><strong>South Korea</strong></figcaption></figure>
+<figure data-name="india" data-region="Asia" data-deck="B">
+<a href="images/34-india.png" target="_blank"><img src="images/34-india.png" alt="Coloured-pencil flag of India" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>34 / Asia / Deck B</span><strong>India</strong></figcaption></figure>
+<figure data-name="pakistan" data-region="Asia" data-deck="A">
+<a href="images/35-pakistan.png" target="_blank"><img src="images/35-pakistan.png" alt="Coloured-pencil flag of Pakistan" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>35 / Asia / Deck A</span><strong>Pakistan</strong></figcaption></figure>
+<figure data-name="bangladesh" data-region="Asia" data-deck="B">
+<a href="images/36-bangladesh.png" target="_blank"><img src="images/36-bangladesh.png" alt="Coloured-pencil flag of Bangladesh" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>36 / Asia / Deck B</span><strong>Bangladesh</strong></figcaption></figure>
+<figure data-name="indonesia" data-region="Asia" data-deck="A">
+<a href="images/37-indonesia.png" target="_blank"><img src="images/37-indonesia.png" alt="Coloured-pencil flag of Indonesia" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>37 / Asia / Deck A</span><strong>Indonesia</strong></figcaption></figure>
+<figure data-name="thailand" data-region="Asia" data-deck="B">
+<a href="images/38-thailand.png" target="_blank"><img src="images/38-thailand.png" alt="Coloured-pencil flag of Thailand" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>38 / Asia / Deck B</span><strong>Thailand</strong></figcaption></figure>
+<figure data-name="vietnam" data-region="Asia" data-deck="A">
+<a href="images/39-vietnam.png" target="_blank"><img src="images/39-vietnam.png" alt="Coloured-pencil flag of Vietnam" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>39 / Asia / Deck A</span><strong>Vietnam</strong></figcaption></figure>
+<figure data-name="malaysia" data-region="Asia" data-deck="B">
+<a href="images/40-malaysia.png" target="_blank"><img src="images/40-malaysia.png" alt="Coloured-pencil flag of Malaysia" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>40 / Asia / Deck B</span><strong>Malaysia</strong></figcaption></figure>
+<figure data-name="singapore" data-region="Asia" data-deck="A">
+<a href="images/41-singapore.png" target="_blank"><img src="images/41-singapore.png" alt="Coloured-pencil flag of Singapore" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>41 / Asia / Deck A</span><strong>Singapore</strong></figcaption></figure>
+<figure data-name="israel" data-region="Asia" data-deck="B">
+<a href="images/42-israel.png" target="_blank"><img src="images/42-israel.png" alt="Coloured-pencil flag of Israel" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>42 / Asia / Deck B</span><strong>Israel</strong></figcaption></figure>
+<figure data-name="united arab emirates" data-region="Asia" data-deck="A">
+<a href="images/43-united-arab-emirates.png" target="_blank"><img src="images/43-united-arab-emirates.png" alt="Coloured-pencil flag of United Arab Emirates" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>43 / Asia / Deck A</span><strong>United Arab Emirates</strong></figcaption></figure>
+<figure data-name="kenya" data-region="Africa" data-deck="B">
+<a href="images/44-kenya.png" target="_blank"><img src="images/44-kenya.png" alt="Coloured-pencil flag of Kenya" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>44 / Africa / Deck B</span><strong>Kenya</strong></figcaption></figure>
+<figure data-name="nigeria" data-region="Africa" data-deck="A">
+<a href="images/45-nigeria.png" target="_blank"><img src="images/45-nigeria.png" alt="Coloured-pencil flag of Nigeria" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>45 / Africa / Deck A</span><strong>Nigeria</strong></figcaption></figure>
+<figure data-name="ghana" data-region="Africa" data-deck="B">
+<a href="images/46-ghana.png" target="_blank"><img src="images/46-ghana.png" alt="Coloured-pencil flag of Ghana" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>46 / Africa / Deck B</span><strong>Ghana</strong></figcaption></figure>
+<figure data-name="morocco" data-region="Africa" data-deck="A">
+<a href="images/47-morocco.png" target="_blank"><img src="images/47-morocco.png" alt="Coloured-pencil flag of Morocco" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>47 / Africa / Deck A</span><strong>Morocco</strong></figcaption></figure>
+<figure data-name="tanzania" data-region="Africa" data-deck="B">
+<a href="images/48-tanzania.png" target="_blank"><img src="images/48-tanzania.png" alt="Coloured-pencil flag of Tanzania" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>48 / Africa / Deck B</span><strong>Tanzania</strong></figcaption></figure>
+<figure data-name="australia" data-region="Oceania" data-deck="A">
+<a href="images/49-australia.png" target="_blank"><img src="images/49-australia.png" alt="Coloured-pencil flag of Australia" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>49 / Oceania / Deck A</span><strong>Australia</strong></figcaption></figure>
+<figure data-name="new zealand" data-region="Oceania" data-deck="B">
+<a href="images/50-new-zealand.png" target="_blank"><img src="images/50-new-zealand.png" alt="Coloured-pencil flag of New Zealand" width="1254" height="1254" loading="lazy"></a>
+<figcaption><span>50 / Oceania / Deck B</span><strong>New Zealand</strong></figcaption></figure></section>
+<details open><summary>Use these cards in the memory game</summary><div class="notes">
+<p>Import <a href="decks/01-world-flags-a/">Deck A</a> or <a href="decks/02-world-flags-b/">Deck B</a> as a ready-made selection of 25 flags. Each folder contains only its 25 PNG files. Alternatively import the <a href="images/">images folder</a> and choose any 2-30 of the 50 flags. One unique picture makes one matching pair automatically.</p>
+<p>In Deck library, choose Import an image folder, select a folder, review the pictures, name your deck and save. Suggested domain: Country flags; style: Illustrated. Difficulty depends on your selection: related tricolours and the Australian/New Zealand pair make a harder game.</p>
+<p>Each card is an original 1254 x 1254 PNG generated individually with built-in image_gen. Country names appear here and in filenames, not as labels on the cards. Brazil retains its national motto; small heraldic details are drawn interpretations. These illustrations are for recognition and matching, not flag-manufacturing diagrams.</p>
+<p><a href="START%20HERE.txt">Read the package guide</a> / <a href="generation.json">Prompts and provenance</a> / <a href="references.json">Flag reference notes</a></p>
+</div></details><footer>Created 1 November 2026. Offline gallery / 50 different countries / two import folders of 25. In-game import and play were not tested.</footer>
+</main><script>
+const cards=[...document.querySelectorAll('figure')], search=document.querySelector('#search'), region=document.querySelector('#region'), deck=document.querySelector('#deck');
+function filter(){let n=0;const q=search.value.trim().toLowerCase();cards.forEach(card=>{const show=card.dataset.name.includes(q)&&(!region.value||card.dataset.region===region.value)&&(!deck.value||card.dataset.deck===deck.value);card.hidden=!show;if(show)n++});document.querySelector('#count').textContent=n+' of 50 countries'}
+search.addEventListener('input',filter);region.addEventListener('change',filter);deck.addEventListener('change',filter);
+document.querySelector('#size').addEventListener('change',e=>{document.body.classList.remove('small','large');if(e.target.value)document.body.classList.add(e.target.value)});
+document.querySelector('#names').addEventListener('change',e=>document.body.classList.toggle('hidden-names',!e.target.checked));
+</script></body></html>

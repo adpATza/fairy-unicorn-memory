@@ -1,0 +1,26 @@
+{
+  "unique_pngs": 30,
+  "unique_decoded_pixel_hashes": 30,
+  "dimensions": [
+    [
+      1254,
+      1254
+    ]
+  ],
+  "source_copies_verified": 30,
+  "full_size_review": "complete",
+  "thumbnail_review": "complete",
+  "groups": {
+    "Passengers and early steam": 5,
+    "Sail and exploration": 7,
+    "Naval ships and submarines": 8,
+    "Research and working vessels": 10
+  },
+  "gallery_local_links": "all resolve",
+  "in_game_test": "not performed",
+  "archive": "E:\\githubportable\\game-memory\\artwork\\ships-colour-sketches-v1.zip",
+  "archive_bytes": 63740210,
+  "archive_sha256": "9b481f85b2ce98dce7401a80ce44f75299480bf67fdb28542c28a5bc64bff2e2",
+  "archived_png_hashes_verified": 30,
+  "zip_integrity": "passed"
+}

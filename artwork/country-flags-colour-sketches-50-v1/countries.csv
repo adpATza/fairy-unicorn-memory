@@ -1,0 +1,51 @@
+﻿slot,country,region,deck,file
+1,South Africa,Africa,A,images/01-south-africa.png
+2,United States,Americas,B,images/02-united-states.png
+3,Canada,Americas,A,images/03-canada.png
+4,Mexico,Americas,B,images/04-mexico.png
+5,Brazil,Americas,A,images/05-brazil.png
+6,Argentina,Americas,B,images/06-argentina.png
+7,Chile,Americas,A,images/07-chile.png
+8,Colombia,Americas,B,images/08-colombia.png
+9,Peru,Americas,A,images/09-peru.png
+10,Jamaica,Americas,B,images/10-jamaica.png
+11,United Kingdom,Europe,A,images/11-united-kingdom.png
+12,France,Europe,B,images/12-france.png
+13,Germany,Europe,A,images/13-germany.png
+14,Italy,Europe,B,images/14-italy.png
+15,Spain,Europe,A,images/15-spain.png
+16,Portugal,Europe,B,images/16-portugal.png
+17,Netherlands,Europe,A,images/17-netherlands.png
+18,Belgium,Europe,B,images/18-belgium.png
+19,Ireland,Europe,A,images/19-ireland.png
+20,Switzerland,Europe,B,images/20-switzerland.png
+21,Austria,Europe,A,images/21-austria.png
+22,Poland,Europe,B,images/22-poland.png
+23,Sweden,Europe,A,images/23-sweden.png
+24,Norway,Europe,B,images/24-norway.png
+25,Denmark,Europe,A,images/25-denmark.png
+26,Finland,Europe,B,images/26-finland.png
+27,Greece,Europe,A,images/27-greece.png
+28,Turkey,Europe,B,images/28-turkey.png
+29,Ukraine,Europe,A,images/29-ukraine.png
+30,Russia,Europe,B,images/30-russia.png
+31,China,Asia,A,images/31-china.png
+32,Japan,Asia,B,images/32-japan.png
+33,South Korea,Asia,A,images/33-south-korea.png
+34,India,Asia,B,images/34-india.png
+35,Pakistan,Asia,A,images/35-pakistan.png
+36,Bangladesh,Asia,B,images/36-bangladesh.png
+37,Indonesia,Asia,A,images/37-indonesia.png
+38,Thailand,Asia,B,images/38-thailand.png
+39,Vietnam,Asia,A,images/39-vietnam.png
+40,Malaysia,Asia,B,images/40-malaysia.png
+41,Singapore,Asia,A,images/41-singapore.png
+42,Israel,Asia,B,images/42-israel.png
+43,United Arab Emirates,Asia,A,images/43-united-arab-emirates.png
+44,Kenya,Africa,B,images/44-kenya.png
+45,Nigeria,Africa,A,images/45-nigeria.png
+46,Ghana,Africa,B,images/46-ghana.png
+47,Morocco,Africa,A,images/47-morocco.png
+48,Tanzania,Africa,B,images/48-tanzania.png
+49,Australia,Oceania,A,images/49-australia.png
+50,New Zealand,Oceania,B,images/50-new-zealand.png

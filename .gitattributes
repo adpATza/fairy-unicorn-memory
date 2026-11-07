@@ -4,3 +4,5 @@
 *.jpeg binary
 *.webp binary
 *.zip binary
+# Preserve original artwork and metadata bytes for the supplied checksums.
+artwork/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
