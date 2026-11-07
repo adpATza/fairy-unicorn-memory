@@ -60,6 +60,12 @@ export function createSetupScreen(app: App): Screen {
 
   const sample = h('div', { class: 'sample-body' });
 
+  // Shown only where the browser offers installation (Chromium browsers).
+  const install = h('button', { type: 'button', class: 'install' }, 'Install app');
+  const actions = h('nav', { class: 'setup-actions', 'aria-label': 'App' }, install);
+  const updateInstall = () => (actions.hidden = !app.pwa.canInstall());
+  install.addEventListener('click', () => void app.pwa.install());
+
   const form = h(
     'form',
     { class: 'setup-form', novalidate: true },
@@ -86,6 +92,7 @@ export function createSetupScreen(app: App): Screen {
       h('p', { class: 'tagline' }, 'Big colours. Sharp eyes. Great matches.'),
       form,
     ),
+    actions,
     h('aside', { class: 'sample', 'aria-label': 'Deck preview' }, sample),
     h('div', { class: 'setup-prefs' }, h('label', { class: 'check' }, sound, 'Sound'), h('label', { class: 'check' }, motion, 'Reduced motion')),
   );
@@ -272,6 +279,8 @@ export function createSetupScreen(app: App): Screen {
 
   showNames();
   filterStyles();
+  updateInstall();
+  const stopInstallUpdates = app.pwa.onInstallChange(updateInstall);
 
   return {
     element,
@@ -281,6 +290,7 @@ export function createSetupScreen(app: App): Screen {
       if (app.shouldAutoFocus()) start.focus({ preventScroll: true });
     },
     destroy() {
+      stopInstallUpdates();
       removeEventListener('resize', onResize);
       clearTimeout(resizeTimer);
     },

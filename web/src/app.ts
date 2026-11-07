@@ -3,6 +3,7 @@ import { builtinDecks } from './decks';
 import type { LayoutKind } from './layout';
 import type { Deck } from './manifest';
 import { browserStorage, defaultPreferences, loadPreferences, savePreferences, withValidDeck, type Preferences } from './preferences';
+import { Pwa } from './pwa';
 import { randomSeed } from './rng';
 import { createGameplayScreen, type GameplayScreen } from './screens/gameplay';
 import { createResultsScreen, type RoundResult } from './screens/results';
@@ -35,6 +36,8 @@ export class App {
   readonly decks: Deck[];
   readonly deckErrors: string[];
   readonly sounds = new Sounds();
+  /** Service worker updates wait while a round is in progress. */
+  readonly pwa = new Pwa(() => this.game !== null && !this.game.finished());
   preferences: Preferences;
   game: GameplayScreen | null = null;
   private screen: Screen | null = null;
@@ -128,5 +131,6 @@ export class App {
     this.root.replaceChildren(next.element);
     document.documentElement.dataset.screen = next.element.dataset.screen ?? '';
     next.mounted?.();
+    this.pwa.screenChanged();
   }
 }

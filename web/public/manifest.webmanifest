@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Memory Card Game",
+  "short_name": "Memory Cards",
+  "description": "A colourful matching game for 1–4 players. Find every pair, online or offline.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f2f7fe",
+  "theme_color": "#f2f7fe",
+  "categories": ["games", "kids", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

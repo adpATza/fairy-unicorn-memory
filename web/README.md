@@ -2,7 +2,24 @@
 
 The progressive web app edition of Memory Card Game. The plan, decisions and phases are in [`../docs/PWA-PLAN.md`](../docs/PWA-PLAN.md).
 
-**Status: Phase 2.** The game is playable in the browser with the six built-in decks: setup, gameplay and results screens for 1–4 players on phones, tablets and desktops. Installing and offline play (Phase 3), custom decks (Phase 4) and the web guide (Phase 5) are still to come, so the setup screen has no Deck library or Adult guide buttons yet.
+**Status: Phase 3.** An installable progressive web app with the six built-in decks, for 1–4 players on phones, tablets and desktops, playable offline after the first visit. Custom decks (Phase 4) and the web guide (Phase 5) are still to come, so the setup screen has no Deck library or Adult guide buttons yet.
+
+## Install and offline play
+
+- **Offline:** on the first visit the service worker caches every file of the build (189 files, about 1 MB: the app, all 180 deck pictures, icons and manifest). After that the game runs with no connection. A short "Ready to play offline." note confirms it.
+- **Install:** Chrome, Edge and Android show an **Install app** button on the setup screen. On iPhone and iPad, use Safari's Share menu → *Add to Home Screen*. The installed app opens full screen as **Memory Cards**.
+- **Updates** download in the background. "A new version is ready" appears only on setup or results, **never during a round**. *Update now* reloads into the new version; *Later* keeps the current one for this visit.
+- **Publishing:** `.github/workflows/web.yml` runs the type check, unit tests, build and browser tests on pull requests, and deploys `web/dist` to GitHub Pages from `main`. One-time setup: *Settings → Pages → Build and deployment → Source: GitHub Actions*. The site will be at `https://adpatza.github.io/memory-card-game/`.
+
+| File | Role |
+| --- | --- |
+| `public/manifest.webmanifest` | Name, colours, standalone display, icons |
+| `public/icons/` | PNG icons rendered from `../assets/icon.svg` by `npm run icons` (a unit test flags stale icons) |
+| `build/service-worker.js` | Precache-everything worker: cache-first, offline navigation, waits to activate until asked |
+| `build/pwa.ts` | After `vite build`, lists every file in `dist/`, versions the cache by content and writes `dist/sw.js` |
+| `src/pwa.ts` | Registration, the offline and update notes, round-safe updates, the Install button |
+
+Caches and saved settings are prefixed `memory-card-game-` because GitHub Pages project sites share one origin.
 
 ## Source map
 
@@ -16,6 +33,7 @@ The progressive web app edition of Memory Card Game. The plan, decisions and pha
 | `src/audio.ts` | The same synthesised tones, via Web Audio | `main.gd::_tone` |
 | `src/screens/*.ts` | Setup, gameplay and results screens | `scripts/*_screen.gd`, `scripts/card.gd` |
 | `src/styles.css` | Palette, controls and responsive layouts | `scripts/ui.gd` |
+| `src/pwa.ts`, `build/` | Service worker, updates, installation | — |
 
 ## Behaviour on the web
 
@@ -40,7 +58,7 @@ npm run check      # typecheck, unit tests, build and browser tests
 
 Individual steps: `npm run typecheck`, `npm test` (Vitest), `npm run build`, `npm run e2e` (Playwright, Chromium).
 
-The browser tests cover every pair count tier (2, 12, 30) for 1 and 4 players in both layouts at seven screen sizes, complete solo and multiplayer rounds (played by revealing cards, with a fake clock), the 1.5-second mismatch, pause concealment, auto-pause, leave confirmations, the Back button, keyboard play, saved settings and the pair recommendation. Any console error fails a test.
+The browser tests run against the production build with the service worker active. They cover offline play after the first visit (including other decks' pictures), the manifest and icons, update prompts that wait until a round ends (using a private copy of the build as a GitHub Pages-like server), every pair count tier (2, 12, 30) for 1 and 4 players in both layouts at seven screen sizes, complete solo and multiplayer rounds (played by revealing cards, with a fake clock), the 1.5-second mismatch, pause concealment, auto-pause, leave confirmations, the Back button, keyboard play, saved settings and the pair recommendation. Any console error fails a test.
 
 Adding or upgrading packages: use npm 11 or newer (ships with Node 24). npm 10's resolver crashes on Vitest's optional peer dependencies; `npm ci` from the lockfile works on either.
 

@@ -1,6 +1,6 @@
 # Memory Card Game — PWA edition plan
 
-Status: Phases 1–2 complete (playable in the browser with built-in decks; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
+Status: Phases 1–3 complete (installable, offline-capable game with built-in decks; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
 
 ## Decisions
 
@@ -73,8 +73,8 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 ## PWA mechanics
 
 - Web app manifest: name, short name, `start_url`/`scope` relative to the GitHub Pages subpath, `display: standalone`, theme/background colours from the palette, and icons generated from `assets/icon.svg` (192, 512, maskable 512, apple-touch 180).
-- Service worker precaches the app shell and all built-in deck assets (about 1 MB total), so the game is fully offline after the first visit. Built with `vite-plugin-pwa` (Workbox), with hashed precache entries.
-- Update flow: when a new version is waiting, show "Update available — reload". **Never reload during a round.**
+- Service worker precaches the app shell and all built-in deck assets (189 files, about 1 MB), so the game is fully offline after the first visit. *Changed in Phase 3:* instead of `vite-plugin-pwa`/Workbox, a short hand-written worker (`web/build/service-worker.js`) and build plugin (`web/build/pwa.ts`) list every built file and version the cache by content. The app needs no runtime caching strategies, the "never during a round" update rule is custom either way, and this keeps Workbox's large build toolchain out of the project.
+- Update flow: a new version installs in the background and waits. "A new version is ready — Update now / Later" appears only on setup or results; **never during a round**. "Later" keeps the current version for this visit; the new one starts the next time the app is opened.
 - Hosting: GitHub Pages, deployed by a GitHub Actions workflow (build → unit tests → e2e → deploy). The repository owner must set *Settings → Pages → Source* to "GitHub Actions" once.
 
 ## Keeping the Windows build clean
@@ -97,7 +97,7 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 
 1. ✅ Set up `web/` (Vite + TS, Vitest, Playwright, `.gdignore`, export/package exclusions). Port `session.ts` and `layout.ts` with tests.
 2. ✅ Setup, gameplay and results screens with built-in decks; responsive layout; board fit and recommended-pairs logic; keyboard, touch, audio, pause.
-3. PWA manifest, icons, service worker, offline, update prompt; GitHub Pages workflow. The installable game is playable at this point.
+3. ✅ PWA manifest, icons, service worker, offline, update prompt; GitHub Pages workflow. The installable game is playable at this point.
 4. Deck library: import, IndexedDB storage, rename/delete, persistence request, backup/restore, Windows deck interoperability.
 5. Web guide, accessibility pass, e2e suite, verification record, README and IMPLEMENTATION updates.
 
