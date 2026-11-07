@@ -15,6 +15,9 @@ export default defineConfig({
   },
   build: {
     target: 'es2022',
+    // Deck pictures stay separate files: they load only when a deck is used
+    // and are cached individually. Tiny interface assets may be inlined.
+    assetsInlineLimit: (file) => (file.replaceAll('\\', '/').includes('/assets/decks/') ? false : undefined),
   },
   test: {
     include: ['test/**/*.test.ts'],

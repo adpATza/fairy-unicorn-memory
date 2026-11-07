@@ -1,6 +1,6 @@
 # Memory Card Game — PWA edition plan
 
-Status: Phase 1 complete (rules and layout ported and tested; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
+Status: Phases 1–2 complete (playable in the browser with built-in decks; see `web/README.md`). Branch: `claude/kind-ride-7m3mnx`.
 
 ## Decisions
 
@@ -96,7 +96,7 @@ The game's logic is small and already pure (`MemorySession`, `MemoryLayout`), so
 ## Phases
 
 1. ✅ Set up `web/` (Vite + TS, Vitest, Playwright, `.gdignore`, export/package exclusions). Port `session.ts` and `layout.ts` with tests.
-2. Setup, gameplay and results screens with built-in decks; responsive layout; board fit and recommended-pairs logic; keyboard, touch, audio, pause.
+2. ✅ Setup, gameplay and results screens with built-in decks; responsive layout; board fit and recommended-pairs logic; keyboard, touch, audio, pause.
 3. PWA manifest, icons, service worker, offline, update prompt; GitHub Pages workflow. The installable game is playable at this point.
 4. Deck library: import, IndexedDB storage, rename/delete, persistence request, backup/restore, Windows deck interoperability.
 5. Web guide, accessibility pass, e2e suite, verification record, README and IMPLEMENTATION updates.
